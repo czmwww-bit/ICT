@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-16T03:30:51.708Z",
+  "node": "v24.21.0",
+  "checks": [
+    {
+      "label": "TypeScript",
+      "args": [
+        "run",
+        "check"
+      ],
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "pass",
+      "output": "\n> silver-service-evidence@0.1.0 check\n> tsc --noEmit\n\n"
+    },
+    {
+      "label": "Unit and HTTP tooling tests",
+      "args": [
+        "test"
+      ],
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "pass",
+      "output": "\n> silver-service-evidence@0.1.0 test\n> tsx --test test/*.test.ts\n\n✔ 导入校验拒绝重复编号和无效日期，保留未知值及中文原文 (2.8299ms)\n✔ 查询按生效边界处理未来、失效和未知记录，不按发布日期自动替代 (1.7753ms)\n✔ 非法历史版本参数与非法日期明确失败，不能返回成功空结果 (0.3445ms)\n✔ 材料名称逐项核验，说明和引文不能凑数；评测编号不能重复 (7.2204ms)\n✔ CLI空评测集标未执行，字段错误带文件位置，非法超时明确报错 (949.6988ms)\n✔ 合法密码中的小于号不应被误判为未填写占位符 (0.487ms)\n✔ 样例完整校验与日期、字段错误定位 (2.6652ms)\n✔ 引用、区域、替代依据均可追溯，禁止坏关联 (0.38ms)\n✔ 导入计划幂等、陈旧版本冲突、新版本一律待审核 (1.5749ms)\n✔ 默认隔离样例、草稿、拒绝版本，显式地区祖先匹配 (0.5965ms)\n✔ 日期边界、未知日期与原文链接；保留相互冲突证据 (0.3346ms)\n✔ 后续草稿不遮蔽已发布版本，历史版本需显式读取 (0.3709ms)\n✔ 评测 HTTP 自测识别错误引用、500 和超时 (126.2191ms)\n✔ 评测按显式区域树核验ready引用，邻区不能计为匹配 (2.6638ms)\n✔ 基础服务健康、数据库未就绪503、业务接口保持未实现 (72.8458ms)\nℹ tests 15\nℹ suites 0\nℹ pass 15\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 1298.2655\n"
+    },
+    {
+      "label": "Build",
+      "args": [
+        "run",
+        "build"
+      ],
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "pass",
+      "output": "\n> silver-service-evidence@0.1.0 build\n> tsc -p tsconfig.json\n\n"
+    },
+    {
+      "label": "Standalone data validation",
+      "args": [
+        "run",
+        "data:validate",
+        "--",
+        "--file",
+        "../data/demo/batch.json"
+      ],
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "pass",
+      "output": "\n> silver-service-evidence@0.1.0 data:validate\n> tsx src/cli.ts validate --file ../data/demo/batch.json\n\n{\n  \"file\": \"../data/demo/batch.json\",\n  \"documents\": 3,\n  \"clauses\": 3,\n  \"errors\": 0,\n  \"messages\": []\n}\n"
+    },
+    {
+      "label": "Mock evaluator with intentional failures",
+      "args": [
+        "run",
+        "eval",
+        "--",
+        "--mock",
+        "--out",
+        "../reports/mock-tooling"
+      ],
+      "exitCode": 1,
+      "expectedExitCode": 1,
+      "status": "pass",
+      "output": "\n> silver-service-evidence@0.1.0 eval\n> tsx src/evaluate.ts --mock --out ../reports/mock-tooling\n\n{\n  \"mode\": \"mock-tooling\",\n  \"groups\": {\n    \"demo\": {\n      \"cases\": 13,\n      \"pass\": 63,\n      \"fail\": 3,\n      \"notExecuted\": 6,\n      \"manualReview\": 13\n    },\n    \"real\": {\n      \"cases\": 0,\n      \"pass\": 0,\n      \"fail\": 0,\n      \"notExecuted\": 0,\n      \"manualReview\": 0\n    },\n    \"holdout\": {\n      \"cases\": 0,\n      \"pass\": 0,\n      \"fail\": 0,\n      \"notExecuted\": 0,\n      \"manualReview\": 0\n    }\n  },\n  \"output\": \"../reports/mock-tooling\"\n}\n"
+    },
+    {
+      "label": "Business evaluation not executed",
+      "args": [
+        "run",
+        "eval",
+        "--",
+        "--out",
+        "../reports/business-not-executed"
+      ],
+      "exitCode": 2,
+      "expectedExitCode": 2,
+      "status": "pass",
+      "output": "\n> silver-service-evidence@0.1.0 eval\n> tsx src/evaluate.ts --out ../reports/business-not-executed\n\n{\n  \"mode\": \"not-executed\",\n  \"groups\": {\n    \"demo\": {\n      \"cases\": 13,\n      \"pass\": 0,\n      \"fail\": 0,\n      \"notExecuted\": 72,\n      \"manualReview\": 13\n    },\n    \"real\": {\n      \"cases\": 0,\n      \"pass\": 0,\n      \"fail\": 0,\n      \"notExecuted\": 0,\n      \"manualReview\": 0\n    },\n    \"holdout\": {\n      \"cases\": 0,\n      \"pass\": 0,\n      \"fail\": 0,\n      \"notExecuted\": 0,\n      \"manualReview\": 0\n    }\n  },\n  \"output\": \"../reports/business-not-executed\"\n}\n"
+    },
+    {
+      "label": "Offline evaluation of actual mock responses",
+      "args": [
+        "run",
+        "eval",
+        "--",
+        "--results",
+        "../eval/demo/actual.mock.json",
+        "--out",
+        "../reports/offline-mock-tooling"
+      ],
+      "exitCode": 1,
+      "expectedExitCode": 1,
+      "status": "pass",
+      "output": "\n> silver-service-evidence@0.1.0 eval\n> tsx src/evaluate.ts --results ../eval/demo/actual.mock.json --out ../reports/offline-mock-tooling\n\n{\n  \"mode\": \"offline-mock-tooling\",\n  \"groups\": {\n    \"demo\": {\n      \"cases\": 13,\n      \"pass\": 52,\n      \"fail\": 1,\n      \"notExecuted\": 6,\n      \"manualReview\": 13\n    },\n    \"real\": {\n      \"cases\": 0,\n      \"pass\": 0,\n      \"fail\": 0,\n      \"notExecuted\": 0,\n      \"manualReview\": 0\n    },\n    \"holdout\": {\n      \"cases\": 0,\n      \"pass\": 0,\n      \"fail\": 0,\n      \"notExecuted\": 0,\n      \"manualReview\": 0\n    }\n  },\n  \"output\": \"../reports/offline-mock-tooling\"\n}\n"
+    },
+    {
+      "label": "MySQL integration test (may skip without DB_TEST_NAME)",
+      "args": [
+        "run",
+        "test:db"
+      ],
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "pass",
+      "output": "\n> silver-service-evidence@0.1.0 test:db\n> tsx --test test/mysql.integration.ts\n\n✔ 真实 MySQL：空库、事务、幂等、独立发布、历史查询 (669.6228ms)\nℹ tests 1\nℹ suites 0\nℹ pass 1\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 964.2142\n"
+    },
+    {
+      "label": "Dependency audit",
+      "args": [
+        "audit",
+        "--json",
+        "--cache",
+        "../.npm-cache"
+      ],
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "pass",
+      "output": "{\n  \"auditReportVersion\": 2,\n  \"vulnerabilities\": {},\n  \"metadata\": {\n    \"vulnerabilities\": {\n      \"info\": 0,\n      \"low\": 0,\n      \"moderate\": 0,\n      \"high\": 0,\n      \"critical\": 0,\n      \"total\": 0\n    },\n    \"dependencies\": {\n      \"prod\": 78,\n      \"dev\": 40,\n      \"optional\": 27,\n      \"peer\": 0,\n      \"peerOptional\": 0,\n      \"total\": 117\n    }\n  }\n}\n"
+    }
+  ],
+  "tools": {
+    "docker": {
+      "available": false,
+      "version": null
+    },
+    "mysql": {
+      "available": true,
+      "version": "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\mysql.exe  Ver 8.0.46 for Win64 on x86_64 (MySQL Community Server - GPL)"
+    }
+  },
+  "limitations": [
+    "Docker compose/image runtime is outside this verification script",
+    "Business HTTP evaluation and OCR evaluation are outside this tooling self-check",
+    "Huawei cloud deployment is outside this verification script"
+  ]
+}

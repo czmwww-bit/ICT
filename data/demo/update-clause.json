@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "actor": "示例维护人",
+  "reason": "示例：仅校正条款定位，文件原文与其他条款不变",
+  "regions": [
+    {
+      "code": "DEMO_CITY",
+      "name": "【虚构】示例市",
+      "parentCode": null,
+      "dataset": "demo"
+    },
+    {
+      "code": "DEMO_A",
+      "name": "【虚构】示例甲区",
+      "parentCode": "DEMO_CITY",
+      "dataset": "demo"
+    },
+    {
+      "code": "DEMO_A_TOWN",
+      "name": "【虚构】示例甲街道",
+      "parentCode": "DEMO_A",
+      "dataset": "demo"
+    },
+    {
+      "code": "DEMO_B",
+      "name": "【虚构】示例乙区",
+      "parentCode": "DEMO_CITY",
+      "dataset": "demo"
+    }
+  ],
+  "documents": [],
+  "clauses": [
+    {
+      "id": "DEMO_C1",
+      "version": 2,
+      "expectedVersion": 1,
+      "dataset": "demo",
+      "reviewStatus": "draft",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "regionCodes": [
+        "DEMO_A"
+      ],
+      "documentId": "DEMO_D1",
+      "documentVersion": 1,
+      "matterId": "DEMO_ALLOWANCE",
+      "matterName": "【虚构】示例高龄服务",
+      "quote": "【虚构开发样例，非真实政策】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年1月1日起实施，至2026年12月31日止。请携带身份证，到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+      "locator": "示例第一段（已复核定位）",
+      "population": {
+        "text": "年满80周岁且户籍在示例甲区的老人",
+        "quote": "年满80周岁且户籍在示例甲区的老人",
+        "locator": "示例第一段"
+      },
+      "conditions": {
+        "text": "年满80周岁且户籍在示例甲区",
+        "quote": "年满80周岁且户籍在示例甲区",
+        "locator": "示例第一段"
+      },
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": "2026-12-31",
+      "effectiveFromEvidence": {
+        "text": "自2026年1月1日起实施",
+        "quote": "自2026年1月1日起实施",
+        "locator": "示例第一段"
+      },
+      "effectiveToEvidence": {
+        "text": "至2026年12月31日止",
+        "quote": "至2026年12月31日止",
+        "locator": "示例第一段"
+      },
+      "actions": [
+        {
+          "text": "提交申请",
+          "quote": "提交申请",
+          "locator": "示例第一段"
+        }
+      ],
+      "materials": [
+        {
+          "text": "身份证",
+          "quote": "身份证",
+          "locator": "示例第一段"
+        }
+      ],
+      "channels": [
+        {
+          "text": "社区窗口",
+          "quote": "社区窗口",
+          "locator": "示例第一段"
+        }
+      ],
+      "contacts": null,
+      "schedule": {
+        "text": "工作日上午",
+        "quote": "工作日上午",
+        "locator": "示例第一段"
+      },
+      "location": {
+        "text": "示例社区一号窗口",
+        "quote": "示例社区一号窗口",
+        "locator": "示例第一段"
+      },
+      "relations": []
+    }
+  ]
+}

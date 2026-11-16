@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-11-16T03:30:52.700Z",
+  "checks": [
+    {
+      "route": "/healthz",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "status": "pass"
+    },
+    {
+      "route": "/readyz",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "status": "pass"
+    },
+    {
+      "route": "/api/guide",
+      "method": "POST",
+      "expected": 404,
+      "actual": 404,
+      "status": "pass"
+    }
+  ],
+  "scope": "真实Node基础服务及MySQL就绪；没有实现业务guide"
+}

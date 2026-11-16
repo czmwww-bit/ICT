@@ -1,0 +1,312 @@
+[
+  {
+    "item": 1,
+    "status": "full_text_acquired",
+    "note": "官方正文已取得（扫描原件需人工核准转写）",
+    "documentIds": [
+      "LY_GLT_HISTORY_2021"
+    ],
+    "carriers": [
+      {
+        "id": "A1",
+        "url": "https://longyang.gov.cn/info/4225/6273009.htm",
+        "status": "retrieved",
+        "httpStatus": 200,
+        "file": "../longyang-allowance/sources/longyang-2021.html",
+        "retrievedAt": "2026-11-16T04:58:43.487Z",
+        "sha256": "8e84f3685ac39941f7414b09470a3d23f61ddb735e34cf6f9445a698ca3abd92",
+        "error": null
+      }
+    ]
+  },
+  {
+    "item": 2,
+    "status": "full_text_acquired",
+    "note": "官方正文已取得（扫描原件需人工核准转写）",
+    "documentIds": [
+      "LY_GLT_LUJIANG_2023"
+    ],
+    "carriers": [
+      {
+        "id": "A2",
+        "url": "https://www.longyang.gov.cn/info/27605/13673399.htm",
+        "status": "retrieved",
+        "httpStatus": 200,
+        "file": "sources/A2.html",
+        "retrievedAt": "2026-11-16T05:19:42.183Z",
+        "sha256": "7b197020fa7fec76cc6243f43eb831dee5067b3f54329d7f2c2af7d67d9e31db",
+        "error": null
+      }
+    ]
+  },
+  {
+    "item": 3,
+    "status": "full_text_acquired",
+    "note": "官方正文已取得（扫描原件需人工核准转写）",
+    "documentIds": [
+      "YN_GLT_2024_113"
+    ],
+    "carriers": [
+      {
+        "id": "A3",
+        "url": "https://www.hhgj.gov.cn/info/13101/546351.htm",
+        "status": "retrieved",
+        "httpStatus": 200,
+        "file": "../longyang-allowance/sources/gejiu-attachment-page.html",
+        "retrievedAt": "2026-11-16T04:58:43.553Z",
+        "sha256": "47f99fa5b5f8fec0ffb3d0ae0a25df5406a1c50c233d5e2bdb0eedebc10dd825",
+        "error": null
+      },
+      {
+        "id": "A3-attachment-1",
+        "url": "https://www.hhgj.gov.cn/virtual_attach_file.vsb?afc=0oRNaDn7U4nz9sUP8V7oRNPo7CaLzfYfo7CsMmrVM4N4oll0gihFp2hmCIa0MYh2UYyYokyYLzGaUlCsM8QVMzvDnRvPUz6VLl78Mz78nRTFLR-Zo7lZMzQFM4vPnlCJv2nto40TApuNJweT0-RTOQ5X/bmX0wztxH5wxgz19W4TACsjTguTmpuNJ/019WsTxE5N0Q4jtwzX9WKjjElJv2nto4xjqjMYp5XtgDTJQty0LzLPLR70MzUDL4lPgtA8pU4cc",
+        "status": "retrieved",
+        "httpStatus": 200,
+        "file": "../longyang-allowance/sources/yn-notice-2024-113.pdf",
+        "retrievedAt": "2026-11-16T04:59:10.684Z",
+        "sha256": "1009162b5b7eb69affac7a818dd16a4581a247413bdf8cc81a9715f00e3f3c97",
+        "error": null
+      }
+    ]
+  },
+  {
+    "item": 4,
+    "status": "full_text_acquired",
+    "note": "官方正文已取得（扫描原件需人工核准转写）",
+    "documentIds": [
+      "LY_GLT_INTERPRETATION_2025"
+    ],
+    "carriers": [
+      {
+        "id": "A4",
+        "url": "https://www.longyang.gov.cn/info/4580/14016319.htm",
+        "status": "retrieved",
+        "httpStatus": 200,
+        "file": "../longyang-allowance/sources/longyang-2025.html",
+        "retrievedAt": "2026-11-16T04:58:43.552Z",
+        "sha256": "161f1cf25eb1627d7e83d4d6a754d9390e160da1b86a58df2b653bc79b6602c6",
+        "error": null
+      }
+    ]
+  },
+  {
+    "item": 5,
+    "status": "full_text_acquired",
+    "note": "官方正文已取得（扫描原件需人工核准转写）",
+    "documentIds": [
+      "LY_GLT_WADU_2025"
+    ],
+    "carriers": [
+      {
+        "id": "A5",
+        "url": "https://www.longyang.gov.cn/info/4285/13576989.htm",
+        "status": "retrieved",
+        "httpStatus": 200,
+        "file": "sources/A5.html",
+        "retrievedAt": "2026-11-16T05:19:42.194Z",
+        "sha256": "0335d1a7935cde5958acaf0a694937857dc213c9855851dac628966861ca17cf",
+        "error": null
+      }
+    ]
+  },
+  {
+    "item": 6,
+    "status": "partial",
+    "note": "正文全文已取得；指定正式PDF HTTP404，原件仍待补充。",
+    "documentIds": [
+      "YN_ECON_SERVICE_2023_2"
+    ],
+    "carriers": [
+      {
+        "id": "B6-pdf",
+        "url": "https://ynmz.yn.gov.cn/uploads/downfile/169811076519676.pdf",
+        "status": "failed",
+        "httpStatus": 404,
+        "file": null,
+        "retrievedAt": "2026-11-16T05:19:42.194Z",
+        "sha256": null,
+        "error": "HTTP 404"
+      },
+      {
+        "id": "B6-web",
+        "url": "https://shidian.gov.cn/info/4123/3441703.htm",
+        "status": "retrieved",
+        "httpStatus": 200,
+        "file": "sources/B6-web.html",
+        "retrievedAt": "2026-11-16T05:19:42.195Z",
+        "sha256": "ca716463d5b57f15faf49b666e096a96c8849e335fd0b7cb3a11dc3e1de3bbb3",
+        "error": null
+      }
+    ]
+  },
+  {
+    "item": 7,
+    "status": "full_text_acquired",
+    "note": "官方正文已取得（扫描原件需人工核准转写）",
+    "documentIds": [
+      "LY_ECON_ONLINE_2023"
+    ],
+    "carriers": [
+      {
+        "id": "B7",
+        "url": "https://www.longyang.gov.cn/info/4263/13685269.htm",
+        "status": "retrieved",
+        "httpStatus": 200,
+        "file": "sources/B7.html",
+        "retrievedAt": "2026-11-16T05:19:42.196Z",
+        "sha256": "05a00c853057170ca271b461e242bad3be0599c5891ae5789a3e8cbd94f25f4f",
+        "error": null
+      }
+    ]
+  },
+  {
+    "item": 8,
+    "status": "full_text_acquired",
+    "note": "官方正文已取得（扫描原件需人工核准转写）",
+    "documentIds": [
+      "YN_ELDER_ONE_SERVICE_2026"
+    ],
+    "carriers": [
+      {
+        "id": "B8-province",
+        "url": "https://ynmz.yn.gov.cn/zwgk/zcwj/qtzcwj/202604/t20260414_3820299.html",
+        "status": "retrieved",
+        "httpStatus": 200,
+        "file": "sources/B8-province.html",
+        "retrievedAt": "2026-11-16T05:19:42.196Z",
+        "sha256": "d01b0953419d9157a60a46244d74e2cf2ca7501e21e95b2ce92dafd4ce1e1558",
+        "error": null
+      },
+      {
+        "id": "B8-reprint",
+        "url": "https://cxshb.gov.cn/info/27157/607032.htm",
+        "status": "retrieved",
+        "httpStatus": 200,
+        "file": "sources/B8-reprint.html",
+        "retrievedAt": "2026-11-16T05:19:42.196Z",
+        "sha256": "91c48ea795973558d78f170ba2c77ae4f5d2f95984a2823abc3f25be8dbf3bea",
+        "error": null
+      }
+    ]
+  },
+  {
+    "item": 9,
+    "status": "full_text_acquired",
+    "note": "官方正文已取得（扫描原件需人工核准转写）",
+    "documentIds": [
+      "CN_CONSUMPTION_2025_37"
+    ],
+    "carriers": [
+      {
+        "id": "C9",
+        "url": "https://app.www.gov.cn/govdata/gov/202507/23/533344/article.html",
+        "status": "retrieved",
+        "httpStatus": 200,
+        "file": "sources/C9.html",
+        "retrievedAt": "2026-11-16T05:19:42.197Z",
+        "sha256": "a592299489bfa0a3ada7d9799ebf95ebf1e0b256b7a90855e9809377b22c59ac",
+        "error": null
+      }
+    ]
+  },
+  {
+    "item": 10,
+    "status": "full_text_acquired",
+    "note": "官方正文已取得（扫描原件需人工核准转写）",
+    "documentIds": [
+      "CN_CONSUMPTION_LAUNCH_2026"
+    ],
+    "carriers": [
+      {
+        "id": "C10",
+        "url": "https://www.bypc.gov.cn/zfxxgk/bmdwxzjd/xzjd/zzljdbsc/fdzdgknr/ylfw/art/2026/art_538e0b3d98f9454d884ec276e45858a7.html",
+        "status": "retrieved",
+        "httpStatus": 200,
+        "file": "sources/C10.html",
+        "retrievedAt": "2026-11-16T05:19:42.197Z",
+        "sha256": "58d68f21d24d764b13d289c6d98085a0e9230d3c7e09b5324893117c61745733",
+        "error": null
+      }
+    ]
+  },
+  {
+    "item": 11,
+    "status": "full_text_acquired",
+    "note": "指定省厅旧链接HTTP404；采用红河州政府完整转载，同一文件一个实体。附件清单保留，未将清单当附件正文。",
+    "documentIds": [
+      "YN_CONSUMPTION_2026_4"
+    ],
+    "carriers": [
+      {
+        "id": "C11",
+        "url": "https://ynmz.yn.gov.cn/cms/qitazhengcewenjian/11991.html",
+        "status": "failed",
+        "httpStatus": 404,
+        "file": null,
+        "retrievedAt": "2026-11-16T05:19:42.198Z",
+        "sha256": null,
+        "error": "HTTP 404"
+      },
+      {
+        "id": "C11-honghe",
+        "url": "https://www.hh.gov.cn/info/29601/1243252.htm",
+        "status": "retrieved",
+        "httpStatus": 200,
+        "file": "sources/C11-honghe.html",
+        "retrievedAt": "2026-11-16T05:21:31.441Z",
+        "sha256": "142640d8e1dce8f153bcaefbde63970362ea69f76a8dab1321b5578fe5d31d83",
+        "error": null
+      }
+    ]
+  },
+  {
+    "item": 12,
+    "status": "full_text_acquired",
+    "note": "官方正文已取得（扫描原件需人工核准转写）",
+    "documentIds": [
+      "BS_CONSUMPTION_INTERPRETATION_2026"
+    ],
+    "carriers": [
+      {
+        "id": "C12",
+        "url": "https://longyang.gov.cn/info/4077/14132879.htm",
+        "status": "retrieved",
+        "httpStatus": 200,
+        "file": "sources/C12.html",
+        "retrievedAt": "2026-11-16T05:19:42.199Z",
+        "sha256": "e9c4ce33e2680f2dce1610e61b7cbeea73bf6773b568fb3fea07979a9bf9c79d",
+        "error": null
+      }
+    ]
+  },
+  {
+    "item": 13,
+    "status": "full_text_acquired",
+    "note": "从HTML showVsbpdfIframe参数取得7页PDF，文字层完整；网页本身没有正文。",
+    "documentIds": [
+      "LY_CONSUMPTION_GUIDE_2026"
+    ],
+    "carriers": [
+      {
+        "id": "C13",
+        "url": "https://www.longyang.gov.cn/info/3485/14111319.htm",
+        "status": "retrieved",
+        "httpStatus": 200,
+        "file": "sources/C13.html",
+        "retrievedAt": "2026-11-16T05:19:42.199Z",
+        "sha256": "bd96e5bbe95ac382f6003ddabe1af0973c4be859bc5131ba5bb3423f9adaaea7",
+        "error": null
+      },
+      {
+        "id": "C13-pdf",
+        "url": "https://www.longyang.gov.cn/virtual_attach_file.vsb?afc=zMzvlZnz6fLlUYUrmN4nl-iL4liUNVIRMNrVnl7anRnRMl-0gihFp2hmCIa0n1yaM1y4USysM7MfLNliMmnRL8nkUlC4UzQ2MzU4UzM2MRrFnz6fn7LaUNnFL8UbU4lJv2nto4OeoDPb5s6TC1hXptQ0g4L8oRl0LzUPLz74LzNJqd5nx",
+        "status": "retrieved",
+        "httpStatus": 200,
+        "file": "sources/C13-pdf.pdf",
+        "retrievedAt": "2026-11-16T05:21:31.039Z",
+        "sha256": "a513fa35c4d3ae0bc8f3d032c94c8ee49912bee312c95d116bbe2d90672ab8d6",
+        "error": null
+      }
+    ]
+  }
+]

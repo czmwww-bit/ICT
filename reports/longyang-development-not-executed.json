@@ -1,0 +1,1617 @@
+{
+  "generatedAt": "2026-11-16T05:33:25.292Z",
+  "mode": "not-executed",
+  "notices": [],
+  "codeVersion": "not-a-git-repository",
+  "dataVersion": "403e2e72a8100178ba1b11489c508bda9809e7428d8fc0ed1c7ca442747e0391",
+  "testSetVersion": "longyang-real-development-2026-11-16-v1-pending",
+  "testSetHash": "ab6fadbbf6810ad9d6a1e99153e0c4b7c4212c8381a8588b8ce316329a00d06a",
+  "catalogSource": "../data/official/longyang-pilot/batch.draft.json",
+  "catalogApprovalVerified": false,
+  "endpoint": null,
+  "groups": {
+    "demo": {
+      "cases": 0,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 0,
+      "manualReview": 0,
+      "metrics": {
+        "status": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "required_fields": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "region_match": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "question": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "materials": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "citation_validity": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "expected_citations": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "forbidden_claims": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "transport": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        }
+      }
+    },
+    "real": {
+      "cases": 18,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 117,
+      "manualReview": 18,
+      "metrics": {
+        "status": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 18
+        },
+        "required_fields": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 18
+        },
+        "region_match": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 6
+        },
+        "question": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 4
+        },
+        "materials": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 1
+        },
+        "citation_validity": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 17
+        },
+        "expected_citations": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 17
+        },
+        "forbidden_claims": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 18
+        },
+        "transport": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 18
+        }
+      }
+    },
+    "holdout": {
+      "cases": 0,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 0,
+      "manualReview": 0,
+      "metrics": {
+        "status": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "required_fields": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "region_match": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "question": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "materials": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "citation_validity": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "expected_citations": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "forbidden_claims": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "transport": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        }
+      }
+    }
+  },
+  "results": [
+    {
+      "id": "LY_REAL_DEV_01",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】旧申请说明问当前流程",
+      "input": {
+        "text": "我看到2021年说不申请不发高龄津贴，现在83岁，户籍在隆阳，还要带材料去申请吗？",
+        "region": "530502",
+        "answers": {
+          "age": 83,
+          "householdRegion": "530502"
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "说明2021是历史流程，列出免申与地方告知差异，请社区核实当前认证/补录安排。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "LY_GLT_HISTORY_2021_APPLY",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_GLT_AUTO_PROCESS",
+            "version": 1
+          },
+          {
+            "clauseId": "LY_GLT_WADU_2025_APPLICATION",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "citation_validity",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "expected_citations",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LY_REAL_DEV_02",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】即将80岁尚未联系",
+      "input": {
+        "text": "我户籍在隆阳，明年第一季度满80岁，社区还没联系，要怎么核对？",
+        "region": "530502",
+        "answers": {
+          "householdRegion": "530502",
+          "turns80Quarter": "2027-Q1"
+        }
+      },
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "联系户籍地村（社区）核查是否在推送名单，遗漏由工作人员核实补录；不承诺资格审批或2027未核实标准。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_GLT_AUTO_PROCESS",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_GLT_MISSING_LIST",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "region_match",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "citation_validity",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "expected_citations",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LY_REAL_DEV_03",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】人户分离",
+      "input": {
+        "text": "我82岁，现在住隆阳，想问高龄津贴应找哪里。",
+        "region": "530502",
+        "answers": {
+          "age": 82,
+          "residenceRegion": "530502"
+        }
+      },
+      "expected": {
+        "status": "need_info",
+        "questionKey": "householdRegion",
+        "nextStep": "先确认户籍所在区县，不能把居住地当作户籍办理地。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_GLT_HOUSEHOLD_SEPARATION",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "question",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "citation_validity",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "expected_citations",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LY_REAL_DEV_04",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】跨县迁移日期不足",
+      "input": {
+        "text": "我85岁，户籍从施甸迁入隆阳，高龄津贴什么时候开始由这里发？",
+        "region": "530502",
+        "answers": {
+          "age": 85,
+          "fromRegion": "530521",
+          "toRegion": "530502"
+        }
+      },
+      "expected": {
+        "status": "need_info",
+        "questionKey": "moveDate",
+        "nextStep": "询问迁出/迁入登记日期，提示两地民政对接比对，依原文次月起发停发规则核实。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_GLT_HOUSEHOLD_MOVE",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "question",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "citation_validity",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "expected_citations",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LY_REAL_DEV_05",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】金融功能未开通",
+      "input": {
+        "text": "我84岁，隆阳户籍，已在高龄津贴名单，但社保卡金融功能没开通。",
+        "region": "530502",
+        "answers": {
+          "age": 84,
+          "householdRegion": "530502",
+          "inAllowanceList": true,
+          "cardFinancialActivated": false
+        }
+      },
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "由经办人员引导联系社保卡服务部门/银行开通金融功能；行动不便可请民政协调上门。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_GLT_CARD_ACTIVATION",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_GLT_HOME_CARD",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "region_match",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "citation_validity",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "expected_citations",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LY_REAL_DEV_06",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】失联后跨年恢复",
+      "input": {
+        "text": "我已享受高龄津贴，去年失联暂停，今年11月完成核查认证，可以把去年全补吗？",
+        "region": "530502",
+        "answers": {
+          "allowancePaused": true,
+          "verifiedDate": "2026-11-02",
+          "pausedSince": "2025-08"
+        }
+      },
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "原文跨年补发自完成认证当年的1月份起，向经办人员核对补发明细，不承诺全补往年。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_GLT_UNREACHABLE",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "region_match",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "citation_validity",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "expected_citations",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LY_REAL_DEV_07",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】经济困难对象及时效",
+      "input": {
+        "text": "我83岁，云南户籍，是低保老人，2026年11月还能按三年前办法办服务补贴吗？",
+        "region": "530502",
+        "answers": {
+          "age": 83,
+          "householdProvince": "530000",
+          "economicStatus": "低保"
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "说明2026一件事对象及免申流程；试行三年有效期与新规接续未核实，向民政确认现行依据。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_ECON_SERVICE_2023_2_OBJECT",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_ECON_SERVICE_2023_2_VALIDITY",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_ELDER_ONE_SERVICE_2026_ECON_FLOW",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "citation_validity",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "expected_citations",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LY_REAL_DEV_08",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】缺经济条件",
+      "input": {
+        "text": "我81岁，隆阳户籍，想问经济困难老年人服务补贴。",
+        "region": "530502",
+        "answers": {
+          "age": 81,
+          "householdRegion": "530502"
+        }
+      },
+      "expected": {
+        "status": "need_info",
+        "questionKey": "economicStatus",
+        "nextStep": "询问是否为低保或分散供养特困对象，年龄不能代替经济身份。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_ELDER_ONE_SERVICE_2026_ECON_FLOW",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "question",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "citation_validity",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "expected_citations",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LY_REAL_DEV_09",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】家属代办消费补贴",
+      "input": {
+        "text": "妈妈72岁常住隆阳，统一评估为中度失能，没有享受列明的三类排除待遇；我能帮她申请养老消费券吗？",
+        "region": "530502",
+        "answers": {
+          "age": 72,
+          "residenceRegion": "530502",
+          "assessmentLevel": "中度失能",
+          "exclusions": false,
+          "proxyRelation": "子女"
+        }
+      },
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "按自愿原则代办民政通注册和实名认证，录入老人信息并上传身份证正反面照片，提交申请等待审核。",
+        "materials": [
+          "身份证正反面照片"
+        ],
+        "references": [
+          {
+            "clauseId": "YN_CONSUMPTION_2026_4_OBJECT",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_CONSUMPTION_2026_4_PROXY",
+            "version": 1
+          },
+          {
+            "clauseId": "LY_CONSUMPTION_GUIDE_2026_APPLY_PROXY",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "region_match",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "materials",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "citation_validity",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "expected_citations",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LY_REAL_DEV_10",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】未评估先预约",
+      "input": {
+        "text": "我70岁常住隆阳，还没做过能力评估，想先知道消费补贴从哪开始。",
+        "region": "530502",
+        "answers": {
+          "age": 70,
+          "residenceRegion": "530502",
+          "assessmentCompleted": false
+        }
+      },
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "先通过民政通预约备案机构能力评估；评估结论与审核符合后才可发券，不承诺评估完一定有补贴。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_CONSUMPTION_2026_4_OBJECT",
+            "version": 1
+          },
+          {
+            "clauseId": "LY_CONSUMPTION_GUIDE_2026_ASSESS",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "region_match",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "citation_validity",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "expected_citations",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LY_REAL_DEV_11",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】消费券期限及核销",
+      "input": {
+        "text": "我通过审核拿到了2026年11月养老服务消费券，想留到12月用或取现金，行吗？",
+        "region": "530502",
+        "answers": {
+          "voucherMonth": "2026-11",
+          "eligibilityApproved": true
+        }
+      },
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "原文当月发放当月使用、次月失效；在符合要求机构接受服务后核销，仍支付个人自付部分，不能据此承诺提现。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_CONSUMPTION_2026_4_VOUCHER",
+            "version": 1
+          },
+          {
+            "clauseId": "LY_CONSUMPTION_GUIDE_2026_CONSUME",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "region_match",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "citation_validity",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "expected_citations",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LY_REAL_DEV_12",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】排除情形",
+      "input": {
+        "text": "我住隆阳，已是中度失能，正在享受特困人员供养救助，还能再领养老消费券吗？",
+        "region": "530502",
+        "answers": {
+          "residenceRegion": "530502",
+          "assessmentLevel": "中度失能",
+          "receivesSpecialPoorSupport": true
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "展示不得重复纳入的明确范围，请经办部门确认现享待遇和衔接，不能承诺重复领取。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_CONSUMPTION_2026_4_OBJECT",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "citation_validity",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "expected_citations",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LY_REAL_DEV_13",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】新旧文件流程冲突",
+      "input": {
+        "text": "瓦渡乡2025说填申请审批表，另一个通知说高龄津贴免申即享，到底还要不要交？",
+        "region": "530502",
+        "answers": {
+          "householdRegion": "530502",
+          "age": 86
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "保留双方原文及日期，联系隆阳民政/社区确认当前资格认证、遗漏补录与旧网页更新情况。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "LY_GLT_WADU_2025_APPLICATION",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_GLT_AUTO_PROCESS",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_ELDER_ONE_SERVICE_2026_HIGH_FLOW",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "citation_validity",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "expected_citations",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LY_REAL_DEV_14",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】试点以外",
+      "input": {
+        "text": "我住上海，有中度失能评估，能照隆阳的流程和机构名录领吗？",
+        "region": "310000",
+        "answers": {
+          "residenceRegion": "310000",
+          "assessmentLevel": "中度失能"
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "说明试点资料与当地实施细节不同，咨询上海当地经办，不把试点资料不足判断成无资格。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "CN_CONSUMPTION_LAUNCH_2026_START",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "citation_validity",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "expected_citations",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LY_REAL_DEV_15",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】既有评估时间冲突",
+      "input": {
+        "text": "我2024年9月评为中度失能，现在常住隆阳，2026还要重新评估吗？",
+        "region": "530502",
+        "answers": {
+          "assessmentDate": "2024-09-10",
+          "assessmentLevel": "中度失能",
+          "residenceRegion": "530502"
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "列明2024年7月以来、印发前12个月及保山2025年内口径，请县级民政确认既有结果可否直接对接。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "CN_CONSUMPTION_LAUNCH_2026_ASSESS_DATA",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_CONSUMPTION_2026_4_ASSESS",
+            "version": 1
+          },
+          {
+            "clauseId": "BS_CONSUMPTION_INTERPRETATION_2026_ASSESS",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "citation_validity",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "expected_citations",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LY_REAL_DEV_16",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】缺地区",
+      "input": {
+        "text": "我想申请养老服务消费补贴，已经80岁。",
+        "region": null,
+        "answers": {
+          "age": 80
+        }
+      },
+      "expected": {
+        "status": "need_info",
+        "questionKey": "region",
+        "nextStep": "先确认常住办理地区，再查对应实施办法。",
+        "materials": [],
+        "references": [],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "question",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LY_REAL_DEV_17",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】地方百岁金额不一致",
+      "input": {
+        "text": "我100岁，隆阳户籍，2025告知说350元，但又看到2026保山统计表1000元，当前到底是多少？",
+        "region": "530502",
+        "answers": {
+          "age": 100,
+          "householdRegion": "530502"
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "分别展示省级300、地方旧网页350和2026统计线索；补调整正式文件及实施日期，不直接选金额。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_GLT_PROVINCIAL_RATES",
+            "version": 1
+          },
+          {
+            "clauseId": "LY_GLT_WADU_2025_LOCAL_RATES",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "citation_validity",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "expected_citations",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LY_REAL_DEV_18",
+      "group": "real",
+      "description": "【真实来源·开发联调·预期待核对】操作简写不能支持资格",
+      "input": {
+        "text": "隆阳流程说能力评估完成即可领券，我刚评为轻度失能，也能直接领吗？",
+        "region": "530502",
+        "answers": {
+          "residenceRegion": "530502",
+          "assessmentLevel": "轻度失能"
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "指出流程简写不能覆盖中度以上及排除条件，请经办解释，不给出轻度也一定可领的建议。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "LY_CONSUMPTION_GUIDE_2026_ASSESS",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_CONSUMPTION_2026_4_OBJECT",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": null,
+      "checks": [
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "citation_validity",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "expected_citations",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        },
+        {
+          "name": "transport",
+          "status": "not_executed",
+          "reason": "未提供业务接口或该案例的离线实际输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    }
+  ]
+}

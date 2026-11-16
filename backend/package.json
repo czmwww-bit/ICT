@@ -1,0 +1,44 @@
+{
+  "name": "silver-service-evidence",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit",
+    "format": "prettier --write src examples test scripts *.json",
+    "verify": "node scripts/verify.mjs",
+    "setup:local": "node scripts/setup-local.mjs",
+    "check:service": "node scripts/check-service.mjs",
+    "test": "tsx --test test/*.test.ts",
+    "test:db": "tsx --test test/mysql.integration.ts",
+    "db:init": "tsx src/cli.ts init",
+    "db:migrate": "tsx src/cli.ts migrate",
+    "data:validate": "tsx src/cli.ts validate",
+    "data:import": "tsx src/cli.ts import",
+    "data:query": "tsx src/cli.ts query",
+    "data:history": "tsx src/cli.ts history",
+    "data:publish": "tsx src/cli.ts publish",
+    "data:demo": "tsx examples/prepare-demo.ts",
+    "start": "node dist/src/server.js",
+    "dev": "tsx src/server.ts",
+    "examples": "tsx examples/member2.ts",
+    "eval": "tsx src/evaluate.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.3.0",
+    "mysql2": "^3.14.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.14.0",
+    "prettier": "^3.10.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}

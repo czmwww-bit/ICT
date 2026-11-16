@@ -1,0 +1,21 @@
+{
+  "documents": 13,
+  "clauses": 90,
+  "byMatter": {
+    "HIGH_AGE_ALLOWANCE": {
+      "name": "高龄津贴",
+      "documents": 6,
+      "clauses": 34
+    },
+    "ECONOMIC_ELDERLY_SERVICE": {
+      "name": "经济困难老年人服务补贴",
+      "documents": 3,
+      "clauses": 21
+    },
+    "DISABILITY_CARE_CONSUMPTION": {
+      "name": "中度以上失能老年人养老服务消费补贴",
+      "documents": 5,
+      "clauses": 35
+    }
+  }
+}

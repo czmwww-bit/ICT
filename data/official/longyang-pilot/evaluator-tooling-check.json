@@ -1,0 +1,202 @@
+{
+  "executedAt": "2026-11-16T05:33:25.312Z",
+  "passed": true,
+  "expectedExit": 2,
+  "actualExit": 2,
+  "mode": "not-executed",
+  "groups": {
+    "demo": {
+      "cases": 0,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 0,
+      "manualReview": 0,
+      "metrics": {
+        "status": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "required_fields": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "region_match": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "question": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "materials": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "citation_validity": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "expected_citations": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "forbidden_claims": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "transport": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        }
+      }
+    },
+    "real": {
+      "cases": 18,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 117,
+      "manualReview": 18,
+      "metrics": {
+        "status": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 18
+        },
+        "required_fields": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 18
+        },
+        "region_match": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 6
+        },
+        "question": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 4
+        },
+        "materials": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 1
+        },
+        "citation_validity": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 17
+        },
+        "expected_citations": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 17
+        },
+        "forbidden_claims": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 18
+        },
+        "transport": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 18
+        }
+      }
+    },
+    "holdout": {
+      "cases": 0,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 0,
+      "manualReview": 0,
+      "metrics": {
+        "status": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "required_fields": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "region_match": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "question": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "materials": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "citation_validity": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "expected_citations": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "forbidden_claims": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "transport": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        }
+      }
+    }
+  },
+  "stdout": "{\n  \"mode\": \"not-executed\",\n  \"groups\": {\n    \"demo\": {\n      \"cases\": 0,\n      \"pass\": 0,\n      \"fail\": 0,\n      \"notExecuted\": 0,\n      \"manualReview\": 0\n    },\n    \"real\": {\n      \"cases\": 18,\n      \"pass\": 0,\n      \"fail\": 0,\n      \"notExecuted\": 117,\n      \"manualReview\": 18\n    },\n    \"holdout\": {\n      \"cases\": 0,\n      \"pass\": 0,\n      \"fail\": 0,\n      \"notExecuted\": 0,\n      \"manualReview\": 0\n    }\n  },\n  \"output\": \"../reports/longyang-development-not-executed\"\n}\n",
+  "stderr": "",
+  "businessEvaluationExecuted": false,
+  "report": "reports/longyang-development-not-executed.json"
+}

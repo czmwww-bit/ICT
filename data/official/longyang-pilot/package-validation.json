@@ -1,0 +1,100 @@
+{
+  "executedAt": "2026-11-16T05:37:58.182Z",
+  "passed": true,
+  "documents": 13,
+  "clauses": 90,
+  "cases": 18,
+  "reusedVersionSnapshots": 18,
+  "checks": [
+    "既有模型类型及关联校验",
+    "全部记录draft且无人为审核字段",
+    "90项核对表逐条对应",
+    "18个上批编号及快照完全复用",
+    "18例格式/版本/支持条款存在",
+    "13实体均有成功获取的官方载体",
+    "所有成功归档原件哈希匹配"
+  ],
+  "batchSha256": "403e2e72a8100178ba1b11489c508bda9809e7428d8fc0ed1c7ca442747e0391",
+  "documentContentHashes": [
+    {
+      "id": "YN_GLT_2024_113",
+      "version": 1,
+      "recordChecksum": "0cc21a2b57400bdb15c92702b7dc5e97e0c941e931371249fdc78e9c867d9563",
+      "originalTextSha256": "6348264dc3e757fff7443bf517c4c5a43580c566804f1febd4b081ccc5a8ff40"
+    },
+    {
+      "id": "LY_GLT_INTERPRETATION_2025",
+      "version": 1,
+      "recordChecksum": "93d110090e31043aa143c9b6c4156366c18443c0d5fd227283325a8c1f2ff5b7",
+      "originalTextSha256": "6488a2af72807f3e198fafe7c7f1993b7dbd9454895788f5cfd20ea2a7323f2d"
+    },
+    {
+      "id": "LY_GLT_HISTORY_2021",
+      "version": 1,
+      "recordChecksum": "9fcfaec47256db1d9a5adf5dbd0b874c21015fffa60fd1b18ddb12b8409d4b51",
+      "originalTextSha256": "9fcc0755484779b8951030510382407aee49c4e460011cd43b2209da504e6b8b"
+    },
+    {
+      "id": "LY_GLT_LUJIANG_2023",
+      "version": 1,
+      "recordChecksum": "c064cfa6016cdbbd23f1e3d63660fc06c8bd54cc064c2bdfad4dbbf45175e192",
+      "originalTextSha256": "f8ae05f18bff7ec1896cc84ce9ff5b382672c5177a8a7964848b0ed44d09c538"
+    },
+    {
+      "id": "LY_GLT_WADU_2025",
+      "version": 1,
+      "recordChecksum": "adf34a6092846ac7afa58d4bb178b89bb739fa7c1953446f22538e4880562d28",
+      "originalTextSha256": "d201b3d6be9c1949e6316a58afdd4fd353020b356ea220981c653d1e1890b91b"
+    },
+    {
+      "id": "YN_ECON_SERVICE_2023_2",
+      "version": 1,
+      "recordChecksum": "c8929e66ab972c3800ae1c2d7a06474b5347f28b8bd9fbb1889320c9cfa228c1",
+      "originalTextSha256": "3eec93547dd36b7c84f8d46a14efa431ee1f4045b5493c51c84750a294d355b1"
+    },
+    {
+      "id": "LY_ECON_ONLINE_2023",
+      "version": 1,
+      "recordChecksum": "d5defba6dac86e50932d2add71048505249d8acb1b4b5319d1c15dd4c677c114",
+      "originalTextSha256": "4e9ea54b2bfff1cf9643e892f3c673d81465b1b2271fa5c58eec745341807f09"
+    },
+    {
+      "id": "YN_ELDER_ONE_SERVICE_2026",
+      "version": 1,
+      "recordChecksum": "58a3b37bd8e018585b3ba1cbc88c23f7e922e3836db87da5f0654ec1f263951f",
+      "originalTextSha256": "98c7b38593c14bfd150ca7f63cf30c9fb4a8952343f3bf5b769bd358a6ad662f"
+    },
+    {
+      "id": "CN_CONSUMPTION_2025_37",
+      "version": 1,
+      "recordChecksum": "fa53ee7ee2e99512975a20b0f5974ba707fcb86570ceda4a6611edadd25e7fb5",
+      "originalTextSha256": "547117a6c4a50634df5db5da5f5d5325f15f77760e8463d6ba3d86ecd8d64aa0"
+    },
+    {
+      "id": "CN_CONSUMPTION_LAUNCH_2026",
+      "version": 1,
+      "recordChecksum": "39e496fdb0e908e768b4dfa200a76aca8cf652eac691f2446274b97cf3ce4df3",
+      "originalTextSha256": "06d328d20973f964a8021f0ea3d833f823493b48ac7dfc2c81e99f6dfcf36c93"
+    },
+    {
+      "id": "YN_CONSUMPTION_2026_4",
+      "version": 1,
+      "recordChecksum": "67c871f02fc4f9c7e54d8b99f30ebb8b3478be32c1fd4566f2c6a50f9677ef9c",
+      "originalTextSha256": "2f0024a022ffa7d670ba64b38aee70406ed459283e54883164dd5eafac66f489"
+    },
+    {
+      "id": "BS_CONSUMPTION_INTERPRETATION_2026",
+      "version": 1,
+      "recordChecksum": "36d8de4c04c2c45f4c0d5d5c45ec7bd8879d74fcb8181d82cc350bc6b8c7bdc4",
+      "originalTextSha256": "762db93a29a60303e3205bc105787ff9eed6793fb265df7059421ba46518b95d"
+    },
+    {
+      "id": "LY_CONSUMPTION_GUIDE_2026",
+      "version": 1,
+      "recordChecksum": "354e4483417134ec5ae295f696492fb8bb7036121eee3b6bed30f9e5b62d4de4",
+      "originalTextSha256": "a0e0b47b492fe7ce6b6461f80987160ec9cf36f0d22d684cf87c6c381fbd605e"
+    }
+  ],
+  "manualPolicySemantics": "pending",
+  "businessEvaluation": "not_executed"
+}

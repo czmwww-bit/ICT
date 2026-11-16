@@ -1,0 +1,192 @@
+TypeScript: pass
+
+> silver-service-evidence@0.1.0 check
+> tsc --noEmit
+
+
+Unit and HTTP tooling tests: pass
+
+> silver-service-evidence@0.1.0 test
+> tsx --test test/*.test.ts
+
+✔ 导入校验拒绝重复编号和无效日期，保留未知值及中文原文 (2.8299ms)
+✔ 查询按生效边界处理未来、失效和未知记录，不按发布日期自动替代 (1.7753ms)
+✔ 非法历史版本参数与非法日期明确失败，不能返回成功空结果 (0.3445ms)
+✔ 材料名称逐项核验，说明和引文不能凑数；评测编号不能重复 (7.2204ms)
+✔ CLI空评测集标未执行，字段错误带文件位置，非法超时明确报错 (949.6988ms)
+✔ 合法密码中的小于号不应被误判为未填写占位符 (0.487ms)
+✔ 样例完整校验与日期、字段错误定位 (2.6652ms)
+✔ 引用、区域、替代依据均可追溯，禁止坏关联 (0.38ms)
+✔ 导入计划幂等、陈旧版本冲突、新版本一律待审核 (1.5749ms)
+✔ 默认隔离样例、草稿、拒绝版本，显式地区祖先匹配 (0.5965ms)
+✔ 日期边界、未知日期与原文链接；保留相互冲突证据 (0.3346ms)
+✔ 后续草稿不遮蔽已发布版本，历史版本需显式读取 (0.3709ms)
+✔ 评测 HTTP 自测识别错误引用、500 和超时 (126.2191ms)
+✔ 评测按显式区域树核验ready引用，邻区不能计为匹配 (2.6638ms)
+✔ 基础服务健康、数据库未就绪503、业务接口保持未实现 (72.8458ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1298.2655
+
+Build: pass
+
+> silver-service-evidence@0.1.0 build
+> tsc -p tsconfig.json
+
+
+Standalone data validation: pass
+
+> silver-service-evidence@0.1.0 data:validate
+> tsx src/cli.ts validate --file ../data/demo/batch.json
+
+{
+  "file": "../data/demo/batch.json",
+  "documents": 3,
+  "clauses": 3,
+  "errors": 0,
+  "messages": []
+}
+
+Mock evaluator with intentional failures: pass
+
+> silver-service-evidence@0.1.0 eval
+> tsx src/evaluate.ts --mock --out ../reports/mock-tooling
+
+{
+  "mode": "mock-tooling",
+  "groups": {
+    "demo": {
+      "cases": 13,
+      "pass": 63,
+      "fail": 3,
+      "notExecuted": 6,
+      "manualReview": 13
+    },
+    "real": {
+      "cases": 0,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 0,
+      "manualReview": 0
+    },
+    "holdout": {
+      "cases": 0,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 0,
+      "manualReview": 0
+    }
+  },
+  "output": "../reports/mock-tooling"
+}
+
+Business evaluation not executed: pass
+
+> silver-service-evidence@0.1.0 eval
+> tsx src/evaluate.ts --out ../reports/business-not-executed
+
+{
+  "mode": "not-executed",
+  "groups": {
+    "demo": {
+      "cases": 13,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 72,
+      "manualReview": 13
+    },
+    "real": {
+      "cases": 0,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 0,
+      "manualReview": 0
+    },
+    "holdout": {
+      "cases": 0,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 0,
+      "manualReview": 0
+    }
+  },
+  "output": "../reports/business-not-executed"
+}
+
+Offline evaluation of actual mock responses: pass
+
+> silver-service-evidence@0.1.0 eval
+> tsx src/evaluate.ts --results ../eval/demo/actual.mock.json --out ../reports/offline-mock-tooling
+
+{
+  "mode": "offline-mock-tooling",
+  "groups": {
+    "demo": {
+      "cases": 13,
+      "pass": 52,
+      "fail": 1,
+      "notExecuted": 6,
+      "manualReview": 13
+    },
+    "real": {
+      "cases": 0,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 0,
+      "manualReview": 0
+    },
+    "holdout": {
+      "cases": 0,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 0,
+      "manualReview": 0
+    }
+  },
+  "output": "../reports/offline-mock-tooling"
+}
+
+MySQL integration test (may skip without DB_TEST_NAME): pass
+
+> silver-service-evidence@0.1.0 test:db
+> tsx --test test/mysql.integration.ts
+
+✔ 真实 MySQL：空库、事务、幂等、独立发布、历史查询 (669.6228ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 964.2142
+
+Dependency audit: pass
+{
+  "auditReportVersion": 2,
+  "vulnerabilities": {},
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "dependencies": {
+      "prod": 78,
+      "dev": 40,
+      "optional": 27,
+      "peer": 0,
+      "peerOptional": 0,
+      "total": 117
+    }
+  }
+}
+

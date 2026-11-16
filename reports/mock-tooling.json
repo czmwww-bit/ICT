@@ -1,0 +1,1217 @@
+{
+  "generatedAt": "2026-11-16T03:30:46.920Z",
+  "mode": "mock-tooling",
+  "notices": [],
+  "codeVersion": "not-a-git-repository",
+  "dataVersion": "0f010e0b65e8e42d8d7ad4967c788dae71bd74e3e643410b8dbfd2c8e1bb8412",
+  "testSetVersion": "demo-v1",
+  "testSetHash": "c5ce20b50651099f0a892078d2b26c66ddd5d667fd6141286e835802bb0c5131",
+  "catalogSource": "../data/demo/batch.json",
+  "catalogApprovalVerified": false,
+  "endpoint": "http://127.0.0.1:64605",
+  "groups": {
+    "demo": {
+      "cases": 13,
+      "pass": 63,
+      "fail": 3,
+      "notExecuted": 6,
+      "manualReview": 13,
+      "metrics": {
+        "status": {
+          "numerator": 11,
+          "denominator": 11,
+          "failed": 0,
+          "notExecuted": 2
+        },
+        "required_fields": {
+          "numerator": 11,
+          "denominator": 11,
+          "failed": 0,
+          "notExecuted": 2
+        },
+        "region_match": {
+          "numerator": 3,
+          "denominator": 3,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "question": {
+          "numerator": 2,
+          "denominator": 2,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "materials": {
+          "numerator": 3,
+          "denominator": 3,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "citation_validity": {
+          "numerator": 5,
+          "denominator": 6,
+          "failed": 1,
+          "notExecuted": 0
+        },
+        "expected_citations": {
+          "numerator": 6,
+          "denominator": 6,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "forbidden_claims": {
+          "numerator": 11,
+          "denominator": 11,
+          "failed": 0,
+          "notExecuted": 2
+        },
+        "transport": {
+          "numerator": 11,
+          "denominator": 13,
+          "failed": 2,
+          "notExecuted": 0
+        }
+      }
+    },
+    "real": {
+      "cases": 0,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 0,
+      "manualReview": 0,
+      "metrics": {
+        "status": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "required_fields": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "region_match": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "question": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "materials": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "citation_validity": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "expected_citations": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "forbidden_claims": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "transport": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        }
+      }
+    },
+    "holdout": {
+      "cases": 0,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 0,
+      "manualReview": 0,
+      "metrics": {
+        "status": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "required_fields": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "region_match": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "question": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "materials": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "citation_validity": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "expected_citations": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "forbidden_claims": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "transport": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        }
+      }
+    }
+  },
+  "results": [
+    {
+      "id": "DEMO_E01",
+      "group": "demo",
+      "description": "【虚构】完整本地通知",
+      "input": {
+        "text": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。 我今年82岁，户籍在示例甲区，下一步怎样申请？",
+        "region": "DEMO_A",
+        "answers": {
+          "age": 82,
+          "householdRegion": "DEMO_A"
+        }
+      },
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "携带身份证和示例登记表到示例窗口提交申请",
+        "materials": [
+          "身份证",
+          "示例登记表"
+        ],
+        "references": [
+          {
+            "clauseId": "DEMO_C2",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": {
+        "status": "ready",
+        "nextStep": "携带身份证和示例登记表到示例窗口提交申请",
+        "reason": "【模拟响应】资料需人工核对",
+        "materials": [
+          "身份证",
+          "示例登记表"
+        ],
+        "sources": [
+          {
+            "quote": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+            "url": "https://example.invalid/DEMO_D2",
+            "title": "【虚构】示例修订通知",
+            "applicableRegionCodes": [
+              "DEMO_A",
+              "DEMO_A_TOWN"
+            ],
+            "clauseId": "DEMO_C2",
+            "clauseVersion": 1
+          }
+        ]
+      },
+      "error": null,
+      "checks": [
+        {
+          "name": "transport",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "status",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "required_fields",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "materials",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "region_match",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "citation_validity",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "expected_citations",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "pass",
+          "reason": ""
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "DEMO_E02",
+      "group": "demo",
+      "description": "【虚构】缺少办理地区",
+      "input": {
+        "text": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。 我想申请，但还没说准备在哪个区办理。",
+        "region": null,
+        "answers": {
+          "age": 82,
+          "householdRegion": "DEMO_A"
+        }
+      },
+      "expected": {
+        "status": "need_info",
+        "questionKey": "region",
+        "nextStep": "请补充办理区县",
+        "materials": [],
+        "references": [],
+        "forbidden": [
+          "保证审批通过"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": {
+        "status": "need_info",
+        "question": {
+          "key": "region",
+          "text": "请补充办理区县"
+        },
+        "nextStep": "请补充办理区县",
+        "reason": "【模拟响应】资料需人工核对",
+        "materials": [],
+        "sources": []
+      },
+      "error": null,
+      "checks": [
+        {
+          "name": "transport",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "status",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "required_fields",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "question",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "pass",
+          "reason": ""
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "DEMO_E03",
+      "group": "demo",
+      "description": "【虚构】缺少影响结论的年龄条件",
+      "input": {
+        "text": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。 我户籍在示例甲区，还没有填写年龄。",
+        "region": "DEMO_A",
+        "answers": {
+          "householdRegion": "DEMO_A"
+        }
+      },
+      "expected": {
+        "status": "need_info",
+        "questionKey": "age",
+        "nextStep": "请问申请人年龄",
+        "materials": [],
+        "references": [],
+        "forbidden": [
+          "保证审批通过"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": {
+        "status": "need_info",
+        "question": {
+          "key": "age",
+          "text": "请问申请人年龄"
+        },
+        "nextStep": "请问申请人年龄",
+        "reason": "【模拟响应】资料需人工核对",
+        "materials": [],
+        "sources": []
+      },
+      "error": null,
+      "checks": [
+        {
+          "name": "transport",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "status",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "required_fields",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "question",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "pass",
+          "reason": ""
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "DEMO_E04",
+      "group": "demo",
+      "description": "【虚构】邻区通知不能直接适用",
+      "input": {
+        "text": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。 我住在示例乙区，户籍也在示例乙区，能照甲区通知办理吗？",
+        "region": "DEMO_B",
+        "answers": {
+          "age": 82,
+          "householdRegion": "DEMO_B"
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "向办理地社区核实适用规定",
+        "materials": [],
+        "references": [],
+        "forbidden": [
+          "保证审批通过"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": {
+        "status": "needs_review",
+        "nextStep": "向办理地社区核实适用规定",
+        "reason": "【模拟响应】资料需人工核对",
+        "materials": [],
+        "sources": []
+      },
+      "error": null,
+      "checks": [
+        {
+          "name": "transport",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "status",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "required_fields",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "pass",
+          "reason": ""
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "DEMO_E05",
+      "group": "demo",
+      "description": "【虚构】有明确替代依据的旧条款",
+      "input": {
+        "text": "【虚构开发样例，非真实政策】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年1月1日起实施，至2026年12月31日止。请携带身份证，到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。 这是一张旧通知，现在是2026年11月16日，材料仍只带身份证吗？",
+        "region": "DEMO_A",
+        "answers": {
+          "age": 82,
+          "householdRegion": "DEMO_A"
+        }
+      },
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "按修订条款准备材料",
+        "materials": [
+          "身份证",
+          "示例登记表"
+        ],
+        "references": [
+          {
+            "clauseId": "DEMO_C2",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": {
+        "status": "ready",
+        "nextStep": "按修订条款准备材料",
+        "reason": "【模拟响应】资料需人工核对",
+        "materials": [
+          "身份证",
+          "示例登记表"
+        ],
+        "sources": [
+          {
+            "quote": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+            "url": "https://example.invalid/DEMO_D2",
+            "title": "【虚构】示例修订通知",
+            "applicableRegionCodes": [
+              "DEMO_A",
+              "DEMO_A_TOWN"
+            ],
+            "clauseId": "DEMO_C2",
+            "clauseVersion": 1
+          }
+        ]
+      },
+      "error": null,
+      "checks": [
+        {
+          "name": "transport",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "status",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "required_fields",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "materials",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "region_match",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "citation_validity",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "expected_citations",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "pass",
+          "reason": ""
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "DEMO_E06",
+      "group": "demo",
+      "description": "【虚构】新旧关系尚未确认",
+      "input": {
+        "text": "【虚构开发样例】示例甲区可以到社区窗口咨询申请。 这份无日期通知是后来发的吗？是否已经调整修订通知的要求？",
+        "region": "DEMO_A",
+        "answers": {
+          "age": 82,
+          "householdRegion": "DEMO_A"
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "请社区确认新旧关系与生效时间",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "DEMO_C2",
+            "version": 1
+          },
+          {
+            "clauseId": "DEMO_C3",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": {
+        "status": "needs_review",
+        "nextStep": "请社区确认新旧关系与生效时间",
+        "reason": "【模拟响应】资料需人工核对",
+        "materials": [],
+        "sources": [
+          {
+            "quote": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+            "url": "https://example.invalid/DEMO_D2",
+            "title": "【虚构】示例修订通知",
+            "applicableRegionCodes": [
+              "DEMO_A",
+              "DEMO_A_TOWN"
+            ],
+            "clauseId": "DEMO_C2",
+            "clauseVersion": 1
+          },
+          {
+            "quote": "【虚构开发样例】示例甲区可以到社区窗口咨询申请。",
+            "url": "https://example.invalid/DEMO_D3",
+            "title": "【虚构】日期不明的示例通知",
+            "applicableRegionCodes": [
+              "DEMO_A",
+              "DEMO_A_TOWN"
+            ],
+            "clauseId": "DEMO_C3",
+            "clauseVersion": 1
+          }
+        ]
+      },
+      "error": null,
+      "checks": [
+        {
+          "name": "transport",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "status",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "required_fields",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "citation_validity",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "expected_citations",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "pass",
+          "reason": ""
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "DEMO_E07",
+      "group": "demo",
+      "description": "【虚构】官网资料与无来源通知存在冲突",
+      "input": {
+        "text": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。 另收到一张没有日期和官网来源的通知，声称社区窗口已停止受理，只能找私人中介。这两份说法冲突，请核实。",
+        "region": "DEMO_A",
+        "answers": {
+          "age": 82,
+          "householdRegion": "DEMO_A"
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "请社区确认无来源通知的真实性及是否调整受理渠道",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "DEMO_C2",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": {
+        "status": "needs_review",
+        "nextStep": "请社区确认无来源通知的真实性及是否调整受理渠道",
+        "reason": "【模拟响应】资料需人工核对",
+        "materials": [],
+        "sources": [
+          {
+            "quote": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+            "url": "https://example.invalid/DEMO_D2",
+            "title": "【虚构】示例修订通知",
+            "applicableRegionCodes": [
+              "DEMO_A",
+              "DEMO_A_TOWN"
+            ],
+            "clauseId": "DEMO_C2",
+            "clauseVersion": 1
+          }
+        ]
+      },
+      "error": null,
+      "checks": [
+        {
+          "name": "transport",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "status",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "required_fields",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "citation_validity",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "expected_citations",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "pass",
+          "reason": ""
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "DEMO_E08",
+      "group": "demo",
+      "description": "【虚构】通知引用未审核资料",
+      "input": {
+        "text": "【虚构、尚未审核的草稿通知】据称示例甲区新增一项未核实服务，只需要提供银行账户就能领款。尚无人工核对的官方文件。可以照做吗？",
+        "region": "DEMO_A",
+        "answers": {
+          "age": 82,
+          "householdRegion": "DEMO_A"
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "等待官方资料人工核对",
+        "materials": [],
+        "references": [],
+        "forbidden": [
+          "保证审批通过"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": {
+        "status": "needs_review",
+        "nextStep": "等待官方资料人工核对",
+        "reason": "【模拟响应】资料需人工核对",
+        "materials": [],
+        "sources": []
+      },
+      "error": null,
+      "checks": [
+        {
+          "name": "transport",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "status",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "required_fields",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "pass",
+          "reason": ""
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "DEMO_E09",
+      "group": "demo",
+      "description": "【虚构】超出资料覆盖范围",
+      "input": {
+        "text": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。 我办理地与户籍在尚未建立资料的示例丙区，请告诉我当地要求。",
+        "region": "DEMO_OUTSIDE",
+        "answers": {
+          "age": 82,
+          "householdRegion": "DEMO_OUTSIDE"
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "向当地社区索取适用资料",
+        "materials": [],
+        "references": [],
+        "forbidden": [
+          "保证审批通过"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": {
+        "status": "needs_review",
+        "nextStep": "向当地社区索取适用资料",
+        "reason": "【模拟响应】资料需人工核对",
+        "materials": [],
+        "sources": []
+      },
+      "error": null,
+      "checks": [
+        {
+          "name": "transport",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "status",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "required_fields",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "pass",
+          "reason": ""
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "DEMO_E10",
+      "group": "demo",
+      "description": "【虚构】缺少办理时间地点依据或通知落款",
+      "input": {
+        "text": "【虚构开发样例】示例甲区可以到社区窗口咨询申请。 截图没有落款、日期和具体地址。我指的是这张通知里的咨询事项，哪天、去哪一个窗口？",
+        "region": "DEMO_A",
+        "answers": {
+          "age": 82,
+          "householdRegion": "DEMO_A"
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "请社区确认日期、时间和地点",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "DEMO_C3",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "每周一上午九点",
+          "真实社区服务中心"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": {
+        "status": "needs_review",
+        "nextStep": "请社区确认日期、时间和地点",
+        "reason": "【模拟响应】资料需人工核对",
+        "materials": [],
+        "sources": [
+          {
+            "quote": "【虚构开发样例】示例甲区可以到社区窗口咨询申请。",
+            "url": "https://example.invalid/DEMO_D3",
+            "title": "【虚构】日期不明的示例通知",
+            "applicableRegionCodes": [
+              "DEMO_A",
+              "DEMO_A_TOWN"
+            ],
+            "clauseId": "DEMO_C3",
+            "clauseVersion": 1
+          }
+        ]
+      },
+      "error": null,
+      "checks": [
+        {
+          "name": "transport",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "status",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "required_fields",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "citation_validity",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "expected_citations",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "pass",
+          "reason": ""
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "DEMO_E11",
+      "group": "demo",
+      "description": "【虚构】引用不能支持建议（工具自测注入错误）",
+      "input": {
+        "text": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。 请给我有原文依据的下一步，不要添加原文没有的福利或动作。",
+        "region": "DEMO_A",
+        "answers": {
+          "age": 82,
+          "householdRegion": "DEMO_A"
+        }
+      },
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "核对引用是否支持建议",
+        "materials": [
+          "身份证",
+          "示例登记表"
+        ],
+        "references": [
+          {
+            "clauseId": "DEMO_C2",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": {
+        "status": "ready",
+        "nextStep": "核对引用是否支持建议",
+        "reason": "【模拟响应】资料需人工核对",
+        "materials": [
+          "身份证",
+          "示例登记表"
+        ],
+        "sources": [
+          {
+            "quote": "【模拟错误】该引文不在原文中",
+            "url": "https://example.invalid/DEMO_D2",
+            "title": "【虚构】示例修订通知",
+            "applicableRegionCodes": [
+              "DEMO_A",
+              "DEMO_A_TOWN"
+            ],
+            "clauseId": "DEMO_C2",
+            "clauseVersion": 1
+          }
+        ]
+      },
+      "error": null,
+      "checks": [
+        {
+          "name": "transport",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "status",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "required_fields",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "materials",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "region_match",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "citation_validity",
+          "status": "fail",
+          "reason": "引用编号、版本、原文、标题或链接与资料目录不匹配"
+        },
+        {
+          "name": "expected_citations",
+          "status": "pass",
+          "reason": ""
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "pass",
+          "reason": ""
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "DEMO_E12",
+      "group": "demo",
+      "description": "【虚构】接口错误（工具自测注入HTTP500）",
+      "input": {
+        "text": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。 请核验。（评测工具模拟后端返回HTTP500）",
+        "region": "DEMO_A",
+        "answers": {
+          "age": 82,
+          "householdRegion": "DEMO_A"
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "提示重试，不能当作政策结果",
+        "materials": [],
+        "references": [],
+        "forbidden": [
+          "保证审批通过"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": "HTTP 500",
+      "checks": [
+        {
+          "name": "transport",
+          "status": "fail",
+          "reason": "HTTP 500"
+        },
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "接口错误或超时，未取得输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "接口错误或超时，未取得输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "接口错误或超时，未取得输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "DEMO_E13",
+      "group": "demo",
+      "description": "【虚构】接口超时（工具自测延迟）",
+      "input": {
+        "text": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。 请核验。（评测工具模拟后端超时）",
+        "region": "DEMO_A",
+        "answers": {
+          "age": 82,
+          "householdRegion": "DEMO_A"
+        }
+      },
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "保留输入并提示重试",
+        "materials": [],
+        "references": [],
+        "forbidden": [
+          "保证审批通过"
+        ]
+      },
+      "humanExpectedVerified": "pending",
+      "actual": null,
+      "error": "The operation was aborted due to timeout",
+      "checks": [
+        {
+          "name": "transport",
+          "status": "fail",
+          "reason": "The operation was aborted due to timeout"
+        },
+        {
+          "name": "status",
+          "status": "not_executed",
+          "reason": "接口错误或超时，未取得输出"
+        },
+        {
+          "name": "required_fields",
+          "status": "not_executed",
+          "reason": "接口错误或超时，未取得输出"
+        },
+        {
+          "name": "forbidden_claims",
+          "status": "not_executed",
+          "reason": "接口错误或超时，未取得输出"
+        }
+      ],
+      "manualReview": {
+        "status": "pending",
+        "adviceCorrect": null,
+        "citationSupportsConclusion": null,
+        "notes": ""
+      }
+    }
+  ]
+}

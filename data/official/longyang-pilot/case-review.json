@@ -1,0 +1,458 @@
+{
+  "developmentOnly": true,
+  "holdout": false,
+  "sourceReviewStatus": "all_pending",
+  "cases": [
+    {
+      "id": "LY_REAL_DEV_01",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [
+        {
+          "clauseId": "LY_GLT_HISTORY_2021_APPLY",
+          "clauseVersion": 1,
+          "documentId": "LY_GLT_HISTORY_2021",
+          "documentVersion": 1
+        },
+        {
+          "clauseId": "YN_GLT_AUTO_PROCESS",
+          "clauseVersion": 1,
+          "documentId": "YN_GLT_2024_113",
+          "documentVersion": 1
+        },
+        {
+          "clauseId": "LY_GLT_WADU_2025_APPLICATION",
+          "clauseVersion": 1,
+          "documentId": "LY_GLT_WADU_2025",
+          "documentVersion": 1
+        }
+      ],
+      "additionalEvidenceUrls": [],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "LY_REAL_DEV_02",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [
+        {
+          "clauseId": "YN_GLT_AUTO_PROCESS",
+          "clauseVersion": 1,
+          "documentId": "YN_GLT_2024_113",
+          "documentVersion": 1
+        },
+        {
+          "clauseId": "YN_GLT_MISSING_LIST",
+          "clauseVersion": 1,
+          "documentId": "YN_GLT_2024_113",
+          "documentVersion": 1
+        }
+      ],
+      "additionalEvidenceUrls": [],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "LY_REAL_DEV_03",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [
+        {
+          "clauseId": "YN_GLT_HOUSEHOLD_SEPARATION",
+          "clauseVersion": 1,
+          "documentId": "YN_GLT_2024_113",
+          "documentVersion": 1
+        }
+      ],
+      "additionalEvidenceUrls": [],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "LY_REAL_DEV_04",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [
+        {
+          "clauseId": "YN_GLT_HOUSEHOLD_MOVE",
+          "clauseVersion": 1,
+          "documentId": "YN_GLT_2024_113",
+          "documentVersion": 1
+        }
+      ],
+      "additionalEvidenceUrls": [],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "LY_REAL_DEV_05",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [
+        {
+          "clauseId": "YN_GLT_CARD_ACTIVATION",
+          "clauseVersion": 1,
+          "documentId": "YN_GLT_2024_113",
+          "documentVersion": 1
+        },
+        {
+          "clauseId": "YN_GLT_HOME_CARD",
+          "clauseVersion": 1,
+          "documentId": "YN_GLT_2024_113",
+          "documentVersion": 1
+        }
+      ],
+      "additionalEvidenceUrls": [],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "LY_REAL_DEV_06",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [
+        {
+          "clauseId": "YN_GLT_UNREACHABLE",
+          "clauseVersion": 1,
+          "documentId": "YN_GLT_2024_113",
+          "documentVersion": 1
+        }
+      ],
+      "additionalEvidenceUrls": [],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "LY_REAL_DEV_07",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [
+        {
+          "clauseId": "YN_ECON_SERVICE_2023_2_OBJECT",
+          "clauseVersion": 1,
+          "documentId": "YN_ECON_SERVICE_2023_2",
+          "documentVersion": 1
+        },
+        {
+          "clauseId": "YN_ECON_SERVICE_2023_2_VALIDITY",
+          "clauseVersion": 1,
+          "documentId": "YN_ECON_SERVICE_2023_2",
+          "documentVersion": 1
+        },
+        {
+          "clauseId": "YN_ELDER_ONE_SERVICE_2026_ECON_FLOW",
+          "clauseVersion": 1,
+          "documentId": "YN_ELDER_ONE_SERVICE_2026",
+          "documentVersion": 1
+        }
+      ],
+      "additionalEvidenceUrls": [],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "LY_REAL_DEV_08",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [
+        {
+          "clauseId": "YN_ELDER_ONE_SERVICE_2026_ECON_FLOW",
+          "clauseVersion": 1,
+          "documentId": "YN_ELDER_ONE_SERVICE_2026",
+          "documentVersion": 1
+        }
+      ],
+      "additionalEvidenceUrls": [],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "LY_REAL_DEV_09",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [
+        {
+          "clauseId": "YN_CONSUMPTION_2026_4_OBJECT",
+          "clauseVersion": 1,
+          "documentId": "YN_CONSUMPTION_2026_4",
+          "documentVersion": 1
+        },
+        {
+          "clauseId": "YN_CONSUMPTION_2026_4_PROXY",
+          "clauseVersion": 1,
+          "documentId": "YN_CONSUMPTION_2026_4",
+          "documentVersion": 1
+        },
+        {
+          "clauseId": "LY_CONSUMPTION_GUIDE_2026_APPLY_PROXY",
+          "clauseVersion": 1,
+          "documentId": "LY_CONSUMPTION_GUIDE_2026",
+          "documentVersion": 1
+        }
+      ],
+      "additionalEvidenceUrls": [],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "LY_REAL_DEV_10",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [
+        {
+          "clauseId": "YN_CONSUMPTION_2026_4_OBJECT",
+          "clauseVersion": 1,
+          "documentId": "YN_CONSUMPTION_2026_4",
+          "documentVersion": 1
+        },
+        {
+          "clauseId": "LY_CONSUMPTION_GUIDE_2026_ASSESS",
+          "clauseVersion": 1,
+          "documentId": "LY_CONSUMPTION_GUIDE_2026",
+          "documentVersion": 1
+        }
+      ],
+      "additionalEvidenceUrls": [],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "LY_REAL_DEV_11",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [
+        {
+          "clauseId": "YN_CONSUMPTION_2026_4_VOUCHER",
+          "clauseVersion": 1,
+          "documentId": "YN_CONSUMPTION_2026_4",
+          "documentVersion": 1
+        },
+        {
+          "clauseId": "LY_CONSUMPTION_GUIDE_2026_CONSUME",
+          "clauseVersion": 1,
+          "documentId": "LY_CONSUMPTION_GUIDE_2026",
+          "documentVersion": 1
+        }
+      ],
+      "additionalEvidenceUrls": [],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "LY_REAL_DEV_12",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [
+        {
+          "clauseId": "YN_CONSUMPTION_2026_4_OBJECT",
+          "clauseVersion": 1,
+          "documentId": "YN_CONSUMPTION_2026_4",
+          "documentVersion": 1
+        }
+      ],
+      "additionalEvidenceUrls": [],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "LY_REAL_DEV_13",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [
+        {
+          "clauseId": "LY_GLT_WADU_2025_APPLICATION",
+          "clauseVersion": 1,
+          "documentId": "LY_GLT_WADU_2025",
+          "documentVersion": 1
+        },
+        {
+          "clauseId": "YN_GLT_AUTO_PROCESS",
+          "clauseVersion": 1,
+          "documentId": "YN_GLT_2024_113",
+          "documentVersion": 1
+        },
+        {
+          "clauseId": "YN_ELDER_ONE_SERVICE_2026_HIGH_FLOW",
+          "clauseVersion": 1,
+          "documentId": "YN_ELDER_ONE_SERVICE_2026",
+          "documentVersion": 1
+        }
+      ],
+      "additionalEvidenceUrls": [],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "LY_REAL_DEV_14",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [
+        {
+          "clauseId": "CN_CONSUMPTION_LAUNCH_2026_START",
+          "clauseVersion": 1,
+          "documentId": "CN_CONSUMPTION_LAUNCH_2026",
+          "documentVersion": 1
+        }
+      ],
+      "additionalEvidenceUrls": [],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "LY_REAL_DEV_15",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [
+        {
+          "clauseId": "CN_CONSUMPTION_LAUNCH_2026_ASSESS_DATA",
+          "clauseVersion": 1,
+          "documentId": "CN_CONSUMPTION_LAUNCH_2026",
+          "documentVersion": 1
+        },
+        {
+          "clauseId": "YN_CONSUMPTION_2026_4_ASSESS",
+          "clauseVersion": 1,
+          "documentId": "YN_CONSUMPTION_2026_4",
+          "documentVersion": 1
+        },
+        {
+          "clauseId": "BS_CONSUMPTION_INTERPRETATION_2026_ASSESS",
+          "clauseVersion": 1,
+          "documentId": "BS_CONSUMPTION_INTERPRETATION_2026",
+          "documentVersion": 1
+        }
+      ],
+      "additionalEvidenceUrls": [],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "LY_REAL_DEV_16",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [],
+      "additionalEvidenceUrls": [],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "LY_REAL_DEV_17",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [
+        {
+          "clauseId": "YN_GLT_PROVINCIAL_RATES",
+          "clauseVersion": 1,
+          "documentId": "YN_GLT_2024_113",
+          "documentVersion": 1
+        },
+        {
+          "clauseId": "LY_GLT_WADU_2025_LOCAL_RATES",
+          "clauseVersion": 1,
+          "documentId": "LY_GLT_WADU_2025",
+          "documentVersion": 1
+        }
+      ],
+      "additionalEvidenceUrls": [
+        "https://www.baoshan.gov.cn/info/6126/10396644.htm"
+      ],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "id": "LY_REAL_DEV_18",
+      "status": "pending_human_review",
+      "developmentOnly": true,
+      "holdout": false,
+      "notes": "预期仅为人工核对草稿，未调用成员②接口。",
+      "expectedSources": [
+        {
+          "clauseId": "LY_CONSUMPTION_GUIDE_2026_ASSESS",
+          "clauseVersion": 1,
+          "documentId": "LY_CONSUMPTION_GUIDE_2026",
+          "documentVersion": 1
+        },
+        {
+          "clauseId": "YN_CONSUMPTION_2026_4_OBJECT",
+          "clauseVersion": 1,
+          "documentId": "YN_CONSUMPTION_2026_4",
+          "documentVersion": 1
+        }
+      ],
+      "additionalEvidenceUrls": [],
+      "adviceCorrect": null,
+      "citationSupportsConclusion": null,
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ]
+}

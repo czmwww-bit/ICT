@@ -1,0 +1,15 @@
+{
+  "version": "ocr-unpopulated",
+  "executed": false,
+  "cases": [],
+  "fields": [
+    "id",
+    "imagePath",
+    "sourceConsent",
+    "expectedText",
+    "criticalRegionDateFields",
+    "actualText",
+    "failureReason",
+    "humanReview"
+  ]
+}

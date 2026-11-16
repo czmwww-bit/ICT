@@ -1,0 +1,1072 @@
+{
+  "generatedAt": "2026-11-16T03:03:59.703Z",
+  "server": "8.0.46",
+  "database": "silver_local_1e35810556",
+  "dataset": "demo",
+  "checks": [
+    {
+      "name": "迁移可重复执行",
+      "status": "pass",
+      "details": [
+        {
+          "name": "001_evidence.sql"
+        },
+        {
+          "name": "002_publications.sql"
+        }
+      ]
+    },
+    {
+      "name": "预检查不写入",
+      "status": "pass",
+      "details": {
+        "added": 6,
+        "modified": 0,
+        "unchanged": 0,
+        "errors": 0,
+        "details": [
+          {
+            "kind": "document",
+            "id": "DEMO_D1",
+            "version": 1,
+            "action": "added"
+          },
+          {
+            "kind": "document",
+            "id": "DEMO_D2",
+            "version": 1,
+            "action": "added"
+          },
+          {
+            "kind": "document",
+            "id": "DEMO_D3",
+            "version": 1,
+            "action": "added"
+          },
+          {
+            "kind": "clause",
+            "id": "DEMO_C1",
+            "version": 1,
+            "action": "added"
+          },
+          {
+            "kind": "clause",
+            "id": "DEMO_C2",
+            "version": 1,
+            "action": "added"
+          },
+          {
+            "kind": "clause",
+            "id": "DEMO_C3",
+            "version": 1,
+            "action": "added"
+          }
+        ],
+        "messages": []
+      }
+    },
+    {
+      "name": "导入与重复导入幂等",
+      "status": "pass",
+      "details": {
+        "imported": {
+          "added": 6,
+          "modified": 0,
+          "unchanged": 0,
+          "errors": 0,
+          "details": [
+            {
+              "kind": "document",
+              "id": "DEMO_D1",
+              "version": 1,
+              "action": "added"
+            },
+            {
+              "kind": "document",
+              "id": "DEMO_D2",
+              "version": 1,
+              "action": "added"
+            },
+            {
+              "kind": "document",
+              "id": "DEMO_D3",
+              "version": 1,
+              "action": "added"
+            },
+            {
+              "kind": "clause",
+              "id": "DEMO_C1",
+              "version": 1,
+              "action": "added"
+            },
+            {
+              "kind": "clause",
+              "id": "DEMO_C2",
+              "version": 1,
+              "action": "added"
+            },
+            {
+              "kind": "clause",
+              "id": "DEMO_C3",
+              "version": 1,
+              "action": "added"
+            }
+          ],
+          "messages": [],
+          "batchId": "8554c7ac-5a00-4eaf-9262-5c9a738a353f"
+        },
+        "repeat": {
+          "added": 0,
+          "modified": 0,
+          "unchanged": 6,
+          "errors": 0,
+          "details": [
+            {
+              "kind": "document",
+              "id": "DEMO_D1",
+              "version": 1,
+              "action": "unchanged"
+            },
+            {
+              "kind": "document",
+              "id": "DEMO_D2",
+              "version": 1,
+              "action": "unchanged"
+            },
+            {
+              "kind": "document",
+              "id": "DEMO_D3",
+              "version": 1,
+              "action": "unchanged"
+            },
+            {
+              "kind": "clause",
+              "id": "DEMO_C1",
+              "version": 1,
+              "action": "unchanged"
+            },
+            {
+              "kind": "clause",
+              "id": "DEMO_C2",
+              "version": 1,
+              "action": "unchanged"
+            },
+            {
+              "kind": "clause",
+              "id": "DEMO_C3",
+              "version": 1,
+              "action": "unchanged"
+            }
+          ],
+          "messages": []
+        },
+        "versions": 6
+      }
+    },
+    {
+      "name": "演示文件和条款独立发布",
+      "status": "pass",
+      "details": {
+        "documents": 3,
+        "clauses": 3,
+        "dataset": "demo"
+      }
+    },
+    {
+      "name": "条款更新与历史保留",
+      "status": "pass",
+      "details": {
+        "update": {
+          "added": 0,
+          "modified": 1,
+          "unchanged": 0,
+          "errors": 0,
+          "details": [
+            {
+              "kind": "clause",
+              "id": "DEMO_C1",
+              "version": 2,
+              "action": "modified"
+            }
+          ],
+          "messages": [],
+          "batchId": "6d1db909-5e62-493e-94ba-465451126df1"
+        },
+        "oldVersion": 1,
+        "currentVersion": 2
+      }
+    },
+    {
+      "name": "默认正式查询排除样例",
+      "status": "pass",
+      "details": {
+        "formalCount": 0,
+        "demoCount": 3
+      }
+    },
+    {
+      "name": "行政区祖先与邻区筛选",
+      "status": "pass",
+      "details": {
+        "descendant": 3,
+        "neighbor": 0
+      }
+    },
+    {
+      "name": "日期筛选及未知日期提示",
+      "status": "pass",
+      "details": {
+        "afterRecordedEndCount": 2,
+        "unknownStart": "needs_review"
+      }
+    },
+    {
+      "name": "原文、来源版本和明确修订关系",
+      "status": "pass",
+      "details": {
+        "sources": [
+          {
+            "clauseId": "DEMO_C1",
+            "clauseVersion": 2,
+            "documentId": "DEMO_D1",
+            "documentVersion": 1,
+            "title": "【虚构】示例甲区高龄服务通知",
+            "quote": "【虚构开发样例，非真实政策】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年1月1日起实施，至2026年12月31日止。请携带身份证，到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+            "locator": "示例第一段（已复核定位）",
+            "url": "https://example.invalid/DEMO_D1"
+          },
+          {
+            "clauseId": "DEMO_C2",
+            "clauseVersion": 1,
+            "documentId": "DEMO_D2",
+            "documentVersion": 1,
+            "title": "【虚构】示例修订通知",
+            "quote": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+            "locator": "示例修订第一段",
+            "url": "https://example.invalid/DEMO_D2"
+          },
+          {
+            "clauseId": "DEMO_C3",
+            "clauseVersion": 1,
+            "documentId": "DEMO_D3",
+            "documentVersion": 1,
+            "title": "【虚构】日期不明的示例通知",
+            "quote": "【虚构开发样例】示例甲区可以到社区窗口咨询申请。",
+            "locator": "示例第一段",
+            "url": "https://example.invalid/DEMO_D3"
+          }
+        ],
+        "relationTarget": "DEMO_C1@1"
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "clause": {
+        "id": "DEMO_C1",
+        "quote": "【虚构开发样例，非真实政策】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年1月1日起实施，至2026年12月31日止。请携带身份证，到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+        "actions": [
+          {
+            "text": "提交申请",
+            "quote": "提交申请",
+            "locator": "示例第一段"
+          }
+        ],
+        "dataset": "demo",
+        "locator": "示例第一段（已复核定位）",
+        "version": 2,
+        "channels": [
+          {
+            "text": "社区窗口",
+            "quote": "社区窗口",
+            "locator": "示例第一段"
+          }
+        ],
+        "contacts": null,
+        "location": {
+          "text": "示例社区一号窗口",
+          "quote": "示例社区一号窗口",
+          "locator": "示例第一段"
+        },
+        "matterId": "DEMO_ALLOWANCE",
+        "schedule": {
+          "text": "工作日上午",
+          "quote": "工作日上午",
+          "locator": "示例第一段"
+        },
+        "materials": [
+          {
+            "text": "身份证",
+            "quote": "身份证",
+            "locator": "示例第一段"
+          }
+        ],
+        "relations": [],
+        "conditions": {
+          "text": "年满80周岁且户籍在示例甲区",
+          "quote": "年满80周岁且户籍在示例甲区",
+          "locator": "示例第一段"
+        },
+        "documentId": "DEMO_D1",
+        "matterName": "【虚构】示例高龄服务",
+        "population": {
+          "text": "年满80周岁且户籍在示例甲区的老人",
+          "quote": "年满80周岁且户籍在示例甲区的老人",
+          "locator": "示例第一段"
+        },
+        "reviewedAt": "2026-11-16",
+        "reviewedBy": "开发样例核对",
+        "effectiveTo": "2026-12-31",
+        "regionCodes": [
+          "DEMO_A"
+        ],
+        "reviewStatus": "approved",
+        "effectiveFrom": "2026-01-01",
+        "documentVersion": 1,
+        "effectiveToEvidence": {
+          "text": "至2026年12月31日止",
+          "quote": "至2026年12月31日止",
+          "locator": "示例第一段"
+        },
+        "effectiveFromEvidence": {
+          "text": "自2026年1月1日起实施",
+          "quote": "自2026年1月1日起实施",
+          "locator": "示例第一段"
+        }
+      },
+      "document": {
+        "id": "DEMO_D1",
+        "title": "【虚构】示例甲区高龄服务通知",
+        "dataset": "demo",
+        "version": 1,
+        "checkedAt": "2026-11-16",
+        "checkedBy": "示例维护人",
+        "publisher": "【虚构】示例甲区机构",
+        "sourceUrl": "https://example.invalid/DEMO_D1",
+        "reviewedAt": "2026-11-16",
+        "reviewedBy": "开发样例核对",
+        "effectiveTo": null,
+        "publishedAt": "2025-12-01",
+        "regionCodes": [
+          "DEMO_A"
+        ],
+        "originalPath": null,
+        "originalText": "【虚构开发样例，非真实政策】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年1月1日起实施，至2026年12月31日止。请携带身份证，到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+        "reviewStatus": "approved",
+        "effectiveFrom": null,
+        "effectiveToEvidence": null,
+        "effectiveFromEvidence": null
+      },
+      "clauseChecksum": "cb16b61bd674ea6354f4833ea7fab3eda77749dbac9d6e4df22d1dc46375dd13",
+      "documentChecksum": "50c7baf7df9ae8ae52ebfa99a897c5266c61ab6179ea1c85092a1ac056bd54ac",
+      "originalTextChecksum": "8fc1a741239efbb4437b960db1a16eb8892adbe35f3a410f53e5e8f1997672ba",
+      "source": {
+        "clauseId": "DEMO_C1",
+        "clauseVersion": 2,
+        "documentId": "DEMO_D1",
+        "documentVersion": 1,
+        "title": "【虚构】示例甲区高龄服务通知",
+        "quote": "【虚构开发样例，非真实政策】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年1月1日起实施，至2026年12月31日止。请携带身份证，到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+        "locator": "示例第一段（已复核定位）",
+        "url": "https://example.invalid/DEMO_D1"
+      },
+      "relations": [],
+      "timeStatus": "dates_recorded",
+      "unknownEnd": false,
+      "publication": {
+        "sequence_id": 7,
+        "kind": "clause",
+        "id": "DEMO_C1",
+        "version": 2,
+        "decision": "approved",
+        "actor": "开发样例核对",
+        "reason": "虚构开发夹具演示，不代表真实政策审核",
+        "reviewed_at": "2026-11-16T03:03:59.689Z"
+      },
+      "sourcePublication": {
+        "sequence_id": 1,
+        "kind": "document",
+        "id": "DEMO_D1",
+        "version": 1,
+        "decision": "approved",
+        "actor": "开发样例核对",
+        "reason": "虚构开发夹具演示，不代表真实政策审核",
+        "reviewed_at": "2026-11-16T03:03:59.646Z"
+      }
+    },
+    {
+      "clause": {
+        "id": "DEMO_C2",
+        "quote": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+        "actions": [
+          {
+            "text": "提交申请",
+            "quote": "提交申请",
+            "locator": "示例第一段"
+          }
+        ],
+        "dataset": "demo",
+        "locator": "示例修订第一段",
+        "version": 1,
+        "channels": [
+          {
+            "text": "社区窗口",
+            "quote": "社区窗口",
+            "locator": "示例第一段"
+          }
+        ],
+        "contacts": null,
+        "location": {
+          "text": "示例社区一号窗口",
+          "quote": "示例社区一号窗口",
+          "locator": "示例第一段"
+        },
+        "matterId": "DEMO_ALLOWANCE",
+        "schedule": {
+          "text": "工作日上午",
+          "quote": "工作日上午",
+          "locator": "示例第一段"
+        },
+        "materials": [
+          {
+            "text": "身份证",
+            "quote": "身份证",
+            "locator": "示例第一段"
+          },
+          {
+            "text": "示例登记表",
+            "quote": "示例登记表",
+            "locator": "示例第一段"
+          }
+        ],
+        "relations": [
+          {
+            "type": "replaces",
+            "evidence": {
+              "text": "示例修订条款替代示例条款DEMO_C1",
+              "quote": "示例修订条款替代示例条款DEMO_C1",
+              "locator": "示例第一段"
+            },
+            "targetVersion": 1,
+            "targetClauseId": "DEMO_C1"
+          }
+        ],
+        "conditions": {
+          "text": "年满80周岁且户籍在示例甲区",
+          "quote": "年满80周岁且户籍在示例甲区",
+          "locator": "示例第一段"
+        },
+        "documentId": "DEMO_D2",
+        "matterName": "【虚构】示例高龄服务",
+        "population": {
+          "text": "年满80周岁且户籍在示例甲区的老人",
+          "quote": "年满80周岁且户籍在示例甲区的老人",
+          "locator": "示例第一段"
+        },
+        "reviewedAt": "2026-11-16",
+        "reviewedBy": "开发样例核对",
+        "effectiveTo": null,
+        "regionCodes": [
+          "DEMO_A"
+        ],
+        "reviewStatus": "approved",
+        "effectiveFrom": "2026-07-01",
+        "documentVersion": 1,
+        "effectiveToEvidence": null,
+        "effectiveFromEvidence": {
+          "text": "自2026年7月1日起",
+          "quote": "自2026年7月1日起",
+          "locator": "示例第一段"
+        }
+      },
+      "document": {
+        "id": "DEMO_D2",
+        "title": "【虚构】示例修订通知",
+        "dataset": "demo",
+        "version": 1,
+        "checkedAt": "2026-11-16",
+        "checkedBy": "示例维护人",
+        "publisher": "【虚构】示例甲区机构",
+        "sourceUrl": "https://example.invalid/DEMO_D2",
+        "reviewedAt": "2026-11-16",
+        "reviewedBy": "开发样例核对",
+        "effectiveTo": null,
+        "publishedAt": "2026-06-01",
+        "regionCodes": [
+          "DEMO_A"
+        ],
+        "originalPath": null,
+        "originalText": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+        "reviewStatus": "approved",
+        "effectiveFrom": null,
+        "effectiveToEvidence": null,
+        "effectiveFromEvidence": null
+      },
+      "clauseChecksum": "1eeaa0fbb825df4a2021dad5d3c6de7548d5938904fa5631e2899f7b1f23cd22",
+      "documentChecksum": "356e9f3affe3c881bdffd3460ac75b9bf9d4c38c78cf4d6007abb087cc4b02d2",
+      "originalTextChecksum": "6923d8a26f20d5c051e7ecd2c415b028b30d01049167d4c8feb37c5a9eb51a76",
+      "source": {
+        "clauseId": "DEMO_C2",
+        "clauseVersion": 1,
+        "documentId": "DEMO_D2",
+        "documentVersion": 1,
+        "title": "【虚构】示例修订通知",
+        "quote": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+        "locator": "示例修订第一段",
+        "url": "https://example.invalid/DEMO_D2"
+      },
+      "relations": [
+        {
+          "type": "replaces",
+          "evidence": {
+            "text": "示例修订条款替代示例条款DEMO_C1",
+            "quote": "示例修订条款替代示例条款DEMO_C1",
+            "locator": "示例第一段"
+          },
+          "targetVersion": 1,
+          "targetClauseId": "DEMO_C1"
+        }
+      ],
+      "timeStatus": "dates_recorded",
+      "unknownEnd": true,
+      "publication": {
+        "sequence_id": 5,
+        "kind": "clause",
+        "id": "DEMO_C2",
+        "version": 1,
+        "decision": "approved",
+        "actor": "开发样例核对",
+        "reason": "虚构开发夹具演示，不代表真实政策审核",
+        "reviewed_at": "2026-11-16T03:03:59.669Z"
+      },
+      "sourcePublication": {
+        "sequence_id": 2,
+        "kind": "document",
+        "id": "DEMO_D2",
+        "version": 1,
+        "decision": "approved",
+        "actor": "开发样例核对",
+        "reason": "虚构开发夹具演示，不代表真实政策审核",
+        "reviewed_at": "2026-11-16T03:03:59.652Z"
+      }
+    },
+    {
+      "clause": {
+        "id": "DEMO_C3",
+        "quote": "【虚构开发样例】示例甲区可以到社区窗口咨询申请。",
+        "actions": [
+          {
+            "text": "咨询申请",
+            "quote": "咨询申请",
+            "locator": "示例第一段"
+          }
+        ],
+        "dataset": "demo",
+        "locator": "示例第一段",
+        "version": 1,
+        "channels": [
+          {
+            "text": "社区窗口",
+            "quote": "社区窗口",
+            "locator": "示例第一段"
+          }
+        ],
+        "contacts": null,
+        "location": null,
+        "matterId": "DEMO_ALLOWANCE",
+        "schedule": null,
+        "materials": null,
+        "relations": [],
+        "conditions": null,
+        "documentId": "DEMO_D3",
+        "matterName": "【虚构】示例高龄服务",
+        "population": null,
+        "reviewedAt": "2026-11-16",
+        "reviewedBy": "开发样例核对",
+        "effectiveTo": null,
+        "regionCodes": [
+          "DEMO_A"
+        ],
+        "reviewStatus": "approved",
+        "effectiveFrom": null,
+        "documentVersion": 1,
+        "effectiveToEvidence": null,
+        "effectiveFromEvidence": null
+      },
+      "document": {
+        "id": "DEMO_D3",
+        "title": "【虚构】日期不明的示例通知",
+        "dataset": "demo",
+        "version": 1,
+        "checkedAt": "2026-11-16",
+        "checkedBy": "示例维护人",
+        "publisher": "【虚构】示例甲区机构",
+        "sourceUrl": "https://example.invalid/DEMO_D3",
+        "reviewedAt": "2026-11-16",
+        "reviewedBy": "开发样例核对",
+        "effectiveTo": null,
+        "publishedAt": null,
+        "regionCodes": [
+          "DEMO_A"
+        ],
+        "originalPath": null,
+        "originalText": "【虚构开发样例】示例甲区可以到社区窗口咨询申请。",
+        "reviewStatus": "approved",
+        "effectiveFrom": null,
+        "effectiveToEvidence": null,
+        "effectiveFromEvidence": null
+      },
+      "clauseChecksum": "474448eea506464e2f5c892b1a570b6893dbaecccfac6bee6bdd11fcb75a80cd",
+      "documentChecksum": "9a991350d3efa0c1ee5698c52dfd3a86a4531a4408c401232d5b688e186093aa",
+      "originalTextChecksum": "66321aef491203d9872ce8c7378228f491f5da83c1b3b64a8e4533b4a0c01ec2",
+      "source": {
+        "clauseId": "DEMO_C3",
+        "clauseVersion": 1,
+        "documentId": "DEMO_D3",
+        "documentVersion": 1,
+        "title": "【虚构】日期不明的示例通知",
+        "quote": "【虚构开发样例】示例甲区可以到社区窗口咨询申请。",
+        "locator": "示例第一段",
+        "url": "https://example.invalid/DEMO_D3"
+      },
+      "relations": [],
+      "timeStatus": "needs_review",
+      "unknownEnd": true,
+      "publication": {
+        "sequence_id": 6,
+        "kind": "clause",
+        "id": "DEMO_C3",
+        "version": 1,
+        "decision": "approved",
+        "actor": "开发样例核对",
+        "reason": "虚构开发夹具演示，不代表真实政策审核",
+        "reviewed_at": "2026-11-16T03:03:59.675Z"
+      },
+      "sourcePublication": {
+        "sequence_id": 3,
+        "kind": "document",
+        "id": "DEMO_D3",
+        "version": 1,
+        "decision": "approved",
+        "actor": "开发样例核对",
+        "reason": "虚构开发夹具演示，不代表真实政策审核",
+        "reviewed_at": "2026-11-16T03:03:59.657Z"
+      }
+    }
+  ],
+  "clauseHistory": {
+    "versions": [
+      {
+        "kind": "clause",
+        "data": {
+          "id": "DEMO_C1",
+          "quote": "【虚构开发样例，非真实政策】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年1月1日起实施，至2026年12月31日止。请携带身份证，到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+          "actions": [
+            {
+              "text": "提交申请",
+              "quote": "提交申请",
+              "locator": "示例第一段"
+            }
+          ],
+          "dataset": "demo",
+          "locator": "示例第一段",
+          "version": 1,
+          "channels": [
+            {
+              "text": "社区窗口",
+              "quote": "社区窗口",
+              "locator": "示例第一段"
+            }
+          ],
+          "contacts": null,
+          "location": {
+            "text": "示例社区一号窗口",
+            "quote": "示例社区一号窗口",
+            "locator": "示例第一段"
+          },
+          "matterId": "DEMO_ALLOWANCE",
+          "schedule": {
+            "text": "工作日上午",
+            "quote": "工作日上午",
+            "locator": "示例第一段"
+          },
+          "materials": [
+            {
+              "text": "身份证",
+              "quote": "身份证",
+              "locator": "示例第一段"
+            }
+          ],
+          "relations": [],
+          "conditions": {
+            "text": "年满80周岁且户籍在示例甲区",
+            "quote": "年满80周岁且户籍在示例甲区",
+            "locator": "示例第一段"
+          },
+          "documentId": "DEMO_D1",
+          "matterName": "【虚构】示例高龄服务",
+          "population": {
+            "text": "年满80周岁且户籍在示例甲区的老人",
+            "quote": "年满80周岁且户籍在示例甲区的老人",
+            "locator": "示例第一段"
+          },
+          "reviewedAt": null,
+          "reviewedBy": null,
+          "effectiveTo": "2026-12-31",
+          "regionCodes": [
+            "DEMO_A"
+          ],
+          "reviewStatus": "draft",
+          "effectiveFrom": "2026-01-01",
+          "documentVersion": 1,
+          "effectiveToEvidence": {
+            "text": "至2026年12月31日止",
+            "quote": "至2026年12月31日止",
+            "locator": "示例第一段"
+          },
+          "effectiveFromEvidence": {
+            "text": "自2026年1月1日起实施",
+            "quote": "自2026年1月1日起实施",
+            "locator": "示例第一段"
+          }
+        },
+        "checksum": "1103cfd40ed2b49af8a4e38dd3c08a3ffebbc702177332921f36c5533d0e5259",
+        "batchId": "8554c7ac-5a00-4eaf-9262-5c9a738a353f",
+        "operation": "create",
+        "before": null,
+        "after": {
+          "id": "DEMO_C1",
+          "quote": "【虚构开发样例，非真实政策】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年1月1日起实施，至2026年12月31日止。请携带身份证，到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+          "actions": [
+            {
+              "text": "提交申请",
+              "quote": "提交申请",
+              "locator": "示例第一段"
+            }
+          ],
+          "dataset": "demo",
+          "locator": "示例第一段",
+          "version": 1,
+          "channels": [
+            {
+              "text": "社区窗口",
+              "quote": "社区窗口",
+              "locator": "示例第一段"
+            }
+          ],
+          "contacts": null,
+          "location": {
+            "text": "示例社区一号窗口",
+            "quote": "示例社区一号窗口",
+            "locator": "示例第一段"
+          },
+          "matterId": "DEMO_ALLOWANCE",
+          "schedule": {
+            "text": "工作日上午",
+            "quote": "工作日上午",
+            "locator": "示例第一段"
+          },
+          "materials": [
+            {
+              "text": "身份证",
+              "quote": "身份证",
+              "locator": "示例第一段"
+            }
+          ],
+          "relations": [],
+          "conditions": {
+            "text": "年满80周岁且户籍在示例甲区",
+            "quote": "年满80周岁且户籍在示例甲区",
+            "locator": "示例第一段"
+          },
+          "documentId": "DEMO_D1",
+          "matterName": "【虚构】示例高龄服务",
+          "population": {
+            "text": "年满80周岁且户籍在示例甲区的老人",
+            "quote": "年满80周岁且户籍在示例甲区的老人",
+            "locator": "示例第一段"
+          },
+          "reviewedAt": null,
+          "reviewedBy": null,
+          "effectiveTo": "2026-12-31",
+          "regionCodes": [
+            "DEMO_A"
+          ],
+          "reviewStatus": "draft",
+          "effectiveFrom": "2026-01-01",
+          "documentVersion": 1,
+          "effectiveToEvidence": {
+            "text": "至2026年12月31日止",
+            "quote": "至2026年12月31日止",
+            "locator": "示例第一段"
+          },
+          "effectiveFromEvidence": {
+            "text": "自2026年1月1日起实施",
+            "quote": "自2026年1月1日起实施",
+            "locator": "示例第一段"
+          }
+        }
+      },
+      {
+        "kind": "clause",
+        "data": {
+          "id": "DEMO_C1",
+          "quote": "【虚构开发样例，非真实政策】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年1月1日起实施，至2026年12月31日止。请携带身份证，到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+          "actions": [
+            {
+              "text": "提交申请",
+              "quote": "提交申请",
+              "locator": "示例第一段"
+            }
+          ],
+          "dataset": "demo",
+          "locator": "示例第一段（已复核定位）",
+          "version": 2,
+          "channels": [
+            {
+              "text": "社区窗口",
+              "quote": "社区窗口",
+              "locator": "示例第一段"
+            }
+          ],
+          "contacts": null,
+          "location": {
+            "text": "示例社区一号窗口",
+            "quote": "示例社区一号窗口",
+            "locator": "示例第一段"
+          },
+          "matterId": "DEMO_ALLOWANCE",
+          "schedule": {
+            "text": "工作日上午",
+            "quote": "工作日上午",
+            "locator": "示例第一段"
+          },
+          "materials": [
+            {
+              "text": "身份证",
+              "quote": "身份证",
+              "locator": "示例第一段"
+            }
+          ],
+          "relations": [],
+          "conditions": {
+            "text": "年满80周岁且户籍在示例甲区",
+            "quote": "年满80周岁且户籍在示例甲区",
+            "locator": "示例第一段"
+          },
+          "documentId": "DEMO_D1",
+          "matterName": "【虚构】示例高龄服务",
+          "population": {
+            "text": "年满80周岁且户籍在示例甲区的老人",
+            "quote": "年满80周岁且户籍在示例甲区的老人",
+            "locator": "示例第一段"
+          },
+          "reviewedAt": null,
+          "reviewedBy": null,
+          "effectiveTo": "2026-12-31",
+          "regionCodes": [
+            "DEMO_A"
+          ],
+          "reviewStatus": "draft",
+          "effectiveFrom": "2026-01-01",
+          "documentVersion": 1,
+          "effectiveToEvidence": {
+            "text": "至2026年12月31日止",
+            "quote": "至2026年12月31日止",
+            "locator": "示例第一段"
+          },
+          "effectiveFromEvidence": {
+            "text": "自2026年1月1日起实施",
+            "quote": "自2026年1月1日起实施",
+            "locator": "示例第一段"
+          }
+        },
+        "checksum": "cb16b61bd674ea6354f4833ea7fab3eda77749dbac9d6e4df22d1dc46375dd13",
+        "batchId": "6d1db909-5e62-493e-94ba-465451126df1",
+        "operation": "update",
+        "before": {
+          "id": "DEMO_C1",
+          "quote": "【虚构开发样例，非真实政策】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年1月1日起实施，至2026年12月31日止。请携带身份证，到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+          "actions": [
+            {
+              "text": "提交申请",
+              "quote": "提交申请",
+              "locator": "示例第一段"
+            }
+          ],
+          "dataset": "demo",
+          "locator": "示例第一段",
+          "version": 1,
+          "channels": [
+            {
+              "text": "社区窗口",
+              "quote": "社区窗口",
+              "locator": "示例第一段"
+            }
+          ],
+          "contacts": null,
+          "location": {
+            "text": "示例社区一号窗口",
+            "quote": "示例社区一号窗口",
+            "locator": "示例第一段"
+          },
+          "matterId": "DEMO_ALLOWANCE",
+          "schedule": {
+            "text": "工作日上午",
+            "quote": "工作日上午",
+            "locator": "示例第一段"
+          },
+          "materials": [
+            {
+              "text": "身份证",
+              "quote": "身份证",
+              "locator": "示例第一段"
+            }
+          ],
+          "relations": [],
+          "conditions": {
+            "text": "年满80周岁且户籍在示例甲区",
+            "quote": "年满80周岁且户籍在示例甲区",
+            "locator": "示例第一段"
+          },
+          "documentId": "DEMO_D1",
+          "matterName": "【虚构】示例高龄服务",
+          "population": {
+            "text": "年满80周岁且户籍在示例甲区的老人",
+            "quote": "年满80周岁且户籍在示例甲区的老人",
+            "locator": "示例第一段"
+          },
+          "reviewedAt": null,
+          "reviewedBy": null,
+          "effectiveTo": "2026-12-31",
+          "regionCodes": [
+            "DEMO_A"
+          ],
+          "reviewStatus": "draft",
+          "effectiveFrom": "2026-01-01",
+          "documentVersion": 1,
+          "effectiveToEvidence": {
+            "text": "至2026年12月31日止",
+            "quote": "至2026年12月31日止",
+            "locator": "示例第一段"
+          },
+          "effectiveFromEvidence": {
+            "text": "自2026年1月1日起实施",
+            "quote": "自2026年1月1日起实施",
+            "locator": "示例第一段"
+          }
+        },
+        "after": {
+          "id": "DEMO_C1",
+          "quote": "【虚构开发样例，非真实政策】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年1月1日起实施，至2026年12月31日止。请携带身份证，到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+          "actions": [
+            {
+              "text": "提交申请",
+              "quote": "提交申请",
+              "locator": "示例第一段"
+            }
+          ],
+          "dataset": "demo",
+          "locator": "示例第一段（已复核定位）",
+          "version": 2,
+          "channels": [
+            {
+              "text": "社区窗口",
+              "quote": "社区窗口",
+              "locator": "示例第一段"
+            }
+          ],
+          "contacts": null,
+          "location": {
+            "text": "示例社区一号窗口",
+            "quote": "示例社区一号窗口",
+            "locator": "示例第一段"
+          },
+          "matterId": "DEMO_ALLOWANCE",
+          "schedule": {
+            "text": "工作日上午",
+            "quote": "工作日上午",
+            "locator": "示例第一段"
+          },
+          "materials": [
+            {
+              "text": "身份证",
+              "quote": "身份证",
+              "locator": "示例第一段"
+            }
+          ],
+          "relations": [],
+          "conditions": {
+            "text": "年满80周岁且户籍在示例甲区",
+            "quote": "年满80周岁且户籍在示例甲区",
+            "locator": "示例第一段"
+          },
+          "documentId": "DEMO_D1",
+          "matterName": "【虚构】示例高龄服务",
+          "population": {
+            "text": "年满80周岁且户籍在示例甲区的老人",
+            "quote": "年满80周岁且户籍在示例甲区的老人",
+            "locator": "示例第一段"
+          },
+          "reviewedAt": null,
+          "reviewedBy": null,
+          "effectiveTo": "2026-12-31",
+          "regionCodes": [
+            "DEMO_A"
+          ],
+          "reviewStatus": "draft",
+          "effectiveFrom": "2026-01-01",
+          "documentVersion": 1,
+          "effectiveToEvidence": {
+            "text": "至2026年12月31日止",
+            "quote": "至2026年12月31日止",
+            "locator": "示例第一段"
+          },
+          "effectiveFromEvidence": {
+            "text": "自2026年1月1日起实施",
+            "quote": "自2026年1月1日起实施",
+            "locator": "示例第一段"
+          }
+        }
+      }
+    ],
+    "updates": [
+      {
+        "version": 1,
+        "id": "8554c7ac-5a00-4eaf-9262-5c9a738a353f",
+        "actor": "示例维护人",
+        "reason": "建立虚构开发夹具，不用于正式业务",
+        "imported_at": "2026-11-16T03:03:59.630Z"
+      },
+      {
+        "version": 2,
+        "id": "6d1db909-5e62-493e-94ba-465451126df1",
+        "actor": "示例维护人",
+        "reason": "示例：仅校正条款定位，文件原文与其他条款不变",
+        "imported_at": "2026-11-16T03:03:59.681Z"
+      }
+    ],
+    "publications": [
+      {
+        "sequence_id": 4,
+        "kind": "clause",
+        "id": "DEMO_C1",
+        "version": 1,
+        "decision": "approved",
+        "actor": "开发样例核对",
+        "reason": "虚构开发夹具演示，不代表真实政策审核",
+        "reviewed_at": "2026-11-16T03:03:59.662Z"
+      },
+      {
+        "sequence_id": 7,
+        "kind": "clause",
+        "id": "DEMO_C1",
+        "version": 2,
+        "decision": "approved",
+        "actor": "开发样例核对",
+        "reason": "虚构开发夹具演示，不代表真实政策审核",
+        "reviewed_at": "2026-11-16T03:03:59.689Z"
+      }
+    ]
+  }
+}

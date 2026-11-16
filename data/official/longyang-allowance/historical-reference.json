@@ -1,0 +1,49 @@
+{
+  "archiveOnly": true,
+  "importableBatch": false,
+  "currentQueryEligible": false,
+  "reviewStatus": "pending_human_review",
+  "reason": "历史网页未提供独立施行/失效日期，现有模型没有历史参考专用过滤标志。单独归档，不混入当前候选，也不伪造失效日期。",
+  "title": "云南省高龄津贴如何申请？",
+  "sourceUrl": "https://longyang.gov.cn/info/4225/6273009.htm",
+  "sourceFile": "sources/longyang-2021.html",
+  "webPublisher": "隆阳区西邑乡人民政府",
+  "webPublishedAt": "2021-05-05",
+  "originalIssuers": null,
+  "originalDocumentNumber": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "acquiredDate": "2026-11-16",
+  "ageThreshold": null,
+  "localAmounts": null,
+  "replacementBy2024Notice": null,
+  "references": [
+    {
+      "referenceId": "LY_HIST_2021_APPLY",
+      "quote": "高龄津贴采取自愿申请形式，如果不申请是不会自动发放的。通常由“本人申请、村（居）委会初审、乡镇（街道）民政办复核、县级民政部门审批”的原则。高龄津贴一是要有当地户口；二是年龄符合要求即可。",
+      "locator": "2021网页正文第2段（含标题为第1段）",
+      "questions": "当地户口的具体地域范围、年龄门槛及原政策文号未明，不借用2024通知补全。",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "decision": null
+    },
+    {
+      "referenceId": "LY_HIST_2021_ONLINE",
+      "quote": "线上申请：通过云南省政务服务平台：一部手机办事通APP，搜高龄，线上申请高龄津贴。",
+      "locator": "2021网页正文第3段（含标题为第1段）",
+      "questions": "线上申请渠道是2021历史描述，不作为2025起现行申请要求。",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "decision": null
+    },
+    {
+      "referenceId": "LY_HIST_2021_OFFLINE",
+      "quote": "线下申请：个人携带身份证、户口本去村或居委会申请即可。",
+      "locator": "2021网页正文第4段（含标题为第1段）",
+      "questions": "身份证、户口本仅保留为2021线下申请原文，不移入现行免申即享材料清单。",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "decision": null
+    }
+  ]
+}

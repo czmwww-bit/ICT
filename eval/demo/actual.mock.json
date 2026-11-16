@@ -1,0 +1,182 @@
+{
+  "provenance": "mock-tooling",
+  "outputs": {
+    "DEMO_E01": {
+      "status": "ready",
+      "nextStep": "携带身份证和示例登记表到示例窗口提交申请",
+      "reason": "【模拟响应】资料需人工核对",
+      "materials": [
+        "身份证",
+        "示例登记表"
+      ],
+      "sources": [
+        {
+          "quote": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+          "url": "https://example.invalid/DEMO_D2",
+          "title": "【虚构】示例修订通知",
+          "applicableRegionCodes": [
+            "DEMO_A",
+            "DEMO_A_TOWN"
+          ],
+          "clauseId": "DEMO_C2",
+          "clauseVersion": 1
+        }
+      ]
+    },
+    "DEMO_E02": {
+      "status": "need_info",
+      "question": {
+        "key": "region",
+        "text": "请补充办理区县"
+      },
+      "nextStep": "请补充办理区县",
+      "reason": "【模拟响应】资料需人工核对",
+      "materials": [],
+      "sources": []
+    },
+    "DEMO_E03": {
+      "status": "need_info",
+      "question": {
+        "key": "age",
+        "text": "请问申请人年龄"
+      },
+      "nextStep": "请问申请人年龄",
+      "reason": "【模拟响应】资料需人工核对",
+      "materials": [],
+      "sources": []
+    },
+    "DEMO_E04": {
+      "status": "needs_review",
+      "nextStep": "向办理地社区核实适用规定",
+      "reason": "【模拟响应】资料需人工核对",
+      "materials": [],
+      "sources": []
+    },
+    "DEMO_E05": {
+      "status": "ready",
+      "nextStep": "按修订条款准备材料",
+      "reason": "【模拟响应】资料需人工核对",
+      "materials": [
+        "身份证",
+        "示例登记表"
+      ],
+      "sources": [
+        {
+          "quote": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+          "url": "https://example.invalid/DEMO_D2",
+          "title": "【虚构】示例修订通知",
+          "applicableRegionCodes": [
+            "DEMO_A",
+            "DEMO_A_TOWN"
+          ],
+          "clauseId": "DEMO_C2",
+          "clauseVersion": 1
+        }
+      ]
+    },
+    "DEMO_E06": {
+      "status": "needs_review",
+      "nextStep": "请社区确认新旧关系与生效时间",
+      "reason": "【模拟响应】资料需人工核对",
+      "materials": [],
+      "sources": [
+        {
+          "quote": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+          "url": "https://example.invalid/DEMO_D2",
+          "title": "【虚构】示例修订通知",
+          "applicableRegionCodes": [
+            "DEMO_A",
+            "DEMO_A_TOWN"
+          ],
+          "clauseId": "DEMO_C2",
+          "clauseVersion": 1
+        },
+        {
+          "quote": "【虚构开发样例】示例甲区可以到社区窗口咨询申请。",
+          "url": "https://example.invalid/DEMO_D3",
+          "title": "【虚构】日期不明的示例通知",
+          "applicableRegionCodes": [
+            "DEMO_A",
+            "DEMO_A_TOWN"
+          ],
+          "clauseId": "DEMO_C3",
+          "clauseVersion": 1
+        }
+      ]
+    },
+    "DEMO_E07": {
+      "status": "needs_review",
+      "nextStep": "请社区确认无来源通知的真实性及是否调整受理渠道",
+      "reason": "【模拟响应】资料需人工核对",
+      "materials": [],
+      "sources": [
+        {
+          "quote": "【虚构开发样例】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年7月1日起，示例修订条款替代示例条款DEMO_C1，申请改为携带身份证和示例登记表到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+          "url": "https://example.invalid/DEMO_D2",
+          "title": "【虚构】示例修订通知",
+          "applicableRegionCodes": [
+            "DEMO_A",
+            "DEMO_A_TOWN"
+          ],
+          "clauseId": "DEMO_C2",
+          "clauseVersion": 1
+        }
+      ]
+    },
+    "DEMO_E08": {
+      "status": "needs_review",
+      "nextStep": "等待官方资料人工核对",
+      "reason": "【模拟响应】资料需人工核对",
+      "materials": [],
+      "sources": []
+    },
+    "DEMO_E09": {
+      "status": "needs_review",
+      "nextStep": "向当地社区索取适用资料",
+      "reason": "【模拟响应】资料需人工核对",
+      "materials": [],
+      "sources": []
+    },
+    "DEMO_E10": {
+      "status": "needs_review",
+      "nextStep": "请社区确认日期、时间和地点",
+      "reason": "【模拟响应】资料需人工核对",
+      "materials": [],
+      "sources": [
+        {
+          "quote": "【虚构开发样例】示例甲区可以到社区窗口咨询申请。",
+          "url": "https://example.invalid/DEMO_D3",
+          "title": "【虚构】日期不明的示例通知",
+          "applicableRegionCodes": [
+            "DEMO_A",
+            "DEMO_A_TOWN"
+          ],
+          "clauseId": "DEMO_C3",
+          "clauseVersion": 1
+        }
+      ]
+    },
+    "DEMO_E11": {
+      "status": "ready",
+      "nextStep": "核对引用是否支持建议",
+      "reason": "【模拟响应】资料需人工核对",
+      "materials": [
+        "身份证",
+        "示例登记表"
+      ],
+      "sources": [
+        {
+          "quote": "【模拟错误】该引文不在原文中",
+          "url": "https://example.invalid/DEMO_D2",
+          "title": "【虚构】示例修订通知",
+          "applicableRegionCodes": [
+            "DEMO_A",
+            "DEMO_A_TOWN"
+          ],
+          "clauseId": "DEMO_C2",
+          "clauseVersion": 1
+        }
+      ]
+    }
+  }
+}

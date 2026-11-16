@@ -1,0 +1,6 @@
+# 源码与文档统一LF；来源快照保持实际下载字节，保证SHA-256可复核。
+* text=auto eol=lf
+data/official/**/sources/** -text
+*.csv -text
+*.pdf binary
+*.png binary

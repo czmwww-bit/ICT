@@ -1,0 +1,280 @@
+{
+  "collectedDate": "2026-11-16",
+  "timezone": "Asia/Shanghai",
+  "status": "draft_not_imported_not_published",
+  "humanReviewedBy": null,
+  "humanReviewedAt": null,
+  "scope": "省级通用条款供隆阳区试点核对；隆阳地方待遇标准及经办细节未补齐。",
+  "specifiedSources": [
+    {
+      "id": "longyang-2021",
+      "url": "https://longyang.gov.cn/info/4225/6273009.htm",
+      "retrievedAt": "2026-11-16T04:58:43.487Z",
+      "retrievedDate": "2026-11-16",
+      "method": "direct-https",
+      "status": "retrieved",
+      "httpStatus": 200,
+      "finalUrl": "https://longyang.gov.cn/info/4225/6273009.htm",
+      "contentType": "text/html",
+      "file": "sources/longyang-2021.html",
+      "bytes": 19810,
+      "sha256": "8e84f3685ac39941f7414b09470a3d23f61ddb735e34cf6f9445a698ca3abd92",
+      "attachments": [],
+      "bodySample": null
+    },
+    {
+      "id": "longyang-2025",
+      "url": "https://www.longyang.gov.cn/info/4580/14016319.htm",
+      "retrievedAt": "2026-11-16T04:58:43.552Z",
+      "retrievedDate": "2026-11-16",
+      "method": "direct-https",
+      "status": "retrieved",
+      "httpStatus": 200,
+      "finalUrl": "https://www.longyang.gov.cn/info/4580/14016319.htm",
+      "contentType": "text/html",
+      "file": "sources/longyang-2025.html",
+      "bytes": 28603,
+      "sha256": "161f1cf25eb1627d7e83d4d6a754d9390e160da1b86a58df2b653bc79b6602c6",
+      "attachments": [],
+      "bodySample": null
+    },
+    {
+      "id": "gejiu-attachment-page",
+      "url": "https://www.hhgj.gov.cn/info/13101/546351.htm",
+      "retrievedAt": "2026-11-16T04:58:43.553Z",
+      "retrievedDate": "2026-11-16",
+      "method": "direct-https",
+      "status": "retrieved",
+      "httpStatus": 200,
+      "finalUrl": "https://www.hhgj.gov.cn/info/13101/546351.htm",
+      "contentType": "text/html",
+      "file": "sources/gejiu-attachment-page.html",
+      "bytes": 39009,
+      "sha256": "47f99fa5b5f8fec0ffb3d0ae0a25df5406a1c50c233d5e2bdb0eedebc10dd825",
+      "attachments": [
+        "https://www.hhgj.gov.cn/virtual_attach_file.vsb?afc=0oRNaDn7U4nz9sUP8V7oRNPo7CaLzfYfo7CsMmrVM4N4oll0gihFp2hmCIa0MYh2UYyYokyYLzGaUlCsM8QVMzvDnRvPUz6VLl78Mz78nRTFLR-Zo7lZMzQFM4vPnlCJv2nto40TApuNJweT0-RTOQ5X/bmX0wztxH5wxgz19W4TACsjTguTmpuNJ/019WsTxE5N0Q4jtwzX9WKjjElJv2nto4xjqjMYp5XtgDTJQty0LzLPLR70MzUDL4lPgtA8pU4cc"
+      ],
+      "bodySample": null
+    }
+  ],
+  "attachment": {
+    "url": "https://www.hhgj.gov.cn/virtual_attach_file.vsb?afc=0oRNaDn7U4nz9sUP8V7oRNPo7CaLzfYfo7CsMmrVM4N4oll0gihFp2hmCIa0MYh2UYyYokyYLzGaUlCsM8QVMzvDnRvPUz6VLl78Mz78nRTFLR-Zo7lZMzQFM4vPnlCJv2nto40TApuNJweT0-RTOQ5X/bmX0wztxH5wxgz19W4TACsjTguTmpuNJ/019WsTxE5N0Q4jtwzX9WKjjElJv2nto4xjqjMYp5XtgDTJQty0LzLPLR70MzUDL4lPgtA8pU4cc",
+    "landingPage": "https://www.hhgj.gov.cn/info/13101/546351.htm",
+    "retrievedAt": "2026-11-16T04:59:10.684Z",
+    "retrievedDate": "2026-11-16",
+    "status": "retrieved",
+    "httpStatus": 200,
+    "finalUrl": "https://www.hhgj.gov.cn/virtual_attach_file.vsb?afc=0oRNaDn7U4nz9sUP8V7oRNPo7CaLzfYfo7CsMmrVM4N4oll0gihFp2hmCIa0MYh2UYyYokyYLzGaUlCsM8QVMzvDnRvPUz6VLl78Mz78nRTFLR-Zo7lZMzQFM4vPnlCJv2nto40TApuNJweT0-RTOQ5X/bmX0wztxH5wxgz19W4TACsjTguTmpuNJ/019WsTxE5N0Q4jtwzX9WKjjElJv2nto4xjqjMYp5XtgDTJQty0LzLPLR70MzUDL4lPgtA8pU4cc",
+    "contentType": "application/pdf",
+    "file": "sources/yn-notice-2024-113.pdf",
+    "bytes": 487919,
+    "sha256": "1009162b5b7eb69affac7a818dd16a4581a247413bdf8cc81a9715f00e3f3c97"
+  },
+  "checksums": [
+    {
+      "path": "sources/longyang-2021.html",
+      "bytes": 19810,
+      "sha256": "8e84f3685ac39941f7414b09470a3d23f61ddb735e34cf6f9445a698ca3abd92"
+    },
+    {
+      "path": "sources/longyang-2021.txt",
+      "bytes": 523,
+      "sha256": "9fcc0755484779b8951030510382407aee49c4e460011cd43b2209da504e6b8b"
+    },
+    {
+      "path": "sources/longyang-2025.html",
+      "bytes": 28603,
+      "sha256": "161f1cf25eb1627d7e83d4d6a754d9390e160da1b86a58df2b653bc79b6602c6"
+    },
+    {
+      "path": "sources/longyang-2025.txt",
+      "bytes": 8406,
+      "sha256": "6488a2af72807f3e198fafe7c7f1993b7dbd9454895788f5cfd20ea2a7323f2d"
+    },
+    {
+      "path": "sources/gejiu-attachment-page.html",
+      "bytes": 39009,
+      "sha256": "47f99fa5b5f8fec0ffb3d0ae0a25df5406a1c50c233d5e2bdb0eedebc10dd825"
+    },
+    {
+      "path": "sources/yn-notice-2024-113.pdf",
+      "bytes": 487919,
+      "sha256": "1009162b5b7eb69affac7a818dd16a4581a247413bdf8cc81a9715f00e3f3c97"
+    },
+    {
+      "path": "sources/yn-notice-2024-113.transcription.txt",
+      "bytes": 9268,
+      "sha256": "6348264dc3e757fff7443bf517c4c5a43580c566804f1febd4b081ccc5a8ff40"
+    },
+    {
+      "path": "sources/gejiu-attachment-page.txt",
+      "bytes": 72,
+      "sha256": "46229202a84480e7ca626ac3c953e45339d5b9e0a45b06c441df801ba42f56bc"
+    }
+  ],
+  "sourceMetadata": [
+    {
+      "id": "longyang-2021",
+      "webPublisher": "隆阳区西邑乡人民政府",
+      "webPublishedAt": "2021-05-05",
+      "originalIssuers": null,
+      "originalDocumentNumber": null,
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "treatment": "仅历史归档，不在batch.draft.json中"
+    },
+    {
+      "id": "longyang-2025",
+      "documentId": "LY_GLT_INTERPRETATION_2025",
+      "webPublisher": "隆阳区辛街乡人民政府",
+      "webPublishedAt": "2025-08-18",
+      "creditedSource": "云南省民政厅养老服务处",
+      "originalIssuers": [
+        "云南省民政厅",
+        "云南省公安厅",
+        "云南省财政厅",
+        "云南省人力资源和社会保障厅",
+        "云南省卫生健康委员会",
+        "国家金融监督管理总局云南监管局"
+      ],
+      "underlyingDocumentNumber": "云民发〔2024〕113号",
+      "underlyingEffectiveFrom": "2025-01-01",
+      "interpretationOwnEffectiveFrom": null,
+      "treatment": "辅助核对文献，不复制生成重复条款"
+    },
+    {
+      "id": "gejiu-attachment-page",
+      "webPublisher": "个旧市民政局",
+      "webPublishedAt": "2024-12-04",
+      "webIndex": "gjsmmz/2024-00010",
+      "pageValidityLabel": "有效（网页标注，不代替人工审核）",
+      "treatment": "省级文件的官方转载/附件入口，不代表个旧地方金额"
+    },
+    {
+      "id": "YN_GLT_2024_113",
+      "originalIssuers": [
+        "云南省民政厅",
+        "云南省公安厅",
+        "云南省财政厅",
+        "云南省人力资源和社会保障厅",
+        "云南省卫生健康委员会",
+        "国家金融监督管理总局云南监管局"
+      ],
+      "originalDocumentNumber": "云民发〔2024〕113号",
+      "signedAt": "2024-11-19",
+      "signedAtLocator": "PDF第7页落款",
+      "printedAt": "2024-11-20",
+      "printedAtLocator": "PDF第8页印发栏",
+      "originalPublicReleaseAt": null,
+      "publishedAtMapping": "导入文件publishedAt=null：原文件公开发布日期未知；不以落款/印发/个旧网页发布日期代替。",
+      "effectiveFrom": "2025-01-01",
+      "effectiveFromLocator": "PDF第6页八、其他事项",
+      "effectiveTo": null
+    }
+  ],
+  "transcription": {
+    "status": "pending_human_review",
+    "method": "PDF无文本层，8页全部渲染目视比对；借助2025解读正文编排，不是自动OCR实测或人工签字核验。",
+    "normalization": [
+      "合并扫描换行和排版空格",
+      "数字、括号及年龄范围连接号沿用网页字符形式",
+      "跨页段落合并，签章位置按正文阅读顺序列出署名；未复制印章图案为文字"
+    ],
+    "authoritativeArtifact": "sources/yn-notice-2024-113.pdf",
+    "pageImages": "sources/pdf-pages/page-01.png 至 page-08.png",
+    "originalTextFile": "sources/yn-notice-2024-113.transcription.txt",
+    "warning": "精确原文以扫描件为准；请逐条核对转写、标点、数字。纸面排版未声称逐字节复刻。",
+    "knownWebPdfDifferences": [
+      {
+        "locator": "PDF第5页六、职责分工",
+        "webText": "社保卡匹配",
+        "pdfText": "社会保障卡匹配",
+        "resolution": "正式转写与条款保留PDF用字，2025网页原文不改写"
+      }
+    ]
+  },
+  "regionTree": {
+    "codes": [
+      "530000",
+      "530500",
+      "530502"
+    ],
+    "reviewStatus": "待人工核对编码及上下级",
+    "provinceClauseScope": "530000，显式祖先关系用于隆阳530502查询；不以转载网页的个旧市地域替代原文云南省范围。",
+    "failedSupplement": "https://ynmz.yn.gov.cn/index.php/cms/gongshigonggao/12323.html"
+  },
+  "amounts": {
+    "scope": "省级发放标准",
+    "basisClauseId": "YN_GLT_PROVINCIAL_RATES",
+    "provincialBands": [
+      {
+        "ages": "80-99周岁",
+        "yuanPerPersonPerMonth": 50
+      },
+      {
+        "ages": "100周岁及以上",
+        "yuanPerPersonPerMonth": 300
+      }
+    ],
+    "longyangLocalBands": null,
+    "localBasis": null
+  },
+  "externalRevisions": [
+    {
+      "sourceClauseId": "YN_GLT_EFFECT_AND_REPEAL",
+      "type": "explicit_document_repeal",
+      "targetDocumentNumbers": [
+        "云民办〔2009〕12号",
+        "云民发〔2022〕71号"
+      ],
+      "quote": "本通知自2025年1月1日起施行。同时，《云南省民政厅 云南省财政厅关于认真做好80周岁以上老年人保健补助和百岁以上老年人长寿补助发放工作的通知》（云民办〔2009〕12号）和《云南省民政厅 云南省财政厅关于进一步规范高龄津贴发放管理工作的通知》（云民发〔2022〕71号）废止。",
+      "targetOriginalsAcquired": false,
+      "mappedTargetClauseIds": [],
+      "historical2021ArticleWhollyRepealed": null
+    }
+  ],
+  "missingNotDownloaded": [
+    "隆阳区现行地方发放标准及其施行/调整文件",
+    "云财农〔2022〕249号原文及特殊对象所需材料",
+    "云民办〔2009〕12号、云民发〔2022〕71号原文（若需逐条建立历史关系）",
+    "隆阳区具体经办点、咨询电话、社保卡/上门办理渠道的官方依据",
+    "2026核对时是否存在113号后续调整的当地或省级正式文件"
+  ],
+  "optionalFetchFailures": [
+    {
+      "id": "yunnan-original-notice",
+      "url": "https://ynmz.yn.gov.cn/cms/qitazhengcewenjian/10884.html",
+      "retrievedAt": "2026-11-16T04:58:43.554Z",
+      "retrievedDate": "2026-11-16",
+      "method": "direct-https",
+      "status": "failed",
+      "httpStatus": 404,
+      "finalUrl": "https://ynmz.yn.gov.cn/cms/qitazhengcewenjian/10884.html",
+      "contentType": "text/html; charset=utf-8",
+      "error": "HTTP 404",
+      "cause": null
+    },
+    {
+      "id": "yunnan-region-codes",
+      "url": "https://ynmz.yn.gov.cn/index.php/cms/gongshigonggao/12323.html",
+      "retrievedAt": "2026-11-16T04:58:43.554Z",
+      "retrievedDate": "2026-11-16",
+      "method": "direct-https",
+      "status": "failed",
+      "httpStatus": 404,
+      "finalUrl": "https://ynmz.yn.gov.cn/index.php/cms/gongshigonggao/12323.html",
+      "contentType": "text/html; charset=utf-8",
+      "error": "HTTP 404",
+      "cause": null
+    }
+  ],
+  "unknownFields": [
+    "隆阳地方各档实发金额",
+    "具体到账日",
+    "具体受理地址与工作时段",
+    "经办联系电话",
+    "特殊账户材料细则",
+    "2021原政策编号及适用年龄门槛",
+    "现行通知失效日期及获取日之后变动"
+  ]
+}

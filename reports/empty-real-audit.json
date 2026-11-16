@@ -1,0 +1,206 @@
+{
+  "generatedAt": "2026-11-16T03:32:47.745Z",
+  "mode": "not-executed",
+  "notices": [
+    "测试集为空，未执行任何案例，不能计为通过。"
+  ],
+  "codeVersion": "not-a-git-repository",
+  "dataVersion": "0f010e0b65e8e42d8d7ad4967c788dae71bd74e3e643410b8dbfd2c8e1bb8412",
+  "testSetVersion": "real-unpopulated",
+  "testSetHash": "920860742f33060d64b58beee40e134e9f0550742e67c196c09af1287a071f22",
+  "catalogSource": "../data/demo/batch.json",
+  "catalogApprovalVerified": false,
+  "endpoint": null,
+  "groups": {
+    "demo": {
+      "cases": 0,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 0,
+      "manualReview": 0,
+      "metrics": {
+        "status": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "required_fields": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "region_match": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "question": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "materials": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "citation_validity": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "expected_citations": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "forbidden_claims": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "transport": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        }
+      }
+    },
+    "real": {
+      "cases": 0,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 0,
+      "manualReview": 0,
+      "metrics": {
+        "status": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "required_fields": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "region_match": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "question": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "materials": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "citation_validity": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "expected_citations": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "forbidden_claims": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "transport": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        }
+      }
+    },
+    "holdout": {
+      "cases": 0,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 0,
+      "manualReview": 0,
+      "metrics": {
+        "status": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "required_fields": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "region_match": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "question": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "materials": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "citation_validity": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "expected_citations": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "forbidden_claims": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        },
+        "transport": {
+          "numerator": 0,
+          "denominator": 0,
+          "failed": 0,
+          "notExecuted": 0
+        }
+      }
+    }
+  },
+  "results": []
+}

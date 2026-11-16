@@ -1,0 +1,25 @@
+name: silver-service-local
+services:
+  mysql:
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?configure local admin password}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:?configure database}
+      MYSQL_USER: ${MYSQL_USER:?configure app user}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?configure app password}
+    ports:
+      - "127.0.0.1:${MYSQL_PORT:?configure port}:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "MYSQL_PWD=$$MYSQL_PASSWORD mysql --protocol=TCP -h 127.0.0.1 -u$$MYSQL_USER -D $$MYSQL_DATABASE -e 'SELECT 1' >/dev/null 2>&1",
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+volumes:
+  mysql-data:

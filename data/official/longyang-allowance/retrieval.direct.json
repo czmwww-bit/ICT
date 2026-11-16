@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-11-16T04:58:43.795Z",
+  "sources": [
+    {
+      "id": "longyang-2021",
+      "url": "https://longyang.gov.cn/info/4225/6273009.htm",
+      "retrievedAt": "2026-11-16T04:58:43.487Z",
+      "retrievedDate": "2026-11-16",
+      "method": "direct-https",
+      "status": "retrieved",
+      "httpStatus": 200,
+      "finalUrl": "https://longyang.gov.cn/info/4225/6273009.htm",
+      "contentType": "text/html",
+      "file": "D:\\ICT\\data\\official\\longyang-allowance\\sources\\longyang-2021.html",
+      "bytes": 19810,
+      "sha256": "8e84f3685ac39941f7414b09470a3d23f61ddb735e34cf6f9445a698ca3abd92",
+      "attachments": [],
+      "bodySample": null
+    },
+    {
+      "id": "longyang-2025",
+      "url": "https://www.longyang.gov.cn/info/4580/14016319.htm",
+      "retrievedAt": "2026-11-16T04:58:43.552Z",
+      "retrievedDate": "2026-11-16",
+      "method": "direct-https",
+      "status": "retrieved",
+      "httpStatus": 200,
+      "finalUrl": "https://www.longyang.gov.cn/info/4580/14016319.htm",
+      "contentType": "text/html",
+      "file": "D:\\ICT\\data\\official\\longyang-allowance\\sources\\longyang-2025.html",
+      "bytes": 28603,
+      "sha256": "161f1cf25eb1627d7e83d4d6a754d9390e160da1b86a58df2b653bc79b6602c6",
+      "attachments": [],
+      "bodySample": null
+    },
+    {
+      "id": "gejiu-attachment-page",
+      "url": "https://www.hhgj.gov.cn/info/13101/546351.htm",
+      "retrievedAt": "2026-11-16T04:58:43.553Z",
+      "retrievedDate": "2026-11-16",
+      "method": "direct-https",
+      "status": "retrieved",
+      "httpStatus": 200,
+      "finalUrl": "https://www.hhgj.gov.cn/info/13101/546351.htm",
+      "contentType": "text/html",
+      "file": "D:\\ICT\\data\\official\\longyang-allowance\\sources\\gejiu-attachment-page.html",
+      "bytes": 39009,
+      "sha256": "47f99fa5b5f8fec0ffb3d0ae0a25df5406a1c50c233d5e2bdb0eedebc10dd825",
+      "attachments": [
+        "https://www.hhgj.gov.cn/virtual_attach_file.vsb?afc=0oRNaDn7U4nz9sUP8V7oRNPo7CaLzfYfo7CsMmrVM4N4oll0gihFp2hmCIa0MYh2UYyYokyYLzGaUlCsM8QVMzvDnRvPUz6VLl78Mz78nRTFLR-Zo7lZMzQFM4vPnlCJv2nto40TApuNJweT0-RTOQ5X/bmX0wztxH5wxgz19W4TACsjTguTmpuNJ/019WsTxE5N0Q4jtwzX9WKjjElJv2nto4xjqjMYp5XtgDTJQty0LzLPLR70MzUDL4lPgtA8pU4cc"
+      ],
+      "bodySample": null
+    },
+    {
+      "id": "yunnan-original-notice",
+      "url": "https://ynmz.yn.gov.cn/cms/qitazhengcewenjian/10884.html",
+      "retrievedAt": "2026-11-16T04:58:43.554Z",
+      "retrievedDate": "2026-11-16",
+      "method": "direct-https",
+      "status": "failed",
+      "httpStatus": 404,
+      "finalUrl": "https://ynmz.yn.gov.cn/cms/qitazhengcewenjian/10884.html",
+      "contentType": "text/html; charset=utf-8",
+      "error": "HTTP 404",
+      "cause": null
+    },
+    {
+      "id": "yunnan-region-codes",
+      "url": "https://ynmz.yn.gov.cn/index.php/cms/gongshigonggao/12323.html",
+      "retrievedAt": "2026-11-16T04:58:43.554Z",
+      "retrievedDate": "2026-11-16",
+      "method": "direct-https",
+      "status": "failed",
+      "httpStatus": 404,
+      "finalUrl": "https://ynmz.yn.gov.cn/index.php/cms/gongshigonggao/12323.html",
+      "contentType": "text/html; charset=utf-8",
+      "error": "HTTP 404",
+      "cause": null
+    }
+  ]
+}

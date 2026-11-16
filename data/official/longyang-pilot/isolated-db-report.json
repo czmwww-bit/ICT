@@ -1,0 +1,149 @@
+{
+  "executedAt": "2026-11-16T05:32:22.822Z",
+  "scope": "本机空_test库，真实资料草稿的临时技术副本；不代表人工政策审核",
+  "checks": [
+    {
+      "name": "独立测试库起始为空，不清空已有库",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "空库迁移及重复迁移",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "真实草稿批次dry-run不写入",
+      "passed": true,
+      "details": {
+        "added": 103,
+        "errors": 0
+      }
+    },
+    {
+      "name": "13文件90条款在隔离库导入及重复幂等",
+      "passed": true,
+      "details": {
+        "firstAdded": 103,
+        "repeatUnchanged": 103
+      }
+    },
+    {
+      "name": "三事项全部草稿默认查询为空",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "一条坏关联阻止整批写入",
+      "passed": true,
+      "details": [
+        "clause:PILOT_INVALID_TEMP.documentVersion: 找不到所属文件版本 MISSING_DOCUMENT@1"
+      ]
+    },
+    {
+      "name": "真实SQL中途错误回滚全部资料及批次",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "更新保留旧版本，不自动审核",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "显式国家/省/市/区/乡祖先匹配，不向下混入",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "指定日期排除未来开始，国家级适用关系显式",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "PDF原文/官网/准确文件版本及未知施行需核对",
+      "passed": true,
+      "details": {
+        "clauseId": "LY_CONSUMPTION_GUIDE_2026_CONTACT",
+        "clauseVersion": 1,
+        "documentId": "LY_CONSUMPTION_GUIDE_2026",
+        "documentVersion": 1,
+        "title": "中度以上失能老年人养老服务消费补贴项目申请审批流程",
+        "quote": "二、咨询及服务渠道隆阳区民政局老龄工作和养老服务股：咨询电话：0875-2229150",
+        "locator": "PDF第7页；隆阳区咨询渠道",
+        "url": "https://www.longyang.gov.cn/info/3485/14111319.htm"
+      }
+    },
+    {
+      "name": "仅清理本轮空库中创建的7张表，保留数据库",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "passed": true,
+  "passedChecks": 12,
+  "totalChecks": 12,
+  "error": null,
+  "testTablesCleaned": true,
+  "projectDatabaseUnchanged": true,
+  "projectBefore": {
+    "evidence_publications": {
+      "count": 7,
+      "hash": "9d2a30542c0e01bd142d2e47521689637205c25c1ac4e8143d7bc42a931fc49d"
+    },
+    "evidence_versions": {
+      "count": 7,
+      "hash": "a46202a41260e58dea44ac65ca9fb8ea46a7b63d879b4f237853c2e9cd4b1494"
+    },
+    "evidence_heads": {
+      "count": 6,
+      "hash": "a8aeb2878f1520c557c51a7aa6d5efb3126f66df549756a071fe5333b2e5a524"
+    },
+    "evidence_batches": {
+      "count": 2,
+      "hash": "b1b6ef7de31c33d7f3a851509ff4d44a5f8669576d9cfb2960e55ce8a02f0871"
+    },
+    "evidence_regions": {
+      "count": 4,
+      "hash": "b446f4f7687c34b590b64f7bcd7cf728a3b432529fac96a3535b34c731b45ad4"
+    },
+    "evidence_import_lock": {
+      "count": 1,
+      "hash": "037c9214eef74cc3887f3a4f085b4e17d76280dafd273b0ee160c09c4ba1cfd4"
+    },
+    "evidence_migrations": {
+      "count": 2,
+      "hash": "f7dde8b07c3176a9043e2a6620356f03616c006ee13190948b2ffebaceecd463"
+    }
+  },
+  "projectAfter": {
+    "evidence_publications": {
+      "count": 7,
+      "hash": "9d2a30542c0e01bd142d2e47521689637205c25c1ac4e8143d7bc42a931fc49d"
+    },
+    "evidence_versions": {
+      "count": 7,
+      "hash": "a46202a41260e58dea44ac65ca9fb8ea46a7b63d879b4f237853c2e9cd4b1494"
+    },
+    "evidence_heads": {
+      "count": 6,
+      "hash": "a8aeb2878f1520c557c51a7aa6d5efb3126f66df549756a071fe5333b2e5a524"
+    },
+    "evidence_batches": {
+      "count": 2,
+      "hash": "b1b6ef7de31c33d7f3a851509ff4d44a5f8669576d9cfb2960e55ce8a02f0871"
+    },
+    "evidence_regions": {
+      "count": 4,
+      "hash": "b446f4f7687c34b590b64f7bcd7cf728a3b432529fac96a3535b34c731b45ad4"
+    },
+    "evidence_import_lock": {
+      "count": 1,
+      "hash": "037c9214eef74cc3887f3a4f085b4e17d76280dafd273b0ee160c09c4ba1cfd4"
+    },
+    "evidence_migrations": {
+      "count": 2,
+      "hash": "f7dde8b07c3176a9043e2a6620356f03616c006ee13190948b2ffebaceecd463"
+    }
+  }
+}

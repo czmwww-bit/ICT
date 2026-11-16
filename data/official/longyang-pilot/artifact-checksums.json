@@ -1,0 +1,132 @@
+{
+  "checkedAt": "2026-11-16T05:32:02.376Z",
+  "artifacts": [
+    {
+      "id": "A1",
+      "path": "../longyang-allowance/sources/longyang-2021.html",
+      "bytes": 19810,
+      "sha256": "8e84f3685ac39941f7414b09470a3d23f61ddb735e34cf6f9445a698ca3abd92"
+    },
+    {
+      "id": "A2",
+      "path": "sources/A2.html",
+      "bytes": 24960,
+      "sha256": "7b197020fa7fec76cc6243f43eb831dee5067b3f54329d7f2c2af7d67d9e31db"
+    },
+    {
+      "id": "A3",
+      "path": "../longyang-allowance/sources/gejiu-attachment-page.html",
+      "bytes": 39009,
+      "sha256": "47f99fa5b5f8fec0ffb3d0ae0a25df5406a1c50c233d5e2bdb0eedebc10dd825"
+    },
+    {
+      "id": "A4",
+      "path": "../longyang-allowance/sources/longyang-2025.html",
+      "bytes": 28603,
+      "sha256": "161f1cf25eb1627d7e83d4d6a754d9390e160da1b86a58df2b653bc79b6602c6"
+    },
+    {
+      "id": "A5",
+      "path": "sources/A5.html",
+      "bytes": 22603,
+      "sha256": "0335d1a7935cde5958acaf0a694937857dc213c9855851dac628966861ca17cf"
+    },
+    {
+      "id": "B6-web",
+      "path": "sources/B6-web.html",
+      "bytes": 110104,
+      "sha256": "ca716463d5b57f15faf49b666e096a96c8849e335fd0b7cb3a11dc3e1de3bbb3"
+    },
+    {
+      "id": "B7",
+      "path": "sources/B7.html",
+      "bytes": 31249,
+      "sha256": "05a00c853057170ca271b461e242bad3be0599c5891ae5789a3e8cbd94f25f4f"
+    },
+    {
+      "id": "B8-province",
+      "path": "sources/B8-province.html",
+      "bytes": 31275,
+      "sha256": "d01b0953419d9157a60a46244d74e2cf2ca7501e21e95b2ce92dafd4ce1e1558"
+    },
+    {
+      "id": "B8-reprint",
+      "path": "sources/B8-reprint.html",
+      "bytes": 21547,
+      "sha256": "91c48ea795973558d78f170ba2c77ae4f5d2f95984a2823abc3f25be8dbf3bea"
+    },
+    {
+      "id": "C9",
+      "path": "sources/C9.html",
+      "bytes": 33341,
+      "sha256": "a592299489bfa0a3ada7d9799ebf95ebf1e0b256b7a90855e9809377b22c59ac"
+    },
+    {
+      "id": "C10",
+      "path": "sources/C10.html",
+      "bytes": 29014,
+      "sha256": "58d68f21d24d764b13d289c6d98085a0e9230d3c7e09b5324893117c61745733"
+    },
+    {
+      "id": "C12",
+      "path": "sources/C12.html",
+      "bytes": 23195,
+      "sha256": "e9c4ce33e2680f2dce1610e61b7cbeea73bf6773b568fb3fea07979a9bf9c79d"
+    },
+    {
+      "id": "C13",
+      "path": "sources/C13.html",
+      "bytes": 19569,
+      "sha256": "bd96e5bbe95ac382f6003ddabe1af0973c4be859bc5131ba5bb3423f9adaaea7"
+    },
+    {
+      "id": "A3-attachment-1",
+      "path": "../longyang-allowance/sources/yn-notice-2024-113.pdf",
+      "bytes": 487919,
+      "sha256": "1009162b5b7eb69affac7a818dd16a4581a247413bdf8cc81a9715f00e3f3c97"
+    },
+    {
+      "id": "C13-pdf",
+      "path": "sources/C13-pdf.pdf",
+      "bytes": 252357,
+      "sha256": "a513fa35c4d3ae0bc8f3d032c94c8ee49912bee312c95d116bbe2d90672ab8d6"
+    },
+    {
+      "id": "C11-honghe",
+      "path": "sources/C11-honghe.html",
+      "bytes": 83268,
+      "sha256": "142640d8e1dce8f153bcaefbde63970362ea69f76a8dab1321b5578fe5d31d83"
+    },
+    {
+      "id": "FOLLOWUP_BS_202608",
+      "path": "sources/FOLLOWUP_BS_202608.html",
+      "bytes": 97154,
+      "sha256": "d9ab0676ba29dab8fb3705adf953a8b60f62627323e8b3cdddb783a5838db3a1"
+    }
+  ],
+  "batchSha256": "403e2e72a8100178ba1b11489c508bda9809e7428d8fc0ed1c7ca442747e0391",
+  "oneServiceCarrierTextSameIgnoringWhitespace": true,
+  "duplicateQuoteGroups": [
+    [
+      "YN_GLT_HOUSEHOLD_SEPARATION",
+      "YN_GLT_HOUSEHOLD_MOVE"
+    ],
+    [
+      "YN_GLT_SPECIAL_ACCOUNT",
+      "YN_GLT_PROXY_PAYMENT"
+    ],
+    [
+      "YN_GLT_CARD_ACTIVATION",
+      "YN_GLT_HOME_CARD"
+    ],
+    [
+      "YN_ELDER_ONE_SERVICE_2026_GOAL_HIGH",
+      "YN_ELDER_ONE_SERVICE_2026_GOAL_ECON"
+    ],
+    [
+      "YN_ELDER_ONE_SERVICE_2026_DUTIES_HIGH",
+      "YN_ELDER_ONE_SERVICE_2026_DUTIES_ECON"
+    ]
+  ],
+  "duplicateQuoteExplanation": "同一段可拆不同主题（如户籍确认/迁移、两个事项共用职责）并完整保留上下文；不是重复政策文件，待人工逐组确认"
+}

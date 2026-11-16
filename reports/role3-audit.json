@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-16",
+  "timezone": "Asia/Shanghai",
+  "generatedAt": "2026-11-16T03:36:49.997Z",
+  "verdict": "资料技术模块可交接；真实资料、业务接口与云端仍待联调验证",
+  "environment": {
+    "node": "v24.21.0",
+    "mysql": "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\mysql.exe  Ver 8.0.46 for Win64 on x86_64 (MySQL Community Server - GPL)",
+    "dockerAvailable": false,
+    "git": "not-a-git-repository"
+  },
+  "findingsFixed": [
+    {
+      "file": "backend/src/query.ts",
+      "issue": "非法历史版本参数不应伪装为没有资料"
+    },
+    {
+      "file": "backend/src/evaluation.ts",
+      "issue": "材料项精确名称核验，忽略说明和引文中的文字；拒绝重复案例编号"
+    },
+    {
+      "file": "backend/src/evaluate.ts",
+      "issue": "空测试集返回未执行及退出2；非法超时在请求前失败"
+    },
+    {
+      "file": "backend/src/db.ts",
+      "issue": "合法密码中的小于号不再被误判为占位符"
+    },
+    {
+      "file": "backend/.env.example",
+      "issue": "补充PORT/EVAL_URL/EVAL_TIMEOUT_MS可选变量"
+    },
+    {
+      "file": ".gitignore及backend/.dockerignore",
+      "issue": "保护production.env等具名前缀的环境文件"
+    }
+  ],
+  "results": {
+    "unitTests": 15,
+    "databaseIntegrationFlows": 1,
+    "failed": 0,
+    "skipped": 0,
+    "verification": [
+      {
+        "name": "TypeScript",
+        "status": "pass"
+      },
+      {
+        "name": "Unit and HTTP tooling tests",
+        "status": "pass"
+      },
+      {
+        "name": "Build",
+        "status": "pass"
+      },
+      {
+        "name": "Standalone data validation",
+        "status": "pass"
+      },
+      {
+        "name": "Mock evaluator with intentional failures",
+        "status": "pass"
+      },
+      {
+        "name": "Business evaluation not executed",
+        "status": "pass"
+      },
+      {
+        "name": "Offline evaluation of actual mock responses",
+        "status": "pass"
+      },
+      {
+        "name": "MySQL integration test (may skip without DB_TEST_NAME)",
+        "status": "pass"
+      },
+      {
+        "name": "Dependency audit",
+        "status": "pass"
+      }
+    ],
+    "commands": [
+      {
+        "command": "npm run db:init",
+        "exit": 0,
+        "status": "pass"
+      },
+      {
+        "command": "npm run db:migrate",
+        "exit": 0,
+        "status": "pass"
+      },
+      {
+        "command": "npm run data:import -- --file ../data/demo/batch.json --dry-run --allow-demo",
+        "exit": 0,
+        "status": "pass"
+      },
+      {
+        "command": "npm run data:query -- --matter DEMO_ALLOWANCE --region DEMO_A --date 2026-11-16 --include-demo",
+        "exit": 0,
+        "status": "pass"
+      },
+      {
+        "command": "npm run data:query -- --id DEMO_C1 --include-demo",
+        "exit": 0,
+        "status": "pass"
+      },
+      {
+        "command": "npm run data:history -- --kind clause --id DEMO_C1",
+        "exit": 0,
+        "status": "pass"
+      },
+      {
+        "command": "npm run examples",
+        "exit": 0,
+        "status": "pass"
+      },
+      {
+        "command": "npm run eval -- --cases ../eval/real/cases.json --out ../reports/empty-real-audit",
+        "exit": 2,
+        "status": "pass"
+      }
+    ],
+    "http": [
+      {
+        "route": "/healthz",
+        "method": "GET",
+        "expected": 200,
+        "actual": 200,
+        "status": "pass"
+      },
+      {
+        "route": "/readyz",
+        "method": "GET",
+        "expected": 200,
+        "actual": 200,
+        "status": "pass"
+      },
+      {
+        "route": "/api/guide",
+        "method": "POST",
+        "expected": 404,
+        "actual": 404,
+        "status": "pass"
+      }
+    ]
+  },
+  "dataPreservation": {
+    "at": "2026-11-16T03:34:54.393Z",
+    "unchanged": true,
+    "beforeHash": "ebb65c69df91c11aa9a35e31c780d4213a8f01009d741b99921d6fd961b0dff7",
+    "afterHash": "ebb65c69df91c11aa9a35e31c780d4213a8f01009d741b99921d6fd961b0dff7",
+    "counts": {
+      "evidence_migrations": 2,
+      "evidence_regions": 4,
+      "evidence_batches": 2,
+      "evidence_heads": 6,
+      "evidence_versions": 7,
+      "evidence_publications": 7,
+      "evidence_import_lock": 1
+    },
+    "isolatedTestTableCount": 0
+  },
+  "notVerified": [
+    "正式官方资料真实性及政策语义：正式模板为空",
+    "真实/api/guide、OCR及手机前端联调",
+    "Docker镜像与Compose运行、Nginx配置实机检查、Node22容器运行",
+    "华为云ECS/RDS连接、TLS、安全组、HTTPS及备份恢复演练"
+  ],
+  "sourceScope": "只检查成员③模块；真实凭证位于backend/.env，值未输出；硬编码Windows客户端探测路径不参与生产连接",
+  "codeHashes": {
+    "src/app.ts": "471bc3259aac416b3384645518ec44a1ff9f01eb25e4e091a0ca82177ce859f7",
+    "src/cli.ts": "a8eb5618705690f8a8f9bdf277c32de5079a86d66ae1950fe7d07c26a3715a12",
+    "src/db.ts": "6b1d039cc004cc82f32e97d96e5ae45c9152f872691b6c9aade5097f1fdd90ab",
+    "src/evaluate.ts": "140b3579bcf9decf0f5afed80260d3cf68c1071f02cd8ca4ef3bb6ed7ee035fc",
+    "src/evaluation.ts": "575d970e9092662cd5e3e4a415459d5a842bed9cebd2c5d51b020c84ed9a7868",
+    "src/model.ts": "2a1d343748f55cc9083ab1cd7efca3a8f1c8436d02d2f0d4ec46b9f3c6202565",
+    "src/query.ts": "d34fdcb781786ac4a2adedfdec0a7d1afb1cb5e54b72ca4bf77f27a16fdb6712",
+    "src/server.ts": "a3914c93993ef60cb9faa58e38f942052a60099b1d23be3ba7f8aec81330871d",
+    "src/store.ts": "6b867e3fc67bd8f0e695e633f66fc499dbff5cf19425b67d072abbfe195ded1c",
+    "test/audit.test.ts": "9ca3cb13163ea1d437fe98af3962417f79c989e985d7f74957849b7bf523987a",
+    "test/core.test.ts": "14b8cc5638c8fb5ee88a71b2e47055c0780c65aa9d1bbb278fa5c0cd29768b9c",
+    "test/health.test.ts": "21992286e38d36e571824db966a23e70605739d31d8e317163df6f81485e4691",
+    "test/mock-guide.ts": "2c261e8ed9993671ee0d5d91ae3d75958b7d52d8dcb39f693dc505b545a92531",
+    "test/mysql.integration.ts": "8dc429b3e8fdffa2ca59e261e25901fdd6dcca99fc3c9be80a93a0b75b705524",
+    "examples/member2.ts": "0962593342af8231656bd362a9a8c194624ed88764dd68b6e668b7170904bfe6",
+    "examples/prepare-demo.ts": "c9a5427ff9afee7544d7828b60f307c321461f3a54d6bbbd511b1b739749bc8b",
+    "scripts/check-service.mjs": "a963f1ad167c4ba23c2bd5dfd08a61cee63a81c14ce0bcc0f4f53675187eea3e",
+    "scripts/create-demo.mjs": "b6aa2c47701f7a673a6c9a9edadfd575b0b148071ecc33ab610edfeb1920f83c",
+    "scripts/create-eval-demo.mjs": "040ea028fe4831aa190f77fb961139a7aa4beca965a90d171aaf291bb9412ac9",
+    "scripts/export-schema.ts": "d8192b196c14931c7f35186a59722ff8aff0ab09ca5708b6fb65b38339927b7e",
+    "scripts/setup-local.mjs": "f2261459e84da90043b68b4e77abb73791cf541ed79c52c6e02b360b05282602",
+    "scripts/verify.mjs": "6ddb427087b2f0df854d89ee773c50ec8bc5fb70259d3bbbb2b84625312299de",
+    "migrations/001_evidence.sql": "65972aafacf753b06c445efdc21d63cd9d56971d89cc5bf00a742066487fe261",
+    "migrations/002_publications.sql": "ffe963efcf4d4d3afa8cf55281725dd73e94f44f22b8a7b7c60a99ca3b984e99",
+    "package.json": "8bd5f9b93c882fcfdc0305a3674ad2fdc1f38423db73783418e0d724ace6ee29",
+    "package-lock.json": "27c2ad8a8a2d59b382448cb3385903d09ab44a4b8c05849226675b6fdd1b7175",
+    ".env.example": "cbe64b4bbc3a8bff780506820bb30e48511d635f6b24fec72f0c8cf60f217b3a",
+    ".dockerignore": "f803404f37e9f1714bdc14a664c8da82500511773c4c2675e1a87ddfbf771ce1"
+  }
+}

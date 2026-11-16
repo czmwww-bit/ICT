@@ -1,0 +1,59 @@
+{
+  "searchedDate": "2026-11-16",
+  "timezone": "Asia/Shanghai",
+  "method": "公开搜索引擎检索官方来源，实际Node HTTPS获取保存成功载体；搜索摘要与成功取得原文严格区分",
+  "queries": [
+    "site:ynmz.yn.gov.cn 2026 经济困难老年人服务补贴 实施办法 征求意见 9月",
+    "云南省经济困难老年人服务补贴实施办法 2026 正式 印发",
+    "\"云南省经济困难老年人服务补贴实施办法\" \"2026年10月\" site:gov.cn",
+    "\"云南省经济困难老年人服务补贴实施办法\" \"2026年11月\" site:gov.cn",
+    "\"云南省经济困难老年人服务补贴实施办法\" \"云民规\" \"2026\"",
+    "\"云南省经济困难老年人服务补贴实施办法\" \"有效期\" 延长",
+    "\"云南省经济困难老年人服务补贴实施办法\" \"2026\" \"9月28\"",
+    "云南 高龄津贴 免申即享 云民发 2026 调整 废止",
+    "\"高龄津贴\" \"2026\" \"隆阳\" \"标准\"",
+    "\"保山市\" \"长寿补助\" \"1000\" \"通知\"",
+    "\"养老服务消费补贴\" \"调整\" \"2026\" site:ynmz.yn.gov.cn",
+    "\"养老服务消费补贴\" \"2026年\" \"调整\" site:longyang.gov.cn",
+    "\"云民发〔2026〕4号\" \"补贴\" 实施方案 site:gov.cn"
+  ],
+  "findings": [
+    {
+      "topic": "2026年9月经济困难服务补贴征求意见及后续正式文件",
+      "status": "not_verified",
+      "conclusion": "检索有9月公开征求意见的媒体线索；未取得官方征求意见原件或9月之后正式新办法/续期文件。不能推断正式文件不存在，不能把草案或媒体转述当现行政策。",
+      "consultationLead": {
+        "title": "云南省经济困难老年人服务补贴实施办法（征求意见稿）",
+        "legalStatus": "consultation_draft_unverified_original",
+        "reportedNoticeDate": "2026-09-14（检索线索，原件未核实）",
+        "reportedDeadline": "2026-09-28（检索线索，原件未核实）",
+        "officialOriginalUrl": null,
+        "originalText": null,
+        "importedAsPolicy": false,
+        "nonOfficialLeadUrls": [
+          "https://society.yunnan.cn/system/2026/09/17/034153212.shtml",
+          "https://k.sina.com.cn/article_5953189932_162d6782c06704yp2u.html"
+        ]
+      },
+      "failedOfficialFollowups": ["FOLLOWUP_ECON_CATALOG", "FOLLOWUP_ECON_ORIGINAL"],
+      "verifiedCurrentSource": "B8-province：2026一件事原文已获取，明确免申流程，但没有明文续期试行办法全篇"
+    },
+    {
+      "topic": "高龄津贴后续变化",
+      "status": "change_lead_requires_review",
+      "verifiedSources": ["B8-province", "FOLLOWUP_BS_202608"],
+      "conclusion": "2026一件事继续明示落实113号免申即享。保山市2026年8月发放统计表（2026-09-03发布）隆阳行100岁以上标准列为1000，与2023/2025网页350不同。统计表不是调整通知，原调整文件、起始日期、地区和对象范围仍待核对；没有自动更新地方当前金额或替代关系。"
+    },
+    {
+      "topic": "养老服务消费补贴后续实施",
+      "status": "specified_followup_acquired_not_exhaustive",
+      "verifiedSources": ["C10", "C11-honghe", "C12", "C13-pdf"],
+      "conclusion": "已获取2026全国启动通知、云南4号完整官方转载及本地操作指南；保留全国2026年1至12月周期、暂定比例额度及不同既往评估时间口径。未找到并核实晚于这些材料的统一调整正式原件；不保证无后续变动。"
+    }
+  ],
+  "limitations": [
+    "搜索收录有延迟、官网旧路径部分404/405，不能给出穷尽性有效性证明",
+    "征求意见稿没有作为正式政策或审核通过记录写入batch",
+    "没有依据发布日期自动认定替代/废止，也未把统计表观察改写为规范性金额标准"
+  ]
+}
