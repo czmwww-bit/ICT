@@ -1,0 +1,1046 @@
+{
+  "executedAt": "2026-11-16T11:09:22.442Z",
+  "mode": "isolated-full-workflow",
+  "sourceHumanApproved": false,
+  "projectDatabaseUnchanged": true,
+  "sourceTestTablesCleaned": true,
+  "passed": true,
+  "technicalPassed": true,
+  "executionStatus": "passed",
+  "error": null,
+  "codeVersion": {
+    "commit": "f36688d6c67a011139c3d12e434ff30562e7a45c",
+    "dirty": true
+  },
+  "dataVersion": "403e2e72a8100178ba1b11489c508bda9809e7428d8fc0ed1c7ca442747e0391",
+  "testSetVersion": "longyang-retrieval-technical-v1",
+  "workDirectory": "D:\\ICT\\reports\\local\\workflows\\run-60g6pQ",
+  "stages": [
+    {
+      "name": "独立环境初始化/迁移",
+      "status": "pass",
+      "details": {
+        "command": "node --import tsx src/cli.ts init",
+        "exitCode": 0
+      }
+    },
+    {
+      "name": "真实条款检索/日期地区/局部版本边界",
+      "status": "pass",
+      "details": {
+        "cases": 16,
+        "sourceStatus": "仅在隔离库技术审核，真实JSON与项目库未发布"
+      }
+    },
+    {
+      "name": "样例导入/查询/历史及明确结束日",
+      "status": "pass",
+      "details": {
+        "defaultExcludesDemo": true,
+        "versions": 1
+      }
+    },
+    {
+      "name": "模拟官方网页变化→差异→草稿→技术审核→新版查询",
+      "status": "pass",
+      "details": {
+        "sourceIsMock": true,
+        "taskId": "9b95b0a4f62849a4d699c840a441ecefca19c620aa8c04a3db03977b021c7325",
+        "oldVersion": 1,
+        "newVersion": 2,
+        "unmodifiedClauseVersion": 1,
+        "diff": {
+          "added": [
+            "【虚构开发样例，非真实政策】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年1月1日起实施，至2026年12月31日止。请携带身份证，到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。 【模拟网页变更】新增材料：示例回执。"
+          ],
+          "removed": [
+            "【虚构开发样例，非真实政策】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年1月1日起实施，至2026年12月31日止。请携带身份证，到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。"
+          ],
+          "modified": [
+            {
+              "before": "【虚构开发样例，非真实政策】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年1月1日起实施，至2026年12月31日止。请携带身份证，到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。",
+              "after": "【虚构开发样例，非真实政策】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年1月1日起实施，至2026年12月31日止。请携带身份证，到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。 【模拟网页变更】新增材料：示例回执。"
+            }
+          ],
+          "truncated": false
+        },
+        "newSource": {
+          "clauseId": "DEMO_C1",
+          "clauseVersion": 2,
+          "documentId": "DEMO_D1",
+          "documentVersion": 2,
+          "title": "【虚构】示例甲区高龄服务通知",
+          "quote": "【虚构开发样例，非真实政策】示例甲区的示例高龄服务面向年满80周岁且户籍在示例甲区的老人。自2026年1月1日起实施，至2026年12月31日止。请携带身份证，到示例甲区社区窗口提交申请。办理时间为工作日上午，地点为示例社区一号窗口。\n【模拟网页变更】新增材料：示例回执。",
+          "locator": "示例第一段",
+          "url": "https://example.invalid/DEMO_D1"
+        },
+        "pendingAfter": 0
+      }
+    },
+    {
+      "name": "MySQL原生备份及原件/更新检查记录备份",
+      "status": "pass",
+      "details": {
+        "manifest": "D:\\ICT\\reports\\local\\workflows\\run-60g6pQ\\backup\\manifest.json",
+        "tables": {
+          "evidence_publications": {
+            "rows": 21,
+            "sha256": "95c23e41ab7c6c9dd733bf3b565e30e07e83a932bb88e7acd176c9d0d0636055"
+          },
+          "evidence_versions": {
+            "rows": 113,
+            "sha256": "3f78fa5f33409b41e148a538841bd831f32327de93ddfdc764cdba89c607f225"
+          },
+          "evidence_heads": {
+            "rows": 110,
+            "sha256": "953eaa79393339b014ab78968e817feb877ed9fa170a10113972b0d62383d8b6"
+          },
+          "evidence_batches": {
+            "rows": 4,
+            "sha256": "9dbd831d296beb507809e5a95b23189001e4144fdb4f20021f81b9724305e8b2"
+          },
+          "evidence_regions": {
+            "rows": 11,
+            "sha256": "cec03e1edb969d9cb94a756e249dc6b167bc1f67f704f4d3b4860dabeda3c16e"
+          },
+          "evidence_import_lock": {
+            "rows": 1,
+            "sha256": "037c9214eef74cc3887f3a4f085b4e17d76280dafd273b0ee160c09c4ba1cfd4"
+          },
+          "evidence_migrations": {
+            "rows": 2,
+            "sha256": "32f3b238cc3d1e613ceee8d36bf5eab06ae37452df3e61c78000a09d9ba02bd1"
+          }
+        },
+        "archives": 13,
+        "runtimeFiles": 9
+      }
+    },
+    {
+      "name": "另一个空库恢复、版本/状态/关系/原件及更新记录一致",
+      "status": "pass",
+      "details": {
+        "status": "restored",
+        "tablesVerified": {
+          "evidence_publications": {
+            "rows": 21,
+            "sha256": "95c23e41ab7c6c9dd733bf3b565e30e07e83a932bb88e7acd176c9d0d0636055"
+          },
+          "evidence_versions": {
+            "rows": 113,
+            "sha256": "3f78fa5f33409b41e148a538841bd831f32327de93ddfdc764cdba89c607f225"
+          },
+          "evidence_heads": {
+            "rows": 110,
+            "sha256": "953eaa79393339b014ab78968e817feb877ed9fa170a10113972b0d62383d8b6"
+          },
+          "evidence_batches": {
+            "rows": 4,
+            "sha256": "9dbd831d296beb507809e5a95b23189001e4144fdb4f20021f81b9724305e8b2"
+          },
+          "evidence_regions": {
+            "rows": 11,
+            "sha256": "cec03e1edb969d9cb94a756e249dc6b167bc1f67f704f4d3b4860dabeda3c16e"
+          },
+          "evidence_import_lock": {
+            "rows": 1,
+            "sha256": "037c9214eef74cc3887f3a4f085b4e17d76280dafd273b0ee160c09c4ba1cfd4"
+          },
+          "evidence_migrations": {
+            "rows": 2,
+            "sha256": "32f3b238cc3d1e613ceee8d36bf5eab06ae37452df3e61c78000a09d9ba02bd1"
+          }
+        },
+        "archiveFilesVerified": 13,
+        "runtimeFilesVerified": 9,
+        "sourceDatabase": "silver_local_1e35810556_test",
+        "targetDatabase": "silver_local_1e35810556_restore_test",
+        "targetTestTablesCleaned": true,
+        "targetScope": "configured_independent_restore_test"
+      }
+    }
+  ],
+  "corpusCompleteness": {
+    "source": {
+      "numerator": 90,
+      "denominator": 90,
+      "unknown": 0,
+      "note": "结构完整性不代替原文真实性及语义人工审核"
+    },
+    "quoteLocator": {
+      "numerator": 90,
+      "denominator": 90,
+      "unknown": 0,
+      "note": "结构完整性不代替原文真实性及语义人工审核"
+    },
+    "region": {
+      "numerator": 90,
+      "denominator": 90,
+      "unknown": 0,
+      "note": "结构完整性不代替原文真实性及语义人工审核"
+    },
+    "effectiveFromKnown": {
+      "numerator": 34,
+      "denominator": 90,
+      "unknown": 56,
+      "note": "未知日期单列，不推断，也不当成无期限"
+    },
+    "effectiveToKnown": {
+      "numerator": 0,
+      "denominator": 90,
+      "unknown": 90,
+      "note": "未知日期单列，不推断，也不当成无期限"
+    }
+  },
+  "retrieval": {
+    "cases": 16,
+    "checksPassed": 80,
+    "checksFailed": 0,
+    "checksExpected": 80,
+    "checksNotExecuted": 0,
+    "manualAdviceReview": 16,
+    "results": [
+      {
+        "id": "Q01",
+        "description": "真实资料未审核",
+        "phase": "draft",
+        "knownAge": null,
+        "expectedStatus": "not_published",
+        "actualStatus": "not_published",
+        "expected": [],
+        "actual": [],
+        "checks": [
+          {
+            "name": "status",
+            "pass": true,
+            "reason": "期望not_published，实际not_published"
+          },
+          {
+            "name": "exact_hits_and_versions",
+            "pass": true,
+            "reason": "期望，实际"
+          },
+          {
+            "name": "no_unreviewed_data",
+            "pass": true,
+            "reason": "不得返回未审核的条款或来源版本"
+          },
+          {
+            "name": "region_and_time",
+            "pass": true,
+            "reason": "不得混入错误地区/记录时间范围"
+          },
+          {
+            "name": "source_locator_integrity",
+            "pass": true,
+            "reason": "来源文件版本与准确原文定位须一致"
+          }
+        ],
+        "manualReview": {
+          "status": "pending",
+          "adviceSupported": null,
+          "ageQualificationCorrect": null,
+          "note": "技术审核夹具，只核验资料检索。年龄资格、建议正确性和引用支持结论由②③人工复核。"
+        }
+      },
+      {
+        "id": "Q02",
+        "description": "施行前一天",
+        "phase": "current",
+        "knownAge": null,
+        "expectedStatus": "no_match",
+        "actualStatus": "no_match",
+        "expected": [],
+        "actual": [],
+        "checks": [
+          {
+            "name": "status",
+            "pass": true,
+            "reason": "期望no_match，实际no_match"
+          },
+          {
+            "name": "exact_hits_and_versions",
+            "pass": true,
+            "reason": "期望，实际"
+          },
+          {
+            "name": "no_unreviewed_data",
+            "pass": true,
+            "reason": "不得返回未审核的条款或来源版本"
+          },
+          {
+            "name": "region_and_time",
+            "pass": true,
+            "reason": "不得混入错误地区/记录时间范围"
+          },
+          {
+            "name": "source_locator_integrity",
+            "pass": true,
+            "reason": "来源文件版本与准确原文定位须一致"
+          }
+        ],
+        "manualReview": {
+          "status": "pending",
+          "adviceSupported": null,
+          "ageQualificationCorrect": null,
+          "note": "技术审核夹具，只核验资料检索。年龄资格、建议正确性和引用支持结论由②③人工复核。"
+        }
+      },
+      {
+        "id": "Q03",
+        "description": "网页发布日期不充当施行日",
+        "phase": "current",
+        "knownAge": null,
+        "expectedStatus": "no_match",
+        "actualStatus": "no_match",
+        "expected": [],
+        "actual": [],
+        "checks": [
+          {
+            "name": "status",
+            "pass": true,
+            "reason": "期望no_match，实际no_match"
+          },
+          {
+            "name": "exact_hits_and_versions",
+            "pass": true,
+            "reason": "期望，实际"
+          },
+          {
+            "name": "no_unreviewed_data",
+            "pass": true,
+            "reason": "不得返回未审核的条款或来源版本"
+          },
+          {
+            "name": "region_and_time",
+            "pass": true,
+            "reason": "不得混入错误地区/记录时间范围"
+          },
+          {
+            "name": "source_locator_integrity",
+            "pass": true,
+            "reason": "来源文件版本与准确原文定位须一致"
+          }
+        ],
+        "manualReview": {
+          "status": "pending",
+          "adviceSupported": null,
+          "ageQualificationCorrect": null,
+          "note": "技术审核夹具，只核验资料检索。年龄资格、建议正确性和引用支持结论由②③人工复核。"
+        }
+      },
+      {
+        "id": "Q04",
+        "description": "施行当日及省级祖先",
+        "phase": "current",
+        "knownAge": null,
+        "expectedStatus": "matched",
+        "actualStatus": "matched",
+        "expected": [
+          "YN_GLT_ELIGIBILITY@1",
+          "YN_GLT_HOUSEHOLD_SEPARATION@1",
+          "YN_GLT_MONTHLY_PAYMENT@1",
+          "YN_GLT_PROVINCIAL_RATES@1",
+          "YN_GLT_UNREACHABLE@1"
+        ],
+        "actual": [
+          "YN_GLT_ELIGIBILITY@1",
+          "YN_GLT_HOUSEHOLD_SEPARATION@1",
+          "YN_GLT_MONTHLY_PAYMENT@1",
+          "YN_GLT_PROVINCIAL_RATES@1",
+          "YN_GLT_UNREACHABLE@1"
+        ],
+        "checks": [
+          {
+            "name": "status",
+            "pass": true,
+            "reason": "期望matched，实际matched"
+          },
+          {
+            "name": "exact_hits_and_versions",
+            "pass": true,
+            "reason": "期望YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1，实际YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1"
+          },
+          {
+            "name": "no_unreviewed_data",
+            "pass": true,
+            "reason": "不得返回未审核的条款或来源版本"
+          },
+          {
+            "name": "region_and_time",
+            "pass": true,
+            "reason": "不得混入错误地区/记录时间范围"
+          },
+          {
+            "name": "source_locator_integrity",
+            "pass": true,
+            "reason": "来源文件版本与准确原文定位须一致"
+          }
+        ],
+        "manualReview": {
+          "status": "pending",
+          "adviceSupported": null,
+          "ageQualificationCorrect": null,
+          "note": "技术审核夹具，只核验资料检索。年龄资格、建议正确性和引用支持结论由②③人工复核。"
+        }
+      },
+      {
+        "id": "Q05",
+        "description": "乡镇显式继承省级资料",
+        "phase": "current",
+        "knownAge": null,
+        "expectedStatus": "matched",
+        "actualStatus": "matched",
+        "expected": [
+          "YN_GLT_ELIGIBILITY@1",
+          "YN_GLT_HOUSEHOLD_SEPARATION@1",
+          "YN_GLT_MONTHLY_PAYMENT@1",
+          "YN_GLT_PROVINCIAL_RATES@1",
+          "YN_GLT_UNREACHABLE@1"
+        ],
+        "actual": [
+          "YN_GLT_ELIGIBILITY@1",
+          "YN_GLT_HOUSEHOLD_SEPARATION@1",
+          "YN_GLT_MONTHLY_PAYMENT@1",
+          "YN_GLT_PROVINCIAL_RATES@1",
+          "YN_GLT_UNREACHABLE@1"
+        ],
+        "checks": [
+          {
+            "name": "status",
+            "pass": true,
+            "reason": "期望matched，实际matched"
+          },
+          {
+            "name": "exact_hits_and_versions",
+            "pass": true,
+            "reason": "期望YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1，实际YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1"
+          },
+          {
+            "name": "no_unreviewed_data",
+            "pass": true,
+            "reason": "不得返回未审核的条款或来源版本"
+          },
+          {
+            "name": "region_and_time",
+            "pass": true,
+            "reason": "不得混入错误地区/记录时间范围"
+          },
+          {
+            "name": "source_locator_integrity",
+            "pass": true,
+            "reason": "来源文件版本与准确原文定位须一致"
+          }
+        ],
+        "manualReview": {
+          "status": "pending",
+          "adviceSupported": null,
+          "ageQualificationCorrect": null,
+          "note": "技术审核夹具，只核验资料检索。年龄资格、建议正确性和引用支持结论由②③人工复核。"
+        }
+      },
+      {
+        "id": "Q06",
+        "description": "邻县不能混入隆阳操作指南",
+        "phase": "current",
+        "knownAge": null,
+        "expectedStatus": "outside_pilot",
+        "actualStatus": "outside_pilot",
+        "expected": [
+          "CN_CONSUMPTION_LAUNCH_2026_CYCLE@1",
+          "CN_CONSUMPTION_LAUNCH_2026_START@1"
+        ],
+        "actual": [
+          "CN_CONSUMPTION_LAUNCH_2026_CYCLE@1",
+          "CN_CONSUMPTION_LAUNCH_2026_START@1"
+        ],
+        "checks": [
+          {
+            "name": "status",
+            "pass": true,
+            "reason": "期望outside_pilot，实际outside_pilot"
+          },
+          {
+            "name": "exact_hits_and_versions",
+            "pass": true,
+            "reason": "期望CN_CONSUMPTION_LAUNCH_2026_CYCLE@1,CN_CONSUMPTION_LAUNCH_2026_START@1，实际CN_CONSUMPTION_LAUNCH_2026_CYCLE@1,CN_CONSUMPTION_LAUNCH_2026_START@1"
+          },
+          {
+            "name": "no_unreviewed_data",
+            "pass": true,
+            "reason": "不得返回未审核的条款或来源版本"
+          },
+          {
+            "name": "region_and_time",
+            "pass": true,
+            "reason": "不得混入错误地区/记录时间范围"
+          },
+          {
+            "name": "source_locator_integrity",
+            "pass": true,
+            "reason": "来源文件版本与准确原文定位须一致"
+          }
+        ],
+        "manualReview": {
+          "status": "pending",
+          "adviceSupported": null,
+          "ageQualificationCorrect": null,
+          "note": "技术审核夹具，只核验资料检索。年龄资格、建议正确性和引用支持结论由②③人工复核。"
+        }
+      },
+      {
+        "id": "Q07",
+        "description": "未登记地区",
+        "phase": "current",
+        "knownAge": null,
+        "expectedStatus": "region_unknown",
+        "actualStatus": "region_unknown",
+        "expected": [],
+        "actual": [],
+        "checks": [
+          {
+            "name": "status",
+            "pass": true,
+            "reason": "期望region_unknown，实际region_unknown"
+          },
+          {
+            "name": "exact_hits_and_versions",
+            "pass": true,
+            "reason": "期望，实际"
+          },
+          {
+            "name": "no_unreviewed_data",
+            "pass": true,
+            "reason": "不得返回未审核的条款或来源版本"
+          },
+          {
+            "name": "region_and_time",
+            "pass": true,
+            "reason": "不得混入错误地区/记录时间范围"
+          },
+          {
+            "name": "source_locator_integrity",
+            "pass": true,
+            "reason": "来源文件版本与准确原文定位须一致"
+          }
+        ],
+        "manualReview": {
+          "status": "pending",
+          "adviceSupported": null,
+          "ageQualificationCorrect": null,
+          "note": "技术审核夹具，只核验资料检索。年龄资格、建议正确性和引用支持结论由②③人工复核。"
+        }
+      },
+      {
+        "id": "Q08",
+        "description": "事项无匹配",
+        "phase": "current",
+        "knownAge": null,
+        "expectedStatus": "no_match",
+        "actualStatus": "no_match",
+        "expected": [],
+        "actual": [],
+        "checks": [
+          {
+            "name": "status",
+            "pass": true,
+            "reason": "期望no_match，实际no_match"
+          },
+          {
+            "name": "exact_hits_and_versions",
+            "pass": true,
+            "reason": "期望，实际"
+          },
+          {
+            "name": "no_unreviewed_data",
+            "pass": true,
+            "reason": "不得返回未审核的条款或来源版本"
+          },
+          {
+            "name": "region_and_time",
+            "pass": true,
+            "reason": "不得混入错误地区/记录时间范围"
+          },
+          {
+            "name": "source_locator_integrity",
+            "pass": true,
+            "reason": "来源文件版本与准确原文定位须一致"
+          }
+        ],
+        "manualReview": {
+          "status": "pending",
+          "adviceSupported": null,
+          "ageQualificationCorrect": null,
+          "note": "技术审核夹具，只核验资料检索。年龄资格、建议正确性和引用支持结论由②③人工复核。"
+        }
+      },
+      {
+        "id": "Q09",
+        "description": "未知施行日期及未审核排除条款隔离",
+        "phase": "current",
+        "knownAge": null,
+        "expectedStatus": "needs_review",
+        "actualStatus": "needs_review",
+        "expected": [
+          "CN_CONSUMPTION_LAUNCH_2026_CYCLE@1",
+          "CN_CONSUMPTION_LAUNCH_2026_START@1",
+          "LY_CONSUMPTION_GUIDE_2026_CONTACT@1"
+        ],
+        "actual": [
+          "CN_CONSUMPTION_LAUNCH_2026_CYCLE@1",
+          "CN_CONSUMPTION_LAUNCH_2026_START@1",
+          "LY_CONSUMPTION_GUIDE_2026_CONTACT@1"
+        ],
+        "checks": [
+          {
+            "name": "status",
+            "pass": true,
+            "reason": "期望needs_review，实际needs_review"
+          },
+          {
+            "name": "exact_hits_and_versions",
+            "pass": true,
+            "reason": "期望CN_CONSUMPTION_LAUNCH_2026_CYCLE@1,CN_CONSUMPTION_LAUNCH_2026_START@1,LY_CONSUMPTION_GUIDE_2026_CONTACT@1，实际CN_CONSUMPTION_LAUNCH_2026_CYCLE@1,CN_CONSUMPTION_LAUNCH_2026_START@1,LY_CONSUMPTION_GUIDE_2026_CONTACT@1"
+          },
+          {
+            "name": "no_unreviewed_data",
+            "pass": true,
+            "reason": "不得返回未审核的条款或来源版本"
+          },
+          {
+            "name": "region_and_time",
+            "pass": true,
+            "reason": "不得混入错误地区/记录时间范围"
+          },
+          {
+            "name": "source_locator_integrity",
+            "pass": true,
+            "reason": "来源文件版本与准确原文定位须一致"
+          }
+        ],
+        "manualReview": {
+          "status": "pending",
+          "adviceSupported": null,
+          "ageQualificationCorrect": null,
+          "note": "技术审核夹具，只核验资料检索。年龄资格、建议正确性和引用支持结论由②③人工复核。"
+        }
+      },
+      {
+        "id": "Q10",
+        "description": "79岁仍需返回含80岁条件的候选，不能自动视为符合",
+        "phase": "current",
+        "knownAge": 79,
+        "expectedStatus": "matched",
+        "actualStatus": "matched",
+        "expected": [
+          "YN_GLT_ELIGIBILITY@1",
+          "YN_GLT_HOUSEHOLD_SEPARATION@1",
+          "YN_GLT_MONTHLY_PAYMENT@1",
+          "YN_GLT_PROVINCIAL_RATES@1",
+          "YN_GLT_UNREACHABLE@1"
+        ],
+        "actual": [
+          "YN_GLT_ELIGIBILITY@1",
+          "YN_GLT_HOUSEHOLD_SEPARATION@1",
+          "YN_GLT_MONTHLY_PAYMENT@1",
+          "YN_GLT_PROVINCIAL_RATES@1",
+          "YN_GLT_UNREACHABLE@1"
+        ],
+        "checks": [
+          {
+            "name": "status",
+            "pass": true,
+            "reason": "期望matched，实际matched"
+          },
+          {
+            "name": "exact_hits_and_versions",
+            "pass": true,
+            "reason": "期望YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1，实际YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1"
+          },
+          {
+            "name": "no_unreviewed_data",
+            "pass": true,
+            "reason": "不得返回未审核的条款或来源版本"
+          },
+          {
+            "name": "region_and_time",
+            "pass": true,
+            "reason": "不得混入错误地区/记录时间范围"
+          },
+          {
+            "name": "source_locator_integrity",
+            "pass": true,
+            "reason": "来源文件版本与准确原文定位须一致"
+          }
+        ],
+        "manualReview": {
+          "status": "pending",
+          "adviceSupported": null,
+          "ageQualificationCorrect": null,
+          "note": "技术审核夹具，只核验资料检索。年龄资格、建议正确性和引用支持结论由②③人工复核。"
+        }
+      },
+      {
+        "id": "Q11",
+        "description": "达龄当月条件证据不丢失",
+        "phase": "current",
+        "knownAge": 80,
+        "expectedStatus": "matched",
+        "actualStatus": "matched",
+        "expected": [
+          "YN_GLT_ELIGIBILITY@1",
+          "YN_GLT_HOUSEHOLD_SEPARATION@1",
+          "YN_GLT_MONTHLY_PAYMENT@1",
+          "YN_GLT_PROVINCIAL_RATES@1",
+          "YN_GLT_UNREACHABLE@1"
+        ],
+        "actual": [
+          "YN_GLT_ELIGIBILITY@1",
+          "YN_GLT_HOUSEHOLD_SEPARATION@1",
+          "YN_GLT_MONTHLY_PAYMENT@1",
+          "YN_GLT_PROVINCIAL_RATES@1",
+          "YN_GLT_UNREACHABLE@1"
+        ],
+        "checks": [
+          {
+            "name": "status",
+            "pass": true,
+            "reason": "期望matched，实际matched"
+          },
+          {
+            "name": "exact_hits_and_versions",
+            "pass": true,
+            "reason": "期望YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1，实际YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1"
+          },
+          {
+            "name": "no_unreviewed_data",
+            "pass": true,
+            "reason": "不得返回未审核的条款或来源版本"
+          },
+          {
+            "name": "region_and_time",
+            "pass": true,
+            "reason": "不得混入错误地区/记录时间范围"
+          },
+          {
+            "name": "source_locator_integrity",
+            "pass": true,
+            "reason": "来源文件版本与准确原文定位须一致"
+          }
+        ],
+        "manualReview": {
+          "status": "pending",
+          "adviceSupported": null,
+          "ageQualificationCorrect": null,
+          "note": "技术审核夹具，只核验资料检索。年龄资格、建议正确性和引用支持结论由②③人工复核。"
+        }
+      },
+      {
+        "id": "Q12",
+        "description": "99岁省级两档及层级限定返回完整",
+        "phase": "current",
+        "knownAge": 99,
+        "expectedStatus": "matched",
+        "actualStatus": "matched",
+        "expected": [
+          "YN_GLT_ELIGIBILITY@1",
+          "YN_GLT_HOUSEHOLD_SEPARATION@1",
+          "YN_GLT_MONTHLY_PAYMENT@1",
+          "YN_GLT_PROVINCIAL_RATES@1",
+          "YN_GLT_UNREACHABLE@1"
+        ],
+        "actual": [
+          "YN_GLT_ELIGIBILITY@1",
+          "YN_GLT_HOUSEHOLD_SEPARATION@1",
+          "YN_GLT_MONTHLY_PAYMENT@1",
+          "YN_GLT_PROVINCIAL_RATES@1",
+          "YN_GLT_UNREACHABLE@1"
+        ],
+        "checks": [
+          {
+            "name": "status",
+            "pass": true,
+            "reason": "期望matched，实际matched"
+          },
+          {
+            "name": "exact_hits_and_versions",
+            "pass": true,
+            "reason": "期望YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1，实际YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1"
+          },
+          {
+            "name": "no_unreviewed_data",
+            "pass": true,
+            "reason": "不得返回未审核的条款或来源版本"
+          },
+          {
+            "name": "region_and_time",
+            "pass": true,
+            "reason": "不得混入错误地区/记录时间范围"
+          },
+          {
+            "name": "source_locator_integrity",
+            "pass": true,
+            "reason": "来源文件版本与准确原文定位须一致"
+          }
+        ],
+        "manualReview": {
+          "status": "pending",
+          "adviceSupported": null,
+          "ageQualificationCorrect": null,
+          "note": "技术审核夹具，只核验资料检索。年龄资格、建议正确性和引用支持结论由②③人工复核。"
+        }
+      },
+      {
+        "id": "Q13",
+        "description": "100岁省级标准不自动替代地方标准",
+        "phase": "current",
+        "knownAge": 100,
+        "expectedStatus": "matched",
+        "actualStatus": "matched",
+        "expected": [
+          "YN_GLT_ELIGIBILITY@1",
+          "YN_GLT_HOUSEHOLD_SEPARATION@1",
+          "YN_GLT_MONTHLY_PAYMENT@1",
+          "YN_GLT_PROVINCIAL_RATES@1",
+          "YN_GLT_UNREACHABLE@1"
+        ],
+        "actual": [
+          "YN_GLT_ELIGIBILITY@1",
+          "YN_GLT_HOUSEHOLD_SEPARATION@1",
+          "YN_GLT_MONTHLY_PAYMENT@1",
+          "YN_GLT_PROVINCIAL_RATES@1",
+          "YN_GLT_UNREACHABLE@1"
+        ],
+        "checks": [
+          {
+            "name": "status",
+            "pass": true,
+            "reason": "期望matched，实际matched"
+          },
+          {
+            "name": "exact_hits_and_versions",
+            "pass": true,
+            "reason": "期望YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1，实际YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1"
+          },
+          {
+            "name": "no_unreviewed_data",
+            "pass": true,
+            "reason": "不得返回未审核的条款或来源版本"
+          },
+          {
+            "name": "region_and_time",
+            "pass": true,
+            "reason": "不得混入错误地区/记录时间范围"
+          },
+          {
+            "name": "source_locator_integrity",
+            "pass": true,
+            "reason": "来源文件版本与准确原文定位须一致"
+          }
+        ],
+        "manualReview": {
+          "status": "pending",
+          "adviceSupported": null,
+          "ageQualificationCorrect": null,
+          "note": "技术审核夹具，只核验资料检索。年龄资格、建议正确性和引用支持结论由②③人工复核。"
+        }
+      },
+      {
+        "id": "Q14",
+        "description": "新校对版本未审核不遮蔽已选版本",
+        "phase": "partial_draft",
+        "knownAge": null,
+        "expectedStatus": "matched",
+        "actualStatus": "matched",
+        "expected": [
+          "YN_GLT_ELIGIBILITY@1",
+          "YN_GLT_HOUSEHOLD_SEPARATION@1",
+          "YN_GLT_MONTHLY_PAYMENT@1",
+          "YN_GLT_PROVINCIAL_RATES@1",
+          "YN_GLT_UNREACHABLE@1"
+        ],
+        "actual": [
+          "YN_GLT_ELIGIBILITY@1",
+          "YN_GLT_HOUSEHOLD_SEPARATION@1",
+          "YN_GLT_MONTHLY_PAYMENT@1",
+          "YN_GLT_PROVINCIAL_RATES@1",
+          "YN_GLT_UNREACHABLE@1"
+        ],
+        "checks": [
+          {
+            "name": "status",
+            "pass": true,
+            "reason": "期望matched，实际matched"
+          },
+          {
+            "name": "exact_hits_and_versions",
+            "pass": true,
+            "reason": "期望YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1，实际YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1"
+          },
+          {
+            "name": "no_unreviewed_data",
+            "pass": true,
+            "reason": "不得返回未审核的条款或来源版本"
+          },
+          {
+            "name": "region_and_time",
+            "pass": true,
+            "reason": "不得混入错误地区/记录时间范围"
+          },
+          {
+            "name": "source_locator_integrity",
+            "pass": true,
+            "reason": "来源文件版本与准确原文定位须一致"
+          }
+        ],
+        "manualReview": {
+          "status": "pending",
+          "adviceSupported": null,
+          "ageQualificationCorrect": null,
+          "note": "技术审核夹具，只核验资料检索。年龄资格、建议正确性和引用支持结论由②③人工复核。"
+        }
+      },
+      {
+        "id": "Q15",
+        "description": "只切换一条校对版本，其他条款仍为1版",
+        "phase": "partial_published",
+        "knownAge": null,
+        "expectedStatus": "matched",
+        "actualStatus": "matched",
+        "expected": [
+          "YN_GLT_ELIGIBILITY@2",
+          "YN_GLT_HOUSEHOLD_SEPARATION@1",
+          "YN_GLT_MONTHLY_PAYMENT@1",
+          "YN_GLT_PROVINCIAL_RATES@1",
+          "YN_GLT_UNREACHABLE@1"
+        ],
+        "actual": [
+          "YN_GLT_ELIGIBILITY@2",
+          "YN_GLT_HOUSEHOLD_SEPARATION@1",
+          "YN_GLT_MONTHLY_PAYMENT@1",
+          "YN_GLT_PROVINCIAL_RATES@1",
+          "YN_GLT_UNREACHABLE@1"
+        ],
+        "checks": [
+          {
+            "name": "status",
+            "pass": true,
+            "reason": "期望matched，实际matched"
+          },
+          {
+            "name": "exact_hits_and_versions",
+            "pass": true,
+            "reason": "期望YN_GLT_ELIGIBILITY@2,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1，实际YN_GLT_ELIGIBILITY@2,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1"
+          },
+          {
+            "name": "no_unreviewed_data",
+            "pass": true,
+            "reason": "不得返回未审核的条款或来源版本"
+          },
+          {
+            "name": "region_and_time",
+            "pass": true,
+            "reason": "不得混入错误地区/记录时间范围"
+          },
+          {
+            "name": "source_locator_integrity",
+            "pass": true,
+            "reason": "来源文件版本与准确原文定位须一致"
+          }
+        ],
+        "manualReview": {
+          "status": "pending",
+          "adviceSupported": null,
+          "ageQualificationCorrect": null,
+          "note": "技术审核夹具，只核验资料检索。年龄资格、建议正确性和引用支持结论由②③人工复核。"
+        }
+      },
+      {
+        "id": "Q16",
+        "description": "准确旧版本原文",
+        "phase": "partial_published",
+        "knownAge": null,
+        "expectedStatus": "matched",
+        "actualStatus": "matched",
+        "expected": [
+          "YN_GLT_ELIGIBILITY@1"
+        ],
+        "actual": [
+          "YN_GLT_ELIGIBILITY@1"
+        ],
+        "checks": [
+          {
+            "name": "status",
+            "pass": true,
+            "reason": "期望matched，实际matched"
+          },
+          {
+            "name": "exact_hits_and_versions",
+            "pass": true,
+            "reason": "期望YN_GLT_ELIGIBILITY@1，实际YN_GLT_ELIGIBILITY@1"
+          },
+          {
+            "name": "no_unreviewed_data",
+            "pass": true,
+            "reason": "不得返回未审核的条款或来源版本"
+          },
+          {
+            "name": "region_and_time",
+            "pass": true,
+            "reason": "不得混入错误地区/记录时间范围"
+          },
+          {
+            "name": "source_locator_integrity",
+            "pass": true,
+            "reason": "来源文件版本与准确原文定位须一致"
+          }
+        ],
+        "manualReview": {
+          "status": "pending",
+          "adviceSupported": null,
+          "ageQualificationCorrect": null,
+          "note": "技术审核夹具，只核验资料检索。年龄资格、建议正确性和引用支持结论由②③人工复核。"
+        }
+      }
+    ]
+  },
+  "restore": {
+    "status": "restored",
+    "tablesVerified": {
+      "evidence_publications": {
+        "rows": 21,
+        "sha256": "95c23e41ab7c6c9dd733bf3b565e30e07e83a932bb88e7acd176c9d0d0636055"
+      },
+      "evidence_versions": {
+        "rows": 113,
+        "sha256": "3f78fa5f33409b41e148a538841bd831f32327de93ddfdc764cdba89c607f225"
+      },
+      "evidence_heads": {
+        "rows": 110,
+        "sha256": "953eaa79393339b014ab78968e817feb877ed9fa170a10113972b0d62383d8b6"
+      },
+      "evidence_batches": {
+        "rows": 4,
+        "sha256": "9dbd831d296beb507809e5a95b23189001e4144fdb4f20021f81b9724305e8b2"
+      },
+      "evidence_regions": {
+        "rows": 11,
+        "sha256": "cec03e1edb969d9cb94a756e249dc6b167bc1f67f704f4d3b4860dabeda3c16e"
+      },
+      "evidence_import_lock": {
+        "rows": 1,
+        "sha256": "037c9214eef74cc3887f3a4f085b4e17d76280dafd273b0ee160c09c4ba1cfd4"
+      },
+      "evidence_migrations": {
+        "rows": 2,
+        "sha256": "32f3b238cc3d1e613ceee8d36bf5eab06ae37452df3e61c78000a09d9ba02bd1"
+      }
+    },
+    "archiveFilesVerified": 13,
+    "runtimeFilesVerified": 9,
+    "sourceDatabase": "silver_local_1e35810556_test",
+    "targetDatabase": "silver_local_1e35810556_restore_test",
+    "targetTestTablesCleaned": true,
+    "targetScope": "configured_independent_restore_test"
+  }
+}

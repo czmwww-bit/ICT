@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "A1",
+      "documentId": "LY_GLT_HISTORY_2021",
+      "url": "https://longyang.gov.cn/info/4225/6273009.htm",
+      "format": "html",
+      "selector": "div.m-4.content",
+      "attachmentRequired": false,
+      "excludeSelectors": [
+        ".click",
+        ".view-count",
+        ".content-page"
+      ],
+      "baseline": {
+        "file": "../longyang-allowance/sources/longyang-2021.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "A2",
+      "documentId": "LY_GLT_LUJIANG_2023",
+      "url": "https://www.longyang.gov.cn/info/27605/13673399.htm",
+      "format": "html",
+      "selector": "div.m-4.content",
+      "attachmentRequired": false,
+      "excludeSelectors": [
+        ".click",
+        ".view-count",
+        ".content-page"
+      ],
+      "baseline": {
+        "file": "sources/A2.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "A3",
+      "documentId": "YN_GLT_2024_113",
+      "url": "https://www.hhgj.gov.cn/info/13101/546351.htm",
+      "format": "html",
+      "selector": "#vsb_content",
+      "attachmentRequired": true,
+      "excludeSelectors": [
+        ".click",
+        ".view-count",
+        ".content-page"
+      ],
+      "baseline": {
+        "file": "../longyang-allowance/sources/gejiu-attachment-page.html",
+        "attachments": [
+          {
+            "url": "https://www.hhgj.gov.cn/virtual_attach_file.vsb?afc=0oRNaDn7U4nz9sUP8V7oRNPo7CaLzfYfo7CsMmrVM4N4oll0gihFp2hmCIa0MYh2UYyYokyYLzGaUlCsM8QVMzvDnRvPUz6VLl78Mz78nRTFLR-Zo7lZMzQFM4vPnlCJv2nto40TApuNJweT0-RTOQ5X/bmX0wztxH5wxgz19W4TACsjTguTmpuNJ/019WsTxE5N0Q4jtwzX9WKjjElJv2nto4xjqjMYp5XtgDTJQty0LzLPLR70MzUDL4lPgtA8pU4cc",
+            "file": "../longyang-allowance/sources/yn-notice-2024-113.pdf"
+          }
+        ]
+      },
+      "declaredEffectiveFrom": "2025-01-01"
+    },
+    {
+      "id": "A4",
+      "documentId": "LY_GLT_INTERPRETATION_2025",
+      "url": "https://www.longyang.gov.cn/info/4580/14016319.htm",
+      "format": "html",
+      "selector": "div.m-4.content",
+      "attachmentRequired": false,
+      "excludeSelectors": [
+        ".click",
+        ".view-count",
+        ".content-page"
+      ],
+      "baseline": {
+        "file": "../longyang-allowance/sources/longyang-2025.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "A5",
+      "documentId": "LY_GLT_WADU_2025",
+      "url": "https://www.longyang.gov.cn/info/4285/13576989.htm",
+      "format": "html",
+      "selector": "div.m-4.content",
+      "attachmentRequired": false,
+      "excludeSelectors": [
+        ".click",
+        ".view-count",
+        ".content-page"
+      ],
+      "baseline": {
+        "file": "sources/A5.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "B6-web",
+      "documentId": "YN_ECON_SERVICE_2023_2",
+      "url": "https://shidian.gov.cn/info/4123/3441703.htm",
+      "format": "html",
+      "selector": "#vsb_content_500",
+      "attachmentRequired": false,
+      "excludeSelectors": [
+        ".click",
+        ".view-count",
+        ".content-page"
+      ],
+      "baseline": {
+        "file": "sources/B6-web.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": "2023-04-01"
+    },
+    {
+      "id": "B7",
+      "documentId": "LY_ECON_ONLINE_2023",
+      "url": "https://www.longyang.gov.cn/info/4263/13685269.htm",
+      "format": "html",
+      "selector": "div.m-4.content",
+      "attachmentRequired": false,
+      "excludeSelectors": [
+        ".click",
+        ".view-count",
+        ".content-page"
+      ],
+      "baseline": {
+        "file": "sources/B7.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "B8-province",
+      "documentId": "YN_ELDER_ONE_SERVICE_2026",
+      "url": "https://ynmz.yn.gov.cn/zwgk/zcwj/qtzcwj/202604/t20260414_3820299.html",
+      "format": "html",
+      "selector": ".newswen",
+      "attachmentRequired": false,
+      "excludeSelectors": [
+        ".click",
+        ".view-count",
+        ".content-page"
+      ],
+      "baseline": {
+        "file": "sources/B8-province.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "B8-reprint",
+      "documentId": "YN_ELDER_ONE_SERVICE_2026",
+      "url": "https://cxshb.gov.cn/info/27157/607032.htm",
+      "format": "html",
+      "selector": "#vsb_content",
+      "attachmentRequired": false,
+      "excludeSelectors": [
+        ".click",
+        ".view-count",
+        ".content-page"
+      ],
+      "baseline": {
+        "file": "sources/B8-reprint.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "C9",
+      "documentId": "CN_CONSUMPTION_2025_37",
+      "url": "https://app.www.gov.cn/govdata/gov/202507/23/533344/article.html",
+      "format": "html",
+      "selector": "article",
+      "attachmentRequired": false,
+      "excludeSelectors": [
+        ".click",
+        ".view-count",
+        ".content-page"
+      ],
+      "baseline": {
+        "file": "sources/C9.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "C10",
+      "documentId": "CN_CONSUMPTION_LAUNCH_2026",
+      "url": "https://www.bypc.gov.cn/zfxxgk/bmdwxzjd/xzjd/zzljdbsc/fdzdgknr/ylfw/art/2026/art_538e0b3d98f9454d884ec276e45858a7.html",
+      "format": "html",
+      "selector": "#zoom",
+      "attachmentRequired": false,
+      "excludeSelectors": [
+        ".click",
+        ".view-count",
+        ".content-page"
+      ],
+      "baseline": {
+        "file": "sources/C10.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": "2026-01-01"
+    },
+    {
+      "id": "C11",
+      "documentId": "YN_CONSUMPTION_2026_4",
+      "url": "https://ynmz.yn.gov.cn/cms/qitazhengcewenjian/11991.html",
+      "format": "html",
+      "selector": ".newswen",
+      "attachmentRequired": false,
+      "excludeSelectors": [
+        ".click",
+        ".view-count",
+        ".content-page"
+      ],
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "C12",
+      "documentId": "BS_CONSUMPTION_INTERPRETATION_2026",
+      "url": "https://longyang.gov.cn/info/4077/14132879.htm",
+      "format": "html",
+      "selector": "div.m-4.content",
+      "attachmentRequired": false,
+      "excludeSelectors": [
+        ".click",
+        ".view-count",
+        ".content-page"
+      ],
+      "baseline": {
+        "file": "sources/C12.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "C13",
+      "documentId": "LY_CONSUMPTION_GUIDE_2026",
+      "url": "https://www.longyang.gov.cn/info/3485/14111319.htm",
+      "format": "html",
+      "selector": "div.m-4.content",
+      "attachmentRequired": true,
+      "excludeSelectors": [
+        ".click",
+        ".view-count",
+        ".content-page"
+      ],
+      "baseline": {
+        "file": "sources/C13.html",
+        "attachments": [
+          {
+            "url": "https://www.longyang.gov.cn/virtual_attach_file.vsb?afc=zMzvlZnz6fLlUYUrmN4nl-iL4liUNVIRMNrVnl7anRnRMl-0gihFp2hmCIa0n1yaM1y4USysM7MfLNliMmnRL8nkUlC4UzQ2MzU4UzM2MRrFnz6fn7LaUNnFL8UbU4lJv2nto4OeoDPb5s6TC1hXptQ0g4L8oRl0LzUPLz74LzNJqd5nx",
+            "file": "sources/C13-pdf.pdf"
+          }
+        ]
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "C11-honghe",
+      "documentId": "YN_CONSUMPTION_2026_4",
+      "url": "https://www.hh.gov.cn/info/29601/1243252.htm",
+      "format": "html",
+      "selector": "[id^=\"vsb_content_\"]",
+      "attachmentRequired": false,
+      "excludeSelectors": [
+        ".click",
+        ".view-count",
+        ".content-page"
+      ],
+      "baseline": {
+        "file": "sources/C11-honghe.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "B6-pdf",
+      "documentId": "YN_ECON_SERVICE_2023_2",
+      "url": "https://ynmz.yn.gov.cn/uploads/downfile/169811076519676.pdf",
+      "format": "pdf",
+      "declaredEffectiveFrom": "2023-04-01"
+    }
+  ]
+}

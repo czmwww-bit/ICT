@@ -1,5 +1,33 @@
 # 本地与华为云部署
 
+本轮补充：原生MySQL本地备份恢复已实际通过（另一个隔离库/临时实例），见[维护与演示](MEMBER_3_OPERATIONS.md)和[实测报告](../reports/member3-workflow.json)。下面Docker手动备份示例仍只作待验证备选；本地恢复成功不代表RDS恢复/切换已通过。
+
+## 手动来源检查与内部状态（新增，容器命令待验证）
+
+SOURCE_CHECK_DIR默认`/var/lib/silver-source-check`，镜像创建node用户可写目录。Compose以命名卷`source_checks`持久保存记录，业务服务只读挂载。后端仍只连接RDS，不添加生产MySQL。production.env.example新增该路径和可选ADMIN_STATUS_TOKEN；令牌不少于24字符，未设置时内部接口不注册。Nginx直接拒绝/internal/，后端仅expose，不映射公网端口。
+
+宿主机准备**完整data/official目录**（含longyang-allowance原件，保持相对路径），先启动backend创建卷；默认项目名对应卷名`silver-service-production_source_checks`。修改项目名后应使用实际卷名。维护容器读写同一卷，业务容器仍只读。
+
+```bash
+# 部署准备示例，当前无Docker，尚未执行
+docker run --rm --env-file /opt/silver/secrets/maintenance.env \
+  -v /opt/silver/secrets/rds-ca.pem:/run/certs/rds-ca.pem:ro \
+  -v /opt/silver/data/official:/data/official:ro \
+  -v silver-service-production_source_checks:/var/lib/silver-source-check \
+  silver-evidence:review-1 node dist/src/maintenance.js check --registry /data/official/longyang-pilot/source-registry.json
+
+docker run --rm --env-file /opt/silver/secrets/maintenance.env \
+  -v /opt/silver/secrets/rds-ca.pem:/run/certs/rds-ca.pem:ro \
+  -v silver-service-production_source_checks:/var/lib/silver-source-check \
+  silver-evidence:review-1 node dist/src/maintenance.js updates
+```
+
+未挂载人工问题索引时展示层会明确提示reviewNotesStatus=not_available；需要问题列表时同样挂载完整/data/official（/app工作目录的../data指向/data）。登记清单和批次只读，核对后的更新JSON经已有import/publish另行写RDS。卷需异地备份，不会自动同步Git。
+
+详细状态使用受控CLI `node dist/src/maintenance.js status`或私网Bearer接口。公开探针只有healthz/readyz简要状态，故障503、日志仅事件和错误码；详细待审数、最近检查/发布时间不提供给手机端。
+
+生产镜像只有Node，没有mysql/mysqldump/mysqld。原生备份/恢复应在准备相应客户端的维护主机执行，不能直接承诺运行镜像可转储RDS。云端须准备兼容RDS版本的客户端、CA和专用账号，先恢复到新隔离库再核对切换。本机Windows结果不代替Linux容器、RDS TLS、跨机灾备和HTTPS验证。
+
 目前只交付资料模块与 Express 基础健康服务；前端、OCR和`/api/guide`均待①②完成。没有云账号参数，未创建收费资源，未执行真实云部署。Docker配置是可审查的部署准备，当前机器没有Docker，镜像构建及Compose启动待验证。
 
 本地进展：原生MySQL8.0.46已完成真实空库迁移、事务导入、并发冲突及版本历史测试；基础Node服务实测healthz/readyz均200。Compose文件已通过YAML解析，不能等同于Docker Compose运行验证。当前本机已有3306服务，若另启本地Compose请改用其他主机端口。完整实测证据见reports/verification.json、local-database.json与local-service.json。

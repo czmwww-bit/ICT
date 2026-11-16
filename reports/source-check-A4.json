@@ -1,0 +1,15 @@
+{
+  "id": "03d8d8a7-ad6f-4344-9013-1bbaf003026d",
+  "startedFor": [
+    "A4"
+  ],
+  "completedAt": "2026-11-16T10:40:03.435Z",
+  "results": [
+    {
+      "sourceId": "A4",
+      "status": "unchanged",
+      "checkedAt": "2026-11-16T10:40:03.319Z",
+      "fingerprint": "b7cbb5bc1760d8239f65e587565668b5ea74884b75aa9abd3247b7ac861282ff"
+    }
+  ]
+}

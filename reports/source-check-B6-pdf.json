@@ -1,0 +1,16 @@
+{
+  "id": "0697b3bc-0536-461b-8d62-17a07421a179",
+  "startedFor": [
+    "B6-pdf"
+  ],
+  "completedAt": "2026-11-16T10:40:04.846Z",
+  "results": [
+    {
+      "sourceId": "B6-pdf",
+      "status": "fetch_failed",
+      "checkedAt": "2026-11-16T10:40:04.580Z",
+      "error": "HTTP 404",
+      "httpStatus": 404
+    }
+  ]
+}

@@ -1,5 +1,14 @@
 # 实际查阅的第三方参考
 
+## 2026-11-16接续实现
+
+下文“仅方案/未引入运行依赖”等为前轮状态。本轮按既有changedetection思路实现手动CLI，不部署changedetection.io服务、不复制其实现、不增加定时或自动发布。
+
+- `source-monitor.ts`落地正文选择器、附件哈希、快照和人工待审任务。实际16入口检查见`reports/source-check-all.json`；网页变化不等于政策修订/生效。
+- 新增锁定cheerio1.2.0（MIT）与pdfjs-dist6.5.438（Apache-2.0）。实际读取安装包package.json、LICENSE和导出类型，并按真实HTML及7页PDF验证；未声称另行读完两者GitHub文档。上游：[Cheerio](https://github.com/cheeriojs/cheerio)、[Mozilla PDF.js](https://github.com/mozilla/pdf.js)。npm包保留完整许可证，另见[依赖声明](THIRD_PARTY_NOTICES.md)。
+- MySQL继续沿用mysql2/原SQL迁移账本；本机备份调用已安装8.0原生客户端，没有引入第二框架。本地真实恢复结果不代替RDS验证。
+- HTTP评测复用原脚本，30例业务边界与16例检索技术案例分开；未安装Promptfoo平台，建议与引用语义仍待人工核对。
+
 查阅日期：2026-11-16。以下只借鉴结构和工作流，未复制完整仓库或第三方实现代码；运行依赖通过npm及锁文件管理。代码为本项目编写，未将上游代码/素材改名后收入项目，因此当前没有需要随源代码重分发的摘录。后续如复制第三方实现，须额外保留其版权、许可证及来源，不以本表代替许可证要求。
 
 本轮按当前README、backend/package.json和已有实现再次复核上述来源。当前已有mysql2迁移账本、资料事务模块和Node评测脚本，因此继续沿用，不再并行安装Umzug/Sequelize或Promptfoo平台。数据库现已接通，相关本地实测状态见DEVELOPMENT_LOG.md，不能沿用初轮“尚无数据库”的结论。

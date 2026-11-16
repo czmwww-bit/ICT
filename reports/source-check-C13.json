@@ -1,0 +1,15 @@
+{
+  "id": "4c5460e8-294c-485f-841d-7c2bf758d2d7",
+  "startedFor": [
+    "C13"
+  ],
+  "completedAt": "2026-11-16T10:35:18.799Z",
+  "results": [
+    {
+      "sourceId": "C13",
+      "status": "unchanged",
+      "checkedAt": "2026-11-16T10:35:17.445Z",
+      "fingerprint": "8384301b29a380455b2e5e2696c711530bddf83dc75f18b64a7400c2e78b0a48"
+    }
+  ]
+}

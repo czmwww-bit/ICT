@@ -173,13 +173,23 @@ async function main() {
   } finally {
     await mock?.close();
   }
-  let codeVersion = 'not-a-git-repository';
+  let codeVersion = 'git-version-unavailable';
   try {
-    codeVersion = execFileSync('git', ['rev-parse', 'HEAD'], {
+    // 仅信任当前工作区根；不修改全局safe.directory，也不把所有Git错误说成未建仓。
+    const gitArgs = ['-c', `safe.directory=${path.resolve('..').replaceAll('\\', '/')}`];
+    codeVersion = execFileSync('git', [...gitArgs, 'rev-parse', 'HEAD'], {
       stdio: ['ignore', 'pipe', 'ignore'],
     })
       .toString()
       .trim();
+    if (
+      execFileSync('git', [...gitArgs, 'status', '--porcelain'], {
+        stdio: ['ignore', 'pipe', 'ignore'],
+      })
+        .toString()
+        .trim()
+    )
+      codeVersion += '+dirty';
   } catch {}
   const groups = Object.fromEntries(
     ['demo', 'real', 'holdout'].map((group) => {

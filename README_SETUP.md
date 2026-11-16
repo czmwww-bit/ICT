@@ -18,7 +18,7 @@
 |---|---|---|
 | VS Code | 三人 | 已安装可直接使用。华为官方当前快速入门列出的最低版本为 1.95.3。在“帮助 → 关于”查看版本。[下载 VS Code](https://code.visualstudio.com/download) |
 | 华为云码道插件 | 三人按本组方案安装 | VS Code 按 Ctrl + Shift + X，搜索 **CodeArts Agent**，安装后点侧栏码道图标，按提示登录华为账号。用于写代码、解释工程、生成测试及调用相关技能。[官方安装图解](https://support.huaweicloud.com/qs-codeartsagent/codeartsagent_qs_0002.html) |
-| Node.js 与 npm | 三人 | 项目使用 React、Vite、Express。建议全组统一 Node 22.x 的较新补丁版，至少 22.12。安装 Node 时包含 npm。[Node.js 下载](https://nodejs.org/en/download) · [Vite 版本要求](https://vite.dev/guide/) |
+| Node.js 与 npm | 三人 | 项目使用 React、Vite、Express。建议全组统一 Node 22.x 的较新补丁版，至少 22.13（新增PDF文字提取依赖要求）；本机实测Node24.21。安装 Node 时包含 npm。[Node.js 下载](https://nodejs.org/en/download) · [Vite 版本要求](https://vite.dev/guide/) |
 | Git | 三人 | 用于克隆、提交和合并。由一人创建共享仓库并邀请其余成员；可沿用 Gitee。[Git for Windows](https://git-scm.com/downloads/win) |
 | MySQL Community Server | ③本地验证时安装；②按需 | 建议选与最终 RDS 兼容的 MySQL 版本。③用它验证建表、导入及查询；①可以用共同样例先开发。[MySQL 下载](https://dev.mysql.com/downloads/mysql/) |
 | 数据库图形客户端 | ②③按需 | 喜欢图形界面可装 DBeaver Community，命令行也可以完成建库和查询。[DBeaver 下载](https://dbeaver.io/download/) |
@@ -70,3 +70,5 @@ npm.cmd run data:validate -- --file ../data/demo/batch.json
 ```
 
 数据库配置、导入发布、调用示例及Windows操作顺序见 [HANDOFF_MEMBER_3](docs/HANDOFF_MEMBER_3.md)；本地Compose、ECS/RDS、Nginx、备份与回退见 [部署说明](docs/DEPLOYMENT.md)。数据库及云端命令需先准备真实环境参数，执行状态以 [开发记录](docs/DEVELOPMENT_LOG.md) 为准。
+
+已有本机配置时，无需重新setup或覆盖.env。在backend依次运行 `npm.cmd ci --cache ../.npm-cache`、`npm.cmd run check`、`npm.cmd test`、`npm.cmd run build`；然后运行 `npm.cmd run demo:query -- --isolated` 查看真实来源待审演示。更新检查、检索评测与独立备份恢复命令见[维护与演示](docs/MEMBER_3_OPERATIONS.md)。演示需要独立空DB_TEST_NAME；全流程恢复演练优先使用空DB_RESTORE_TEST_NAME，未配置时才尝试现有本机mysqld启动临时实例，不下载或安装数据库服务。

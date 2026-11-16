@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T03:30:52.700Z",
+  "generatedAt": "2026-11-16T11:07:46.371Z",
   "checks": [
     {
       "route": "/healthz",
@@ -20,6 +20,20 @@
       "method": "POST",
       "expected": 404,
       "actual": 404,
+      "status": "pass"
+    },
+    {
+      "route": "/internal/evidence/status",
+      "method": "GET",
+      "expected": 401,
+      "actual": 401,
+      "status": "pass"
+    },
+    {
+      "route": "/internal/evidence/status (authorized)",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
       "status": "pass"
     }
   ],

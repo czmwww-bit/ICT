@@ -1,0 +1,30 @@
+{
+  "executedAt": "2026-11-16T11:09:53.464Z",
+  "project": {
+    "application": "available",
+    "database": "connected",
+    "lastCheckAt": "2026-11-16T11:07:22.965Z",
+    "lastCheckFailedSources": 2,
+    "pendingSourceUpdates": 0,
+    "lastSuccessfulOfficialPublicationAt": null,
+    "versions": 7,
+    "officialVersions": 0,
+    "pendingDatabaseRecords": {
+      "official": 0,
+      "demo": 0
+    },
+    "rejectedDatabaseRecords": 0,
+    "note": "仅统计本库及指定检查目录；未导入的JSON草稿不计入数据库待审数量。"
+  },
+  "testDatabases": [
+    {
+      "environmentKey": "DB_TEST_NAME",
+      "tables": 0
+    },
+    {
+      "environmentKey": "DB_RESTORE_TEST_NAME",
+      "tables": 0
+    }
+  ],
+  "credentialFilesLeft": []
+}

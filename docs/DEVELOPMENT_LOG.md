@@ -1,5 +1,35 @@
 # 成员③开发与验证记录
 
+## 接续完善：查询演示、更新检查、边界评测及备份恢复
+
+2026-11-16。本轮从`role3/longyang-evidence-v0.1.0`、提交`f36688d6c67a011139c3d12e434ff30562e7a45c`的干净工作区开始；当前改动尚未提交，报告标dirty。下面原“尚无Git/正式目录为空/备份未执行”等描述是较早任务的现场记录，以本节接续结果为准。
+
+实际环境：Windows PowerShell、Node24.21.0/npm11.19.0、MySQL8.0.46/MySQL80。本轮没有改迁移文件或增加数据库框架；新增cheerio1.2.0与pdfjs-dist6.5.438用于来源检查，建议Node22.13以上22.x或Node24。依赖按锁文件重新安装117包，审计0漏洞；npm仍提示esbuild安装脚本未列allowScripts、传递依赖whatwg-encoding弃用，未阻碍实际构建/测试，没有为此升级其它依赖。
+
+功能与职责：保留原findCandidates/getClause，补CLI展示、准确版本查询及人工缺项；source-registry登记16载体/13文件，手动检查正文/附件、哈希与差异、并发锁/幂等任务、人工任务事件；更新不自动发布。增加受令牌保护的内部状态，生产Nginx拒绝/internal/。原生备份/恢复只处理资料7表和受限归档，不代替整库/云灾备；无手机页面/OCR/资格判断实现。
+
+|实际执行|结果与范围|
+|---|---|
+|初始`npm test`、`npm run test:db`|原16项测试及1个真实MySQL集成流程通过，0跳过，随后才补回归测试|
+|`npm.cmd ci --cache ../.npm-cache`|清洁安装成功，未更换包管理器|
+|最终`npm.cmd run verify`|9项命令检查全部符合预期；TypeScript/构建通过，24项单元及HTTP测试通过；真实MySQL集成1流程通过、0跳过；mock故意失败/业务未接/离线缺输出按退出1/2识别，不把这些算业务通过|
+|`npm.cmd run demo:query -- --isolated ...`两个实际实现调用|按事项/地区/日期返回25条候选、needs_review；按YN_GLT_ELIGIBILITY@1返回1条准确引用；输出保存query-real-candidates/reference.json，humanPolicyApproval=false；项目正式库仍未发布|
+|`npm.cmd run data:update:check -- --out ../reports/source-check-all.json`|实际16入口：14 unchanged，2 fetch_failed/404（B6-pdf、C11）。A3扫描PDF记录no_text_layer，C13文字层实际提取；没有真实新增政策变更任务，不把404推断失效|
+|`npm.cmd run eval:retrieval`|16例、80/80项技术检查通过，失败0/未执行0；16例建议/资格语义仍待人工核对；检索报告单独保存|
+|`npm.cmd run demo:workflow`|独立空_test库执行init/migrate、103版本导入/重复幂等、正式筛选隔离、历史与局部版本、模拟HTTP正文变更→差异→草稿→发布→新引用全过程通过；项目7表前后摘要一致|
+|同一workflow的原生备份恢复|7表摘要/行数全相同，113资料版本、21审核事件；13份原件、9份来源检查记录哈希一致，历史和DEMO_C2明确替代关系有效；源/恢复库只清理本轮自建表，项目库不动。先验证临时独立mysqld实例，后使用用户准备的独立_restore_test库复测成功|
+|`npm.cmd run eval:boundaries`|30例真实来源开发情景，194项自动检查全未执行、0通过/0失败、30例人工复核；Node原生退出2已独立捕获验证，codeVersion为真实提交+dirty。无/api/guide，不声称系统准确率已验证|
+|`npm.cmd run check:service`|最终构建启动：healthz200、readyz200、guide404、内部状态未授权401/授权200，5/5检查通过，进程结束关闭|
+|Compose格式解析|更新生产Compose通过Prettier YAML解析；当前无Docker/Nginx，不声称镜像、配置展开或容器启动通过|
+
+新增回归实际覆盖：正文无变化/变化、导航噪声、附件哈希/文字、首次附件缺旧基线、附件缺失、HTTP/解析/下载失败区分、PDF解析失败不能被文件无变化掩盖、重复/并发和内容回退后再变化、发布时间不推断生效、未发布不能提前关闭任务、内部接口鉴权/503/脱敏日志、恢复库名/SQL哈希/切库语句保护。PDF扫描无文本层与解析异常分别记录。
+
+发现并修复：原生mysqldump的默认导入LOCK TABLES使最小权限恢复账号失败；改为--skip-add-locks，不扩大权限。确认失败只留下本轮创建的一张空迁移表后移除该表再复测，恢复成功；没有清空既有资料。Windows临时凭证文件原只读ACL会妨碍删除，改当前所有者F且不继承，完成删除；临时mysqld跳过名称解析影响root本机登录，已在自建实例修正且关闭，没有修改MySQL80服务。评测器旧Git读取因安全目录报错误记not-a-git，现仅显式信任当前工作区根并记录dirty；新增业务包装器取消整体固定180秒截止，由现有逐例超时负责，保证大批超时也能完成逐例报告。
+
+真实资料状态：源JSON仍13文件/90条draft，checked/reviewed未伪填；项目库7个开发版本、0正式版本。本轮没有对真实政策执行导入或发布。完整性分子/分母：来源90/90、引文定位90/90、地区90/90、生效日已知34/90（未知56）、结束日已知0/90（未知90）。未知不当作无期限。省/地方金额、瓦渡申请与免申冲突、经济困难试行期限及2026征求意见后正式接续等仍待人工原件核对。
+
+入口：[维护与演示](MEMBER_3_OPERATIONS.md)、[交接](HANDOFF_MEMBER_3.md)、[流程JSON](../reports/member3-workflow.json)、[统一验证](../reports/verification.json)、[业务未执行](../reports/longyang-boundaries-business.md)。原件/SQL/临时运行快照留reports/local，不提交真实.env和备份。队友机器独立安装与guide/OCR/手机联调、Docker镜像/Nginx/HTTPS、RDS TLS和云端备份切换尚未验证；未创建收费资源或提供虚构线上地址。
+
 日期：2026-11-16（Asia/Shanghai）。报告内时间戳使用ISO UTC，便于不同环境比较。本记录只描述实际完成和实际运行，不把可执行脚本等同于数据库或云端已验收。
 
 ## 最新专项审查

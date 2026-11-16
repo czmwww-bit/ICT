@@ -4,6 +4,7 @@ import { spawn } from 'node:child_process';
 import { setTimeout as delay } from 'node:timers/promises';
 import { writeFile, mkdir } from 'node:fs/promises';
 import assert from 'node:assert/strict';
+import { randomBytes } from 'node:crypto';
 
 async function main() {
   const reservation = createServer();
@@ -12,9 +13,10 @@ async function main() {
   await new Promise((resolve, reject) =>
     reservation.close((error) => (error ? reject(error) : resolve())),
   );
+  const adminToken = randomBytes(24).toString('hex');
   const child = spawn(process.execPath, ['dist/src/server.js'], {
     cwd: process.cwd(),
-    env: { ...process.env, PORT: String(port) },
+    env: { ...process.env, PORT: String(port), ADMIN_STATUS_TOKEN: adminToken },
     windowsHide: true,
     stdio: ['ignore', 'pipe', 'pipe'],
   });
@@ -52,6 +54,7 @@ async function main() {
       ['/healthz', 'GET', 200],
       ['/readyz', 'GET', 200],
       ['/api/guide', 'POST', 404],
+      ['/internal/evidence/status', 'GET', 401],
     ]) {
       const r = await fetch(`http://127.0.0.1:${port}${route}`, {
         method,
@@ -60,6 +63,21 @@ async function main() {
       assert.equal(r.status, expected, `${route}状态不符`);
       checks.push({ route, method, expected, actual: r.status, status: 'pass' });
     }
+    const details = await fetch(`http://127.0.0.1:${port}/internal/evidence/status`, {
+      headers: { Authorization: 'Bearer ' + adminToken },
+      signal: AbortSignal.timeout(5000),
+    });
+    assert.equal(details.status, 200);
+    const state = await details.json();
+    assert.equal(state.database, 'connected');
+    assert.equal(typeof state.pendingSourceUpdates, 'number');
+    checks.push({
+      route: '/internal/evidence/status (authorized)',
+      method: 'GET',
+      expected: 200,
+      actual: details.status,
+      status: 'pass',
+    });
     await mkdir('../reports', { recursive: true });
     await writeFile(
       '../reports/local-service.json',

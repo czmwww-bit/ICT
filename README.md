@@ -74,10 +74,12 @@
 
 ## 成员③模块入口（2026-11-16）
 
-资料模块位于 `backend/`，提供MySQL迁移、JSON校验/事务导入、独立审核发布、历史记录及后端内部查询函数。当前仅有虚构开发夹具；正式资料待人工核对。最小Express服务只有健康接口，`/api/ocr` 与 `/api/guide` 仍由成员②接入。
+资料模块位于 `backend/`，提供MySQL迁移、JSON校验/事务导入、独立审核发布、历史记录及后端内部查询函数。已整理隆阳真实来源草稿，仍待人工核对；项目库中目前仅有开发样例。最小Express服务提供健康检查及可选令牌保护的内部资料状态，`/api/ocr` 与 `/api/guide` 仍由成员②接入。
 
 运行及队友调用见 [成员③交接](docs/HANDOFF_MEMBER_3.md)，数据字段见 [DATA_MODEL](docs/DATA_MODEL.md)，实际验证见 [开发记录](docs/DEVELOPMENT_LOG.md)。
 
 本地MySQL8.0.46现已实测通过迁移、重复导入、事务回滚、并发版本检查和历史查询。已有本地配置时运行 `npm run verify`；准备/复核虚构演示资料可运行 `npm run data:demo -- --allow-demo`。Docker、真实业务联调和华为云部署仍待对应环境。
 
 隆阳试点的高龄津贴、经济困难老年人服务补贴、养老服务消费补贴13项官方来源现已整理为[13文件/90条款待审核草稿](data/official/longyang-pilot/README.md)，只完成预检查及隔离库验证，未导入项目库或发布。先查看[优先人工核对表](data/official/longyang-pilot/REVIEW_OVERVIEW.md)；18例真实来源开发情景的预期也待核对，不表示真实业务准确率已验证。
+
+本轮增加真实条款隔离查询演示、手动来源检查与差异待审任务、30例业务边界情景、16例检索技术评测，以及原生MySQL备份恢复演练。操作见[成员③维护与演示](docs/MEMBER_3_OPERATIONS.md)；实际结果见[完整流程报告](reports/member3-workflow.md)。网页变化不会自动修改政策库或发布资料。

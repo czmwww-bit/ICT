@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=22.12"
+    "node": ">=22.13"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -12,6 +12,7 @@
     "format": "prettier --write src examples test scripts *.json",
     "verify": "node scripts/verify.mjs",
     "setup:local": "node scripts/setup-local.mjs",
+    "setup:restore": "node scripts/setup-restore.mjs",
     "check:service": "node scripts/check-service.mjs",
     "test": "tsx --test test/*.test.ts",
     "test:db": "tsx --test test/mysql.integration.ts",
@@ -22,6 +23,16 @@
     "data:query": "tsx src/cli.ts query",
     "data:history": "tsx src/cli.ts history",
     "data:publish": "tsx src/cli.ts publish",
+    "data:show": "tsx src/maintenance.ts show",
+    "data:status": "tsx src/maintenance.ts status",
+    "data:update:check": "tsx src/maintenance.ts check",
+    "data:updates": "tsx src/maintenance.ts updates",
+    "data:backup": "tsx src/backup-cli.ts backup",
+    "data:restore": "tsx src/backup-cli.ts restore",
+    "demo:query": "tsx examples/query-real.ts",
+    "demo:workflow": "tsx scripts/workflow.ts",
+    "eval:retrieval": "tsx scripts/workflow.ts --queries-only",
+    "eval:boundaries": "node scripts/eval-boundaries.mjs",
     "data:demo": "tsx examples/prepare-demo.ts",
     "start": "node dist/src/server.js",
     "dev": "tsx src/server.ts",
@@ -29,9 +40,11 @@
     "eval": "tsx src/evaluate.ts"
   },
   "dependencies": {
+    "cheerio": "1.2.0",
     "dotenv": "^16.4.7",
     "express": "^5.3.0",
     "mysql2": "^3.14.0",
+    "pdfjs-dist": "6.5.438",
     "zod": "^4.6.7"
   },
   "devDependencies": {

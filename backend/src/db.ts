@@ -35,8 +35,9 @@ export function config() {
     charset: 'utf8mb4',
   };
 }
-export async function pool(withDatabase = true): Promise<Pool> {
+export async function pool(withDatabase = true, databaseName?: string): Promise<Pool> {
   const c = config();
+  if (databaseName && !/^[A-Za-z0-9_]+$/.test(databaseName)) throw new Error('数据库名无效');
   if (
     process.env.DB_TLS === 'true' &&
     (!process.env.DB_SSL_CA || /^<.*>$/.test(process.env.DB_SSL_CA))
@@ -48,7 +49,7 @@ export async function pool(withDatabase = true): Promise<Pool> {
       : undefined;
   return mysql.createPool({
     ...c,
-    database: withDatabase ? c.database : undefined,
+    database: withDatabase ? (databaseName ?? c.database) : undefined,
     ssl,
     connectionLimit: 5,
   });

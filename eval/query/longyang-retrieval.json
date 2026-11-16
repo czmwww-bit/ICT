@@ -1,0 +1,22 @@
+{
+  "version": "longyang-retrieval-technical-v1",
+  "scope": "隔离技术审核夹具；只验证检索，不验证用户资格。年龄用例期望仍能取到完整条件，由成员②判断。",
+  "cases": [
+    {"id":"Q01","phase":"draft","description":"真实资料未审核","matterId":"HIGH_AGE_ALLOWANCE","regionCode":"530502","asOf":"2026-11-16","status":"not_published","references":[]},
+    {"id":"Q02","phase":"current","description":"施行前一天","matterId":"HIGH_AGE_ALLOWANCE","regionCode":"530502","asOf":"2024-12-31","status":"no_match","references":[]},
+    {"id":"Q03","phase":"current","description":"网页发布日期不充当施行日","matterId":"HIGH_AGE_ALLOWANCE","regionCode":"530502","asOf":"2024-12-04","status":"no_match","references":[]},
+    {"id":"Q04","phase":"current","description":"施行当日及省级祖先","matterId":"HIGH_AGE_ALLOWANCE","regionCode":"530502","asOf":"2025-01-01","status":"matched","references":["YN_GLT_ELIGIBILITY@1","YN_GLT_PROVINCIAL_RATES@1","YN_GLT_MONTHLY_PAYMENT@1","YN_GLT_HOUSEHOLD_SEPARATION@1","YN_GLT_UNREACHABLE@1"]},
+    {"id":"Q05","phase":"current","description":"乡镇显式继承省级资料","matterId":"HIGH_AGE_ALLOWANCE","regionCode":"LY_XIYI","asOf":"2026-11-16","status":"matched","references":["YN_GLT_ELIGIBILITY@1","YN_GLT_PROVINCIAL_RATES@1","YN_GLT_MONTHLY_PAYMENT@1","YN_GLT_HOUSEHOLD_SEPARATION@1","YN_GLT_UNREACHABLE@1"]},
+    {"id":"Q06","phase":"current","description":"邻县不能混入隆阳操作指南","matterId":"DISABILITY_CARE_CONSUMPTION","regionCode":"530521","asOf":"2026-11-16","status":"outside_pilot","references":["CN_CONSUMPTION_LAUNCH_2026_START@1","CN_CONSUMPTION_LAUNCH_2026_CYCLE@1"]},
+    {"id":"Q07","phase":"current","description":"未登记地区","matterId":"HIGH_AGE_ALLOWANCE","regionCode":"UNKNOWN","asOf":"2026-11-16","status":"region_unknown","references":[]},
+    {"id":"Q08","phase":"current","description":"事项无匹配","matterId":"UNKNOWN_MATTER","regionCode":"530502","asOf":"2026-11-16","status":"no_match","references":[]},
+    {"id":"Q09","phase":"current","description":"未知施行日期及未审核排除条款隔离","matterId":"DISABILITY_CARE_CONSUMPTION","regionCode":"530502","asOf":"2026-11-16","status":"needs_review","references":["CN_CONSUMPTION_LAUNCH_2026_START@1","CN_CONSUMPTION_LAUNCH_2026_CYCLE@1","LY_CONSUMPTION_GUIDE_2026_CONTACT@1"]},
+    {"id":"Q10","phase":"current","description":"79岁仍需返回含80岁条件的候选，不能自动视为符合","age":79,"matterId":"HIGH_AGE_ALLOWANCE","regionCode":"530502","asOf":"2026-11-16","status":"matched","references":["YN_GLT_ELIGIBILITY@1","YN_GLT_PROVINCIAL_RATES@1","YN_GLT_MONTHLY_PAYMENT@1","YN_GLT_HOUSEHOLD_SEPARATION@1","YN_GLT_UNREACHABLE@1"]},
+    {"id":"Q11","phase":"current","description":"达龄当月条件证据不丢失","age":80,"matterId":"HIGH_AGE_ALLOWANCE","regionCode":"530502","asOf":"2026-11-16","status":"matched","references":["YN_GLT_ELIGIBILITY@1","YN_GLT_PROVINCIAL_RATES@1","YN_GLT_MONTHLY_PAYMENT@1","YN_GLT_HOUSEHOLD_SEPARATION@1","YN_GLT_UNREACHABLE@1"]},
+    {"id":"Q12","phase":"current","description":"99岁省级两档及层级限定返回完整","age":99,"matterId":"HIGH_AGE_ALLOWANCE","regionCode":"530502","asOf":"2026-11-16","status":"matched","references":["YN_GLT_ELIGIBILITY@1","YN_GLT_PROVINCIAL_RATES@1","YN_GLT_MONTHLY_PAYMENT@1","YN_GLT_HOUSEHOLD_SEPARATION@1","YN_GLT_UNREACHABLE@1"]},
+    {"id":"Q13","phase":"current","description":"100岁省级标准不自动替代地方标准","age":100,"matterId":"HIGH_AGE_ALLOWANCE","regionCode":"530502","asOf":"2026-11-16","status":"matched","references":["YN_GLT_ELIGIBILITY@1","YN_GLT_PROVINCIAL_RATES@1","YN_GLT_MONTHLY_PAYMENT@1","YN_GLT_HOUSEHOLD_SEPARATION@1","YN_GLT_UNREACHABLE@1"]},
+    {"id":"Q14","phase":"partial_draft","description":"新校对版本未审核不遮蔽已选版本","matterId":"HIGH_AGE_ALLOWANCE","regionCode":"530502","asOf":"2026-11-16","status":"matched","references":["YN_GLT_ELIGIBILITY@1","YN_GLT_PROVINCIAL_RATES@1","YN_GLT_MONTHLY_PAYMENT@1","YN_GLT_HOUSEHOLD_SEPARATION@1","YN_GLT_UNREACHABLE@1"]},
+    {"id":"Q15","phase":"partial_published","description":"只切换一条校对版本，其他条款仍为1版","matterId":"HIGH_AGE_ALLOWANCE","regionCode":"530502","asOf":"2026-11-16","status":"matched","references":["YN_GLT_ELIGIBILITY@2","YN_GLT_PROVINCIAL_RATES@1","YN_GLT_MONTHLY_PAYMENT@1","YN_GLT_HOUSEHOLD_SEPARATION@1","YN_GLT_UNREACHABLE@1"]},
+    {"id":"Q16","phase":"partial_published","description":"准确旧版本原文","idQuery":"YN_GLT_ELIGIBILITY","version":1,"status":"matched","references":["YN_GLT_ELIGIBILITY@1"]}
+  ]
+}

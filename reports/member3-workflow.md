@@ -1,0 +1,45 @@
+# 成员③实际运行报告
+
+模式：isolated-full-workflow；执行时间：2026-11-16T11:09:22.442Z。真实政策人工审核：未完成。项目库未变：true；源测试表已清理：true。
+
+|阶段|结果|
+|---|---|
+|独立环境初始化/迁移|pass|
+|真实条款检索/日期地区/局部版本边界|pass|
+|样例导入/查询/历史及明确结束日|pass|
+|模拟官方网页变化→差异→草稿→技术审核→新版查询|pass|
+|MySQL原生备份及原件/更新检查记录备份|pass|
+|另一个空库恢复、版本/状态/关系/原件及更新记录一致|pass|
+
+检索技术检查80/80通过，失败0，未执行0；16例建议/年龄资格语义仍待人工核对。年龄案例只验证能取得含年龄条件的条款，不在资料层判资格。
+
+语料完整性：
+
+- source：90/90；未知0。结构完整性不代替原文真实性及语义人工审核
+- quoteLocator：90/90；未知0。结构完整性不代替原文真实性及语义人工审核
+- region：90/90；未知0。结构完整性不代替原文真实性及语义人工审核
+- effectiveFromKnown：34/90；未知56。未知日期单列，不推断，也不当成无期限
+- effectiveToKnown：0/90；未知90。未知日期单列，不推断，也不当成无期限
+
+|案例|实际命中|失败原因|
+|---|---|---|
+|Q01 真实资料未审核||无|
+|Q02 施行前一天||无|
+|Q03 网页发布日期不充当施行日||无|
+|Q04 施行当日及省级祖先|YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1|无|
+|Q05 乡镇显式继承省级资料|YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1|无|
+|Q06 邻县不能混入隆阳操作指南|CN_CONSUMPTION_LAUNCH_2026_CYCLE@1,CN_CONSUMPTION_LAUNCH_2026_START@1|无|
+|Q07 未登记地区||无|
+|Q08 事项无匹配||无|
+|Q09 未知施行日期及未审核排除条款隔离|CN_CONSUMPTION_LAUNCH_2026_CYCLE@1,CN_CONSUMPTION_LAUNCH_2026_START@1,LY_CONSUMPTION_GUIDE_2026_CONTACT@1|无|
+|Q10 79岁仍需返回含80岁条件的候选，不能自动视为符合|YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1|无|
+|Q11 达龄当月条件证据不丢失|YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1|无|
+|Q12 99岁省级两档及层级限定返回完整|YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1|无|
+|Q13 100岁省级标准不自动替代地方标准|YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1|无|
+|Q14 新校对版本未审核不遮蔽已选版本|YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1|无|
+|Q15 只切换一条校对版本，其他条款仍为1版|YN_GLT_ELIGIBILITY@2,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1|无|
+|Q16 准确旧版本原文|YN_GLT_ELIGIBILITY@1|无|
+
+恢复：{"status":"restored","tablesVerified":{"evidence_publications":{"rows":21,"sha256":"95c23e41ab7c6c9dd733bf3b565e30e07e83a932bb88e7acd176c9d0d0636055"},"evidence_versions":{"rows":113,"sha256":"3f78fa5f33409b41e148a538841bd831f32327de93ddfdc764cdba89c607f225"},"evidence_heads":{"rows":110,"sha256":"953eaa79393339b014ab78968e817feb877ed9fa170a10113972b0d62383d8b6"},"evidence_batches":{"rows":4,"sha256":"9dbd831d296beb507809e5a95b23189001e4144fdb4f20021f81b9724305e8b2"},"evidence_regions":{"rows":11,"sha256":"cec03e1edb969d9cb94a756e249dc6b167bc1f67f704f4d3b4860dabeda3c16e"},"evidence_import_lock":{"rows":1,"sha256":"037c9214eef74cc3887f3a4f085b4e17d76280dafd273b0ee160c09c4ba1cfd4"},"evidence_migrations":{"rows":2,"sha256":"32f3b238cc3d1e613ceee8d36bf5eab06ae37452df3e61c78000a09d9ba02bd1"}},"archiveFilesVerified":13,"runtimeFilesVerified":9,"sourceDatabase":"silver_local_1e35810556_test","targetDatabase":"silver_local_1e35810556_restore_test","targetTestTablesCleaned":true,"targetScope":"configured_independent_restore_test"}
+
+错误：无。源码版本dirty=true，不是已提交代码完全一致的声明。运行细节见JSON。

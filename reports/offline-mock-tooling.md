@@ -1,6 +1,6 @@
 # 评测记录：offline-mock-tooling
 
-代码：not-a-git-repository；测试集：demo-v1
+代码：f36688d6c67a011139c3d12e434ff30562e7a45c+dirty；测试集：demo-v1
 
 资料哈希：0f010e0b65e8e42d8d7ad4967c788dae71bd74e3e643410b8dbfd2c8e1bb8412
 

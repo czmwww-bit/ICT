@@ -2,6 +2,8 @@
 
 检查日期：2026-11-16，Asia/Shanghai。
 
+接续改进：当前已有Git及真实来源草稿；下文“无Git/仅开发样例”等是前轮检查记录。本轮新增手动来源检查、准确版本演示、检索边界及原生备份恢复，实际结果见[member3-workflow.json](../reports/member3-workflow.json)、[source-check-all.json](../reports/source-check-all.json)及[维护说明](MEMBER_3_OPERATIONS.md)。真实政策仍未人工发布，guide/OCR/手机和ECS/RDS待联调。
+
 **总体判断：资料技术模块可以交接，仍待正式资料、成员①②业务联调和云端验证，尚不具备完整产品上线验收条件。** 本轮发现的问题已做小范围修复并复测；没有重写手机端、OCR或业务判断，没有升级依赖，没有新建收费资源或覆盖线上资料。
 
 完整结构化记录：[role3-audit.json](../reports/role3-audit.json)；原始测试输出：[verification.txt](../reports/verification.txt)；命令结果：[role3-command-checks.json](../reports/role3-command-checks.json)。

@@ -1,0 +1,42 @@
+# 成员③实际运行报告
+
+模式：retrieval-only-isolated；执行时间：2026-11-16T11:05:25.541Z。真实政策人工审核：未完成。项目库未变：true；源测试表已清理：true。
+
+|阶段|结果|
+|---|---|
+|独立环境初始化/迁移|pass|
+|真实条款检索/日期地区/局部版本边界|pass|
+|样例导入/查询/历史及明确结束日|pass|
+
+检索技术检查80/80通过，失败0，未执行0；16例建议/年龄资格语义仍待人工核对。年龄案例只验证能取得含年龄条件的条款，不在资料层判资格。
+
+语料完整性：
+
+- source：90/90；未知0。结构完整性不代替原文真实性及语义人工审核
+- quoteLocator：90/90；未知0。结构完整性不代替原文真实性及语义人工审核
+- region：90/90；未知0。结构完整性不代替原文真实性及语义人工审核
+- effectiveFromKnown：34/90；未知56。未知日期单列，不推断，也不当成无期限
+- effectiveToKnown：0/90；未知90。未知日期单列，不推断，也不当成无期限
+
+|案例|实际命中|失败原因|
+|---|---|---|
+|Q01 真实资料未审核||无|
+|Q02 施行前一天||无|
+|Q03 网页发布日期不充当施行日||无|
+|Q04 施行当日及省级祖先|YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1|无|
+|Q05 乡镇显式继承省级资料|YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1|无|
+|Q06 邻县不能混入隆阳操作指南|CN_CONSUMPTION_LAUNCH_2026_CYCLE@1,CN_CONSUMPTION_LAUNCH_2026_START@1|无|
+|Q07 未登记地区||无|
+|Q08 事项无匹配||无|
+|Q09 未知施行日期及未审核排除条款隔离|CN_CONSUMPTION_LAUNCH_2026_CYCLE@1,CN_CONSUMPTION_LAUNCH_2026_START@1,LY_CONSUMPTION_GUIDE_2026_CONTACT@1|无|
+|Q10 79岁仍需返回含80岁条件的候选，不能自动视为符合|YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1|无|
+|Q11 达龄当月条件证据不丢失|YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1|无|
+|Q12 99岁省级两档及层级限定返回完整|YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1|无|
+|Q13 100岁省级标准不自动替代地方标准|YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1|无|
+|Q14 新校对版本未审核不遮蔽已选版本|YN_GLT_ELIGIBILITY@1,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1|无|
+|Q15 只切换一条校对版本，其他条款仍为1版|YN_GLT_ELIGIBILITY@2,YN_GLT_HOUSEHOLD_SEPARATION@1,YN_GLT_MONTHLY_PAYMENT@1,YN_GLT_PROVINCIAL_RATES@1,YN_GLT_UNREACHABLE@1|无|
+|Q16 准确旧版本原文|YN_GLT_ELIGIBILITY@1|无|
+
+恢复：{"status":"not_requested"}
+
+错误：无。源码版本dirty=true，不是已提交代码完全一致的声明。运行细节见JSON。

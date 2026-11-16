@@ -15,6 +15,8 @@ COPY package.json package-lock.json ./
 RUN npm ci --omit=dev && npm cache clean --force
 COPY --from=build /app/dist ./dist
 COPY migrations ./migrations
+RUN mkdir -p /var/lib/silver-source-check && chown node:node /var/lib/silver-source-check
+ENV SOURCE_CHECK_DIR=/var/lib/silver-source-check
 USER node
 EXPOSE 3000
 HEALTHCHECK --interval=20s --timeout=5s --start-period=15s --retries=3 CMD node -e "fetch('http://127.0.0.1:3000/readyz').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"

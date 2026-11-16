@@ -1,6 +1,6 @@
 # 成员③交接
 
-当前目录原本只有项目说明与码道工具文件，没有业务后端、前端、ORM或 Git 仓库。本次只新增 `backend` 资料模块及最小 Express 健康服务；原 README 约定的 `/api/ocr`、`/api/guide` 仍由②实现，①的页面未改动。没有初始化 Git 或改动工具文件。
+工程最初只有项目说明；现已有 `backend` 资料模块、最小Express健康服务及Git版本。原 README 约定的 `/api/ocr`、`/api/guide` 仍由②实现，①的页面未改动。2026-11-16新增的来源检查、隔离演示、评测及备份恢复见[维护与演示](MEMBER_3_OPERATIONS.md)，新命令继续复用原导入、发布和查询模块。
 
 ## 本地顺序（PowerShell）
 
@@ -137,8 +137,17 @@ const references = await getClause(db, '实际条款编号');
 
 新增事项编码`ECONOMIC_ELDERLY_SERVICE`、`DISABILITY_CARE_CONSUMPTION`，高龄沿用`HIGH_AGE_ALLOWANCE`；办理区530502。完整查询、逐条发布及评测命令见本批README。区域树补CN国家根，乡镇内部键与国家行政编码分开说明；本批替代未导入的旧批次作导入入口，不同时导入两个区域定义不同的草稿。结构和query函数返回字段保持兼容。
 
-`eval/demo/cases.json` 含13例；`eval/real`、`eval/holdout` 目前为空，必须分别准备经人工核对的案例，留出集不参与调试。`eval/ocr-manifest.template.json` 只是OCR清单，不表示OCR已测。详见 EVALUATION.md。
+`eval/demo/cases.json` 含13例；`eval/real/longyang-development.cases.json`保留原18例，新增`longyang-boundaries.cases.json`共30例真实来源编写情景，全部待人工核对。`eval/query/longyang-retrieval.json`另含16例检索技术案例，不能当作业务答案准确率。`eval/holdout`仍为空，留出集后续独立准备。`eval/ocr-manifest.template.json`只是OCR清单，不表示OCR已测。详见 EVALUATION.md。
 
 交给②：`backend/src/{model,db,store,query}.ts`、`backend/examples/member2.ts`、迁移、package.json与锁文件、DATA_MODEL.md、eval目录以及本说明。交给①：README 接口约定与 source 字段映射；真实办事卡联调仍依赖②。
 
 上云步骤及缺少的控制台配置见 DEPLOYMENT.md。当前没有云账号参数、ECS/RDS实例、域名、证书，也没有真实前端和业务服务；没有采购资源、上线地址或系统准确率结论。
+
+## 本轮交接补充
+
+- 正式查询：`npm.cmd run data:show -- --matter HIGH_AGE_ALLOWANCE --region 530502 --date 2026-11-16`。当前诚实返回`not_published`，项目库没有正式政策；不代表老人无资格。
+- 两个可运行的真实来源示例：`npm.cmd run demo:query -- --isolated --matter HIGH_AGE_ALLOWANCE --region 530502 --date 2026-11-16`；`npm.cmd run demo:query -- --isolated --id YN_GLT_ELIGIBILITY --version 1`。只在空_test库技术发布并在成功后清理，原JSON仍draft。实际输出见`reports/query-real-candidates.json`与`query-real-reference.json`。
+- ②继续使用`findCandidates`和`getClause`，返回字段未变。展示层`query-view.ts`额外解释状态、地区名、时间缺项、人工核对问题，`dataOnly=true`。事项/地区/日期语义及异常处理沿用上文；时间未知与试点以外不能被直接映射为业务ready。
+- 来源检查入口`data:update:check`、差异入口`data:updates`；检查记录和待审任务是文件账本，与MySQL迁移账本、政策版本账本分开。关闭任务不等于发布条款；必须先走原import/publish。详见维护文档。
+- 交给②的新增文件：`src/query-view.ts`、`src/operations.ts`、`examples/query-real.ts`、来源登记清单、`eval/query`和`eval/real/longyang-boundaries.cases.json`及实际报告。仍需整个backend依赖及原核心模块，不能只拷贝单个脚本。
+- ②需确认guide的question.key、sources.clauseId/clauseVersion、materials及异常字段，并逐条人工核对关键建议。①②的机器独立安装、OCR/guide及手机端联调尚未执行；当前本机的隔离验证不能代替队友签收。

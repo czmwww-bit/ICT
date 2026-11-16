@@ -1,0 +1,30 @@
+{
+  "executedAt": "2026-11-16T11:07:57.220Z",
+  "nativeExitCode": 2,
+  "expectedExitCode": 2,
+  "mode": "not-executed",
+  "groups": {
+    "demo": {
+      "cases": 0,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 0,
+      "manualReview": 0
+    },
+    "real": {
+      "cases": 30,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 194,
+      "manualReview": 30
+    },
+    "holdout": {
+      "cases": 0,
+      "pass": 0,
+      "fail": 0,
+      "notExecuted": 0,
+      "manualReview": 0
+    }
+  },
+  "codeVersion": "f36688d6c67a011139c3d12e434ff30562e7a45c+dirty"
+}

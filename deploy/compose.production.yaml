@@ -14,6 +14,7 @@ services:
       - "3000"
     volumes:
       - ${RDS_CA_FILE:?set absolute path to RDS CA}:/run/certs/rds-ca.pem:ro
+      - source_checks:/var/lib/silver-source-check:ro
     security_opt:
       - no-new-privileges:true
   nginx:
@@ -30,3 +31,5 @@ services:
     depends_on:
       backend:
         condition: service_healthy
+volumes:
+  source_checks:
