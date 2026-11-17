@@ -1,0 +1,32 @@
+{
+  "status": "pending",
+  "reviewedBy": null,
+  "originalPolicyApproved": false,
+  "items": [
+    {
+      "sourceId": "YB07",
+      "file": "sources/assets/YB07-01.jpg",
+      "transcription": "sources/YB07.visual-transcription.txt",
+      "method": "assistant_visual_reading_of_all_crops",
+      "normalization": "保留选录板块文字；段落/空白规范化，不冒充完整原图OCR",
+      "uncertainties": [
+        "财政补助是不低于724元，不能说个人缴费724元"
+      ]
+    },
+    {
+      "sourceId": "YB08",
+      "file": "sources/assets/YB08-01.jpg",
+      "transcription": "sources/YB08.visual-transcription.txt",
+      "method": "assistant_visual_reading_of_all_crops",
+      "normalization": "保留选录板块文字；段落/空白规范化，不冒充完整原图OCR",
+      "uncertainties": [
+        "第②步第二个缴费按钮字样待核，不用于导航匹配",
+        "特殊资助对象与等待期例外须同时核对"
+      ]
+    }
+  ],
+  "imageOnlyNotImported": [
+    "YB21"
+  ],
+  "sourceMonitorLimitation": "现有监测只比较正文/PDF/Office；纯图片指南另按原图哈希人工核对，不注册为已监测全文。"
+}

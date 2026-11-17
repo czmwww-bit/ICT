@@ -1,5 +1,5 @@
 {
-  "executedAt": "2026-11-16T05:32:47.267Z",
+  "executedAt": "2026-11-17T01:25:15.357Z",
   "batchSha256": "403e2e72a8100178ba1b11489c508bda9809e7428d8fc0ed1c7ca442747e0391",
   "documents": 13,
   "clauses": 90,
@@ -79,7 +79,7 @@
   },
   "databaseUnchanged": true,
   "passed": true,
-  "humanPolicyReview": "未执行：等待用户核对，技术通过不等于政策审核通过",
+  "humanPolicyReview": "完整审核待执行；2026-11-17部分事实反馈见review-followup-2026-11-17/review-receipt.json，技术通过不等于审核发布",
   "imported": false,
   "published": false
 }

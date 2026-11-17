@@ -1,0 +1,91 @@
+{
+  "id": "YB19",
+  "sourceUrl": "https://ylbz.yn.gov.cn/xwdt/ybyw/202601/t20260107_3636533.html",
+  "title": "云南医保小程序推出2025年度个人医保账单查询功能",
+  "fields": {
+    "viewport": "width=device-width, initial-scale=1.0",
+    "renderer": "webkit",
+    "author": "云南省医疗保障局",
+    "Copyright": "云南省医疗保障局",
+    "keywords": "云南省医疗保障局",
+    "description": "云南省医疗保障局",
+    "SiteName": "云南省医疗保障局",
+    "SiteDomain": "",
+    "SiteIDCode": "",
+    "ColumnName": "医保要闻",
+    "ColumnDescription": "医保要闻",
+    "ColumnKeywords": "医保要闻",
+    "ColumnType": "医保要闻",
+    "ArticleTitle": "云南医保小程序推出2025年度个人医保账单查询功能",
+    "PubDate": "2026-01-07 20:36",
+    "ContentSource": "云南省医疗保障局",
+    "Keywords": "",
+    "Author": "",
+    "Description": "问：你想知道去年的医保花费了多少吗？要是有个医保年度账单就好了。答：有啊，云南医保小程序出医保个人年度账单了！云南医保小程序上线2025年度医保账单查询功能，可按年度展示参保人的参保情况、缴费情况、待遇享受、生育报销、个人账户收支、医保钱包等医保权益。如图所示：如何进入医保账单？打开支付宝或微信搜索“云南医保”小程序点击首页“2025年度医保账单”查看",
+    "Image": "",
+    "Url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202601/t20260107_3636533.html"
+  },
+  "selector": ".acticle-content",
+  "paragraphs": [
+    "问：你想知道去年的医保花费了多少吗？要是有个医保年度账单就好了。",
+    "答：有啊，云南医保小程序出医保个人年度账单了！",
+    "云南医保小程序上线2025年度医保账单查询功能，可按年度展示参保人的参保情况、缴费情况、待遇享受、生育报销、个人账户收支、医保钱包等医保权益。如图所示：",
+    "如何进入医保账单？",
+    "打开支付宝或微信",
+    "搜索“云南医保”小程序",
+    "点击首页“2025年度医保账单”查看"
+  ],
+  "assets": [
+    {
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202601/W020260820456086826705.jpg",
+      "kind": "image",
+      "retrievedAt": "2026-11-17T01:37:22.480Z",
+      "status": "retrieved",
+      "file": "sources/assets/YB19-01.jpg",
+      "sha256": "504a3afb363eaafd917f98fa2d0943e4e5e085df2b44aca30f172f97ce02a4ec",
+      "bytes": 56247,
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202601/W020260820456087176878.jpg",
+      "kind": "image",
+      "retrievedAt": "2026-11-17T01:37:22.789Z",
+      "status": "retrieved",
+      "file": "sources/assets/YB19-02.jpg",
+      "sha256": "aeb74daf2f239dd38bce8b5227d0f0ce27dc43d4bf9ea96f31ad86a97e4253da",
+      "bytes": 44573,
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202601/W020260820456087482379.jpg",
+      "kind": "image",
+      "retrievedAt": "2026-11-17T01:37:22.981Z",
+      "status": "retrieved",
+      "file": "sources/assets/YB19-03.jpg",
+      "sha256": "e54511fffc5e734c236e7cdd1a7cae8b36ef2121ff28e21ae46fd197bc371b94",
+      "bytes": 85725,
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202601/W020260820456087834569.jpg",
+      "kind": "image",
+      "retrievedAt": "2026-11-17T01:37:23.202Z",
+      "status": "retrieved",
+      "file": "sources/assets/YB19-04.jpg",
+      "sha256": "3a4efc096466824b463eb4eb61e3837ce3fbd3493cab285cae6851f357b742a3",
+      "bytes": 34210,
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+      "kind": "image",
+      "retrievedAt": "2026-11-17T01:37:23.392Z",
+      "status": "retrieved",
+      "file": "sources/assets/YB19-05.png",
+      "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+      "bytes": 986,
+      "contentType": "image/png",
+      "role": "page_decoration_not_policy_evidence"
+    }
+  ]
+}

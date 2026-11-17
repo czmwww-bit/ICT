@@ -1,0 +1,735 @@
+{
+  "searchedAt": "2026-11-17T01:35:25.185Z",
+  "purpose": "官方新站迁移地址发现，索引不是已获取的政策全文",
+  "results": [
+    {
+      "id": "news-2",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_2.html",
+      "fetchedAt": "2026-11-17T01:35:21.801Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-2.html",
+      "sha256": "afd6b26a99175585b671272144a1f03cf48ec99b057a01a81bf1fba19254f6cb"
+    },
+    {
+      "id": "news-3",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_3.html",
+      "fetchedAt": "2026-11-17T01:35:21.801Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-3.html",
+      "sha256": "c90f1d2b9705d7a70fd67e0f6ea8549d39ddae5c2faca9e172f58c6e62e4114c"
+    },
+    {
+      "id": "news-0",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/",
+      "fetchedAt": "2026-11-17T01:35:21.790Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-0.html",
+      "sha256": "9feaaab247f9d5c59cd90681ebd8128897469ed38f1daff5ec19484145e5363e"
+    },
+    {
+      "id": "news-1",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_1.html",
+      "fetchedAt": "2026-11-17T01:35:21.800Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-1.html",
+      "sha256": "0959866d204ab916beb3ac22f027547fef420699e0c6219f18ab707399f5d6ec"
+    },
+    {
+      "id": "news-5",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_5.html",
+      "fetchedAt": "2026-11-17T01:35:22.075Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-5.html",
+      "sha256": "c1f5ce8baa443b9092e75edc3721593ed7c9e02f7c5ffa7a590903bf870c36cf"
+    },
+    {
+      "id": "news-4",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_4.html",
+      "fetchedAt": "2026-11-17T01:35:22.059Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-4.html",
+      "sha256": "00021c66295aa1280bc6628fadd27ef2322324b5b35eade917bb60edd8df3014"
+    },
+    {
+      "id": "news-8",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_8.html",
+      "fetchedAt": "2026-11-17T01:35:22.289Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-8.html",
+      "sha256": "c9c1d2ea424cbfdf36cc3c66c313eeff7db7a958ea57629ec619907c15879131"
+    },
+    {
+      "id": "news-9",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_9.html",
+      "fetchedAt": "2026-11-17T01:35:22.338Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-9.html",
+      "sha256": "661316705e0e349e86932222d54db16f03ff5e8b89ba28c986daa2ebc6d685f5"
+    },
+    {
+      "id": "news-7",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_7.html",
+      "fetchedAt": "2026-11-17T01:35:22.144Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-7.html",
+      "sha256": "244899edd270a294b038473178899e253f080c666911745843bc75c766b33f6c"
+    },
+    {
+      "id": "news-6",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_6.html",
+      "fetchedAt": "2026-11-17T01:35:22.111Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-6.html",
+      "sha256": "1a3000ecc42f940b0821e10b5551b92a0b30b0b08a28aa87640105ce050c1e0e"
+    },
+    {
+      "id": "news-11",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_11.html",
+      "fetchedAt": "2026-11-17T01:35:22.529Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-11.html",
+      "sha256": "0c85635b5fac1030e6d9c3331d4a4878acdebb257243bfe6166943cf8a5b71ff"
+    },
+    {
+      "id": "news-12",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_12.html",
+      "fetchedAt": "2026-11-17T01:35:22.686Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-12.html",
+      "sha256": "c163ac23cd8629db815a6445a74ef0b6e2ab594ebca71176cddaadb411087d3a"
+    },
+    {
+      "id": "news-13",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_13.html",
+      "fetchedAt": "2026-11-17T01:35:22.733Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-13.html",
+      "sha256": "7b4bcb3ce118e19e79d9ec2acd9afbc3695ef0443dbd5350ce6942885b97bcc1"
+    },
+    {
+      "id": "news-14",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_14.html",
+      "fetchedAt": "2026-11-17T01:35:22.820Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-14.html",
+      "sha256": "aa3b5be34371e66608d278c9e421f74a4f92afc85e7014b90de7b69e061fa9c0"
+    },
+    {
+      "id": "news-15",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_15.html",
+      "fetchedAt": "2026-11-17T01:35:22.913Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-15.html",
+      "sha256": "0f0524268cf89c127062eda9bcfc2388fbf7247fd5cef11f0b22dd7f82c1ae71"
+    },
+    {
+      "id": "news-10",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_10.html",
+      "fetchedAt": "2026-11-17T01:35:22.516Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-10.html",
+      "sha256": "683f0f852006be5d192234094c52575024d9fe52f8d162da52eaba4080ff2d36"
+    },
+    {
+      "id": "news-18",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_18.html",
+      "fetchedAt": "2026-11-17T01:35:23.093Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-18.html",
+      "sha256": "84649da37926536e399c62c8d2069662fb46e988bb8137d1aa50b2653f64fd9c"
+    },
+    {
+      "id": "news-17",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_17.html",
+      "fetchedAt": "2026-11-17T01:35:23.055Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-17.html",
+      "sha256": "d3f16b5e72d5dccba973fcf39e65e7402e3ba474c93383e28c79142f575efe93"
+    },
+    {
+      "id": "news-16",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_16.html",
+      "fetchedAt": "2026-11-17T01:35:23.010Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-16.html",
+      "sha256": "a08516a78514ae5ed3be10e1d6ae85f8f4647d062bc540fd235bcc10094acb59"
+    },
+    {
+      "id": "news-19",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_19.html",
+      "fetchedAt": "2026-11-17T01:35:23.157Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-19.html",
+      "sha256": "63acfff725df0b9a1f97761ade99649a8608d05e6f5a20eaad6ea9b9e1fffcac"
+    },
+    {
+      "id": "news-20",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_20.html",
+      "fetchedAt": "2026-11-17T01:35:23.242Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-20.html",
+      "sha256": "37b276180e8e076c2eca8fbcd5f8fa6366d46ec26839603af5c48874ec9db281"
+    },
+    {
+      "id": "news-21",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_21.html",
+      "fetchedAt": "2026-11-17T01:35:23.249Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-21.html",
+      "sha256": "9206c303201d02571f11386ace65fe5baf3c0347edd01509bcae01bc4f02b8d4"
+    },
+    {
+      "id": "news-22",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_22.html",
+      "fetchedAt": "2026-11-17T01:35:23.261Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-22.html",
+      "sha256": "aa8a97986d9f55b5940eafc7d91d915b5fbc94594239b216e3d1a42130d543d9"
+    },
+    {
+      "id": "news-23",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_23.html",
+      "fetchedAt": "2026-11-17T01:35:23.439Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-23.html",
+      "sha256": "64eb15dfe6847441e2ec1d2145be6ff6eb76a9ae254dcad47b6b7bdf2347c994"
+    },
+    {
+      "id": "news-24",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_24.html",
+      "fetchedAt": "2026-11-17T01:35:23.503Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-24.html",
+      "sha256": "c454773bb2cc8da66ed5315c932449808e80e02fa8422b6cd8dbac4ffed6c406"
+    },
+    {
+      "id": "news-25",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_25.html",
+      "fetchedAt": "2026-11-17T01:35:23.505Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-25.html",
+      "sha256": "7a1a58cb4607702bb33cf0c2f992a4505f148e2666f857541e685cb9afb71860"
+    },
+    {
+      "id": "news-27",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_27.html",
+      "fetchedAt": "2026-11-17T01:35:23.631Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-27.html",
+      "sha256": "db3f0941793e2077a6bd6cbb7fbe677abdeb28323493a7decd85008d5297b89b"
+    },
+    {
+      "id": "news-26",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_26.html",
+      "fetchedAt": "2026-11-17T01:35:23.513Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-26.html",
+      "sha256": "1b760b5d1cae29a84c7b69b0b4095c5ea7506248db951877c630e2683352b9c8"
+    },
+    {
+      "id": "news-28",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_28.html",
+      "fetchedAt": "2026-11-17T01:35:23.774Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-28.html",
+      "sha256": "2a5817de8852e94376978b5fe59338f4aa167ed8e9c44b28298b054d080d885f"
+    },
+    {
+      "id": "news-29",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_29.html",
+      "fetchedAt": "2026-11-17T01:35:23.804Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-29.html",
+      "sha256": "9357597d0598cec76b40c7c223a6ea714511045eabc28962684ecb921341bf2d"
+    },
+    {
+      "id": "news-31",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_31.html",
+      "fetchedAt": "2026-11-17T01:35:23.884Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-31.html",
+      "sha256": "ae79f4c86cbceb256699534556aa5bd27ac484093d8f91de739a43938f6d0799"
+    },
+    {
+      "id": "news-30",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_30.html",
+      "fetchedAt": "2026-11-17T01:35:23.819Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-30.html",
+      "sha256": "a9ec464a349cc0ed5e58a5583cbb22a67173b1ed470ccae84a625743e60a26be"
+    },
+    {
+      "id": "policy-0",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/",
+      "fetchedAt": "2026-11-17T01:35:24.065Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/policy-0.html",
+      "sha256": "7d20fa08ebd991f5a1fa8e4686463cdf7b0c5279a0669de2692ed070d827cb16"
+    },
+    {
+      "id": "news-33",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_33.html",
+      "fetchedAt": "2026-11-17T01:35:24.023Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-33.html",
+      "sha256": "9f5d713b8725665a1044e11abb2a7e9db09c59258a365a630e999b66634f0717"
+    },
+    {
+      "id": "news-32",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/index_32.html",
+      "fetchedAt": "2026-11-17T01:35:23.987Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/news-32.html",
+      "sha256": "50d0527d99a69e5ca9260b74a8e3d41ee2ae124b0226b6cabacbf4ae1fcafa1d"
+    },
+    {
+      "id": "policy-1",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/index_1.html",
+      "fetchedAt": "2026-11-17T01:35:24.091Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/policy-1.html",
+      "sha256": "c6be3111931f9e55865faa88792ee5d287af0ef0cce1e3df81a79679d61988cf"
+    },
+    {
+      "id": "policy-2",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/index_2.html",
+      "fetchedAt": "2026-11-17T01:35:24.203Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/policy-2.html",
+      "sha256": "7a17bf0e2769511769ced1de1271bbebd2b46a5ddf8cd05a9c91a1fad3c01919"
+    },
+    {
+      "id": "policy-3",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/index_3.html",
+      "fetchedAt": "2026-11-17T01:35:24.236Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/policy-3.html",
+      "sha256": "4ec7094414c482abe6dc7a1f92c3ac9adac9d33e439856f0c2dc27aad082dab5"
+    },
+    {
+      "id": "policy-4",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/index_4.html",
+      "fetchedAt": "2026-11-17T01:35:24.285Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/policy-4.html",
+      "sha256": "c5b04d097eac50d0366467052d5cc541efd742eaa25f4078caa705eae7074e82"
+    },
+    {
+      "id": "policy-6",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/index_6.html",
+      "fetchedAt": "2026-11-17T01:35:24.403Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/policy-6.html",
+      "sha256": "15a7248249c1009bbb8973aaa71988411f438db2e369f4c7ccfb0292db3a1fbc"
+    },
+    {
+      "id": "policy-7",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/index_7.html",
+      "fetchedAt": "2026-11-17T01:35:24.433Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/policy-7.html",
+      "sha256": "a273452b1721f261285380a56fbed9340dc00d32d13a3dab9455c6c251252c9b"
+    },
+    {
+      "id": "policy-5",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/index_5.html",
+      "fetchedAt": "2026-11-17T01:35:24.373Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/policy-5.html",
+      "sha256": "1cffd0adba7ced5ef51af4b8a5ada77a033ed13cd7badf9b2e5bbfae854c9c9c"
+    },
+    {
+      "id": "policy-8",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/index_8.html",
+      "fetchedAt": "2026-11-17T01:35:24.488Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/policy-8.html",
+      "sha256": "90073d35ac034cd53401675fabcb6de66849e802226cbfe14f5d145fe57817cc"
+    },
+    {
+      "id": "policy-9",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/index_9.html",
+      "fetchedAt": "2026-11-17T01:35:24.610Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/policy-9.html",
+      "sha256": "3950ebe92d6e634f9d86baee32dc460621621eb811601dc41098ccc13c82fa1f"
+    },
+    {
+      "id": "interpretation-0",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/",
+      "fetchedAt": "2026-11-17T01:35:24.611Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/interpretation-0.html",
+      "sha256": "dfff0cf1a76713a9ca1c8e80c25edcba3e4953915e3510c05f92efe7cd0f5f95"
+    },
+    {
+      "id": "interpretation-2",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/index_2.html",
+      "fetchedAt": "2026-11-17T01:35:24.779Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/interpretation-2.html",
+      "sha256": "eee9a3eda11043c443b423c8380dbff2cf46912e01a693e6aa2ab8fb0b4c143d"
+    },
+    {
+      "id": "interpretation-1",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/index_1.html",
+      "fetchedAt": "2026-11-17T01:35:24.741Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/interpretation-1.html",
+      "sha256": "4bd4acbde78be55a2d004bdfbc6f93f2ec51564383982cbe680a31ef2a406aa9"
+    },
+    {
+      "id": "interpretation-4",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/index_4.html",
+      "fetchedAt": "2026-11-17T01:35:24.919Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/interpretation-4.html",
+      "sha256": "0b48adba171fa398384676b163b9b8a7fce0411bb9c4f853d6903e1d550c09f3"
+    },
+    {
+      "id": "interpretation-3",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/index_3.html",
+      "fetchedAt": "2026-11-17T01:35:24.867Z",
+      "httpStatus": 200,
+      "file": "sources/indexes/interpretation-3.html",
+      "sha256": "9e1fb2142ded60850ffefc9ed557836354afb6229c0e07d5862739041d8f4cec"
+    }
+  ],
+  "matches": [
+    {
+      "title": "个人账户跨省共济暖心又暖家 2026-10-14",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202610/t20261014_4345112.html",
+      "indexFile": "sources/indexes/news-2.html"
+    },
+    {
+      "title": "云南省2027年度城乡居民医疗保险参保缴费开始啦！一图了解详细流程 2026-10-10",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202610/t20261010_4345108.html",
+      "indexFile": "sources/indexes/news-2.html"
+    },
+    {
+      "title": "10月10日起，云南省2027年度城乡居民基本医疗保险参保缴费全面启动 2026-10-09",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202610/t20261009_4345107.html",
+      "indexFile": "sources/indexes/news-2.html"
+    },
+    {
+      "title": "出国留学医保必修课系列——人在国外，应该怎么办理参保缴费手续？ 2026-09-14",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202609/t20260914_4345088.html",
+      "indexFile": "sources/indexes/news-3.html"
+    },
+    {
+      "title": "云南医保小程序手机号登录常见问题集中答疑 2026-11-10",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/t20261117_4384621.html",
+      "indexFile": "sources/indexes/news-0.html"
+    },
+    {
+      "title": "跨省共济绑定及额度设置操作手册 2026-11-02",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/t20261104_4380760.html",
+      "indexFile": "sources/indexes/news-0.html"
+    },
+    {
+      "title": "跨省共济额度缴纳居民医保费长护险保费操作手册（限楚雄州城乡居民） 2026-11-02",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/t20261102_4379210.html",
+      "indexFile": "sources/indexes/news-0.html"
+    },
+    {
+      "title": "参保人使用跨省共济额度缴纳城乡居民医保费操作手册 2026-11-02",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/t20261102_4379208.html",
+      "indexFile": "sources/indexes/news-0.html"
+    },
+    {
+      "title": "跨省共济绑定及额度设置操作手册 2026-11-02",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/t20261102_4379206.html",
+      "indexFile": "sources/indexes/news-0.html"
+    },
+    {
+      "title": "医保钱包跨省共济问答第二期 2026-10-23",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202610/t20261026_4367502.html",
+      "indexFile": "sources/indexes/news-1.html"
+    },
+    {
+      "title": "医保钱包跨越山海 让亲情的互助具象化 2026-10-23",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202610/t20261023_4357286.html",
+      "indexFile": "sources/indexes/news-1.html"
+    },
+    {
+      "title": "医保钱包跨省共济问答第一期 2026-10-23",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202610/t20261023_4356436.html",
+      "indexFile": "sources/indexes/news-1.html"
+    },
+    {
+      "title": "医保个人账户跨省共济全国落地 2026-10-20",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202610/t20261020_4355950.html",
+      "indexFile": "sources/indexes/news-1.html"
+    },
+    {
+      "title": "参保人使用跨省共济额度缴纳居民医保费操作手册 2026-10-20",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202610/t20261020_4355949.html",
+      "indexFile": "sources/indexes/news-1.html"
+    },
+    {
+      "title": "您买药“比价三家”了吗？——医保“比价小程序”便民实惠 2026-04-20",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202604/t20260420_3636330.html",
+      "indexFile": "sources/indexes/news-8.html"
+    },
+    {
+      "title": "别信！“4月1日起，省内异地就医免备案”是谣言 2026-04-07",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202604/t20260407_3636353.html",
+      "indexFile": "sources/indexes/news-8.html"
+    },
+    {
+      "title": "云南省异地就医常见问题答疑 2026-07-01",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202607/t20260701_3636184.html",
+      "indexFile": "sources/indexes/news-6.html"
+    },
+    {
+      "title": "一文讲清什么是亲情账户、家庭共济和医保钱包？ 2026-06-25",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202606/t20260625_3636197.html",
+      "indexFile": "sources/indexes/news-6.html"
+    },
+    {
+      "title": "国家医保局邀请您参加“药店药价大家谈，用好比价小程序”恳谈活动 2026-06-02",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202606/t20260602_3636228.html",
+      "indexFile": "sources/indexes/news-6.html"
+    },
+    {
+      "title": "一文讲清什么是亲情账户、家庭共济和医保钱包？各自究竟怎么用？ 2026-05-27",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202605/t20260527_3636232.html",
+      "indexFile": "sources/indexes/news-6.html"
+    },
+    {
+      "title": "医保药品比价小程序全国全部上线，买药再也不花冤枉钱！ 2026-01-17",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202601/t20260117_3636527.html",
+      "indexFile": "sources/indexes/news-11.html"
+    },
+    {
+      "title": "云南医保小程序推出2025年度个人医保账单查询功能 2026-01-07",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202601/t20260107_3636533.html",
+      "indexFile": "sources/indexes/news-11.html"
+    },
+    {
+      "title": "直播预告 | 12月22日下午4点，在线解答医保参保缴费问题，直播间参保立减58元！ 2025-12-20",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202512/t20251220_3636548.html",
+      "indexFile": "sources/indexes/news-12.html"
+    },
+    {
+      "title": "医保钱包全攻略——如何最大化利用你的医保账户 守护家庭健康 2025-11-26",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202511/t20251126_3636573.html",
+      "indexFile": "sources/indexes/news-13.html"
+    },
+    {
+      "title": "职工医保个人账户“共济”代缴居民医保费，为啥“不成功”？ 2025-11-04",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202511/t20251104_3636603.html",
+      "indexFile": "sources/indexes/news-15.html"
+    },
+    {
+      "title": "医保“亲情账户”VS“个人账户共济”是怎么回事？ 2025-08-26",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202508/t20250826_1821066.html",
+      "indexFile": "sources/indexes/news-18.html"
+    },
+    {
+      "title": "医保钱包“共济金额”超2亿！您用上了没？ 2025-09-23",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202509/t20250923_1821170.html",
+      "indexFile": "sources/indexes/news-17.html"
+    },
+    {
+      "title": "云南已经有近3万人开通医保钱包，您开通了吗？ 2025-09-16",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202509/t20250916_1821152.html",
+      "indexFile": "sources/indexes/news-17.html"
+    },
+    {
+      "title": "速看！2026年度居民医保参保缴费流程 2025-10-11",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202510/t20251011_1821218.html",
+      "indexFile": "sources/indexes/news-16.html"
+    },
+    {
+      "title": "省医保局举办异地就医直接结算暨支付方式改革经办业务培训班 2025-07-31",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202507/t20250731_1820961.html",
+      "indexFile": "sources/indexes/news-19.html"
+    },
+    {
+      "title": "2025年1-6月职工医保个人账户共济2亿人次，共济金额261.77亿元 2025-07-22",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202507/t20250722_1820926.html",
+      "indexFile": "sources/indexes/news-19.html"
+    },
+    {
+      "title": "医保钱包开通地区再扩容，快来看看有您的家乡吗 2025-07-10",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202507/t20250710_1820880.html",
+      "indexFile": "sources/indexes/news-20.html"
+    },
+    {
+      "title": "医保个人账户如何跨省共济？快看这里 2025-07-09",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202507/t20250709_1820876.html",
+      "indexFile": "sources/indexes/news-20.html"
+    },
+    {
+      "title": "国家医保服务平台APP暖心服务再升级！手把手教您帮家人开通医保钱包 2025-07-07",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202507/t20250707_1820870.html",
+      "indexFile": "sources/indexes/news-20.html"
+    },
+    {
+      "title": "好消息！云南省16个州市已全面开通医保钱包 2025-06-27",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202506/t20250627_1820795.html",
+      "indexFile": "sources/indexes/news-21.html"
+    },
+    {
+      "title": "2025年1-5月职工医保个人账户共济人次1.67亿，共济金额220.26亿元 2025-06-21",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202506/t20250621_1820740.html",
+      "indexFile": "sources/indexes/news-21.html"
+    },
+    {
+      "title": "民生回应丨省内异地就医即时备案、即时享受，无需提交证明材料！操作方法 2025-06-21",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202506/t20250621_1820729.html",
+      "indexFile": "sources/indexes/news-21.html"
+    },
+    {
+      "title": "全国医疗保障跨省异地就医直接结算公共服务信息发布（第六十四期） 2025-06-09",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202506/t20250609_1820582.html",
+      "indexFile": "sources/indexes/news-22.html"
+    },
+    {
+      "title": "2025年1-4月职工医保个人账户共济人次1.33亿，共济金额177.92亿元 2025-05-22",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202505/t20250522_1820479.html",
+      "indexFile": "sources/indexes/news-23.html"
+    },
+    {
+      "title": "医保钱包开通地区再扩容，22省227个地区实现跨省共济 2025-05-22",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202505/t20250522_1820477.html",
+      "indexFile": "sources/indexes/news-23.html"
+    },
+    {
+      "title": "民生回应丨“云南医保”小程序如何参保缴费？操作流程→ 2025-05-16",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202505/t20250516_1820450.html",
+      "indexFile": "sources/indexes/news-23.html"
+    },
+    {
+      "title": "从垫资到即时报销：跨省异地就医直接结算政策的十年变革 2025-05-15",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202505/t20250515_1820448.html",
+      "indexFile": "sources/indexes/news-23.html"
+    },
+    {
+      "title": "@云南参保人，更高效的居民医保参保缴费流程来啦！ 2025-05-13",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202505/t20250513_1820444.html",
+      "indexFile": "sources/indexes/news-24.html"
+    },
+    {
+      "title": "有序推进省内异地就医住院费用纳入按病种付费管理 2025-05-10",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202505/t20250510_1820439.html",
+      "indexFile": "sources/indexes/news-24.html"
+    },
+    {
+      "title": "2025年1-3月职工医保个人账户共济人次9586.83万，共济金额131.98亿元 2025-04-23",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202504/t20250423_1820410.html",
+      "indexFile": "sources/indexes/news-24.html"
+    },
+    {
+      "title": "城乡居民医保现在还能参保缴费吗？ 2025-03-19",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202503/t20250319_1820248.html",
+      "indexFile": "sources/indexes/news-25.html"
+    },
+    {
+      "title": "29省份上线运行医保定点药店比价小程序 医保药品价格更加公开透明 2025-01-03",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202501/t20250103_1820000.html",
+      "indexFile": "sources/indexes/news-28.html"
+    },
+    {
+      "title": "2025年云南省城乡居民医保参保缴费操作指南——本人缴费篇 2024-09-28",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202409/t20240928_1819476.html",
+      "indexFile": "sources/indexes/news-31.html"
+    },
+    {
+      "title": "云南省医疗保障局办公室关于印发云南省医疗保障经办政务服务事项清单和办事指南（2026年版）的通知",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202611/t20261116_4384459.html",
+      "indexFile": "sources/indexes/policy-0.html"
+    },
+    {
+      "title": "国家医保局 财政部关于做好职工基本医疗保险个人账户跨省共济工作的通知",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202601/t20260110_3636094.html",
+      "indexFile": "sources/indexes/policy-0.html"
+    },
+    {
+      "title": "叮～这份2025年城乡居民医保参保缴费攻略～请查收 2024-09-05",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202409/t20240905_1819319.html",
+      "indexFile": "sources/indexes/news-33.html"
+    },
+    {
+      "title": "云南省医疗保障局 云南省财政厅关于转发有序推进省内异地就医住院费用纳入按病种付费管理有关文件的通知",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202503/t20250324_1796173.html",
+      "indexFile": "sources/indexes/policy-1.html"
+    },
+    {
+      "title": "云南省人民政府办公厅关于健全基本医疗保险参保长效机制的实施意见",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202412/t20241225_1796079.html",
+      "indexFile": "sources/indexes/policy-2.html"
+    },
+    {
+      "title": "云南省人民政府办公厅关于印发《云南省职工基本医疗保险门诊共济保障实施办法》的通知",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202409/t20240911_1795837.html",
+      "indexFile": "sources/indexes/policy-2.html"
+    },
+    {
+      "title": "国务院办公厅关于健全基本医疗保险参保长效机制的指导意见",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202408/t20240802_1795803.html",
+      "indexFile": "sources/indexes/policy-3.html"
+    },
+    {
+      "title": "云医保〔2021〕104号 云南省医疗保障局关于进一步规范省内异地就医结算工作的通知",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202110/t20211018_4354528.html",
+      "indexFile": "sources/indexes/policy-4.html"
+    },
+    {
+      "title": "国务院办公厅关于建立健全职工基本医疗保险门诊共济保障机制的指导意见",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202104/t20210430_4354429.html",
+      "indexFile": "sources/indexes/policy-9.html"
+    },
+    {
+      "title": "《国家医保局 财政部关于做好职工基本医疗保险个人账户跨省共济工作的通知》政策解读",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/202601/t20260110_3635932.html",
+      "indexFile": "sources/indexes/interpretation-0.html"
+    },
+    {
+      "title": "《关于健全基本医疗保险参保长效机制的实施意见》政策解读",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/202502/t20250208_1796559.html",
+      "indexFile": "sources/indexes/interpretation-2.html"
+    },
+    {
+      "title": "《云南省职工基本医疗保险门诊共济保障实施办法》政策解读",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/202409/t20240911_1796491.html",
+      "indexFile": "sources/indexes/interpretation-2.html"
+    },
+    {
+      "title": "《关于健全基本医疗保险参保长效机制的指导意见》政策解读",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/202408/t20240802_1796469.html",
+      "indexFile": "sources/indexes/interpretation-2.html"
+    },
+    {
+      "title": "《云南省医疗保障局 云南省财政厅关于转发有序推进省内异地就医住院费用纳入按病种付费管理有关文件的通知》政策解读",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/202503/t20250324_1796577.html",
+      "indexFile": "sources/indexes/interpretation-1.html"
+    },
+    {
+      "title": "【云•医保问答】第116问：如何解除亲情账户？",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/202304/t20230423_1796256.html",
+      "indexFile": "sources/indexes/interpretation-4.html"
+    },
+    {
+      "title": "【云•医保问答】第115问：如何查询亲情账户的年度医疗费用？",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/202304/t20230421_1796248.html",
+      "indexFile": "sources/indexes/interpretation-4.html"
+    },
+    {
+      "title": "【云•医保问答】第114问：在哪里可以使用亲情账户，要如何添加亲情账户？",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/202304/t20230420_1796243.html",
+      "indexFile": "sources/indexes/interpretation-4.html"
+    },
+    {
+      "title": "【云•医保问答】第113问：家人没有智能手机的，可以代家人申领医保电子凭证吗？什么是亲情账户？有什么用？",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/202304/t20230419_1796236.html",
+      "indexFile": "sources/indexes/interpretation-4.html"
+    },
+    {
+      "title": "《云南省省本级职工基本医疗保险门诊共济保障实施细则》政策解读",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/202304/t20230411_1796165.html",
+      "indexFile": "sources/indexes/interpretation-4.html"
+    }
+  ]
+}

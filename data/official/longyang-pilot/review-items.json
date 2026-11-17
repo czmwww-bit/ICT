@@ -50,10 +50,19 @@
     "locator": "扫描PDF第2页，二、发放标准",
     "sourceUrl": "https://www.hhgj.gov.cn/info/13101/546351.htm",
     "status": "pending_human_review",
-    "question": "只记省级标准，不能覆盖2023/2025网页所述地方350元标准；地方当前金额待区级原文件核准。",
+    "question": "只记省级标准，不能覆盖2023/2025网页所述地方350元标准；地方当前金额待区级原文件核准。 【2026-11-17用户核对反馈】省级113号最低300元，隆阳2026年1月/2月统计350元、8月统计1000元。省级标准与各月地方统计分开保留。待确认：调整文件和施行日期仍缺；1000元不能回填全年，统计表不充当规范性调整依据。",
     "reviewedBy": null,
     "reviewedAt": null,
-    "decision": null
+    "decision": null,
+    "reviewFeedback": {
+      "receivedDate": "2026-11-17",
+      "receipt": "review-followup-2026-11-17/review-receipt.json",
+      "issues": [
+        "LOCAL_RATES"
+      ],
+      "status": "partial_facts_confirmed_full_policy_approval_pending",
+      "reviewerName": null
+    }
   },
   {
     "documentId": "YN_GLT_2024_113",
@@ -115,10 +124,19 @@
     "locator": "扫描PDF第2—3页，四、发放程序（一）免于申报第一段",
     "sourceUrl": "https://www.hhgj.gov.cn/info/13101/546351.htm",
     "status": "pending_human_review",
-    "question": "对照8页PDF逐字核对；保留2021历史身份、2025地方流程冲突及2026后续通知，勿整篇推定废止。",
+    "question": "对照8页PDF逐字核对；保留2021历史身份、2025地方流程冲突及2026后续通知，勿整篇推定废止。 【2026-11-17用户核对反馈】瓦渡2025主动申请与后续免申即享原文并存，流程口径不一致。待确认：过渡、补录、网页未更新均只是待验证解释；需确认具体业务、时期和适用范围，不能自动标旧网页失效。",
     "reviewedBy": null,
     "reviewedAt": null,
-    "decision": null
+    "decision": null,
+    "reviewFeedback": {
+      "receivedDate": "2026-11-17",
+      "receipt": "review-followup-2026-11-17/review-receipt.json",
+      "issues": [
+        "APPLICATION_CONFLICT"
+      ],
+      "status": "partial_facts_confirmed_full_policy_approval_pending",
+      "reviewerName": null
+    }
   },
   {
     "documentId": "YN_GLT_2024_113",
@@ -733,10 +751,19 @@
     "locator": "网页正文第2段（按sources提取文本计）；地方网页所述金额与财政分担",
     "sourceUrl": "https://www.longyang.gov.cn/info/4285/13576989.htm",
     "status": "pending_human_review",
-    "question": "80-99岁50元、100及以上350元是该2025网页陈述，区级原文件及当前执行待核；省级最低标准另存。",
+    "question": "80-99岁50元、100及以上350元是该2025网页陈述，区级原文件及当前执行待核；省级最低标准另存。 【2026-11-17用户核对反馈】省级113号最低300元，隆阳2026年1月/2月统计350元、8月统计1000元。省级标准与各月地方统计分开保留。待确认：调整文件和施行日期仍缺；1000元不能回填全年，统计表不充当规范性调整依据。",
     "reviewedBy": null,
     "reviewedAt": null,
-    "decision": null
+    "decision": null,
+    "reviewFeedback": {
+      "receivedDate": "2026-11-17",
+      "receipt": "review-followup-2026-11-17/review-receipt.json",
+      "issues": [
+        "LOCAL_RATES"
+      ],
+      "status": "partial_facts_confirmed_full_policy_approval_pending",
+      "reviewerName": null
+    }
   },
   {
     "documentId": "LY_GLT_WADU_2025",
@@ -779,10 +806,19 @@
     "locator": "网页正文第5段（按sources提取文本计）；主动申请及材料",
     "sourceUrl": "https://www.longyang.gov.cn/info/4285/13576989.htm",
     "status": "pending_human_review",
-    "question": "与113号免申即享冲突；须由隆阳民政确认特殊补录/过渡还是未更新告知，不能自行择一。",
+    "question": "与113号免申即享冲突；须由隆阳民政确认特殊补录/过渡还是未更新告知，不能自行择一。 【2026-11-17用户核对反馈】瓦渡2025主动申请与后续免申即享原文并存，流程口径不一致。待确认：过渡、补录、网页未更新均只是待验证解释；需确认具体业务、时期和适用范围，不能自动标旧网页失效。",
     "reviewedBy": null,
     "reviewedAt": null,
-    "decision": null
+    "decision": null,
+    "reviewFeedback": {
+      "receivedDate": "2026-11-17",
+      "receipt": "review-followup-2026-11-17/review-receipt.json",
+      "issues": [
+        "APPLICATION_CONFLICT"
+      ],
+      "status": "partial_facts_confirmed_full_policy_approval_pending",
+      "reviewerName": null
+    }
   },
   {
     "documentId": "LY_GLT_WADU_2025",
@@ -1175,10 +1211,19 @@
     "locator": "网页正文第57段（按sources提取文本计）；施行及三年有效期",
     "sourceUrl": "https://shidian.gov.cn/info/4123/3441703.htm",
     "status": "pending_human_review",
-    "question": "精确末日未直接写明，未自行计算失效日期；2026-11不宣称试行办法仍现行，需续期或正式新规。",
+    "question": "精确末日未直接写明，未自行计算失效日期；2026-11不宣称试行办法仍现行，需续期或正式新规。 【2026-11-17用户核对反馈】试行原文写2023-04-01施行、有效期三年；2026年4月通知仍明确该项补贴免申即享。待确认：原试行办法的接续依据待核实；不能推断补贴已经取消，也不能据此认定旧办法全篇续期。",
     "reviewedBy": null,
     "reviewedAt": null,
-    "decision": null
+    "decision": null,
+    "reviewFeedback": {
+      "receivedDate": "2026-11-17",
+      "receipt": "review-followup-2026-11-17/review-receipt.json",
+      "issues": [
+        "ECON_SUCCESSION"
+      ],
+      "status": "partial_facts_confirmed_full_policy_approval_pending",
+      "reviewerName": null
+    }
   },
   {
     "documentId": "LY_ECON_ONLINE_2023",
@@ -1317,10 +1362,19 @@
     "locator": "网页正文第7段（按sources提取文本计）；高龄资格认证与主动联系",
     "sourceUrl": "https://ynmz.yn.gov.cn/zwgk/zcwj/qtzcwj/202604/t20260414_3820299.html",
     "status": "pending_human_review",
-    "question": "资格认证仍须核实，不等于免条件。",
+    "question": "资格认证仍须核实，不等于免条件。 【2026-11-17用户核对反馈】瓦渡2025主动申请与后续免申即享原文并存，流程口径不一致。待确认：过渡、补录、网页未更新均只是待验证解释；需确认具体业务、时期和适用范围，不能自动标旧网页失效。",
     "reviewedBy": null,
     "reviewedAt": null,
-    "decision": null
+    "decision": null,
+    "reviewFeedback": {
+      "receivedDate": "2026-11-17",
+      "receipt": "review-followup-2026-11-17/review-receipt.json",
+      "issues": [
+        "APPLICATION_CONFLICT"
+      ],
+      "status": "partial_facts_confirmed_full_policy_approval_pending",
+      "reviewerName": null
+    }
   },
   {
     "documentId": "YN_ELDER_ONE_SERVICE_2026",
@@ -1339,10 +1393,19 @@
     "locator": "网页正文第8段（按sources提取文本计）；经济困难补贴对象数据及免申发放",
     "sourceUrl": "https://ynmz.yn.gov.cn/zwgk/zcwj/qtzcwj/202604/t20260414_3820299.html",
     "status": "pending_human_review",
-    "question": "新通知确认低保/分散特困80及以上纳入数据和免申流程；没有明文续期试行办法的全部条款或新增金额。",
+    "question": "新通知确认低保/分散特困80及以上纳入数据和免申流程；没有明文续期试行办法的全部条款或新增金额。 【2026-11-17用户核对反馈】试行原文写2023-04-01施行、有效期三年；2026年4月通知仍明确该项补贴免申即享。待确认：原试行办法的接续依据待核实；不能推断补贴已经取消，也不能据此认定旧办法全篇续期。",
     "reviewedBy": null,
     "reviewedAt": null,
-    "decision": null
+    "decision": null,
+    "reviewFeedback": {
+      "receivedDate": "2026-11-17",
+      "receipt": "review-followup-2026-11-17/review-receipt.json",
+      "issues": [
+        "ECON_SUCCESSION"
+      ],
+      "status": "partial_facts_confirmed_full_policy_approval_pending",
+      "reviewerName": null
+    }
   },
   {
     "documentId": "YN_ELDER_ONE_SERVICE_2026",
@@ -1641,10 +1704,19 @@
     "locator": "网页正文第6段（按sources提取文本计）；2024年7月以来既有评估数据对接",
     "sourceUrl": "https://www.bypc.gov.cn/zfxxgk/bmdwxzjd/xzjd/zzljdbsc/fdzdgknr/ylfw/art/2026/art_538e0b3d98f9454d884ec276e45858a7.html",
     "status": "pending_human_review",
-    "question": "与云南1月14日方案印发前12个月、保山解读2025年内口径存在差异，资格确认需经办核准。",
+    "question": "与云南1月14日方案印发前12个月、保山解读2025年内口径存在差异，资格确认需经办核准。 【2026-11-17用户核对反馈】省方案为通知印发前12个月内，保山解读为2025年内，不能合并成同一条件。待确认：国家2024年7月以来口径本次用户尚未完成原文核验；落款/省厅公开/转载日期分开，印发日未单独确证，不能用转载日计算12个月。",
     "reviewedBy": null,
     "reviewedAt": null,
-    "decision": null
+    "decision": null,
+    "reviewFeedback": {
+      "receivedDate": "2026-11-17",
+      "receipt": "review-followup-2026-11-17/review-receipt.json",
+      "issues": [
+        "ASSESSMENT_PERIOD"
+      ],
+      "status": "partial_facts_confirmed_full_policy_approval_pending",
+      "reviewerName": null
+    }
   },
   {
     "documentId": "CN_CONSUMPTION_LAUNCH_2026",
@@ -1685,10 +1757,19 @@
     "locator": "网页正文第10—11段（按sources提取文本计）；云南常住、年龄、失能等级及排除情形",
     "sourceUrl": "https://www.hh.gov.cn/info/29601/1243252.htm",
     "status": "pending_human_review",
-    "question": "常住不等于必须云南户籍；含60周岁门槛及三个不重复范围，须完整保留。",
+    "question": "常住不等于必须云南户籍；含60周岁门槛及三个不重复范围，须完整保留。 【2026-11-17用户核对反馈】评估完成不等于自动符合资格，仍需年龄、云南常住、中度以上等级及排除条件；首次5个工作日、当月使用次月失效有正文依据。待确认：保留首月最后一个工作日不足5日的例外；附件7的简写不能覆盖正文细节，关键建议仍需审核。",
     "reviewedBy": null,
     "reviewedAt": null,
-    "decision": null
+    "decision": null,
+    "reviewFeedback": {
+      "receivedDate": "2026-11-17",
+      "receipt": "review-followup-2026-11-17/review-receipt.json",
+      "issues": [
+        "ELIGIBILITY_AND_VOUCHER"
+      ],
+      "status": "partial_facts_confirmed_full_policy_approval_pending",
+      "reviewerName": null
+    }
   },
   {
     "documentId": "YN_CONSUMPTION_2026_4",
@@ -1757,10 +1838,19 @@
     "locator": "网页正文第21段（按sources提取文本计）；云南暂定比例、限额及评估券",
     "sourceUrl": "https://www.hh.gov.cn/info/29601/1243252.htm",
     "status": "pending_human_review",
-    "question": "机构40%、居家社区50%、各每人每月最高800元；评估最高100元；暂定并可调整，须复核当前标准。",
+    "question": "机构40%、居家社区50%、各每人每月最高800元；评估最高100元；暂定并可调整，须复核当前标准。 【2026-11-17用户核对反馈】评估完成不等于自动符合资格，仍需年龄、云南常住、中度以上等级及排除条件；首次5个工作日、当月使用次月失效有正文依据。待确认：保留首月最后一个工作日不足5日的例外；附件7的简写不能覆盖正文细节，关键建议仍需审核。",
     "reviewedBy": null,
     "reviewedAt": null,
-    "decision": null
+    "decision": null,
+    "reviewFeedback": {
+      "receivedDate": "2026-11-17",
+      "receipt": "review-followup-2026-11-17/review-receipt.json",
+      "issues": [
+        "ELIGIBILITY_AND_VOUCHER"
+      ],
+      "status": "partial_facts_confirmed_full_policy_approval_pending",
+      "reviewerName": null
+    }
   },
   {
     "documentId": "YN_CONSUMPTION_2026_4",
@@ -1779,10 +1869,19 @@
     "locator": "网页正文第22段（按sources提取文本计）；长护险扣除后个人自付部分衔接",
     "sourceUrl": "https://www.hh.gov.cn/info/29601/1243252.htm",
     "status": "pending_human_review",
-    "question": "不是将长护险待遇全部纳入排除范围。",
+    "question": "不是将长护险待遇全部纳入排除范围。 【2026-11-17用户核对反馈】评估完成不等于自动符合资格，仍需年龄、云南常住、中度以上等级及排除条件；首次5个工作日、当月使用次月失效有正文依据。待确认：保留首月最后一个工作日不足5日的例外；附件7的简写不能覆盖正文细节，关键建议仍需审核。",
     "reviewedBy": null,
     "reviewedAt": null,
-    "decision": null
+    "decision": null,
+    "reviewFeedback": {
+      "receivedDate": "2026-11-17",
+      "receipt": "review-followup-2026-11-17/review-receipt.json",
+      "issues": [
+        "ELIGIBILITY_AND_VOUCHER"
+      ],
+      "status": "partial_facts_confirmed_full_policy_approval_pending",
+      "reviewerName": null
+    }
   },
   {
     "documentId": "YN_CONSUMPTION_2026_4",
@@ -1847,10 +1946,19 @@
     "locator": "网页正文第29—30段（按sources提取文本计）；统一评估、既有结果确认及争议复核",
     "sourceUrl": "https://www.hh.gov.cn/info/29601/1243252.htm",
     "status": "pending_human_review",
-    "question": "既有评估印发前12个月与国家2024年7月以来口径、保山2025年口径不一致；必须县级确认，不能承诺绝不重评。",
+    "question": "既有评估印发前12个月与国家2024年7月以来口径、保山2025年口径不一致；必须县级确认，不能承诺绝不重评。 【2026-11-17用户核对反馈】省方案为通知印发前12个月内，保山解读为2025年内，不能合并成同一条件。待确认：国家2024年7月以来口径本次用户尚未完成原文核验；落款/省厅公开/转载日期分开，印发日未单独确证，不能用转载日计算12个月。",
     "reviewedBy": null,
     "reviewedAt": null,
-    "decision": null
+    "decision": null,
+    "reviewFeedback": {
+      "receivedDate": "2026-11-17",
+      "receipt": "review-followup-2026-11-17/review-receipt.json",
+      "issues": [
+        "ASSESSMENT_PERIOD"
+      ],
+      "status": "partial_facts_confirmed_full_policy_approval_pending",
+      "reviewerName": null
+    }
   },
   {
     "documentId": "YN_CONSUMPTION_2026_4",
@@ -1869,10 +1977,19 @@
     "locator": "网页正文第32段（按sources提取文本计）；首次发券、月末例外及当月有效",
     "sourceUrl": "https://www.hh.gov.cn/info/29601/1243252.htm",
     "status": "pending_human_review",
-    "question": "保留距离当月最后工作日不足5个工作日改次月发放的例外。",
+    "question": "保留距离当月最后工作日不足5个工作日改次月发放的例外。 【2026-11-17用户核对反馈】评估完成不等于自动符合资格，仍需年龄、云南常住、中度以上等级及排除条件；首次5个工作日、当月使用次月失效有正文依据。待确认：保留首月最后一个工作日不足5日的例外；附件7的简写不能覆盖正文细节，关键建议仍需审核。",
     "reviewedBy": null,
     "reviewedAt": null,
-    "decision": null
+    "decision": null,
+    "reviewFeedback": {
+      "receivedDate": "2026-11-17",
+      "receipt": "review-followup-2026-11-17/review-receipt.json",
+      "issues": [
+        "ELIGIBILITY_AND_VOUCHER"
+      ],
+      "status": "partial_facts_confirmed_full_policy_approval_pending",
+      "reviewerName": null
+    }
   },
   {
     "documentId": "YN_CONSUMPTION_2026_4",
@@ -2053,10 +2170,19 @@
     "locator": "网页正文第16段（按sources提取文本计）；保山评估标准、费用及2025年既有评估",
     "sourceUrl": "https://longyang.gov.cn/info/4077/14132879.htm",
     "status": "pending_human_review",
-    "question": "得分65-0分文字按原文保留，须核标准；2025年内口径不直接替代国家2024年7月以来口径。",
+    "question": "得分65-0分文字按原文保留，须核标准；2025年内口径不直接替代国家2024年7月以来口径。 【2026-11-17用户核对反馈】省方案为通知印发前12个月内，保山解读为2025年内，不能合并成同一条件。待确认：国家2024年7月以来口径本次用户尚未完成原文核验；落款/省厅公开/转载日期分开，印发日未单独确证，不能用转载日计算12个月。",
     "reviewedBy": null,
     "reviewedAt": null,
-    "decision": null
+    "decision": null,
+    "reviewFeedback": {
+      "receivedDate": "2026-11-17",
+      "receipt": "review-followup-2026-11-17/review-receipt.json",
+      "issues": [
+        "ASSESSMENT_PERIOD"
+      ],
+      "status": "partial_facts_confirmed_full_policy_approval_pending",
+      "reviewerName": null
+    }
   },
   {
     "documentId": "BS_CONSUMPTION_INTERPRETATION_2026",
@@ -2147,10 +2273,19 @@
     "locator": "PDF第2页；预约评估及领券简写",
     "sourceUrl": "https://www.longyang.gov.cn/info/3485/14111319.htm",
     "status": "pending_human_review",
-    "question": "原文“评估完成后即可领券”是简写，必须合并省级中度以上、排除情形和审核要求，不生成评估完都能领券结论。",
+    "question": "原文“评估完成后即可领券”是简写，必须合并省级中度以上、排除情形和审核要求，不生成评估完都能领券结论。 【2026-11-17用户核对反馈】评估完成不等于自动符合资格，仍需年龄、云南常住、中度以上等级及排除条件；首次5个工作日、当月使用次月失效有正文依据。待确认：保留首月最后一个工作日不足5日的例外；附件7的简写不能覆盖正文细节，关键建议仍需审核。",
     "reviewedBy": null,
     "reviewedAt": null,
-    "decision": null
+    "decision": null,
+    "reviewFeedback": {
+      "receivedDate": "2026-11-17",
+      "receipt": "review-followup-2026-11-17/review-receipt.json",
+      "issues": [
+        "ELIGIBILITY_AND_VOUCHER"
+      ],
+      "status": "partial_facts_confirmed_full_policy_approval_pending",
+      "reviewerName": null
+    }
   },
   {
     "documentId": "LY_CONSUMPTION_GUIDE_2026",

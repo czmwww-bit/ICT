@@ -1,0 +1,56 @@
+{
+  "id": "407bccd7-6ad3-467e-89b7-75be6be311f9",
+  "startedFor": [
+    "C11-honghe"
+  ],
+  "completedAt": "2026-11-17T01:24:25.137Z",
+  "results": [
+    {
+      "sourceId": "C11-honghe",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [
+        {
+          "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3U4vBDL4NaU8MkMGlVko7l4LlCaU4NfbL8U8LRrkL87bozC0gihFp2hmCIa0LSyDn1yPM1yiU8lZMzNanzrkUNUDnzf2oz9PMzUiLzTfL8QFM4vYMN-iLNnFoR-aLkbNpDLeo47Jbg/nbCD5bbYfbCIeE-kfbXYMbC/AEH2TEgS8Eq2bbbJJbK1VbCDrgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+          "hash": "a0a04fa968d7bf69dd2d88f4669872bfd4fdf5856c90fa590066ec44d95eadba",
+          "textStatus": "not_supported_hash_only"
+        },
+        {
+          "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nzCBbU8C8LzU4oGRU4U46koz-8MNVfkL8CPnNC8M8-DnRL0gihFp2hmCIa0nky4MYh2USyPM874M7nRnNr2LzCYMzQ7LmGDLmAVM7CaLlQFLz7iUNn2MRrFL8laLkbNpDLeo4-JE-kfbpt8bg/EEH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+          "hash": "47162bc2ce2c3fb762b40140755d2e82c28e37891357cb6752400c36ef4894ea",
+          "textStatus": "not_supported_hash_only"
+        },
+        {
+          "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nmLBZL8CYnmC4UGzffL4-an7UbUmCf8MmM7U87PL8lPL8U0gihFp2hmCIa0MYy8nkhVLSyaL4CZM8lsL4f7U49YMRvDnzGYnl7bnN-ZLNMFU474UmU8M7nFMR-aLkbNpDLeo4LJE-kfbpt8bg/EE-ohbC/pEH37bgYabXYEbXE7EH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+          "hash": "6529b7da6c8d88854dc9c4f77caba5d5aea791fc7a7db8950232eb8de2c82100",
+          "textStatus": "not_supported_hash_only"
+        },
+        {
+          "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3olMB7oRTfMm7ZUGm9DUmNaUmMkLzLfbnR7bnmUYLmv8UNC0gihFp2hmCIa0M1yDMYyiUSybnNlanm-DoRNYU4fVMzW2U4lYUNrRozUYL4fFLlLsM8-so7nFMR9aLkbNpDLeo4UJbCIeE-kfbXYMbC/AbXYEbXE7EH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+          "hash": "17466bdd4445e055de7179e530ce6f47dfd8cf2c3bc703a8f870bd430d47b719",
+          "textStatus": "not_supported_hash_only"
+        },
+        {
+          "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nNLBPnmM2L4GaLGl-ZnzT7MmCsozCfPMRW7U49ZU8UYoR-0gihFp2hmCIa0nShkoSh7UYyaUmffUmW2nRCioRW2LzG8Lzl4nRGPM4n7M4TFnRQRL49DLRnFo7laLkbNpDLeo4lJbXYMbC/AbXYEbXE7bbS4bw/TEH2wgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+          "hash": "6f32b2e24e4399de9784fa476cfba599cbd71be722e4a39184ca545619847640",
+          "textStatus": "not_supported_hash_only"
+        },
+        {
+          "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3M4VBRMmV7Lzr2MG77ZolMkLlCaMNUf4oz-4nlnRM4rRU4C0gihFp2hmCIa0okhRLShfM1hRnlCZMz9Pnm-ZMmVVU4nknmMVM87DMz6kMRVFnmrkn7WfMz6FMz-aLkbNpDLeo4CJbXYMbC/AbXYEbXE7bqSdb/2-Eq2bbbJJbK1VbCDrgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+          "hash": "15e4c95d37d3b0a593901c25a88e1dd14b7e5b105fa19b904f0854133da14649",
+          "textStatus": "not_supported_hash_only"
+        },
+        {
+          "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3UlWBkLlM2L4GsnGlliMmCYUNCsL8CfDnzVkLmV2MmGbL8l0gihFp2hmCIa0LYyDLYhRMShfL8C8LzUbMRW7MR6fnlLiLRMfnRNPL8-DM8VFnR-bUNLaLmAFLzffLRGJQ2hmo4OsgJSEN_IMT3_v9_IUN_SZK_IEXJSeX_SZ1JINO_1R0_1G9_IbxoSEJJIuN_ql0JIVJ31G9_qvm_IHw_qD1o18J_1AX_18xotAJ__pKJIJjJqI0__eAJI-tSbNpDLeoDAw_jWx_tC0qIbtpYy4LRLDLSyPLmU4Lm7YgtA8pUkcc",
+          "hash": "1fe7de0a0e52b9100b91372eaf711920ad443512c19a73747dd6e877ebeb58db",
+          "textStatus": "not_supported_hash_only"
+        }
+      ],
+      "checkedAt": "2026-11-17T01:24:24.715Z",
+      "fingerprint": "afa3ad06d5634eccbb8f62ffd25308d64985ad6263bd6b2d5af534ab6b4f5257",
+      "rawHash": "1c359469f05a76a76feda84091046244bdd9d34ab1d15bb5f41756483c932db6",
+      "rawSnapshot": "blobs/1c359469f05a76a76feda84091046244bdd9d34ab1d15bb5f41756483c932db6.html",
+      "bodyHash": "af3d81139dccbf0cc6589cd8c7178b881ae7ddf8bb0b41decdd102d6d9552be7"
+    }
+  ]
+}

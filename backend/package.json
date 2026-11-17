@@ -30,6 +30,7 @@
     "data:backup": "tsx src/backup-cli.ts backup",
     "data:restore": "tsx src/backup-cli.ts restore",
     "demo:query": "tsx examples/query-real.ts",
+    "demo:medical": "tsx examples/query-medical.ts",
     "demo:workflow": "tsx scripts/workflow.ts",
     "eval:retrieval": "tsx scripts/workflow.ts --queries-only",
     "eval:boundaries": "node scripts/eval-boundaries.mjs",

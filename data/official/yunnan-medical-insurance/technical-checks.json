@@ -1,0 +1,23 @@
+{
+  "executedAt": "2026-11-17T02:00:16.877Z",
+  "node": "v24.21.0",
+  "passed": true,
+  "checks": [
+    {
+      "name": "existing_unit_and_http_tests",
+      "exitCode": 0,
+      "passed": true,
+      "stdout": "✔ 导入校验拒绝重复编号和无效日期，保留未知值及中文原文 (4.5081ms)\n✔ 查询按生效边界处理未来、失效和未知记录，不按发布日期自动替代 (1.4376ms)\n✔ 非法历史版本参数与非法日期明确失败，不能返回成功空结果 (0.4017ms)\n✔ 材料名称逐项核验，说明和引文不能凑数；评测编号不能重复 (13.7064ms)\n✔ CLI空评测集标未执行，字段错误带文件位置，非法超时明确报错 (1219.8844ms)\n✔ 合法密码中的小于号不应被误判为未填写占位符 (0.5257ms)\n✔ 恢复拒绝非独立库名、校验值变化及库切换SQL，验证前不连接目标库 (18.2417ms)\n✔ 样例完整校验与日期、字段错误定位 (6.3996ms)\n✔ 引用、区域、替代依据均可追溯，禁止坏关联 (0.3858ms)\n✔ 导入计划幂等、陈旧版本冲突、新版本一律待审核 (1.3293ms)\n✔ 默认隔离样例、草稿、拒绝版本，显式地区祖先匹配 (0.599ms)\n✔ 日期边界、未知日期与原文链接；保留相互冲突证据 (0.3541ms)\n✔ 后续草稿不遮蔽已发布版本，历史版本需显式读取 (0.3755ms)\n✔ 评测 HTTP 自测识别错误引用、500 和超时 (122.143ms)\n✔ 评测按显式区域树核验ready引用，邻区不能计为匹配 (4.3195ms)\n✔ 条款日期依据可定位同一文件其他章节，其他字段仍限本条引用 (19.9486ms)\n{ event: 'database_readiness_failed', code: 'DATABASE_NOT_READY' }\n✔ 基础服务健康、数据库未就绪503、业务接口保持未实现 (89.7204ms)\n✔ 内部状态默认不暴露；令牌保护且数据库失败只返回明确503，日志不含异常正文 (85.2329ms)\n✔ 必须有附件的来源即使正文哈希未变，首次缺失也不能标无变化 (69.0089ms)\n✔ 正文外官方附件列表需显式选择，7份Word通过独立附件选择器发现 (2.1459ms)\n✔ PDF解析失败与文件无变化分别呈现，不能把正文核对计作成功 (36.7695ms)\n✔ 更新检查忽略导航变化；正文变更保留完整增删，重复及并发不重复建任务 (153.6608ms)\n✔ PDF附件哈希/正文变化与附件缺失分别记录，缺失重复检查保持幂等 (90.4404ms)\n✔ HTTP失败、正文解析失败和附件获取失败不计作无变化 (42.9815ms)\n✔ 网页发布日期变化不会推断政策施行，脚本PDF地址只解析不执行 (1.0122ms)\n✔ 仅网页发布时间变化和首次取得Office附件不冒充政策生效/已证实修订 (73.9957ms)\nℹ tests 26\nℹ suites 0\nℹ pass 26\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 1751.8375\n",
+      "stderr": ""
+    },
+    {
+      "name": "business_endpoint_not_connected",
+      "exitCode": 2,
+      "expectedExitCode": 2,
+      "passed": true,
+      "stdout": "{\n  \"mode\": \"not-executed\",\n  \"groups\": {\n    \"demo\": {\n      \"cases\": 0,\n      \"pass\": 0,\n      \"fail\": 0,\n      \"notExecuted\": 0,\n      \"manualReview\": 0\n    },\n    \"real\": {\n      \"cases\": 16,\n      \"pass\": 0,\n      \"fail\": 0,\n      \"notExecuted\": 109,\n      \"manualReview\": 16\n    },\n    \"holdout\": {\n      \"cases\": 0,\n      \"pass\": 0,\n      \"fail\": 0,\n      \"notExecuted\": 0,\n      \"manualReview\": 0\n    }\n  },\n  \"output\": \"../data/official/yunnan-medical-insurance/business-evaluation-not-executed\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "工具检查通过不表示业务答案准确率；业务目标留空，指南语义和原小程序体验仍待人工核对"
+}

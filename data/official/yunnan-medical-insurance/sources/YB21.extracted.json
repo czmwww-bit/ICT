@@ -1,0 +1,53 @@
+{
+  "id": "YB21",
+  "sourceUrl": "https://ylbz.yn.gov.cn/xwdt/ybyw/202510/t20251011_1821218.html",
+  "title": "速看！2026年度居民医保参保缴费流程",
+  "fields": {
+    "viewport": "width=device-width, initial-scale=1.0",
+    "renderer": "webkit",
+    "author": "云南省医疗保障局",
+    "Copyright": "云南省医疗保障局",
+    "keywords": "云南省医疗保障局",
+    "description": "云南省医疗保障局",
+    "SiteName": "云南省医疗保障局",
+    "SiteDomain": "",
+    "SiteIDCode": "",
+    "ColumnName": "医保要闻",
+    "ColumnDescription": "医保要闻",
+    "ColumnKeywords": "医保要闻",
+    "ColumnType": "医保要闻",
+    "ArticleTitle": "速看！2026年度居民医保参保缴费流程",
+    "PubDate": "2025-10-11 20:11",
+    "ContentSource": "云南省医疗保障局",
+    "Keywords": "",
+    "Author": "",
+    "Description": "",
+    "Image": "",
+    "Url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202510/t20251011_1821218.html"
+  },
+  "selector": ".acticle-content",
+  "paragraphs": [],
+  "assets": [
+    {
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202510/W020251029807520718536.jpg",
+      "kind": "image",
+      "retrievedAt": "2026-11-17T01:37:22.651Z",
+      "status": "retrieved",
+      "file": "sources/assets/YB21-01.jpg",
+      "sha256": "c2a84038f3d10a736b55f5897461216aa8b4c806b22c9347113e78c583d22255",
+      "bytes": 654537,
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+      "kind": "image",
+      "retrievedAt": "2026-11-17T01:37:22.924Z",
+      "status": "retrieved",
+      "file": "sources/assets/YB21-02.png",
+      "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+      "bytes": 986,
+      "contentType": "image/png",
+      "role": "page_decoration_not_policy_evidence"
+    }
+  ]
+}

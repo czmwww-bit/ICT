@@ -13,6 +13,7 @@ const sourceSchema = z.object({
     .refine((u) => /^https?:/.test(u)),
   format: z.enum(['html', 'pdf']),
   selector: z.string().optional(),
+  attachmentSelector: z.string().optional(),
   excludeSelectors: z.array(z.string()).default([]),
   attachmentRequired: z.boolean().default(false),
   baseline: z
@@ -73,6 +74,19 @@ export function parsePage(html: string, s: RegisteredSource) {
           .toArray()
           .filter((e) => /\.pdf/i.test($(e).text()))
           .map((e) => $(e).attr('href')!),
+        ...(s.attachmentSelector
+          ? $(s.attachmentSelector)
+              .filter('a[href]')
+              .toArray()
+              .filter(
+                (e) =>
+                  /\.(?:pdf|docx?|xlsx?)(?:[?#]|$)/i.test($(e).text().trim()) ||
+                  /\.(?:pdf|docx?|xlsx?)(?:[?#]|$)|virtual_attach_file|_download/i.test(
+                    $(e).attr('href')!,
+                  ),
+              )
+              .map((e) => $(e).attr('href')!)
+          : []),
       ].map((u) => new URL(u.replaceAll('&amp;', '&'), s.url).href),
     ),
   ].filter((u) => /^https?:/.test(u));
@@ -423,7 +437,7 @@ export async function checkSources(options: MonitorOptions) {
           ...(extractionFailed ? { error: 'PDF正文提取失败；保留文件哈希及原件，须人工核对' } : {}),
         };
         current.generation = previous?.generation ?? 0;
-        if (previous?.fingerprint === current.fingerprint) {
+        if (previous?.fingerprint === current.fingerprint && !attachmentMissing) {
           results.push({
             sourceId: s.id,
             status: extractionFailed ? 'parse_failed' : 'unchanged',
@@ -455,7 +469,9 @@ export async function checkSources(options: MonitorOptions) {
           ...(JSON.stringify(before.attachments.map((a) => a.hash).sort()) !==
           JSON.stringify(current.attachments.map((a) => a.hash).sort())
             ? [
-                attachmentBaselineUnavailable || !previous
+                attachmentBaselineUnavailable ||
+                !previous ||
+                (before.attachments.length === 0 && current.attachments.length > 0)
                   ? 'attachment_first_observed_baseline_unavailable'
                   : 'attachment_changed',
               ]

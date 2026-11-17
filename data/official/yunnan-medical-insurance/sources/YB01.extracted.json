@@ -1,0 +1,55 @@
+{
+  "id": "YB01",
+  "sourceUrl": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/t20261117_4384621.html",
+  "title": "云南医保小程序手机号登录常见问题集中答疑",
+  "fields": {
+    "viewport": "width=device-width, initial-scale=1.0",
+    "renderer": "webkit",
+    "author": "云南省医疗保障局",
+    "Copyright": "云南省医疗保障局",
+    "keywords": "云南省医疗保障局",
+    "description": "云南省医疗保障局",
+    "SiteName": "云南省医疗保障局",
+    "SiteDomain": "",
+    "SiteIDCode": "",
+    "ColumnName": "医保要闻",
+    "ColumnDescription": "医保要闻",
+    "ColumnKeywords": "医保要闻",
+    "ColumnType": "医保要闻",
+    "ArticleTitle": "云南医保小程序手机号登录常见问题集中答疑",
+    "PubDate": "2026-11-10 19:25",
+    "ContentSource": "云南省医疗保障局",
+    "Keywords": "",
+    "Author": "",
+    "Description": "问题1：云南医保小程序正常登录，但是税务的小程序用手机号登录之后显示别人的信息，无法缴费应该如何处理？答：税务公众号没有面向参保人更换手机号的入口，需按如下步骤解决：（1）请参保人本人拨打税务服务热线12366。（2）向工作人员说明情况：电子税务局注册的证件号码错误。（3）请求税务端注销当前错误的账号信息。（4）使用正确的证件号码重新注册电子税务局后再缴纳。问题2：非本人身份证实名认证的手机号，可以登录云南医保小程序吗？答：可以正常授权登录，但是无法进行医保码激活，建议使用本人实名的手机号。如确实无本人...",
+    "Image": "",
+    "Url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/t20261117_4384621.html"
+  },
+  "selector": ".acticle-content",
+  "paragraphs": [
+    "问题1：云南医保小程序正常登录，但是税务的小程序用手机号登录之后显示别人的信息，无法缴费应该如何处理？",
+    "答：税务公众号没有面向参保人更换手机号的入口，需按如下步骤解决：",
+    "（1）请参保人本人拨打税务服务热线12366。",
+    "（2）向工作人员说明情况：电子税务局注册的证件号码错误。",
+    "（3）请求税务端注销当前错误的账号信息。",
+    "（4）使用正确的证件号码重新注册电子税务局后再缴纳。",
+    "问题2：非本人身份证实名认证的手机号，可以登录云南医保小程序吗？",
+    "答：可以正常授权登录，但是无法进行医保码激活，建议使用本人实名的手机号。如确实无本人手机号请至县级以上医保经办机构办理医保电子凭证线下激活。",
+    "问题3：参保人更换了手机号，小程序如何登录？",
+    "方式一：微信/支付宝已经绑定新手机号，小程序点击“授权登录”、扫脸认证通过后自动更换；",
+    "方式二：点击“授权登录”，出现手机号码选择框时，可点击“使用其他号码”进行更换手机号。"
+  ],
+  "assets": [
+    {
+      "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+      "kind": "image",
+      "retrievedAt": "2026-11-17T01:37:18.197Z",
+      "status": "retrieved",
+      "file": "sources/assets/YB01-01.png",
+      "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+      "bytes": 986,
+      "contentType": "image/png",
+      "role": "page_decoration_not_policy_evidence"
+    }
+  ]
+}

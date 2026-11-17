@@ -1,0 +1,58 @@
+{
+  "executedAt": "2026-11-17T02:09:48.756Z",
+  "passed": true,
+  "documents": 20,
+  "clauses": 50,
+  "rawPagesVerified": 21,
+  "assetFilesVerified": 59,
+  "contentAssets": 39,
+  "officialWordParagraphs": 7500,
+  "reviewRowsVerified": 50,
+  "navigationEntries": 2,
+  "userScreenshotObservations": 5,
+  "userScreenshotOriginalsArchived": 0,
+  "developmentCases": 16,
+  "manualAdviceReview": 16,
+  "imported": false,
+  "published": false,
+  "batchSha256": "69ed2411e8fc16d66a6acfe9a60b22638e551b888af0a3b09f921748ad1fc74c",
+  "completeness": {
+    "source": {
+      "numerator": 50,
+      "denominator": 50,
+      "unknown": 0
+    },
+    "quoteAndLocator": {
+      "numerator": 50,
+      "denominator": 50,
+      "unknown": 0
+    },
+    "regions": {
+      "numerator": 50,
+      "denominator": 50,
+      "unknown": 0
+    },
+    "effectiveFromKnown": {
+      "numerator": 4,
+      "denominator": 50,
+      "unknown": 46
+    },
+    "effectiveToKnown": {
+      "numerator": 1,
+      "denominator": 50,
+      "unknown": 49
+    }
+  },
+  "checks": [
+    "严格模型及关联",
+    "全部待审且无核对人",
+    "21入口原始HTML及素材哈希",
+    "50条原文/定位/文件版本",
+    "两条截图入口与只读查询边界",
+    "截图不冒充官方政策或已归档原件",
+    "16例格式与支持版本",
+    "省/市地区及地方电话隔离",
+    "落款发布施行与年度分开",
+    "Word只读段落与长图待核状态"
+  ]
+}

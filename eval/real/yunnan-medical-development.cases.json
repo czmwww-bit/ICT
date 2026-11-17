@@ -1,0 +1,621 @@
+{
+  "version": "yunnan-medical-development-2026-11-17-v1-pending",
+  "expectedAssumptions": "用于未来审核资料及当前界面核实后的业务联调；当前批次全部待审，不作为生产ready依据",
+  "cases": [
+    {
+      "id": "YN_YB_DEV_01",
+      "group": "real",
+      "description": "【真实来源开发情景·预期待审核】查孩子是否已帮绑，当前页未知",
+      "input": {
+        "text": "我想看看孩子有没有帮我绑好。",
+        "region": "530502",
+        "answers": {}
+      },
+      "imagePath": null,
+      "asOf": "2026-11-17",
+      "expected": {
+        "status": "need_info",
+        "questionKey": "current_page",
+        "nextStep": "先确认当前页，目标是共济关系查询，不是新绑定或解绑。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_YB_FAMILY_QUERY_ENTRY",
+            "version": 1
+          },
+          {
+            "clauseId": "BS_YB_FAMILY_QUERY_RECORDS",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "我已帮您解绑",
+          "您已绑定成功",
+          "直接点解绑就能查询",
+          "共享孩子的医保报销待遇",
+          "2025账单证明2027已经缴费"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "YN_YB_DEV_02",
+      "group": "real",
+      "description": "【真实来源开发情景·预期待审核】关怀模式已看到查询按钮",
+      "input": {
+        "text": "我在长者专区，看到了个人账户共济查询和解绑，只想查孩子给我绑好了没有。",
+        "region": "530502",
+        "answers": {
+          "currentPage": "长者专区",
+          "visibleButton": "个人账户共济查询和解绑",
+          "task": "query_only"
+        }
+      },
+      "imagePath": null,
+      "asOf": "2026-11-17",
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "只给一步：点该入口看记录；不点解除绑定，不预判已经成功。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_YB_FAMILY_QUERY_ENTRY",
+            "version": 1
+          },
+          {
+            "clauseId": "BS_YB_FAMILY_QUERY_RECORDS",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "我已帮您解绑",
+          "您已绑定成功",
+          "直接点解绑就能查询",
+          "共享孩子的医保报销待遇",
+          "2025账单证明2027已经缴费"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "YN_YB_DEV_03",
+      "group": "real",
+      "description": "【真实来源开发情景·预期待审核】亲情账户不等于共济",
+      "input": {
+        "text": "已经绑了亲情账户，为什么不能直接花孩子医保个人账户的钱？",
+        "region": "530502",
+        "answers": {
+          "relationship": "子女"
+        }
+      },
+      "imagePath": null,
+      "asOf": "2026-11-17",
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "解释两者不同，需另核实共济关系；不把亲情绑定说成资金已共享。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_YB_KINSHIP_NOT_FUND_SHARING",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_YB_FAMILY_POLICY_PURPOSE",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "我已帮您解绑",
+          "您已绑定成功",
+          "直接点解绑就能查询",
+          "共享孩子的医保报销待遇",
+          "2025账单证明2027已经缴费"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "YN_YB_DEV_04",
+      "group": "real",
+      "description": "【真实来源开发情景·预期待审核】解释授权人使用人",
+      "input": {
+        "text": "孩子出钱给我用，这个授权人和使用人该填谁？",
+        "region": "530502",
+        "answers": {
+          "funder": "子女",
+          "patient": "老人"
+        }
+      },
+      "imagePath": null,
+      "asOf": "2026-11-17",
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "解释资金提供者与使用者；先核对当前登录身份，不要求在聊天里提供证件号码。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_YB_FAMILY_PAYMENT_ACCOUNT_CHECK",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_YB_FAMILY_IS_MONEY_NOT_BENEFITS",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "我已帮您解绑",
+          "您已绑定成功",
+          "直接点解绑就能查询",
+          "共享孩子的医保报销待遇",
+          "2025账单证明2027已经缴费"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "YN_YB_DEV_05",
+      "group": "real",
+      "description": "【真实来源开发情景·预期待审核】首页未参保不能替代实际查询",
+      "input": {
+        "text": "首页写未参保，但家人说已经缴费了，要不要再交一次？",
+        "region": "530502",
+        "answers": {
+          "homeLabel": "未参保"
+        }
+      },
+      "imagePath": null,
+      "asOf": "2026-11-17",
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "查正确身份、参保和缴费记录及年度，必要时向经办核对；不能凭首页提示要求重复付款。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_YB_QUERY_CATEGORIES",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_YB_PAYMENT_CHECK_YEAR_AND_RECEIPT",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "我已帮您解绑",
+          "您已绑定成功",
+          "直接点解绑就能查询",
+          "共享孩子的医保报销待遇",
+          "2025账单证明2027已经缴费"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "YN_YB_DEV_06",
+      "group": "real",
+      "description": "【真实来源开发情景·预期待审核】缴费年度缺失",
+      "input": {
+        "text": "现在医保是不是每个人交400？",
+        "region": "530502",
+        "answers": {}
+      },
+      "imagePath": null,
+      "asOf": "2026-11-17",
+      "expected": {
+        "status": "need_info",
+        "questionKey": "benefit_year",
+        "nextStep": "先问办理哪个保障年度，并核对身份/资助；不把2027普通标准用于所有人。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_YB_PAYMENT_2027_STANDARD",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_YB_RESIDENT_FINANCIAL_ASSISTANCE",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "我已帮您解绑",
+          "您已绑定成功",
+          "直接点解绑就能查询",
+          "共享孩子的医保报销待遇",
+          "2025账单证明2027已经缴费"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "YN_YB_DEV_07",
+      "group": "real",
+      "description": "【真实来源开发情景·预期待审核】只看到年度账单",
+      "input": {
+        "text": "我能打开2025年度医保账单，是不是就证明2027缴费成功了？",
+        "region": "530502",
+        "answers": {
+          "billYear": 2025,
+          "targetYear": 2027
+        }
+      },
+      "imagePath": null,
+      "asOf": "2026-11-17",
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "说明不是同一年度证明，下一步查目标年度缴费记录。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_YB_ANNUAL_BILL_YEAR_SCOPE",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_YB_PAYMENT_CHECK_YEAR_AND_RECEIPT",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "我已帮您解绑",
+          "您已绑定成功",
+          "直接点解绑就能查询",
+          "共享孩子的医保报销待遇",
+          "2025账单证明2027已经缴费"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "YN_YB_DEV_08",
+      "group": "real",
+      "description": "【真实来源开发情景·预期待审核】跨省资金不能只看省内绑定",
+      "input": {
+        "text": "孩子在外省上职工医保，我在云南参保，能用这里的共济按钮吗？",
+        "region": "530502",
+        "answers": {
+          "funderRegion": "外省",
+          "beneficiaryRegion": "云南"
+        }
+      },
+      "imagePath": null,
+      "asOf": "2026-11-17",
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "区分省内绑定与跨省医保钱包，参考国家APP最新通道，不沿用2025省内FAQ否认所有跨省共济。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "CN_YB_WALLET_OFFICIAL_CHANNELS",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_YB_WALLET_BIND_STEPS",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "我已帮您解绑",
+          "您已绑定成功",
+          "直接点解绑就能查询",
+          "共享孩子的医保报销待遇",
+          "2025账单证明2027已经缴费"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "YN_YB_DEV_09",
+      "group": "real",
+      "description": "【真实来源开发情景·预期待审核】异地备案只查不撤销",
+      "input": {
+        "text": "我在长者专区想看看异地就医备案成功没有，不是改备案。",
+        "region": "530502",
+        "answers": {
+          "currentPage": "长者专区",
+          "task": "query_only"
+        }
+      },
+      "imagePath": null,
+      "asOf": "2026-11-17",
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "只引导异地就医备案查询，看到实际结果后再解释，不引导撤销。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_YB_REMOTE_QUERY_ENTRY",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_YB_REMOTE_FILING_RESULT",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "我已帮您解绑",
+          "您已绑定成功",
+          "直接点解绑就能查询",
+          "共享孩子的医保报销待遇",
+          "2025账单证明2027已经缴费"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "YN_YB_DEV_10",
+      "group": "real",
+      "description": "【真实来源开发情景·预期待审核】暂无记录不能判定资金可用",
+      "input": {
+        "text": "共济查询进去说暂无记录，我是不是已经能用孩子的钱？",
+        "region": "530502",
+        "answers": {
+          "resultSummary": "暂无记录"
+        }
+      },
+      "imagePath": null,
+      "asOf": "2026-11-17",
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "承认结果不足，核对登录身份和授权方向，结果页字段待实机核对；不宣称已绑好。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "BS_YB_FAMILY_QUERY_RECORDS",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_YB_FAMILY_PAYMENT_ACCOUNT_CHECK",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "我已帮您解绑",
+          "您已绑定成功",
+          "直接点解绑就能查询",
+          "共享孩子的医保报销待遇",
+          "2025账单证明2027已经缴费"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "YN_YB_DEV_11",
+      "group": "real",
+      "description": "【真实来源开发情景·预期待审核】代缴需要核对登录角色",
+      "input": {
+        "text": "我跟孩子绑了共济，交居民医保时还是失败，谁的号登录？",
+        "region": "530502",
+        "answers": {
+          "task": "province_family_payment"
+        }
+      },
+      "imagePath": null,
+      "asOf": "2026-11-17",
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "解释省内该代缴路径需核对职工授权人账户，再核绑定有效期间，不重复提交付款。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_YB_FAMILY_PAYMENT_ACCOUNT_CHECK",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_YB_FAMILY_PAYMENT_VALIDITY_CHECK",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "我已帮您解绑",
+          "您已绑定成功",
+          "直接点解绑就能查询",
+          "共享孩子的医保报销待遇",
+          "2025账单证明2027已经缴费"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "YN_YB_DEV_12",
+      "group": "real",
+      "description": "【真实来源开发情景·预期待审核】登记不等于缴费",
+      "input": {
+        "text": "我刚提交城乡居民参保登记，就算缴好费了吗？",
+        "region": "530502",
+        "answers": {
+          "submittedRegistration": true
+        }
+      },
+      "imagePath": null,
+      "asOf": "2026-11-17",
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "区分登记和缴费，先核对登记/审核状态，再走税务缴费并查询记录，不保证即时完成。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_YB_REGISTER_BEFORE_PAYMENT",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_YB_PAYMENT_CHANNELS_2027",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_YB_PAYMENT_CHECK_YEAR_AND_RECEIPT",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "我已帮您解绑",
+          "您已绑定成功",
+          "直接点解绑就能查询",
+          "共享孩子的医保报销待遇",
+          "2025账单证明2027已经缴费"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "YN_YB_DEV_13",
+      "group": "real",
+      "description": "【真实来源开发情景·预期待审核】老人无本人实名手机号",
+      "input": {
+        "text": "用孩子实名的手机号能登录，但医保码激活不了怎么办？",
+        "region": "530502",
+        "answers": {
+          "phoneOwner": "子女"
+        }
+      },
+      "imagePath": null,
+      "asOf": "2026-11-17",
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "说明授权登录与激活条件不同，按官方答疑提供线下经办替代，不索要验证码。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_YB_LOGIN_PHONE_IDENTITY",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "我已帮您解绑",
+          "您已绑定成功",
+          "直接点解绑就能查询",
+          "共享孩子的医保报销待遇",
+          "2025账单证明2027已经缴费"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "YN_YB_DEV_14",
+      "group": "real",
+      "description": "【真实来源开发情景·预期待审核】资助对象不能一律收费及等待",
+      "input": {
+        "text": "我是低保老人，2027年2月要参保，也一定交400并等3个月吗？",
+        "region": "530502",
+        "answers": {
+          "benefitYear": 2027,
+          "identity": "低保"
+        }
+      },
+      "imagePath": null,
+      "asOf": "2026-11-17",
+      "expected": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "核对医疗救助/分类资助资格及等待期例外，不直接套用普通标准。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_YB_RESIDENT_FINANCIAL_ASSISTANCE",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_YB_WAITING_PERIOD_WITH_EXCEPTIONS",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_YB_PAYMENT_SPECIAL_POPULATIONS",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "我已帮您解绑",
+          "您已绑定成功",
+          "直接点解绑就能查询",
+          "共享孩子的医保报销待遇",
+          "2025账单证明2027已经缴费"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "YN_YB_DEV_15",
+      "group": "real",
+      "description": "【真实来源开发情景·预期待审核】按钮找不到需核对页面版本",
+      "input": {
+        "text": "你说的授权记录查询找不到，我看到的是个人账户共济查询和解绑。",
+        "region": "530502",
+        "answers": {
+          "visibleButton": "个人账户共济查询和解绑"
+        }
+      },
+      "imagePath": null,
+      "asOf": "2026-11-17",
+      "expected": {
+        "status": "need_info",
+        "questionKey": "current_page",
+        "nextStep": "确认当前页面/模式，使用截图别名适配；不说系统没有查询功能，不跳到解绑。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_YB_FAMILY_QUERY_ENTRY",
+            "version": 1
+          },
+          {
+            "clauseId": "BS_YB_FAMILY_QUERY_RECORDS",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "我已帮您解绑",
+          "您已绑定成功",
+          "直接点解绑就能查询",
+          "共享孩子的医保报销待遇",
+          "2025账单证明2027已经缴费"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "YN_YB_DEV_16",
+      "group": "real",
+      "description": "【真实来源开发情景·预期待审核】共享钱不共享医保身份",
+      "input": {
+        "text": "绑定好了，是不是可以拿孩子的医保码给我看病、用孩子的职工报销待遇？",
+        "region": "530502",
+        "answers": {
+          "relationship": "子女"
+        }
+      },
+      "imagePath": null,
+      "asOf": "2026-11-17",
+      "expected": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "解释必须用患者本人医保身份，共济个人账户资金不让渡统筹报销待遇。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_YB_PATIENT_OWN_CODE",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_YB_FAMILY_IS_MONEY_NOT_BENEFITS",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "我已帮您解绑",
+          "您已绑定成功",
+          "直接点解绑就能查询",
+          "共享孩子的医保报销待遇",
+          "2025账单证明2027已经缴费"
+        ]
+      },
+      "humanVerified": "pending"
+    }
+  ]
+}

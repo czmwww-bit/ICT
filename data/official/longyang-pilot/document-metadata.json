@@ -160,7 +160,8 @@
     "recordedPublishedAt": null,
     "recordedEffectiveFrom": "2023-04-01",
     "recordedEffectiveTo": null,
-    "dateReviewNote": "未知日级日期为null；落款/网页时间单独保留，不互相冒充。"
+    "dateReviewNote": "未知日级日期为null；落款/网页时间单独保留，不互相冒充。",
+    "reviewFollowup": "review-followup-2026-11-17/review-receipt.json"
   },
   {
     "item": 7,
@@ -293,7 +294,17 @@
     "recordedPublishedAt": null,
     "recordedEffectiveFrom": null,
     "recordedEffectiveTo": null,
-    "dateReviewNote": "未知日级日期为null；落款/网页时间单独保留，不互相冒充。"
+    "dateReviewNote": "落款2026-01-14、省厅网页2026-01-27、红河转载2026-02-28分别记录。省厅日期为用户核对并见官方检索索引，实时抓取仍404。未单独取得印发日，印发前12个月不按转载日或公开日计算。",
+    "reviewFollowup": "review-followup-2026-11-17/review-receipt.json",
+    "attachmentsReview": "review-followup-2026-11-17/attachment-review.json",
+    "issuedAt": null,
+    "provinceWebPublishedAt": "2026-01-27",
+    "provinceWebDateProvenance": {
+      "sourceUrl": "https://ynmz.yn.gov.cn/cms/qitazhengcewenjian/11991.html",
+      "status": "user_confirmed_and_official_search_index_seen_live_http404",
+      "notOriginalIssuanceDate": true
+    },
+    "reprintWebPublishedAt": "2026-02-28"
   },
   {
     "item": 12,

@@ -1,0 +1,118 @@
+{
+  "receivedDate": "2026-11-17",
+  "recordedAt": "2026-11-17T01:18:02.328Z",
+  "reviewerName": null,
+  "feedbackSource": "用户本次聊天核对结果",
+  "approvalScope": "部分事实核对；全部政策仍待审核、未导入未发布",
+  "feedback": [
+    {
+      "id": "LOCAL_RATES",
+      "clauses": [
+        "YN_GLT_PROVINCIAL_RATES",
+        "LY_GLT_WADU_2025_LOCAL_RATES"
+      ],
+      "confirmed": "省级113号最低300元，隆阳2026年1月/2月统计350元、8月统计1000元。省级标准与各月地方统计分开保留。",
+      "pending": "调整文件和施行日期仍缺；1000元不能回填全年，统计表不充当规范性调整依据。"
+    },
+    {
+      "id": "ECON_SUCCESSION",
+      "clauses": [
+        "YN_ECON_SERVICE_2023_2_VALIDITY",
+        "YN_ELDER_ONE_SERVICE_2026_ECON_FLOW"
+      ],
+      "confirmed": "试行原文写2023-04-01施行、有效期三年；2026年4月通知仍明确该项补贴免申即享。",
+      "pending": "原试行办法的接续依据待核实；不能推断补贴已经取消，也不能据此认定旧办法全篇续期。"
+    },
+    {
+      "id": "APPLICATION_CONFLICT",
+      "clauses": [
+        "LY_GLT_WADU_2025_APPLICATION",
+        "YN_GLT_AUTO_PROCESS",
+        "YN_ELDER_ONE_SERVICE_2026_HIGH_FLOW"
+      ],
+      "confirmed": "瓦渡2025主动申请与后续免申即享原文并存，流程口径不一致。",
+      "pending": "过渡、补录、网页未更新均只是待验证解释；需确认具体业务、时期和适用范围，不能自动标旧网页失效。"
+    },
+    {
+      "id": "ASSESSMENT_PERIOD",
+      "clauses": [
+        "CN_CONSUMPTION_LAUNCH_2026_ASSESS_DATA",
+        "YN_CONSUMPTION_2026_4_ASSESS",
+        "BS_CONSUMPTION_INTERPRETATION_2026_ASSESS"
+      ],
+      "confirmed": "省方案为通知印发前12个月内，保山解读为2025年内，不能合并成同一条件。",
+      "pending": "国家2024年7月以来口径本次用户尚未完成原文核验；落款/省厅公开/转载日期分开，印发日未单独确证，不能用转载日计算12个月。"
+    },
+    {
+      "id": "ELIGIBILITY_AND_VOUCHER",
+      "clauses": [
+        "LY_CONSUMPTION_GUIDE_2026_ASSESS",
+        "YN_CONSUMPTION_2026_4_OBJECT",
+        "YN_CONSUMPTION_2026_4_VOUCHER",
+        "YN_CONSUMPTION_2026_4_RATES",
+        "YN_CONSUMPTION_2026_4_LTC"
+      ],
+      "confirmed": "评估完成不等于自动符合资格，仍需年龄、云南常住、中度以上等级及排除条件；首次5个工作日、当月使用次月失效有正文依据。",
+      "pending": "保留首月最后一个工作日不足5日的例外；附件7的简写不能覆盖正文细节，关键建议仍需审核。"
+    }
+  ],
+  "userTexts": [
+    {
+      "file": "sources/USER-C11.txt",
+      "sha256": "3b50d9c4862431feb5a8bc469f7a7c1b04aae992338d35b904db68fe6cdc9b74",
+      "relatedDocumentId": "YN_CONSUMPTION_2026_4",
+      "identity": "用户提供的省方案正文",
+      "receivedDate": "2026-11-17",
+      "sourceType": "user_chat_text",
+      "downloadedOriginal": false,
+      "normalization": "聊天正文保留用字，空白和段落换行整理为LF；非原网页/附件字节副本",
+      "policyReviewed": false
+    },
+    {
+      "file": "sources/USER-B6-interpretation.txt",
+      "sha256": "b20418fc00b488038861d2ddbe2ecc4ed3b58c48fde6065e2976b27bd071d1a3",
+      "relatedDocumentId": "YN_ECON_SERVICE_2023_2",
+      "identity": "用户提供的政策解读，非缺失PDF原件",
+      "receivedDate": "2026-11-17",
+      "sourceType": "user_chat_text",
+      "downloadedOriginal": false,
+      "normalization": "聊天正文保留用字，空白和段落换行整理为LF；非原网页/附件字节副本",
+      "policyReviewed": false
+    }
+  ],
+  "bodyComparison": {
+    "normalization": "移除标题和空白；不合并日期/资格条件",
+    "normalizedBodyEquals": false,
+    "note": "原文字符差异保留；仅空白/逗号规范化比较不等于审核，也不改任一原文。",
+    "punctuationNormalizedEquals": true,
+    "differences": [
+      {
+        "offset": 1219,
+        "official": ",",
+        "user": "，",
+        "officialContext": "人员，养老服务机构工作人员等）,通过“民政通”（含小程序、AP",
+        "userContext": "人员，养老服务机构工作人员等），通过“民政通”（含小程序、AP"
+      }
+    ]
+  },
+  "dateFacts": {
+    "signedAt": "2026-01-14",
+    "provinceWebPublishedAt": "2026-01-27",
+    "reprintWebPublishedAt": "2026-02-28",
+    "issuedAt": null,
+    "provinceWebLiveStatus": 404
+  },
+  "unresolved": [
+    "原经济困难补贴PDF仍缺；解读不替代原件。",
+    "解读称27条，施甸转载末条为26条，待正式PDF核准。",
+    "2026年9月征求意见后的新办法或续期正式依据未核实取得。",
+    "国家2024年7月以来口径本次用户未完成原文核验。"
+  ],
+  "updatedReviewItems": 15,
+  "mainBatchSha256": "403e2e72a8100178ba1b11489c508bda9809e7428d8fc0ed1c7ca442747e0391",
+  "mainBatchUnchanged": true,
+  "documents": 13,
+  "clauses": 90,
+  "imported": false,
+  "published": false
+}

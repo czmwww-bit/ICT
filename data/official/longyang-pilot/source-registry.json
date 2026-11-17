@@ -265,17 +265,49 @@
       "url": "https://www.hh.gov.cn/info/29601/1243252.htm",
       "format": "html",
       "selector": "[id^=\"vsb_content_\"]",
-      "attachmentRequired": false,
+      "attachmentRequired": true,
       "excludeSelectors": [
         ".click",
         ".view-count",
         ".content-page"
       ],
       "baseline": {
-        "file": "sources/C11-honghe.html",
-        "attachments": []
+        "file": "review-followup-2026-11-17/sources/C11-honghe-review.html",
+        "attachments": [
+          {
+            "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3U4vBDL4NaU8MkMGlVko7l4LlCaU4NfbL8U8LRrkL87bozC0gihFp2hmCIa0LSyDn1yPM1yiU8lZMzNanzrkUNUDnzf2oz9PMzUiLzTfL8QFM4vYMN-iLNnFoR-aLkbNpDLeo47Jbg/nbCD5bbYfbCIeE-kfbXYMbC/AEH2TEgS8Eq2bbbJJbK1VbCDrgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+            "file": "review-followup-2026-11-17/sources/C11-attachment-1.doc"
+          },
+          {
+            "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nzCBbU8C8LzU4oGRU4U46koz-8MNVfkL8CPnNC8M8-DnRL0gihFp2hmCIa0nky4MYh2USyPM874M7nRnNr2LzCYMzQ7LmGDLmAVM7CaLlQFLz7iUNn2MRrFL8laLkbNpDLeo4-JE-kfbpt8bg/EEH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+            "file": "review-followup-2026-11-17/sources/C11-attachment-2.doc"
+          },
+          {
+            "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nmLBZL8CYnmC4UGzffL4-an7UbUmCf8MmM7U87PL8lPL8U0gihFp2hmCIa0MYy8nkhVLSyaL4CZM8lsL4f7U49YMRvDnzGYnl7bnN-ZLNMFU474UmU8M7nFMR-aLkbNpDLeo4LJE-kfbpt8bg/EE-ohbC/pEH37bgYabXYEbXE7EH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+            "file": "review-followup-2026-11-17/sources/C11-attachment-3.doc"
+          },
+          {
+            "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3olMB7oRTfMm7ZUGm9DUmNaUmMkLzLfbnR7bnmUYLmv8UNC0gihFp2hmCIa0M1yDMYyiUSybnNlanm-DoRNYU4fVMzW2U4lYUNrRozUYL4fFLlLsM8-so7nFMR9aLkbNpDLeo4UJbCIeE-kfbXYMbC/AbXYEbXE7EH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+            "file": "review-followup-2026-11-17/sources/C11-attachment-4.doc"
+          },
+          {
+            "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nNLBPnmM2L4GaLGl-ZnzT7MmCsozCfPMRW7U49ZU8UYoR-0gihFp2hmCIa0nShkoSh7UYyaUmffUmW2nRCioRW2LzG8Lzl4nRGPM4n7M4TFnRQRL49DLRnFo7laLkbNpDLeo4lJbXYMbC/AbXYEbXE7bbS4bw/TEH2wgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+            "file": "review-followup-2026-11-17/sources/C11-attachment-5.doc"
+          },
+          {
+            "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3M4VBRMmV7Lzr2MG77ZolMkLlCaMNUf4oz-4nlnRM4rRU4C0gihFp2hmCIa0okhRLShfM1hRnlCZMz9Pnm-ZMmVVU4nknmMVM87DMz6kMRVFnmrkn7WfMz6FMz-aLkbNpDLeo4CJbXYMbC/AbXYEbXE7bqSdb/2-Eq2bbbJJbK1VbCDrgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+            "file": "review-followup-2026-11-17/sources/C11-attachment-6.doc"
+          },
+          {
+            "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3UlWBkLlM2L4GsnGlliMmCYUNCsL8CfDnzVkLmV2MmGbL8l0gihFp2hmCIa0LYyDLYhRMShfL8C8LzUbMRW7MR6fnlLiLRMfnRNPL8-DM8VFnR-bUNLaLmAFLzffLRGJQ2hmo4OsgJSEN_IMT3_v9_IUN_SZK_IEXJSeX_SZ1JINO_1R0_1G9_IbxoSEJJIuN_ql0JIVJ31G9_qvm_IHw_qD1o18J_1AX_18xotAJ__pKJIJjJqI0__eAJI-tSbNpDLeoDAw_jWx_tC0qIbtpYy4LRLDLSyPLmU4Lm7YgtA8pUkcc",
+            "file": "review-followup-2026-11-17/sources/C11-attachment-7.doc"
+          }
+        ]
       },
-      "declaredEffectiveFrom": null
+      "declaredEffectiveFrom": null,
+      "attachmentSelector": ".dtl-txt > span a[href]",
+      "baselineCapturedDate": "2026-11-17",
+      "baselineNote": "本轮首次归档附件，建立技术基线；不是政策新修订或审核通过。旧2026-11-16快照继续保留。"
     },
     {
       "id": "B6-pdf",

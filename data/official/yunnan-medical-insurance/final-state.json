@@ -1,0 +1,9 @@
+{
+  "executedAt": "2026-11-17T02:09:55.380Z",
+  "project": {
+    "officialVersions": 0
+  },
+  "precheck": true,
+  "queryProjectDatabaseUnchanged": true,
+  "sourceTestTablesCleaned": true
+}

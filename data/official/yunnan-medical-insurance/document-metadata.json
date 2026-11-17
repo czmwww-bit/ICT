@@ -1,0 +1,1019 @@
+[
+  {
+    "documentId": "YN_YB_LOGIN_FAQ_2026",
+    "sourceId": "YB01",
+    "classification": "login_faq",
+    "webPublisher": "云南省医疗保障局",
+    "webPublishedAt": "2026-11-10",
+    "sourceLabel": "云南省医疗保障局",
+    "originalIssuer": "云南省医疗保障局（发布或转载）",
+    "signedAt": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "d456e0a7df685e1275f2dcca8cae9c4184db8275745dfcae31ab3fbea590718a",
+    "rawHash": "c37485b50c7b1bbcd0e59bd18f93207caf7414709bb6ef57f0b95df0013cfea4",
+    "sourceAssets": [
+      {
+        "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:18.197Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB01-01.png",
+        "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+        "bytes": 986,
+        "contentType": "image/png",
+        "role": "page_decoration_not_policy_evidence"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": []
+  },
+  {
+    "documentId": "YN_YB_APP_GUIDE_2024",
+    "sourceId": "YB02",
+    "classification": "platform_guide",
+    "webPublisher": "玉溪市医疗保障局",
+    "webPublishedAt": "2024-09-02",
+    "sourceLabel": "玉溪市医疗保障局",
+    "originalIssuer": "玉溪市医疗保障局",
+    "signedAt": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "e1d14f01552716c049ac4c1773a7ca68ddb7e36480925b2a42d18b60d6b9e851",
+    "rawHash": "7cf77180e42694dfe7e3b2d85e0084cf2bc9f0fa8fc32ebfdbe970ca20ccc522",
+    "sourceAssets": [
+      {
+        "url": "https://www.yuxi.gov.cn/u/cms/yxszfxxgk/202409/29101541vitt.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:39:35.259Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB02-01.png",
+        "sha256": "13240ebc9c81852436097372e7f532f66309065b60b653dfd4060273afff2a79",
+        "bytes": 128106
+      },
+      {
+        "url": "https://www.yuxi.gov.cn/u/cms/yxszfxxgk/202409/29101551nm4p.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:39:35.361Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB02-02.png",
+        "sha256": "fc0131369f0e683c56ea22eacefdfaad94ccabe1ee4d590464a831e1b5980146",
+        "bytes": 129839
+      },
+      {
+        "url": "https://www.yuxi.gov.cn/u/cms/yxszfxxgk/202409/291016465ysy.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:39:35.457Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB02-03.png",
+        "sha256": "1d4d1a12fb4fd9646ad03b8bce4287656988a279e748456eb2e6371b494a86e5",
+        "bytes": 233792
+      },
+      {
+        "url": "https://www.yuxi.gov.cn/u/cms/yxszfxxgk/202409/29101717ve0h.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:39:35.563Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB02-04.png",
+        "sha256": "5b6583ac9e971ec7598bfac6cb369ea65590fd08b6949ceedb91d9bdbaaa14f6",
+        "bytes": 61088
+      },
+      {
+        "url": "https://www.yuxi.gov.cn/u/cms/yxszfxxgk/202409/29102018mdnr.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:39:35.637Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB02-05.png",
+        "sha256": "21dc486404be05b0d6dc0a2cc476ddf100155d231305ecd10f786f2ce8b38522",
+        "bytes": 23268
+      },
+      {
+        "url": "https://www.yuxi.gov.cn/u/cms/yxszfxxgk/202409/29101841momh.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:39:35.682Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB02-06.png",
+        "sha256": "45dbfaccae78654bc323cf2c82e2955f2357bffcc47da41252c75c44a260a754",
+        "bytes": 1121158
+      },
+      {
+        "url": "https://www.yuxi.gov.cn/u/cms/yxszfxxgk/202409/29101933f40h.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:39:35.848Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB02-07.png",
+        "sha256": "248b8d021ea5189e9db35ccbcf388d567c400ce0b2f0d9f46cdb2fe61b06b174",
+        "bytes": 118062
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": [
+      "省级平台操作由玉溪官方指南提供；玉溪各县电话不能用于保山，2024界面需和用户当前截图分别核对。"
+    ]
+  },
+  {
+    "documentId": "YN_YB_FAMILY_POLICY_2024",
+    "sourceId": "YB03",
+    "classification": "formal_policy",
+    "webPublisher": "云南省医疗保障局",
+    "webPublishedAt": "2024-09-11",
+    "sourceLabel": "",
+    "originalIssuer": "云南省人民政府办公厅",
+    "signedAt": "2024-09-01",
+    "effectiveFrom": "2024-11-01",
+    "effectiveTo": null,
+    "contentHash": "24c021a25af08ed51f078475be576e9554e960b3428df6504d9bf47fac3ca1df",
+    "rawHash": "ac8b88b4d6d277aa33367ccb172e3a104d3fccb2fc78ee2cf4d5bf7fe504899e",
+    "sourceAssets": [
+      {
+        "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:18.161Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB03-01.png",
+        "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+        "bytes": 986,
+        "contentType": "image/png",
+        "role": "page_decoration_not_policy_evidence"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": []
+  },
+  {
+    "documentId": "YN_YB_FAMILY_EXPLANATION_2024",
+    "sourceId": "YB04",
+    "classification": "policy_explanation",
+    "webPublisher": "云南省医疗保障局",
+    "webPublishedAt": "2024-09-11",
+    "sourceLabel": "",
+    "originalIssuer": "云南省医疗保障局（发布或转载）",
+    "signedAt": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "2add09558159d9526318fed1d257920e34aa752456aff7d0d480d63fc29ef15a",
+    "rawHash": "8d563314f534070a8d4a86d3395ec06b7212e3ea24bd50a3a1c669eb0a6ee9e9",
+    "sourceAssets": [
+      {
+        "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:18.271Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB04-01.png",
+        "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+        "bytes": 986,
+        "contentType": "image/png",
+        "role": "page_decoration_not_policy_evidence"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": []
+  },
+  {
+    "documentId": "YN_YB_ENROLLMENT_POLICY_2024",
+    "sourceId": "YB05",
+    "classification": "formal_policy",
+    "webPublisher": "云南省医疗保障局",
+    "webPublishedAt": "2024-12-25",
+    "sourceLabel": "",
+    "originalIssuer": "云南省人民政府办公厅",
+    "signedAt": "2024-12-23",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "f81ad83f1f041aced4032eab326b468a38dcf4f410e3c38452803fa2badbe008",
+    "rawHash": "e0bfb207bcc27102c0ab079041b7b7d2a919a0930f36c6f5482b4f20254a7d3a",
+    "sourceAssets": [
+      {
+        "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:18.434Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB05-01.png",
+        "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+        "bytes": 986,
+        "contentType": "image/png",
+        "role": "page_decoration_not_policy_evidence"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": []
+  },
+  {
+    "documentId": "YN_YB_ENROLLMENT_EXPLANATION_2025",
+    "sourceId": "YB06",
+    "classification": "policy_explanation",
+    "webPublisher": "云南省医疗保障局",
+    "webPublishedAt": "2025-02-08",
+    "sourceLabel": "",
+    "originalIssuer": "云南省医疗保障局（发布或转载）",
+    "signedAt": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "151c08ef4cfa1adf6fd6a6f93b2f81939f4f2c611a3b2c8adafdcdb200a84755",
+    "rawHash": "8c267007277a7b9153665b903fdb953277d94c7f927d0183db4a65b6daee67dd",
+    "sourceAssets": [
+      {
+        "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:18.430Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB06-01.png",
+        "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+        "bytes": 986,
+        "contentType": "image/png",
+        "role": "page_decoration_not_policy_evidence"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": []
+  },
+  {
+    "documentId": "YN_YB_RESIDENT_PAYMENT_2027",
+    "sourceId": "YB07",
+    "classification": "annual_payment_notice",
+    "webPublisher": "云南省医疗保障局",
+    "webPublishedAt": "2026-10-09",
+    "sourceLabel": "云南省医疗保障局",
+    "originalIssuer": "云南省医疗保障局（发布或转载）",
+    "signedAt": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "6676a7c702d3f8a21befc867c32f977a94e637354e7f30f1c32f24507d519adb",
+    "rawHash": "42fc111beccef28031aa0cf40acfda49c268b5428453d3d7c8b2d034159021b7",
+    "sourceAssets": [
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202610/W020261019561189293539.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:18.549Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB07-01.jpg",
+        "sha256": "10ae29d14269d0bf6b5de3f6de6ce7e930f390ff24976171c4e76be44c8c5695",
+        "bytes": 746086,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:18.939Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB07-02.png",
+        "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+        "bytes": 986,
+        "contentType": "image/png",
+        "role": "page_decoration_not_policy_evidence"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": [
+      "主体为官方长图，原图已全量归档；文本只选录相关板块，金额、日期及按钮待逐字人工核对。"
+    ],
+    "originalTextRepresentation": "selected_assistant_visual_transcription_pending_human_verification"
+  },
+  {
+    "documentId": "YN_YB_RESIDENT_PAYMENT_DIAGRAM_2027",
+    "sourceId": "YB08",
+    "classification": "image_guide",
+    "webPublisher": "云南省医疗保障局",
+    "webPublishedAt": "2026-10-10",
+    "sourceLabel": "云南省医疗保障局",
+    "originalIssuer": "云南省医疗保障局（发布或转载）",
+    "signedAt": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "501c870bbb0d22a1e29abf1d89ef071becfbcd4bed455a837d8a1a3f1a6eeaec",
+    "rawHash": "15f40c279961303c6c2e69e332354d7b808846bcec6c5ad6d72b48ee7b687cbb",
+    "sourceAssets": [
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202610/W020261019561207347645.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:18.753Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB08-01.jpg",
+        "sha256": "308bd27c4046d68e2a28c0bdb006295e4dfb9cc1d64ae7c78f815aed2e969c0e",
+        "bytes": 1017665,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:19.034Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB08-02.png",
+        "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+        "bytes": 986,
+        "contentType": "image/png",
+        "role": "page_decoration_not_policy_evidence"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": [
+      "主体为官方长图，原图已全量归档；文本只选录相关板块，金额、日期及按钮待逐字人工核对。",
+      "第②步第二个缴费按钮印字待复核，不作为自动导航标签；普通缴费标准不能覆盖特殊人员资助，缴费年度与操作日期分开。"
+    ],
+    "originalTextRepresentation": "selected_assistant_visual_transcription_pending_human_verification"
+  },
+  {
+    "documentId": "YN_YB_FAMILY_VS_KINSHIP_2025",
+    "sourceId": "YB09",
+    "classification": "concept_guide",
+    "webPublisher": "云南省医疗保障局",
+    "webPublishedAt": "2025-08-26",
+    "sourceLabel": "云南省医疗保障局",
+    "originalIssuer": "云南省医疗保障局（发布或转载）",
+    "signedAt": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "0f971d099526ff6cabae9c3e29c265ae25aa787a345a72b920acbeaad6e9f36a",
+    "rawHash": "5bc90ead3361126e9ecd23c6f4fb9e9cc6f6d1f1b495baa03c4ec0b4c67ccc20",
+    "sourceAssets": [
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202508/W020251029806263686653.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:18.682Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB09-01.jpg",
+        "sha256": "abd1c20c415ccaa8200c673738d9810b7fe643ca74f16901c104d9275b5777e5",
+        "bytes": 56963,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:19.297Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB09-02.png",
+        "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+        "bytes": 986,
+        "contentType": "image/png",
+        "role": "page_decoration_not_policy_evidence"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": []
+  },
+  {
+    "documentId": "YN_YB_THREE_ACCOUNTS_2026",
+    "sourceId": "YB10",
+    "classification": "concept_guide",
+    "webPublisher": "云南省医疗保障局",
+    "webPublishedAt": "2026-05-27",
+    "sourceLabel": "“国家医保局”微信公众号",
+    "originalIssuer": "云南省医疗保障局（发布或转载）",
+    "signedAt": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "4223d8969631a4d83909698b0f422a0a6513234f46f4d9984c6e7a9fc7780461",
+    "rawHash": "b3cf3e85ba3f2b20178be131c367b1332200351877b346762693f7c55ab296ed",
+    "sourceAssets": [
+      {
+        "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:19.159Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB10-01.png",
+        "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+        "bytes": 986,
+        "contentType": "image/png",
+        "role": "page_decoration_not_policy_evidence"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": []
+  },
+  {
+    "documentId": "YN_YB_FAMILY_PAYMENT_FAQ_2025",
+    "sourceId": "YB11",
+    "classification": "channel_specific_faq",
+    "webPublisher": "云南省医疗保障局",
+    "webPublishedAt": "2025-11-04",
+    "sourceLabel": "昭通医保",
+    "originalIssuer": "云南省医疗保障局（发布或转载）",
+    "signedAt": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "6cb0634a3d05854a7fd70007e35469884b6a075684e2c4971d948546d0fd9e24",
+    "rawHash": "dc23cdc03bb8528438e35e001d0df5c2ad68ac8b8af34652d45d4218c7176e7d",
+    "sourceAssets": [
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202511/W020260820457930907899.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:19.319Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB11-01.jpg",
+        "sha256": "968aab6f6de00a7f9e1fb527c7531bdac91effd6cbc1f4f01aa393ee11168211",
+        "bytes": 255030,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:19.624Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB11-02.png",
+        "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+        "bytes": 986,
+        "contentType": "image/png",
+        "role": "page_decoration_not_policy_evidence"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": [
+      "仅解释2025省内共济代缴路径；不能用其中跨省不可用的片段否认2026跨省医保钱包。"
+    ]
+  },
+  {
+    "documentId": "YN_YB_REMOTE_FILING_GUIDE_2026",
+    "sourceId": "YB12",
+    "classification": "platform_guide",
+    "webPublisher": "云南省医疗保障局",
+    "webPublishedAt": "2026-04-07",
+    "sourceLabel": "云南省医疗保障局",
+    "originalIssuer": "云南省医疗保障局（发布或转载）",
+    "signedAt": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "b53163e8329f2c08e1cfda4036a60de61270cff4098da2bac9ef3a56026dc402",
+    "rawHash": "a67283ba8fb94766989947b87a1120cd43baa059c2f99aaaa1f3be2d1ed4887e",
+    "sourceAssets": [
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202604/W020260820454173650902.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:19.429Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB12-01.jpg",
+        "sha256": "b72bae46befd29e1107fa11914292d342ed8af6768c93bf5980dd9e5256f7bda",
+        "bytes": 170489,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202604/W020260820454174031550.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:19.667Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB12-02.jpg",
+        "sha256": "943b1b93a6a12dfbbb7b38dc8ed65c92a3a311385a216000735fd942574a037e",
+        "bytes": 109202,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202604/W020260820454174403042.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:19.910Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB12-03.jpg",
+        "sha256": "8d5d13c7decbc0cc804119559f5cf159260ff41e434a73c5584d06347188eed7",
+        "bytes": 133780,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:20.189Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB12-04.png",
+        "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+        "bytes": 986,
+        "contentType": "image/png",
+        "role": "page_decoration_not_policy_evidence"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": []
+  },
+  {
+    "documentId": "YN_YB_REMOTE_FAQ_2026",
+    "sourceId": "YB13",
+    "classification": "policy_faq",
+    "webPublisher": "云南省医疗保障局",
+    "webPublishedAt": "2026-07-01",
+    "sourceLabel": "云南省医疗保障局",
+    "originalIssuer": "云南省医疗保障局（发布或转载）",
+    "signedAt": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "d2cab1a25013c5bceaacfe576d55f2f89abc7f5fd7f3ba66982ba4e16bd60092",
+    "rawHash": "9975069fcedf68e97c968a326e2547ee4902b6f158eca456b5336c34f8f05368",
+    "sourceAssets": [
+      {
+        "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:19.602Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB13-01.png",
+        "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+        "bytes": 986,
+        "contentType": "image/png",
+        "role": "page_decoration_not_policy_evidence"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": [
+      "FAQ中仅举父母配偶子女的片段不是完整近亲属清单；其他业务含未来调整提示，本批不抽取其生育报销结论。"
+    ]
+  },
+  {
+    "documentId": "YN_YB_WALLET_BIND_GUIDE_2026",
+    "sourceId": "YB14",
+    "classification": "cross_province_guide",
+    "webPublisher": "云南省医疗保障局",
+    "webPublishedAt": "2026-11-02",
+    "sourceLabel": "云南省医疗保障局",
+    "originalIssuer": "云南省医疗保障局（发布或转载）",
+    "signedAt": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "c5b79c697d8130d443c9de953b2440a2ffd07da864cae13b884e3f4e956d3598",
+    "rawHash": "d6b1fd51d4f37e6fa9ef6346ff0cbcef317a1a4e3cfc0a03bf1188aa0c6219fb",
+    "sourceAssets": [
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/W020261104414418516564.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:19.858Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB14-01.jpg",
+        "sha256": "5479356dc01bc489da4c80b67e2c91494de3113ac1329a459b5d8e3867a5cf3c",
+        "bytes": 76848,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/W020261104414418854559.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:20.156Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB14-02.jpg",
+        "sha256": "3ec57f99ad463080701398cbcb7229a42e73ba75fbdd1f07c4bc66186ebc4a25",
+        "bytes": 45705,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/W020261104414419234610.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:20.369Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB14-03.jpg",
+        "sha256": "b2a038afcc98d47188126385ec0acab25bd55d82118d42a12e82b36c44005011",
+        "bytes": 32317,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/W020261104414419578666.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:20.674Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB14-04.jpg",
+        "sha256": "9e8013b64f8ffb757ce63ec18d660611c8b7b5d730ca07aa7f5a99fa9ce9c840",
+        "bytes": 20904,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/W020261104414419903836.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:20.856Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB14-05.jpg",
+        "sha256": "d602b9fd58f1e397f0ddea56a7ffecdbaf143aaf8240f7cc445901cfd874a7c2",
+        "bytes": 30960,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/W020261104414420251497.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:21.159Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB14-06.jpg",
+        "sha256": "067b381b2c3f157fb53e9dd6a63030701f6b34b94f1e5613a81af0db54d6d7c1",
+        "bytes": 37242,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/W020261104414420635362.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:21.472Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB14-07.jpg",
+        "sha256": "9931802af54d69519015dba312bd7227b8a91f0f2cbe2f3010575f6d76338d73",
+        "bytes": 29529,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/W020261104414420983287.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:21.792Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB14-08.jpg",
+        "sha256": "6e1958eb3c26613c1a9f512e731eb812e879a2b930066585937973e1a949cd07",
+        "bytes": 24279,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/W020261104414421349827.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:22.072Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB14-09.jpg",
+        "sha256": "53bc06463bd016285cdaf3166412a13bc050e1444fff8705fc751a8092529457",
+        "bytes": 20234,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/W020261104414421688648.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:22.256Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB14-10.jpg",
+        "sha256": "d6be167ca8251a12733c2dd408160bcadbf39fbe0b4f59405b710d6f23efe683",
+        "bytes": 40441,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:22.482Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB14-11.png",
+        "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+        "bytes": 986,
+        "contentType": "image/png",
+        "role": "page_decoration_not_policy_evidence"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": []
+  },
+  {
+    "documentId": "YN_YB_WALLET_PAYMENT_GUIDE_2026",
+    "sourceId": "YB15",
+    "classification": "cross_province_guide",
+    "webPublisher": "云南省医疗保障局",
+    "webPublishedAt": "2026-11-02",
+    "sourceLabel": "云南省医疗保障局",
+    "originalIssuer": "云南省医疗保障局（发布或转载）",
+    "signedAt": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "74adba095b0ff14ea0d98b9be5dce27ac89ff715d7656347c7ef0b4eda94fe8e",
+    "rawHash": "fc3fa5557dba3fd6cbf3352889c8015630685e9aaf833c0cf1979b586e202900",
+    "sourceAssets": [
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/W020261102598498830780_ORIGIN.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:19.717Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB15-01.jpg",
+        "sha256": "145a1e205d233925fc79185c2930ae46208e594749b6a3f6aa9b4d005dfd5377",
+        "bytes": 297723,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/W020261102598499293388_ORIGIN.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:20.090Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB15-02.jpg",
+        "sha256": "8e60c4c87340443672a7d438954663d908af556335848083fb4970e7a8b33e60",
+        "bytes": 189561,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/W020261102598499730238_ORIGIN.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:20.348Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB15-03.jpg",
+        "sha256": "32d670c30e801c73f20422f935515e59b5fa5da4e6a252fc88f6a399b7382514",
+        "bytes": 219196,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/W020261102598500214784_ORIGIN.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:20.638Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB15-04.jpg",
+        "sha256": "af02ba6c24d116de2939f67075c4bb59aabb1395ad11d0b245158dea5a9c7774",
+        "bytes": 159981,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/W020261102598500612571_ORIGIN.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:21.017Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB15-05.jpg",
+        "sha256": "45c8b3168268c0df62026839f045e3b76f751df1e41d473fac71ff0e850b88aa",
+        "bytes": 105330,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/W020261102598500996929_ORIGIN.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:21.369Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB15-06.jpg",
+        "sha256": "11fecd4b6e4c4033664c9a3591a9c1093766f677b909304930202f83e4bd6870",
+        "bytes": 131527,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/W020261102598501386368_ORIGIN.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:21.913Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB15-07.jpg",
+        "sha256": "f611f6cf85257125a3e3bce385bf013743f4ec9c8401984d9d687895f910e77f",
+        "bytes": 199557,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:22.148Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB15-08.png",
+        "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+        "bytes": 986,
+        "contentType": "image/png",
+        "role": "page_decoration_not_policy_evidence"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": []
+  },
+  {
+    "documentId": "CN_YB_WALLET_QA_2026",
+    "sourceId": "YB16",
+    "classification": "national_time_snapshot",
+    "webPublisher": "国家医疗保障局",
+    "webPublishedAt": "2026-10-21",
+    "sourceLabel": null,
+    "originalIssuer": "国家医疗保障局",
+    "signedAt": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "b383fc0b5c37c83ad9d4ae5646e30e79eb516b0fcf9f6c7fb35e2e03ac37196e",
+    "rawHash": "2c70e09064cd2b9e83f827fdff1b27e9ccd20a270881dfa00b152593c3cb6f54",
+    "sourceAssets": [
+      {
+        "url": "https://www.nhsa.gov.cn/picture/0/b1743834cd0444abb69b767d1ec7a444.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:20.270Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB16-01.png",
+        "sha256": "c4a9bf6a9cfd5c753195bda88a3bc441070224498beea79d2086a12b8e89a8c2",
+        "bytes": 317642,
+        "contentType": "image/png"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": [
+      "全国功能进度是截至2026-10-20的快照；预计年底实现的功能不视为当前已全部实现。"
+    ]
+  },
+  {
+    "documentId": "BS_YB_SERVICE_INTERVIEW_2026",
+    "sourceId": "YB17",
+    "classification": "local_official_interview",
+    "webPublisher": "保山市人民政府网站",
+    "webPublishedAt": "2026-09-16",
+    "sourceLabel": "保山市人民政府门户网站",
+    "originalIssuer": "保山市医疗保障局（官方访谈答复）",
+    "signedAt": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "0ca000d4607c1db3b8bebb181f2f4fe1f0ec7e3783fe86f3e3aa9507fcb35fb1",
+    "rawHash": "55ea8b1e456c3a1b86f0813bb5396e50511c0b325f5b7a6c555db75c2c0656fd",
+    "sourceAssets": [],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": [
+      "保山答复只作当地来源；其旧医保钱包转账步骤不代替2026-11的新操作手册。"
+    ]
+  },
+  {
+    "documentId": "YN_YB_SERVICE_CATALOG_2026",
+    "sourceId": "YB18",
+    "classification": "official_service_catalog",
+    "webPublisher": "云南省医疗保障局",
+    "webPublishedAt": "2026-11-16",
+    "sourceLabel": "",
+    "originalIssuer": "云南省医疗保障局办公室",
+    "signedAt": "2026-11-10",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "dcfa82189597af10ae5e6802f150e67f704723d857d7552df586acb8ce88d89a",
+    "rawHash": "b7aeb75dcaa261597d411e0395340f583f9eeef5ec741d3d79388f900fe5e7d0",
+    "sourceAssets": [
+      {
+        "url": "https://ylbz.yn.gov.cn/govapp/lib/ueditor_demo/ueditor2/dialogs/attachment/fileTypeImages/icon_xls.gif",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:21.273Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB18-01.gif",
+        "sha256": "96ae963c64e3bf7edd26f5e8d131f80d1444536dc7c69b6164d23e4db16a20d3",
+        "bytes": 1005,
+        "contentType": "image/gif",
+        "role": "page_decoration_not_policy_evidence"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/govapp/lib/ueditor_demo/ueditor2/dialogs/attachment/fileTypeImages/icon_doc.gif",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:21.364Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB18-02.gif",
+        "sha256": "62c86a7776611273707faece405890b74a8c521b17a73e339875d8aa4f9ca361",
+        "bytes": 1012,
+        "contentType": "image/gif",
+        "role": "page_decoration_not_policy_evidence"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:21.819Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB18-03.png",
+        "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+        "bytes": 986,
+        "contentType": "image/png",
+        "role": "page_decoration_not_policy_evidence"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202611/P020261116523413927200.xlsx",
+        "title": "1.云南省医疗保障经办政务服务事项清单（2026年版）.xlsx",
+        "kind": "attachment",
+        "retrievedAt": "2026-11-17T01:37:21.830Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB18-04.xlsx",
+        "sha256": "fe2fdae40a826a0240e9cec5aa169d0cb9c5c94139cca4094b20ce278929495f",
+        "bytes": 36460,
+        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "format": "xlsx"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202611/P020261116523414245474.docx",
+        "title": "2.云南省医疗保障经办政务服务事项办事指南（2026年版）.docx",
+        "kind": "attachment",
+        "retrievedAt": "2026-11-17T01:37:21.858Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB18-05.docx",
+        "sha256": "21762b61f627fe50a969a4778c9ff8aad739246f46af92858a00b0b3cb32b3e6",
+        "bytes": 2930588,
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "format": "docx"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": [
+      "附件2只读OOXML提取7500个非空段，未渲染；表格/复选框/流程图不得只凭扁平文本推定必填材料、受理层级或分页。要求2027-01-01前调整，不等于当前所有页面已同步。"
+    ],
+    "adaptationDeadline": "2027-01-01",
+    "sourceParts": [
+      {
+        "file": "sources/YB18.html",
+        "role": "印发通知"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202611/P020261116523413927200.xlsx",
+        "title": "1.云南省医疗保障经办政务服务事项清单（2026年版）.xlsx",
+        "kind": "attachment",
+        "retrievedAt": "2026-11-17T01:37:21.830Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB18-04.xlsx",
+        "sha256": "fe2fdae40a826a0240e9cec5aa169d0cb9c5c94139cca4094b20ce278929495f",
+        "bytes": 36460,
+        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "format": "xlsx"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202611/P020261116523414245474.docx",
+        "title": "2.云南省医疗保障经办政务服务事项办事指南（2026年版）.docx",
+        "kind": "attachment",
+        "retrievedAt": "2026-11-17T01:37:21.858Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB18-05.docx",
+        "sha256": "21762b61f627fe50a969a4778c9ff8aad739246f46af92858a00b0b3cb32b3e6",
+        "bytes": 2930588,
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "format": "docx"
+      }
+    ]
+  },
+  {
+    "documentId": "YN_YB_ANNUAL_BILL_2025",
+    "sourceId": "YB19",
+    "classification": "year_specific_guide",
+    "webPublisher": "云南省医疗保障局",
+    "webPublishedAt": "2026-01-07",
+    "sourceLabel": "云南省医疗保障局",
+    "originalIssuer": "云南省医疗保障局（发布或转载）",
+    "signedAt": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "55a60b6f4b0eb9bb5b787a21a6019bf3c5a9acb3620df3e274eb0e2b6c0cc3c8",
+    "rawHash": "be9da6c6c39e1be17773acad742485dd98b37890b18668b6c9427a94cef9fa9e",
+    "sourceAssets": [
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202601/W020260820456086826705.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:22.480Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB19-01.jpg",
+        "sha256": "504a3afb363eaafd917f98fa2d0943e4e5e085df2b44aca30f172f97ce02a4ec",
+        "bytes": 56247,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202601/W020260820456087176878.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:22.789Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB19-02.jpg",
+        "sha256": "aeb74daf2f239dd38bce8b5227d0f0ce27dc43d4bf9ea96f31ad86a97e4253da",
+        "bytes": 44573,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202601/W020260820456087482379.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:22.981Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB19-03.jpg",
+        "sha256": "e54511fffc5e734c236e7cdd1a7cae8b36ef2121ff28e21ae46fd197bc371b94",
+        "bytes": 85725,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202601/W020260820456087834569.jpg",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:23.202Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB19-04.jpg",
+        "sha256": "3a4efc096466824b463eb4eb61e3837ce3fbd3493cab285cae6851f357b742a3",
+        "bytes": 34210,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:23.392Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB19-05.png",
+        "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+        "bytes": 986,
+        "contentType": "image/png",
+        "role": "page_decoration_not_policy_evidence"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": [
+      "2025年度账单不是2026/2027参保或缴费成功证明。"
+    ]
+  },
+  {
+    "documentId": "YN_YB_ELDERLY_SUPPORT_2025",
+    "sourceId": "YB20",
+    "classification": "official_service_description",
+    "webPublisher": "云南省医疗保障局",
+    "webPublishedAt": "2025-12-22",
+    "sourceLabel": "国家医保局",
+    "originalIssuer": "云南省医疗保障局（发布或转载）",
+    "signedAt": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "contentHash": "46d3eb1b5cfe2401fb91e87e5416ed23e95ee0e04a52aa94f3db1526a17ae98c",
+    "rawHash": "c856bef56b2f6b052d7b3af1d5d8b7d6a2c5bc6da027e975910440412c9e1689",
+    "sourceAssets": [
+      {
+        "url": "https://ylbz.yn.gov.cn/images/annex-download.png",
+        "kind": "image",
+        "retrievedAt": "2026-11-17T01:37:22.445Z",
+        "status": "retrieved",
+        "file": "sources/assets/YB20-01.png",
+        "sha256": "c2ad40c1dbb81c8fe4c7fd4af62c3d3d571c73fa4a05f085d2e7503fbfffa2d3",
+        "bytes": 986,
+        "contentType": "image/png",
+        "role": "page_decoration_not_policy_evidence"
+      }
+    ],
+    "manualReviewStatus": "pending",
+    "webDateNotTakenFromUrl": true,
+    "warnings": []
+  }
+]

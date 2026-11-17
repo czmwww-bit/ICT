@@ -74,7 +74,8 @@ try {
     after,
     databaseUnchanged: unchanged,
     passed,
-    humanPolicyReview: "未执行：等待用户核对，技术通过不等于政策审核通过",
+    humanPolicyReview:
+      "完整审核待执行；2026-11-17部分事实反馈见review-followup-2026-11-17/review-receipt.json，技术通过不等于审核发布",
     imported: false,
     published: false,
   };

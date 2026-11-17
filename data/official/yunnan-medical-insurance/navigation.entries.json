@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "status": "pending_human_and_device_review",
+  "purpose": "向成员②提供可追溯的界面入口与陪伴操作素材，不实现意图识别、资格判断或自动办理",
+  "receivedDate": "2026-11-17",
+  "platform": "云南医保微信小程序",
+  "miniProgramAppId": null,
+  "directJumpUrl": null,
+  "screenshots": [
+    {
+      "id": "USER_YB_HOME_0926",
+      "sourceType": "user_screenshot",
+      "pageTitle": "云南医保",
+      "clockShown": "09:26",
+      "capturedDate": null,
+      "rawFile": null,
+      "archiveStatus": "conversation_image_only_no_local_original_path",
+      "visibleLabels": [
+        "城乡居民参保登记",
+        "异地就医备案",
+        "亲情账户管理",
+        "医保缴费入口（含城乡居民、灵活…）",
+        "个人账户共济绑定",
+        "查看更多",
+        "关怀模式",
+        "个人医保档案",
+        "智能问答"
+      ],
+      "observations": [
+        "医保电子凭证卡片显示未参保；这是界面观察，不是已核实的实际参保状态",
+        "余额为遮挡状态，不记录金额或据此判断余额为0",
+        "浮动关怀模式按钮存在，不据此自动判定模式开关状态"
+      ]
+    },
+    {
+      "id": "USER_YB_BIND_FORM_0926",
+      "sourceType": "user_screenshot",
+      "pageTitle": "个人账户共济绑定",
+      "clockShown": "09:26",
+      "capturedDate": null,
+      "rawFile": null,
+      "archiveStatus": "conversation_image_only_no_local_original_path",
+      "visibleSections": ["个人基本信息", "个人参保信息", "使用人信息"],
+      "visibleInputLabels": [
+        "证件类型",
+        "证件号",
+        "与授权人关系",
+        "姓名",
+        "手机号",
+        "申请原因"
+      ],
+      "poolLabel": "云南省/云南省省本级",
+      "poolAdministrativeRegionCode": null,
+      "observations": [
+        "省本级是截图参保统筹标签，不等同于隆阳区或全省居民医保待遇",
+        "截图未展示完整提交区或提交结果，不补造按钮、成功状态和到账时限",
+        "仅记录字段名称，不保存姓名、证件号、手机号等值"
+      ]
+    },
+    {
+      "id": "USER_YB_ELDER_TOP_0932",
+      "sourceType": "user_screenshot",
+      "pageTitle": "长者专区",
+      "clockShown": "09:32",
+      "capturedDate": null,
+      "rawFile": null,
+      "archiveStatus": "conversation_image_only_no_local_original_path",
+      "visibleLabels": [
+        "个人参保信息查询",
+        "参保缴费信息查询",
+        "个人账户明细查询",
+        "消费信息查询",
+        "年度结算信息查询",
+        "个人账户共济绑定",
+        "开启语音"
+      ]
+    },
+    {
+      "id": "USER_YB_ELDER_MIDDLE_0932",
+      "sourceType": "user_screenshot",
+      "pageTitle": "长者专区",
+      "clockShown": "09:32",
+      "capturedDate": null,
+      "rawFile": null,
+      "archiveStatus": "conversation_image_only_no_local_original_path",
+      "visibleLabels": [
+        "个人账户共济查询和解绑",
+        "城乡居民参保登记",
+        "城乡居民停保登记",
+        "异地就医备案",
+        "异地就医备案查询",
+        "个人信息修改",
+        "门慢门特登记",
+        "参保证明打印",
+        "开启语音"
+      ]
+    },
+    {
+      "id": "USER_YB_ELDER_BOTTOM_0932",
+      "sourceType": "user_screenshot",
+      "pageTitle": "长者专区",
+      "clockShown": "09:32",
+      "capturedDate": null,
+      "rawFile": null,
+      "archiveStatus": "conversation_image_only_no_local_original_path",
+      "visibleLabels": [
+        "药品目录查询",
+        "经办机构查询",
+        "定点医疗机构查询",
+        "定点零售药店查询",
+        "医保耗材查询",
+        "诊疗项目查询",
+        "医保谈判药查询",
+        "挂网目录查询",
+        "开启语音"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "YN_YB_NORMAL_HOME_FAMILY_BIND",
+      "version": 1,
+      "matterId": "YB_FAMILY_BINDING",
+      "path": ["普通首页", "个人账户共济绑定"],
+      "mode": "normal_home_as_reported_by_user",
+      "goal": "进入省内个人账户共济绑定表单",
+      "userEvidenceIds": ["USER_YB_HOME_0926", "USER_YB_BIND_FORM_0926"],
+      "officialReferences": [
+        { "clauseId": "BS_YB_FAMILY_BIND_HOME", "version": 1 },
+        { "clauseId": "YN_YB_FAMILY_POLICY_PURPOSE", "version": 1 }
+      ],
+      "labelAliases": [
+        {
+          "label": "个人账户共济绑定申请",
+          "source": "保山2026-09官方访谈，作为版本别名，不改写当前截图按钮"
+        }
+      ],
+      "steps": [
+        {
+          "id": "BIND_ENTRY_1",
+          "fromPage": "云南医保首页",
+          "action": "tap",
+          "targetLabel": "个人账户共济绑定",
+          "say": "请先点“个人账户共济绑定”。",
+          "evidenceIds": ["USER_YB_HOME_0926"],
+          "expectedNextPage": "个人账户共济绑定",
+          "outcomeConfirmed": false
+        },
+        {
+          "id": "BIND_ENTRY_2",
+          "fromPage": "个人账户共济绑定",
+          "action": "explain",
+          "targetLabel": "使用人信息",
+          "say": "这里的使用人，是要使用这笔共济资金的家人。先确认您正在操作谁的账户。",
+          "evidenceIds": ["USER_YB_BIND_FORM_0926"],
+          "officialReferences": [
+            "YN_YB_FAMILY_IS_MONEY_NOT_BENEFITS",
+            "YN_YB_FAMILY_PAYMENT_ACCOUNT_CHECK"
+          ],
+          "outcomeConfirmed": false
+        }
+      ],
+      "submitOrPaymentEnabled": false,
+      "pending": [
+        "登录人及授权方向需用户自行确认，不采集证件号码",
+        "模式称呼来自用户说明，开关状态未实机验证",
+        "当前下拉关系、提交按钮、承诺书及结果页待核对"
+      ]
+    },
+    {
+      "id": "YN_YB_CARE_ELDER_FAMILY_QUERY",
+      "version": 1,
+      "matterId": "YB_FAMILY_QUERY",
+      "path": ["首页关怀模式", "长者专区", "个人账户共济查询和解绑"],
+      "mode": "care_mode",
+      "goal": "只读查询共济授权关系，不执行解绑",
+      "userEvidenceIds": [
+        "USER_YB_HOME_0926",
+        "USER_YB_ELDER_TOP_0932",
+        "USER_YB_ELDER_MIDDLE_0932"
+      ],
+      "pathEvidenceNote": "长者专区与按钮由截图观察；首页关怀模式到长者专区的完整跳转链由用户本次文字补充，未实机点击",
+      "officialReferences": [
+        { "clauseId": "YN_YB_FAMILY_QUERY_ENTRY", "version": 1 },
+        { "clauseId": "BS_YB_FAMILY_QUERY_RECORDS", "version": 1 }
+      ],
+      "labelAliases": [
+        { "label": "个人账户共济授权记录查询", "source": "保山官方访谈" },
+        {
+          "label": "个人账户共济绑定查询和解绑",
+          "source": "玉溪2024官方平台指南"
+        }
+      ],
+      "utteranceExamples": [
+        "我想看看孩子有没有帮我绑好",
+        "看看我能不能用孩子给的医保钱",
+        "我只想查一下，不想解绑"
+      ],
+      "steps": [
+        {
+          "id": "QUERY_ENTRY_1",
+          "fromPage": "长者专区上部",
+          "action": "scroll_down",
+          "targetLabel": "个人账户共济查询和解绑",
+          "say": "请向下滑一点，找“个人账户共济查询和解绑”。",
+          "evidenceIds": [
+            "USER_YB_ELDER_TOP_0932",
+            "USER_YB_ELDER_MIDDLE_0932"
+          ],
+          "outcomeConfirmed": false
+        },
+        {
+          "id": "QUERY_ENTRY_2",
+          "fromPage": "长者专区且目标按钮已可见",
+          "action": "tap",
+          "targetLabel": "个人账户共济查询和解绑",
+          "say": "请点“个人账户共济查询和解绑”，先查看记录。",
+          "evidenceIds": ["USER_YB_ELDER_MIDDLE_0932"],
+          "outcomeConfirmed": false
+        },
+        {
+          "id": "QUERY_ENTRY_3",
+          "fromPage": "查询结果页未提供",
+          "action": "ask_for_result_summary",
+          "targetLabel": null,
+          "say": "现在页面显示有记录、没有记录，还是提示出错？告诉我提示内容就可以，不用提供证件号。",
+          "evidenceIds": [],
+          "outcomeConfirmed": false
+        }
+      ],
+      "readonlyGuard": {
+        "queryRequestIsNotUnbindConsent": true,
+        "neverChooseDestructiveButtonForQuery": true,
+        "requiresNewExplicitIntentFor": [
+          "解除绑定",
+          "撤销授权",
+          "提交新绑定",
+          "付款"
+        ]
+      },
+      "resultExplanation": {
+        "actualResultPageObserved": false,
+        "fieldsToVerifyOnDevice": [
+          "授权记录/被授权记录的实际名称",
+          "双方方向",
+          "有效状态与期间",
+          "空状态和错误提示"
+        ],
+        "mustNotConcludeFromEntryAlone": [
+          "孩子已经绑定成功",
+          "共济现在一定可用",
+          "余额足够",
+          "能够享受孩子的职工医保报销待遇"
+        ]
+      },
+      "pending": [
+        "结果页和当前授权方向尚无截图",
+        "本功能同时带解绑操作，查询指导需停在只读结果",
+        "分步选择和解释结果由成员②实现"
+      ]
+    }
+  ],
+  "terminology": [
+    {
+      "term": "授权人",
+      "explanation": "在这笔共济中，提供职工医保个人账户资金使用权的人。先确认当前登录的是谁的账户。",
+      "isOfficialQuote": false,
+      "references": [
+        "YN_YB_FAMILY_PAYMENT_ACCOUNT_CHECK",
+        "YN_YB_FAMILY_IS_MONEY_NOT_BENEFITS"
+      ],
+      "reviewStatus": "pending"
+    },
+    {
+      "term": "使用人",
+      "explanation": "这笔共济资金打算给哪位符合条件的家人使用；不是让家人改用授权人的医保身份。",
+      "isOfficialQuote": false,
+      "references": ["YN_YB_FAMILY_POLICY_PURPOSE", "YN_YB_PATIENT_OWN_CODE"],
+      "reviewStatus": "pending"
+    },
+    {
+      "term": "亲情账户",
+      "explanation": "帮家人展示家人的医保码，和使用谁的钱是两个问题。",
+      "isOfficialQuote": false,
+      "references": ["YN_YB_KINSHIP_NOT_FUND_SHARING"],
+      "reviewStatus": "pending"
+    },
+    {
+      "term": "医保钱包",
+      "explanation": "跨省共济要核对医保钱包及相应平台，不把省内绑定表单当成跨省通道。",
+      "isOfficialQuote": false,
+      "references": [
+        "CN_YB_WALLET_OFFICIAL_CHANNELS",
+        "YN_YB_WALLET_BIND_STEPS"
+      ],
+      "reviewStatus": "pending"
+    }
+  ],
+  "originalAppExperience": {
+    "intelligentQAndAEntryObserved": true,
+    "voiceEntryObserved": true,
+    "intelligentQAndAActuallyTried": false,
+    "voiceActuallyTried": false,
+    "reason": "本轮未接入已登录的微信小程序实机；不能由截图证明原助手具有什么理解和陪伴能力",
+    "recordTemplate": "EXPERIENCE_CHECKLIST.md"
+  }
+}

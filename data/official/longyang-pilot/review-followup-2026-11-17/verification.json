@@ -1,0 +1,42 @@
+{
+  "executedAt": "2026-11-17T01:27:38.503Z",
+  "passed": true,
+  "mainBatchUnchanged": true,
+  "documents": 13,
+  "clauses": 90,
+  "rawFilesVerified": 12,
+  "textFilesVerified": 12,
+  "userTextsVerified": 2,
+  "attachmentLinksFound": 7,
+  "attachmentCandidatesVerified": 7,
+  "reviewRowsVerified": 90,
+  "feedbackRows": 15,
+  "allDraft": true,
+  "imported": false,
+  "published": false,
+  "bodyComparison": {
+    "normalization": "移除标题和空白；不合并日期/资格条件",
+    "normalizedBodyEquals": false,
+    "note": "原文字符差异保留；仅空白/逗号规范化比较不等于审核，也不改任一原文。",
+    "punctuationNormalizedEquals": true,
+    "differences": [
+      {
+        "offset": 1219,
+        "official": ",",
+        "user": "，",
+        "officialContext": "人员，养老服务机构工作人员等）,通过“民政通”（含小程序、AP",
+        "userContext": "人员，养老服务机构工作人员等），通过“民政通”（含小程序、AP"
+      }
+    ]
+  },
+  "checks": [
+    "主草稿及审核字段不变",
+    "12份官方载体原件哈希",
+    "提取文字及用户文本哈希",
+    "7份附件由登记选择器发现",
+    "附件7候选引文可追溯",
+    "90条MD/CSV/JSON按编号一致且审核列未改",
+    "落款公开转载与未知印发日区分",
+    "地方月份金额分开且未回填主JSON"
+  ]
+}

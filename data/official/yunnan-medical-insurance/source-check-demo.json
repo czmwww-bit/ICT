@@ -1,0 +1,20 @@
+{
+  "id": "d37fd487-25eb-4e0d-b29f-34fd15b0a0c6",
+  "startedFor": [
+    "YB12"
+  ],
+  "completedAt": "2026-11-17T02:05:56.011Z",
+  "results": [
+    {
+      "sourceId": "YB12",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-17T02:05:55.620Z",
+      "fingerprint": "4550c7328b81e7d0d1ef0dcf24450b8902109ecaee9850d5d2176aa7e7ef170b",
+      "rawHash": "a67283ba8fb94766989947b87a1120cd43baa059c2f99aaaa1f3be2d1ed4887e",
+      "rawSnapshot": "blobs/a67283ba8fb94766989947b87a1120cd43baa059c2f99aaaa1f3be2d1ed4887e.html",
+      "bodyHash": "77881f4485c156e55b92900278f01215cd6fccb430cd42afc4ccd40c5f06dd8b"
+    }
+  ]
+}

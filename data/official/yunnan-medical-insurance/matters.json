@@ -1,0 +1,12 @@
+{
+  "YB_APP_LOGIN": "云南医保登录及身份核对",
+  "YB_ENROLLMENT_QUERY": "医保参保及缴费信息查询",
+  "YB_RESIDENT_ENROLLMENT": "城乡居民医保参保登记",
+  "YB_RESIDENT_PAYMENT": "城乡居民医保缴费",
+  "YB_FAMILY_BINDING": "医保个人账户省内共济绑定",
+  "YB_FAMILY_QUERY": "医保个人账户共济查询",
+  "YB_KINSHIP_ACCOUNT": "医保亲情账户",
+  "YB_REMOTE_FILING": "异地就医备案及查询",
+  "YB_WALLET_CROSS_PROVINCE": "医保钱包跨省共济",
+  "YB_ELDERLY_HELP": "医保关怀模式及人工帮办"
+}

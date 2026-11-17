@@ -1,0 +1,93 @@
+{
+  "executedAt": "2026-11-17T01:58:03.041Z",
+  "passed": true,
+  "documents": 20,
+  "clauses": 50,
+  "validation": {
+    "args": [
+      "validate",
+      "--file",
+      "../data/official/yunnan-medical-insurance/batch.draft.json"
+    ],
+    "exitCode": 0,
+    "stdout": "{\n  \"file\": \"../data/official/yunnan-medical-insurance/batch.draft.json\",\n  \"documents\": 20,\n  \"clauses\": 50,\n  \"errors\": 0,\n  \"messages\": []\n}\n",
+    "stderr": "",
+    "error": null
+  },
+  "dryRun": {
+    "args": [
+      "import",
+      "--file",
+      "../data/official/yunnan-medical-insurance/batch.draft.json",
+      "--dry-run"
+    ],
+    "exitCode": 0,
+    "stdout": "{\n  \"file\": \"../data/official/yunnan-medical-insurance/batch.draft.json\",\n  \"added\": 70,\n  \"modified\": 0,\n  \"unchanged\": 0,\n  \"errors\": 0,\n  \"details\": [\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_LOGIN_FAQ_2026\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_APP_GUIDE_2024\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_FAMILY_POLICY_2024\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_FAMILY_EXPLANATION_2024\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_ENROLLMENT_POLICY_2024\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_ENROLLMENT_EXPLANATION_2025\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_RESIDENT_PAYMENT_2027\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_RESIDENT_PAYMENT_DIAGRAM_2027\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_FAMILY_VS_KINSHIP_2025\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_THREE_ACCOUNTS_2026\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_FAMILY_PAYMENT_FAQ_2025\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_REMOTE_FILING_GUIDE_2026\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_REMOTE_FAQ_2026\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_WALLET_BIND_GUIDE_2026\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_WALLET_PAYMENT_GUIDE_2026\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"CN_YB_WALLET_QA_2026\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"BS_YB_SERVICE_INTERVIEW_2026\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_SERVICE_CATALOG_2026\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_ANNUAL_BILL_2025\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_YB_ELDERLY_SUPPORT_2025\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_LOGIN_TAX_ID_ERROR\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_LOGIN_PHONE_IDENTITY\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_LOGIN_PHONE_CHANGE\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_QUERY_CATEGORIES\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_FAMILY_QUERY_ENTRY\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_ENROLLMENT_ENTRY\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_REMOTE_QUERY_ENTRY\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_APP_OPEN_AND_MORE\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_FAMILY_POLICY_POPULATION\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_FAMILY_POLICY_PURPOSE\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_FAMILY_POLICY_EFFECTIVE\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_FAMILY_CLOSE_RELATIVES\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_ENROLLMENT_GENERAL_POLICY\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_RESIDENT_FINANCIAL_ASSISTANCE\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_WAITING_PERIOD_WITH_EXCEPTIONS\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_ENROLLMENT_ONE_SERVICE\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_PAYMENT_2027_WINDOW\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_PAYMENT_2027_STANDARD\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_PAYMENT_2027_LATE_AND_EXCEPTIONS\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_PAYMENT_CHANNELS_2027\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_PAYMENT_CHECK_YEAR_AND_RECEIPT\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_REGISTER_BEFORE_PAYMENT\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_PAYMENT_SPECIAL_POPULATIONS\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_KINSHIP_NOT_FUND_SHARING\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_KINSHIP_ALIPAY_FACE_HELP\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_PATIENT_OWN_CODE\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_FAMILY_IS_MONEY_NOT_BENEFITS\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_FAMILY_PAYMENT_ACCOUNT_CHECK\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_FAMILY_PAYMENT_VALIDITY_CHECK\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_FAMILY_PAYMENT_PROVINCE_SCOPE\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_REMOTE_FILING_START\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_REMOTE_FILING_FORM\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_REMOTE_FILING_RESULT\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_REMOTE_HELP_CHANNELS\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_REMOTE_VALIDITY_AND_CHANGE\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_WALLET_BIND_STEPS\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_WALLET_QUERY_RECORDS\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_WALLET_LIMIT_WARNING\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_WALLET_TAX_PAYMENT_2027\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"CN_YB_WALLET_ELIGIBILITY\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"CN_YB_WALLET_AVAILABLE_SCOPE_SNAPSHOT\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"CN_YB_WALLET_OFFICIAL_CHANNELS\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"CN_YB_WALLET_ELDER_NO_PHONE\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"BS_YB_FAMILY_BIND_HOME\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"BS_YB_FAMILY_QUERY_RECORDS\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_SERVICE_STANDARD_AND_ADAPTATION\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_CATALOG_QUERY_DESCRIPTION\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_CATALOG_RESIDENT_ENROLLMENT\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_ANNUAL_BILL_YEAR_SCOPE\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_YB_CARE_MODE_AND_HUMAN_HELP\",\n      \"version\": 1,\n      \"action\": \"added\"\n    }\n  ],\n  \"messages\": []\n}\n",
+    "stderr": "",
+    "error": null
+  },
+  "before": {
+    "evidence_publications": {
+      "rows": 7,
+      "sha256": "9d2a30542c0e01bd142d2e47521689637205c25c1ac4e8143d7bc42a931fc49d"
+    },
+    "evidence_versions": {
+      "rows": 7,
+      "sha256": "a46202a41260e58dea44ac65ca9fb8ea46a7b63d879b4f237853c2e9cd4b1494"
+    },
+    "evidence_heads": {
+      "rows": 6,
+      "sha256": "a8aeb2878f1520c557c51a7aa6d5efb3126f66df549756a071fe5333b2e5a524"
+    },
+    "evidence_batches": {
+      "rows": 2,
+      "sha256": "b1b6ef7de31c33d7f3a851509ff4d44a5f8669576d9cfb2960e55ce8a02f0871"
+    },
+    "evidence_regions": {
+      "rows": 4,
+      "sha256": "b446f4f7687c34b590b64f7bcd7cf728a3b432529fac96a3535b34c731b45ad4"
+    },
+    "evidence_import_lock": {
+      "rows": 1,
+      "sha256": "037c9214eef74cc3887f3a4f085b4e17d76280dafd273b0ee160c09c4ba1cfd4"
+    },
+    "evidence_migrations": {
+      "rows": 2,
+      "sha256": "f7dde8b07c3176a9043e2a6620356f03616c006ee13190948b2ffebaceecd463"
+    }
+  },
+  "after": {
+    "evidence_publications": {
+      "rows": 7,
+      "sha256": "9d2a30542c0e01bd142d2e47521689637205c25c1ac4e8143d7bc42a931fc49d"
+    },
+    "evidence_versions": {
+      "rows": 7,
+      "sha256": "a46202a41260e58dea44ac65ca9fb8ea46a7b63d879b4f237853c2e9cd4b1494"
+    },
+    "evidence_heads": {
+      "rows": 6,
+      "sha256": "a8aeb2878f1520c557c51a7aa6d5efb3126f66df549756a071fe5333b2e5a524"
+    },
+    "evidence_batches": {
+      "rows": 2,
+      "sha256": "b1b6ef7de31c33d7f3a851509ff4d44a5f8669576d9cfb2960e55ce8a02f0871"
+    },
+    "evidence_regions": {
+      "rows": 4,
+      "sha256": "b446f4f7687c34b590b64f7bcd7cf728a3b432529fac96a3535b34c731b45ad4"
+    },
+    "evidence_import_lock": {
+      "rows": 1,
+      "sha256": "037c9214eef74cc3887f3a4f085b4e17d76280dafd273b0ee160c09c4ba1cfd4"
+    },
+    "evidence_migrations": {
+      "rows": 2,
+      "sha256": "f7dde8b07c3176a9043e2a6620356f03616c006ee13190948b2ffebaceecd463"
+    }
+  },
+  "databaseUnchanged": true,
+  "imported": false,
+  "published": false,
+  "humanPolicyReview": "pending"
+}

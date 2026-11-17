@@ -12,6 +12,49 @@ import {
 const html = (body: string, date = '2026-01-01', extra = '') =>
   `<nav>${Math.random()}</nav><meta name="PubDate" content="${date}"><article><p>${body}</p>${extra}</article>`;
 
+test('必须有附件的来源即使正文哈希未变，首次缺失也不能标无变化', async () => {
+  const s = await setup();
+  await writeFile(
+    s.registryFile,
+    JSON.stringify({ schemaVersion: 1, sources: [{ ...s.source, attachmentRequired: true }] }),
+  );
+  const fetcher = (async () => new Response(html('政策原文'))) as typeof fetch;
+  for (let i = 0; i < 2; i++)
+    assert.equal((await checkSources({ ...s, fetcher })).results[0]!.status, 'attachment_missing');
+  assert.equal((await listTasks(s.directory)).length, 1);
+});
+
+test('正文外官方附件列表需显式选择，7份Word通过独立附件选择器发现', () => {
+  const s = registrySchema.parse({
+    schemaVersion: 1,
+    sources: [
+      {
+        id: 'C11',
+        documentId: 'YN_CONSUMPTION_2026_4',
+        url: 'https://example.invalid/policy',
+        format: 'html',
+        selector: 'article',
+        attachmentSelector: '.dtl-txt > span a[href]',
+      },
+    ],
+  }).sources[0]!;
+  const links = Array.from(
+    { length: 7 },
+    (_, i) => `<a href="/virtual_attach_file.vsb?id=${i}">${i + 1}.官方附件.doc</a>`,
+  ).join('');
+  const page = parsePage(
+    `<nav><a href="/navigation.doc">导航</a></nav><div class="dtl-txt"><article><p>政策正文</p></article><span>${links}</span></div>`,
+    s,
+  );
+  assert.equal(page.attachmentUrls.length, 7);
+  assert.equal(page.body, '政策正文');
+  assert.ok(
+    page.attachmentUrls.every((u) =>
+      u.startsWith('https://example.invalid/virtual_attach_file.vsb'),
+    ),
+  );
+});
+
 test('PDF解析失败与文件无变化分别呈现，不能把正文核对计作成功', async () => {
   const s = await setup(),
     bytes = Buffer.from('%PDF-1.4\nmock parser failure');

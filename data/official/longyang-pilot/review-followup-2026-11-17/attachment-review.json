@@ -1,0 +1,329 @@
+{
+  "parentDocumentId": "YN_CONSUMPTION_2026_4",
+  "status": "pending_human_review",
+  "attachments": [
+    {
+      "id": "C11-attachment-1",
+      "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3U4vBDL4NaU8MkMGlVko7l4LlCaU4NfbL8U8LRrkL87bozC0gihFp2hmCIa0LSyDn1yPM1yiU8lZMzNanzrkUNUDnzf2oz9PMzUiLzTfL8QFM4vYMN-iLNnFoR-aLkbNpDLeo47Jbg/nbCD5bbYfbCIeE-kfbXYMbC/AEH2TEgS8Eq2bbbJJbK1VbCDrgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "retrievedAt": "2026-11-17T01:11:18.402Z",
+      "retrievedDate": "2026-11-17",
+      "status": "retrieved",
+      "httpStatus": 200,
+      "finalUrl": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3U4vBDL4NaU8MkMGlVko7l4LlCaU4NfbL8U8LRrkL87bozC0gihFp2hmCIa0LSyDn1yPM1yiU8lZMzNanzrkUNUDnzf2oz9PMzUiLzTfL8QFM4vYMN-iLNnFoR-aLkbNpDLeo47Jbg/nbCD5bbYfbCIeE-kfbXYMbC/AEH2TEgS8Eq2bbbJJbK1VbCDrgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "contentType": "application/msword",
+      "file": "sources/C11-attachment-1.doc",
+      "bytes": 33280,
+      "sha256": "a0a04fa968d7bf69dd2d88f4669872bfd4fdf5856c90fa590066ec44d95eadba",
+      "title": "1.云南省养老服务补贴项目清单.doc",
+      "parentSourceId": "C11-honghe-review",
+      "documentId": "YN_CONSUMPTION_2026_4",
+      "scope": "attachment_pending_review",
+      "policyReviewed": false,
+      "textFile": "sources/C11-attachment-1.txt",
+      "textSha256": "167c895df70a06a4b0a577df3170fef423c4e1cd3efb614660a9e95c2bf39623",
+      "textStatus": "extracted_pending_human_review",
+      "extraction": {
+        "tool": "word-extractor",
+        "version": "1.0.4",
+        "license": "MIT",
+        "noMacrosExecuted": true,
+        "locator": "按提取文本段落定位；未推定Word分页，原件待人工检查"
+      }
+    },
+    {
+      "id": "C11-attachment-2",
+      "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nzCBbU8C8LzU4oGRU4U46koz-8MNVfkL8CPnNC8M8-DnRL0gihFp2hmCIa0nky4MYh2USyPM874M7nRnNr2LzCYMzQ7LmGDLmAVM7CaLlQFLz7iUNn2MRrFL8laLkbNpDLeo4-JE-kfbpt8bg/EEH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "retrievedAt": "2026-11-17T01:11:18.431Z",
+      "retrievedDate": "2026-11-17",
+      "status": "retrieved",
+      "httpStatus": 200,
+      "finalUrl": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nzCBbU8C8LzU4oGRU4U46koz-8MNVfkL8CPnNC8M8-DnRL0gihFp2hmCIa0nky4MYh2USyPM874M7nRnNr2LzCYMzQ7LmGDLmAVM7CaLlQFLz7iUNn2MRrFL8laLkbNpDLeo4-JE-kfbpt8bg/EEH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "contentType": "application/msword",
+      "file": "sources/C11-attachment-2.doc",
+      "bytes": 15872,
+      "sha256": "47162bc2ce2c3fb762b40140755d2e82c28e37891357cb6752400c36ef4894ea",
+      "title": "2.老年人诚信承诺书.doc",
+      "parentSourceId": "C11-honghe-review",
+      "documentId": "YN_CONSUMPTION_2026_4",
+      "scope": "attachment_pending_review",
+      "policyReviewed": false,
+      "textFile": "sources/C11-attachment-2.txt",
+      "textSha256": "ad3e3c0c80df476393e2259ef493527ca84504cfa58f4d8138daeddee0d7502c",
+      "textStatus": "extracted_pending_human_review",
+      "extraction": {
+        "tool": "word-extractor",
+        "version": "1.0.4",
+        "license": "MIT",
+        "noMacrosExecuted": true,
+        "locator": "按提取文本段落定位；未推定Word分页，原件待人工检查"
+      }
+    },
+    {
+      "id": "C11-attachment-3",
+      "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nmLBZL8CYnmC4UGzffL4-an7UbUmCf8MmM7U87PL8lPL8U0gihFp2hmCIa0MYy8nkhVLSyaL4CZM8lsL4f7U49YMRvDnzGYnl7bnN-ZLNMFU474UmU8M7nFMR-aLkbNpDLeo4LJE-kfbpt8bg/EE-ohbC/pEH37bgYabXYEbXE7EH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "retrievedAt": "2026-11-17T01:11:18.461Z",
+      "retrievedDate": "2026-11-17",
+      "status": "retrieved",
+      "httpStatus": 200,
+      "finalUrl": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nmLBZL8CYnmC4UGzffL4-an7UbUmCf8MmM7U87PL8lPL8U0gihFp2hmCIa0MYy8nkhVLSyaL4CZM8lsL4f7U49YMRvDnzGYnl7bnN-ZLNMFU474UmU8M7nFMR-aLkbNpDLeo4LJE-kfbpt8bg/EE-ohbC/pEH37bgYabXYEbXE7EH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "contentType": "application/msword",
+      "file": "sources/C11-attachment-3.doc",
+      "bytes": 16896,
+      "sha256": "6529b7da6c8d88854dc9c4f77caba5d5aea791fc7a7db8950232eb8de2c82100",
+      "title": "3.老年人能力评估机构诚信承诺书.doc",
+      "parentSourceId": "C11-honghe-review",
+      "documentId": "YN_CONSUMPTION_2026_4",
+      "scope": "attachment_pending_review",
+      "policyReviewed": false,
+      "textFile": "sources/C11-attachment-3.txt",
+      "textSha256": "2b029be74b86d61da7213c54b35d4f7c9caa4959cb7090a86fd57c5990ceb924",
+      "textStatus": "extracted_pending_human_review",
+      "extraction": {
+        "tool": "word-extractor",
+        "version": "1.0.4",
+        "license": "MIT",
+        "noMacrosExecuted": true,
+        "locator": "按提取文本段落定位；未推定Word分页，原件待人工检查"
+      }
+    },
+    {
+      "id": "C11-attachment-4",
+      "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3olMB7oRTfMm7ZUGm9DUmNaUmMkLzLfbnR7bnmUYLmv8UNC0gihFp2hmCIa0M1yDMYyiUSybnNlanm-DoRNYU4fVMzW2U4lYUNrRozUYL4fFLlLsM8-so7nFMR9aLkbNpDLeo4UJbCIeE-kfbXYMbC/AbXYEbXE7EH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "retrievedAt": "2026-11-17T01:11:18.491Z",
+      "retrievedDate": "2026-11-17",
+      "status": "retrieved",
+      "httpStatus": 200,
+      "finalUrl": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3olMB7oRTfMm7ZUGm9DUmNaUmMkLzLfbnR7bnmUYLmv8UNC0gihFp2hmCIa0M1yDMYyiUSybnNlanm-DoRNYU4fVMzW2U4lYUNrRozUYL4fFLlLsM8-so7nFMR9aLkbNpDLeo4UJbCIeE-kfbXYMbC/AbXYEbXE7EH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "contentType": "application/msword",
+      "file": "sources/C11-attachment-4.doc",
+      "bytes": 18432,
+      "sha256": "17466bdd4445e055de7179e530ce6f47dfd8cf2c3bc703a8f870bd430d47b719",
+      "title": "4.养老服务机构诚信承诺书.doc",
+      "parentSourceId": "C11-honghe-review",
+      "documentId": "YN_CONSUMPTION_2026_4",
+      "scope": "attachment_pending_review",
+      "policyReviewed": false,
+      "textFile": "sources/C11-attachment-4.txt",
+      "textSha256": "acbdce9f55a8111aee159566b74dbe2147a6e65040ab7839426175654f3e3609",
+      "textStatus": "extracted_pending_human_review",
+      "extraction": {
+        "tool": "word-extractor",
+        "version": "1.0.4",
+        "license": "MIT",
+        "noMacrosExecuted": true,
+        "locator": "按提取文本段落定位；未推定Word分页，原件待人工检查"
+      }
+    },
+    {
+      "id": "C11-attachment-5",
+      "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nNLBPnmM2L4GaLGl-ZnzT7MmCsozCfPMRW7U49ZU8UYoR-0gihFp2hmCIa0nShkoSh7UYyaUmffUmW2nRCioRW2LzG8Lzl4nRGPM4n7M4TFnRQRL49DLRnFo7laLkbNpDLeo4lJbXYMbC/AbXYEbXE7bbS4bw/TEH2wgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "retrievedAt": "2026-11-17T01:11:18.523Z",
+      "retrievedDate": "2026-11-17",
+      "status": "retrieved",
+      "httpStatus": 200,
+      "finalUrl": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nNLBPnmM2L4GaLGl-ZnzT7MmCsozCfPMRW7U49ZU8UYoR-0gihFp2hmCIa0nShkoSh7UYyaUmffUmW2nRCioRW2LzG8Lzl4nRGPM4n7M4TFnRQRL49DLRnFo7laLkbNpDLeo4lJbXYMbC/AbXYEbXE7bbS4bw/TEH2wgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "contentType": "application/msword",
+      "file": "sources/C11-attachment-5.doc",
+      "bytes": 36352,
+      "sha256": "6f32b2e24e4399de9784fa476cfba599cbd71be722e4a39184ca545619847640",
+      "title": "5.服务机构申报表.doc",
+      "parentSourceId": "C11-honghe-review",
+      "documentId": "YN_CONSUMPTION_2026_4",
+      "scope": "attachment_pending_review",
+      "policyReviewed": false,
+      "textFile": "sources/C11-attachment-5.txt",
+      "textSha256": "163fd9775e59228bc713d449fb062484e90f75747444f19f2358ee3df680e264",
+      "textStatus": "extracted_pending_human_review",
+      "extraction": {
+        "tool": "word-extractor",
+        "version": "1.0.4",
+        "license": "MIT",
+        "noMacrosExecuted": true,
+        "locator": "按提取文本段落定位；未推定Word分页，原件待人工检查"
+      }
+    },
+    {
+      "id": "C11-attachment-6",
+      "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3M4VBRMmV7Lzr2MG77ZolMkLlCaMNUf4oz-4nlnRM4rRU4C0gihFp2hmCIa0okhRLShfM1hRnlCZMz9Pnm-ZMmVVU4nknmMVM87DMz6kMRVFnmrkn7WfMz6FMz-aLkbNpDLeo4CJbXYMbC/AbXYEbXE7bqSdb/2-Eq2bbbJJbK1VbCDrgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "retrievedAt": "2026-11-17T01:11:18.565Z",
+      "retrievedDate": "2026-11-17",
+      "status": "retrieved",
+      "httpStatus": 200,
+      "finalUrl": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3M4VBRMmV7Lzr2MG77ZolMkLlCaMNUf4oz-4nlnRM4rRU4C0gihFp2hmCIa0okhRLShfM1hRnlCZMz9Pnm-ZMmVVU4nknmMVM87DMz6kMRVFnmrkn7WfMz6FMz-aLkbNpDLeo4CJbXYMbC/AbXYEbXE7bqSdb/2-Eq2bbbJJbK1VbCDrgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "contentType": "application/msword",
+      "file": "sources/C11-attachment-6.doc",
+      "bytes": 20992,
+      "sha256": "15e4c95d37d3b0a593901c25a88e1dd14b7e5b105fa19b904f0854133da14649",
+      "title": "6.服务机构备案项目清单.doc",
+      "parentSourceId": "C11-honghe-review",
+      "documentId": "YN_CONSUMPTION_2026_4",
+      "scope": "attachment_pending_review",
+      "policyReviewed": false,
+      "textFile": "sources/C11-attachment-6.txt",
+      "textSha256": "2c639e9b2a5cdc22a9512d38c779938f4dbb905577bd0372c984062690aee155",
+      "textStatus": "extracted_pending_human_review",
+      "extraction": {
+        "tool": "word-extractor",
+        "version": "1.0.4",
+        "license": "MIT",
+        "noMacrosExecuted": true,
+        "locator": "按提取文本段落定位；未推定Word分页，原件待人工检查"
+      }
+    },
+    {
+      "id": "C11-attachment-7",
+      "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3UlWBkLlM2L4GsnGlliMmCYUNCsL8CfDnzVkLmV2MmGbL8l0gihFp2hmCIa0LYyDLYhRMShfL8C8LzUbMRW7MR6fnlLiLRMfnRNPL8-DM8VFnR-bUNLaLmAFLzffLRGJQ2hmo4OsgJSEN_IMT3_v9_IUN_SZK_IEXJSeX_SZ1JINO_1R0_1G9_IbxoSEJJIuN_ql0JIVJ31G9_qvm_IHw_qD1o18J_1AX_18xotAJ__pKJIJjJqI0__eAJI-tSbNpDLeoDAw_jWx_tC0qIbtpYy4LRLDLSyPLmU4Lm7YgtA8pUkcc",
+      "retrievedAt": "2026-11-17T01:11:18.602Z",
+      "retrievedDate": "2026-11-17",
+      "status": "retrieved",
+      "httpStatus": 200,
+      "finalUrl": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3UlWBkLlM2L4GsnGlliMmCYUNCsL8CfDnzVkLmV2MmGbL8l0gihFp2hmCIa0LYyDLYhRMShfL8C8LzUbMRW7MR6fnlLiLRMfnRNPL8-DM8VFnR-bUNLaLmAFLzffLRGJQ2hmo4OsgJSEN_IMT3_v9_IUN_SZK_IEXJSeX_SZ1JINO_1R0_1G9_IbxoSEJJIuN_ql0JIVJ31G9_qvm_IHw_qD1o18J_1AX_18xotAJ__pKJIJjJqI0__eAJI-tSbNpDLeoDAw_jWx_tC0qIbtpYy4LRLDLSyPLmU4Lm7YgtA8pUkcc",
+      "contentType": "application/msword",
+      "file": "sources/C11-attachment-7.doc",
+      "bytes": 68096,
+      "sha256": "1fe7de0a0e52b9100b91372eaf711920ad443512c19a73747dd6e877ebeb58db",
+      "title": "7.云南省向中度以上失能老年人发放养老服务消费补贴项目实施细则.doc",
+      "parentSourceId": "C11-honghe-review",
+      "documentId": "YN_CONSUMPTION_2026_4",
+      "scope": "attachment_pending_review",
+      "policyReviewed": false,
+      "textFile": "sources/C11-attachment-7.txt",
+      "textSha256": "01f38b778bae8821c175309b54e4db7680272a708ff20482a19a5765793c9a20",
+      "textStatus": "extracted_pending_human_review",
+      "extraction": {
+        "tool": "word-extractor",
+        "version": "1.0.4",
+        "license": "MIT",
+        "noMacrosExecuted": true,
+        "locator": "按提取文本段落定位；未推定Word分页，原件待人工检查"
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "reviewItemId": "YN_CONSUMPTION_2026_4_ATT7_OBJECT",
+      "parentDocumentId": "YN_CONSUMPTION_2026_4",
+      "sourceAttachmentId": "C11-attachment-7",
+      "topic": "适用对象及排除",
+      "locator": "附件7 第二条；提取文本非空段7—8",
+      "quote": "第二条  经统一程序评估，结论为中度、重度、完全失能等级的（以下简称中度以上失能）云南省地区常住老年人。其\"常住\"资格认定可参照户籍、持有居住证等多种方式综合判定，确保覆盖在滇稳定生活的老年群体。\n正在享受特困人员供养救助待遇、经济困难失能老年人集中照护服务补助、国家居家和社区基本养老服务提升行动项目服务的老年人，不重复纳入本次补贴范围。与医保、卫生健康等部门建立信息共享与比对机制，从源头杜绝重复享受。",
+      "regionCodes": [
+        "530000"
+      ],
+      "matterId": "DISABILITY_CARE_CONSUMPTION",
+      "reviewStatus": "draft",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "importReady": false,
+      "pending": "只作附件核对候选，不是已导入条款，不绑定正文v1为附件准确版本；待逐字校对后按原流程编制版本。"
+    },
+    {
+      "reviewItemId": "YN_CONSUMPTION_2026_4_ATT7_SERVICES",
+      "parentDocumentId": "YN_CONSUMPTION_2026_4",
+      "sourceAttachmentId": "C11-attachment-7",
+      "topic": "服务范围及30天边界",
+      "locator": "附件7 第三条；提取文本非空段9—10",
+      "quote": "第三条  补贴覆盖居家、社区、机构养老服务。1.机构养老服务：包含长期照护服务（指老年人入住养老机构持续接受照护服务，时间在30天及以上）和短期托养服务（\"喘息服务\"）（指\n老年人短期入住养老机构，时间在30天以内，旨在为长期照护者的家庭提供临时性替代和喘息机会）。2.居家和社区养老服务：主要包括助餐、助浴、助洁、助行、助急、助医服务，以及康复护理、日间托养等服务。后续将根据中央要求和实施情况适时进行调整。具体项目清单详见《云南省居家社区养老服务消费补贴项目清单》。",
+      "regionCodes": [
+        "530000"
+      ],
+      "matterId": "DISABILITY_CARE_CONSUMPTION",
+      "reviewStatus": "draft",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "importReady": false,
+      "pending": "只作附件核对候选，不是已导入条款，不绑定正文v1为附件准确版本；待逐字校对后按原流程编制版本。"
+    },
+    {
+      "reviewItemId": "YN_CONSUMPTION_2026_4_ATT7_RATES",
+      "parentDocumentId": "YN_CONSUMPTION_2026_4",
+      "sourceAttachmentId": "C11-attachment-7",
+      "topic": "暂定抵扣、评估券与长护险衔接",
+      "locator": "附件7 第五条；提取文本非空段12—14",
+      "quote": "第五条  补贴标准为：\n电子消费券可以对补贴项目范围内的个人自付的养老服务消费金额予以抵扣。在每月最高抵扣额度范围内，机构养老服务抵扣比例暂定为养老服务消费金额的40%（每人每月最高800元），居家和社区养老服务抵扣比例暂定为养老服务消费金额的50%（每人每月最高800元）。老年人经评估为中度以上失能的，其评估费用可通过能力评估电子消费券予以全部抵扣，每人最高100元。将根据中央要求，适时调整相关抵扣比例和额度等。\n与其他政策衔接。中度以上失能老年人正在享受长期护理保险待遇的，对于其符合此次补贴项目范围内的养老服务消费金额，扣除已享受的长期护理保险待遇后，个人自付部分可通过电子消费券按规定比例予以抵扣。各县（市、区）已有养老服务领域财政补贴政策可衔接执行。",
+      "regionCodes": [
+        "530000"
+      ],
+      "matterId": "DISABILITY_CARE_CONSUMPTION",
+      "reviewStatus": "draft",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "importReady": false,
+      "pending": "只作附件核对候选，不是已导入条款，不绑定正文v1为附件准确版本；待逐字校对后按原流程编制版本。"
+    },
+    {
+      "reviewItemId": "YN_CONSUMPTION_2026_4_ATT7_CYCLE",
+      "parentDocumentId": "YN_CONSUMPTION_2026_4",
+      "sourceAttachmentId": "C11-attachment-7",
+      "topic": "项目周期",
+      "locator": "附件7 第六条；提取文本非空段15—15",
+      "quote": "第六条  自2026年1月开始，周期为1年。按上级统一要求确定结束时间。",
+      "regionCodes": [
+        "530000"
+      ],
+      "matterId": "DISABILITY_CARE_CONSUMPTION",
+      "reviewStatus": "draft",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "importReady": false,
+      "pending": "只作附件核对候选，不是已导入条款，不绑定正文v1为附件准确版本；待逐字校对后按原流程编制版本。"
+    },
+    {
+      "reviewItemId": "YN_CONSUMPTION_2026_4_ATT7_PROCEDURE",
+      "parentDocumentId": "YN_CONSUMPTION_2026_4",
+      "sourceAttachmentId": "C11-attachment-7",
+      "topic": "个人/代办、评估、发券、核销及结算",
+      "locator": "附件7 第七条；提取文本非空段17—34",
+      "quote": "第七条  补贴方式及流程如下：\n（一）个人申请环节\n坚持自愿申请原则。符合基本条件的老年人，或其指定的代办人（含亲属以及村、社区工作人员，养老服务机构工作人员等），通过\"民政通\"（含小程序、APP）进行线上注册和申请。部分农村及偏远地区，乡镇（街道）便民服务中心、村（社区）居委会可承担代办职责，提供\"面对面\"的申请指导、信息填报和材料上传服务，并对申请人提交的基本信息进行初次核验。\n（二）能力评估环节\n能力评估流程。1.评估申请初筛。老年人能力评估机构对老年人能力申请信息进行初步筛查，初步判断不属于中度失能及以上老年人的，应明确告知老年人或其家属，询问是否终止评估；初步判断属于中度失能及以上老年人的应及时组织评估。2.组织开展评估。评估机构收到老年人能力评估申请后，应及时组织评估人员使用\"民政通\"应用开展评估。各县（市、区）民政部门在全国养老服务信息平台上及时审核确认。\n评估结果认定。本通知印发前12个月内已经被专业机构评估为中度以上失能老年人，经县级民政部门确认后不再重新评估。\n已经长期护理保险确定为重度以上失能老年人，可直接转换应用评估结果，并纳入本次消费补贴范围。长期护理保险评估为重度失能Ⅰ级的，转换为中度失能；评估为重度失能Ⅱ级的，转换为重度失能；评估为重度失能Ⅲ级的，转换为完全失能。\n各州（市）、县（市、区）民政部门应当设立评估评定专家委员会，各级评估委员会办公室设在同级民政部门，并设立评估争议投诉电话，向社会公开。各州（市）应当建立评估仲裁机制，并设立老年人能力评估仲裁机构，组建动态评估专家数据库，该机构主要承担受理有争议的评估结果并组织复评、对所辖县（市、区）评估结果进行抽查与监督（抽查比例结合实际确定）、定期向州（市）民政部门分析报告评估工作中的风险隐患等职责。\n（三）电子消费券发放环节\n对首次申请并经审核符合补贴条件的老年人，民政通在5个工作日内向其个人账户发放当月电子消费券（当月提出申请时不足5个工作日的，经审核后自次月起发放），后续将于次月起的每个自然月第一天，自动将其当月额度的电子消费券发放至个人账户。消费券有效期限定为1个月，实行\"当月发放、当月使用、次月失效\"。\n老年人因身体状况变化等因素不再符合补贴条件的，其本人、代办人或为老年人提供服务的养老机构、社区养老服务机构应及时通过\"民政通\"或其他方式告知所在地区县级民政部门，经县级民政部门确认后，于次月停发电子消费券。\n（四）服务消费与核销环节\n1.自主选择：老年人可根据自身需求，通过民政部\"民政通\"（含小程序、APP），自主选择服务机构和项目。\n2.消费结算：在接受服务后结算时，老年人支付个人自付部分，系统自动使用电子消费券抵扣政府补贴部分。\n3.凭证上传：服务机构在核销消费券后，必须在规定时限内通过平台上传核销凭证。老年人接受机构养老服务的，养老机构应将入住协议、服务情况、消费金额、收费票据、电子消费券核销凭证等材料及时上传至\"民政通\"；老年人接受居家、社区养老服务的，社区养老服务机构应将服务项目、服务情况、消费金额、收费票据、电子消费券核销凭证等材料及时上传至\"民政通\"。\n（五）资金结算环节\n县（市、区）民政部门原则上应于次月10个工作日内对上一个月养老服务消费券、老年人能力评估券核销情况进行审核，并将审核结果提交县（市、区）财政部门在5个工作日内进行复审；各县（市、区）民政部门收到复审结果后，应于3个工作日内向养老机构、社区养老服务机构结算经核定后的上一个月电子消费券抵扣费用。\n由第三方专业评估机构评估为中度以上失能的老年人，其评估费用可通过能力评估电子消费券予以抵扣，并参照上述流程结算；老年人经评估为轻度失能或能力完好的，其评估费用由老年人自行承担或由地方统筹安排。",
+      "regionCodes": [
+        "530000"
+      ],
+      "matterId": "DISABILITY_CARE_CONSUMPTION",
+      "reviewStatus": "draft",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "importReady": false,
+      "pending": "只作附件核对候选，不是已导入条款，不绑定正文v1为附件准确版本；待逐字校对后按原流程编制版本。"
+    },
+    {
+      "reviewItemId": "YN_CONSUMPTION_2026_4_ATT7_PROVIDERS",
+      "parentDocumentId": "YN_CONSUMPTION_2026_4",
+      "sourceAttachmentId": "C11-attachment-7",
+      "topic": "机构要求",
+      "locator": "附件7 第八条；提取文本非空段36—40",
+      "quote": "第八条  参与机构（企业）要求\n（一）养老机构：依法办理登记并在民政部门备案，且具有收住中度以上失能老年人的服务能力；承诺严格执行相关法律法规及《养老机构服务安全基本规范》（GB38600-2019）等强制性标准要求。\n（二）社区养老服务机构：依法办理登记，经营范围或业务范围应包括养老服务，且具有为中度以上失能老年人提供相应服务的能力。\n（三）第三方专业评估机构：符合《老年人能力评估规范》（GB/T 42195-2022）关于评估主体的有关要求，开展评估工作的机构应为依法登记的企事业单位或社会组织，至少配置5名专职或兼职评估人员；评估人员应具有全日制高中或中专以上学历，有5年以上从事医疗护理、健康管理、养老服务、老年社会工作等实务经历并具有相关专业背景，熟练掌握国标内容和相关要求。评估机构不能参与提供由本项目补贴的养老服务。\n正被纳入失信联合惩戒对象名单的养老机构、社区养老服务机构、第三方专业评估机构不得纳入服务机构范围。",
+      "regionCodes": [
+        "530000"
+      ],
+      "matterId": "DISABILITY_CARE_CONSUMPTION",
+      "reviewStatus": "draft",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "importReady": false,
+      "pending": "只作附件核对候选，不是已导入条款，不绑定正文v1为附件准确版本；待逐字校对后按原流程编制版本。"
+    },
+    {
+      "reviewItemId": "YN_CONSUMPTION_2026_4_ATT7_PROVIDER_APPLICATION",
+      "parentDocumentId": "YN_CONSUMPTION_2026_4",
+      "sourceAttachmentId": "C11-attachment-7",
+      "topic": "机构申报及材料",
+      "locator": "附件7 第九条；提取文本非空段41—62",
+      "quote": "第九条  企业申报\n（一）申报条件\n1.应当依照承诺书据实开展养老服务，并在机构醒目位置公示服务内容、服务标准、收费价格、自付比例等，遵守国家和地方政府价格管理有关规定。\n2.应当配备与服务项目和管理运营相适应的工作人员，并依法与其签订聘用合同或劳动合同，明确工作人员的岗位职责和工作流程，定期开展职业道德教育和业务培训。\n3.应当有健全、完善的服务管理、卫生管理、疫情防控、安全管理、档案管理、财务管理、家属联系与培训等制度，制定突发事件应急预案等。\n4.具备在申报区域内的全域服务能力，不得因距离等原因拒绝提供服务，避免出现老年人有服务需求但无机构的情况。\n5.规范使用\"民政通\"，及时在系统内更新相关服务内容信息。\n6.严格执行省、州（市）、县（市、区）物价部门规定的价格政策，遵守国家法律法规和行政部门的规章制度；配合行业主管部门做好服务质量、管理制度、财务收支状况、收费项目和调价频次等调查、审核及监督管理，如实提供监督检查所需的相关材料，不得虚报瞒报、弄虚作假，接受审计和社会监督。\n7.其他法律法规、政策文件要求满足的条件。\n（二）申报材料\n自愿参与补贴项目的服务机构，可向县（市、区）民政部门提出申报，申报材料应按顺序装订成册，加盖单位公章，全套盖章纸质申报材料须扫描PDF电子版一并提交至县（市、区）民政部门，申报材料不予退回。\n1.服务机构申报表。（附件5）\n2.在有效期内的营业执照、民办非企业单位法人登记证书，法定代表人身份证（正反面）和银行开户许可证复印件。\n3.查询\"信用中国\"网站（www.creditchina.gov.cn）下载的《法人和非法人组织公共信用信息报告》。\n4.服务机构备案项目清单。（附件6）\n5.服务机构承诺书（附件3、附件4）。\n6.县（市、区）民政部门根据本区域实际情况增加的申报材料。\n（三）申报流程\n1.补贴项目从2026年1月起实施，为期12个月，实施期间服务机构均可按上述要求向县（市、区）民政部门提交并送达申报材料。\n2.县（市、区）民政部门对申报材料进行审核，并指导审核通过的服务机构在全国养老服务信息平台创建账号、认定资格、发布信息，完成微信支付、支付宝、银联商户的注册工作等。\n3.服务机构自愿退出的，按照\"谁准入谁审核\"的原则，向县（市、区）民政部门提出退出申请，审核通过后由县（市、区）民政部门清退其项目参与资格，并同步在\"民政通\"更新相关信息。\n4.县（市、区）民政部门对参与补贴项目的服务机构实施动态管理，根据实际情况，及时开展参与机构的调整和更新工作。",
+      "regionCodes": [
+        "530000"
+      ],
+      "matterId": "DISABILITY_CARE_CONSUMPTION",
+      "reviewStatus": "draft",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "importReady": false,
+      "pending": "只作附件核对候选，不是已导入条款，不绑定正文v1为附件准确版本；待逐字校对后按原流程编制版本。"
+    }
+  ],
+  "reviewConcerns": [
+    "附件7第二条未重写60周岁门槛，必须连同方案正文阅读，不能当作不受年龄限制。",
+    "正文首发券明确当月最后一个工作日，附件7简写不足5个工作日，不合并或删减例外。",
+    "附件7长期护理保险评估转换需保留原文等级及县级确认，不推断所有享受长护险者必然具备资格。",
+    "Word文本按条号/段落定位，未渲染原件，不虚构页码。"
+  ]
+}

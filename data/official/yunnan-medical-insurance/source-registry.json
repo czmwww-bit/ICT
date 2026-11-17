@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "YB01",
+      "documentId": "YN_YB_LOGIN_FAQ_2026",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/t20261117_4384621.html",
+      "format": "html",
+      "selector": ".acticle-content",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB01.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "YB02",
+      "documentId": "YN_YB_APP_GUIDE_2024",
+      "url": "https://www.yuxi.gov.cn/yxszfxxgk/bszn/20240902/1558169.html",
+      "format": "html",
+      "selector": "#content-txt-1",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB02.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "YB03",
+      "documentId": "YN_YB_FAMILY_POLICY_2024",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202409/t20240911_1795837.html",
+      "format": "html",
+      "selector": ".acticle-content",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB03.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": "2024-11-01"
+    },
+    {
+      "id": "YB04",
+      "documentId": "YN_YB_FAMILY_EXPLANATION_2024",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/202409/t20240911_1796491.html",
+      "format": "html",
+      "selector": ".acticle-content",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB04.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "YB05",
+      "documentId": "YN_YB_ENROLLMENT_POLICY_2024",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202412/t20241225_1796079.html",
+      "format": "html",
+      "selector": ".acticle-content",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB05.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "YB06",
+      "documentId": "YN_YB_ENROLLMENT_EXPLANATION_2025",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/202502/t20250208_1796559.html",
+      "format": "html",
+      "selector": ".acticle-content",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB06.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "YB09",
+      "documentId": "YN_YB_FAMILY_VS_KINSHIP_2025",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202508/t20250826_1821066.html",
+      "format": "html",
+      "selector": ".acticle-content",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB09.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "YB10",
+      "documentId": "YN_YB_THREE_ACCOUNTS_2026",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202605/t20260527_3636232.html",
+      "format": "html",
+      "selector": ".acticle-content",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB10.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "YB11",
+      "documentId": "YN_YB_FAMILY_PAYMENT_FAQ_2025",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202511/t20251104_3636603.html",
+      "format": "html",
+      "selector": ".acticle-content",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB11.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "YB12",
+      "documentId": "YN_YB_REMOTE_FILING_GUIDE_2026",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202604/t20260407_3636353.html",
+      "format": "html",
+      "selector": ".acticle-content",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB12.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "YB13",
+      "documentId": "YN_YB_REMOTE_FAQ_2026",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202607/t20260701_3636184.html",
+      "format": "html",
+      "selector": ".acticle-content",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB13.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "YB14",
+      "documentId": "YN_YB_WALLET_BIND_GUIDE_2026",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/t20261104_4380760.html",
+      "format": "html",
+      "selector": ".acticle-content",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB14.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "YB15",
+      "documentId": "YN_YB_WALLET_PAYMENT_GUIDE_2026",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202611/t20261102_4379208.html",
+      "format": "html",
+      "selector": ".acticle-content",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB15.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "YB16",
+      "documentId": "CN_YB_WALLET_QA_2026",
+      "url": "https://www.nhsa.gov.cn/art/2026/10/21/art_14_23191.html",
+      "format": "html",
+      "selector": "#zoom",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB16.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "YB17",
+      "documentId": "BS_YB_SERVICE_INTERVIEW_2026",
+      "url": "https://baoshan.gov.cn/info/29666/10402284.htm",
+      "format": "html",
+      "selector": "#vsb_content",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB17.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "YB18",
+      "documentId": "YN_YB_SERVICE_CATALOG_2026",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202611/t20261116_4384459.html",
+      "format": "html",
+      "selector": ".acticle-content",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB18.html",
+        "attachments": [
+          {
+            "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202611/P020261116523413927200.xlsx",
+            "file": "sources/assets/YB18-04.xlsx"
+          },
+          {
+            "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202611/P020261116523414245474.docx",
+            "file": "sources/assets/YB18-05.docx"
+          }
+        ]
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "YB19",
+      "documentId": "YN_YB_ANNUAL_BILL_2025",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202601/t20260107_3636533.html",
+      "format": "html",
+      "selector": ".acticle-content",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB19.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "YB20",
+      "documentId": "YN_YB_ELDERLY_SUPPORT_2025",
+      "url": "https://ylbz.yn.gov.cn/xwdt/ybyw/202512/t20251222_3636547.html",
+      "format": "html",
+      "selector": ".acticle-content",
+      "excludeSelectors": [
+        "script",
+        "style",
+        ".qrcode"
+      ],
+      "baseline": {
+        "file": "sources/YB20.html",
+        "attachments": []
+      },
+      "declaredEffectiveFrom": null
+    }
+  ]
+}
