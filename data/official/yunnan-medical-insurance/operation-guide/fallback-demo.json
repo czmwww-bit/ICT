@@ -1,0 +1,23 @@
+{
+  "executedAt": "2026-11-18T03:17:37.995Z",
+  "inputMode": "recognized_text_adapter",
+  "imageRecognitionExecuted": false,
+  "result": {
+    "flowId": "YN_YB_READONLY_FAMILY_QUERY",
+    "flowVersion": 1,
+    "reviewStatus": "pending",
+    "deviceWalkthroughCompleted": false,
+    "automaticTapEnabled": false,
+    "bindingResult": "unknown",
+    "status": "needs_screenshot_or_task",
+    "reason": "recognition_uncertain",
+    "pageId": null,
+    "evidenceIds": [],
+    "nextStep": {
+      "type": "request_screenshot_or_task",
+      "targetLabel": null,
+      "instruction": "这张图还不能确认位置。请补一张包含页面标题和按钮的脱敏截图，或重新选择要办的事。"
+    },
+    "expectedAfter": null
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "executedAt": "2026-11-18T03:17:36.286Z",
+  "inputMode": "transcribed_chat_screenshot_observations",
+  "imageRecognitionExecuted": false,
+  "originalScreenshotFilesAvailable": false,
+  "deviceWalkthroughCompleted": false,
+  "summary": {
+    "cases": 6,
+    "checks": 18,
+    "passed": 18,
+    "failed": 0
+  },
+  "results": [
+    {
+      "observationId": "USER_YB_HOME_0926",
+      "checks": [
+        {
+          "name": "page",
+          "pass": true
+        },
+        {
+          "name": "one_action",
+          "pass": true
+        },
+        {
+          "name": "read_only_and_no_result_guess",
+          "pass": true
+        }
+      ],
+      "actual": {
+        "flowId": "YN_YB_READONLY_FAMILY_QUERY",
+        "flowVersion": 1,
+        "reviewStatus": "pending",
+        "deviceWalkthroughCompleted": false,
+        "automaticTapEnabled": false,
+        "bindingResult": "unknown",
+        "status": "step_available_pending_device_review",
+        "reason": null,
+        "pageId": "HOME",
+        "pageName": "云南医保普通首页",
+        "evidenceIds": [
+          "USER_YB_HOME_0926"
+        ],
+        "nextStep": {
+          "type": "tap",
+          "targetLabel": "关怀模式",
+          "instruction": "请点右侧的“关怀模式”。"
+        },
+        "expectedAfter": {
+          "title": "长者专区",
+          "confirmed": false,
+          "check": "下一张图核对标题；完整跳转链仍待实机确认。若出现中间菜单，先补图，不猜入口。"
+        }
+      },
+      "deviceReview": "pending"
+    },
+    {
+      "observationId": "USER_YB_BIND_FORM_0926",
+      "checks": [
+        {
+          "name": "page",
+          "pass": true
+        },
+        {
+          "name": "one_action",
+          "pass": true
+        },
+        {
+          "name": "read_only_and_no_result_guess",
+          "pass": true
+        }
+      ],
+      "actual": {
+        "flowId": "YN_YB_READONLY_FAMILY_QUERY",
+        "flowVersion": 1,
+        "reviewStatus": "pending",
+        "deviceWalkthroughCompleted": false,
+        "automaticTapEnabled": false,
+        "bindingResult": "unknown",
+        "status": "wrong_page",
+        "reason": "binding_form_is_not_query",
+        "pageId": "WRONG_BIND_FORM",
+        "evidenceIds": [
+          "USER_YB_BIND_FORM_0926"
+        ],
+        "nextStep": {
+          "type": "ask_user_to_go_back",
+          "targetLabel": null,
+          "instruction": "这里是新增绑定页面。您现在只想查询，请先返回上一页。"
+        },
+        "expectedAfter": null
+      },
+      "deviceReview": "pending"
+    },
+    {
+      "observationId": "USER_YB_ELDER_TOP_0932",
+      "checks": [
+        {
+          "name": "page",
+          "pass": true
+        },
+        {
+          "name": "one_action",
+          "pass": true
+        },
+        {
+          "name": "read_only_and_no_result_guess",
+          "pass": true
+        }
+      ],
+      "actual": {
+        "flowId": "YN_YB_READONLY_FAMILY_QUERY",
+        "flowVersion": 1,
+        "reviewStatus": "pending",
+        "deviceWalkthroughCompleted": false,
+        "automaticTapEnabled": false,
+        "bindingResult": "unknown",
+        "status": "step_available_pending_device_review",
+        "reason": null,
+        "pageId": "ELDER_TOP",
+        "pageName": "长者专区上部",
+        "evidenceIds": [
+          "USER_YB_ELDER_TOP_0932"
+        ],
+        "nextStep": {
+          "type": "scroll_down",
+          "targetLabel": null,
+          "instruction": "请向下滑一点，找“个人账户共济查询和解绑”。"
+        },
+        "expectedAfter": {
+          "title": "长者专区",
+          "confirmed": false,
+          "check": "看见完整按钮文字后再提供下一步；不要把旁边的“个人账户共济绑定”当作查询。"
+        }
+      },
+      "deviceReview": "pending"
+    },
+    {
+      "observationId": "USER_YB_ELDER_MIDDLE_0932",
+      "checks": [
+        {
+          "name": "page",
+          "pass": true
+        },
+        {
+          "name": "one_action",
+          "pass": true
+        },
+        {
+          "name": "read_only_and_no_result_guess",
+          "pass": true
+        }
+      ],
+      "actual": {
+        "flowId": "YN_YB_READONLY_FAMILY_QUERY",
+        "flowVersion": 1,
+        "reviewStatus": "pending",
+        "deviceWalkthroughCompleted": false,
+        "automaticTapEnabled": false,
+        "bindingResult": "unknown",
+        "status": "step_available_pending_device_review",
+        "reason": null,
+        "pageId": "ELDER_QUERY_VISIBLE",
+        "pageName": "长者专区，共济查询入口可见",
+        "evidenceIds": [
+          "USER_YB_ELDER_MIDDLE_0932"
+        ],
+        "nextStep": {
+          "type": "tap",
+          "targetLabel": "个人账户共济查询和解绑",
+          "instruction": "请点“个人账户共济查询和解绑”，我们先看记录。"
+        },
+        "expectedAfter": {
+          "title": null,
+          "confirmed": false,
+          "check": "结果页未取得。点击后补一张脱敏截图；不假定出现哪些字段、不判定绑定成功、不继续点解绑。"
+        }
+      },
+      "deviceReview": "pending"
+    },
+    {
+      "observationId": "USER_YB_ELDER_BOTTOM_0932",
+      "checks": [
+        {
+          "name": "page",
+          "pass": true
+        },
+        {
+          "name": "one_action",
+          "pass": true
+        },
+        {
+          "name": "read_only_and_no_result_guess",
+          "pass": true
+        }
+      ],
+      "actual": {
+        "flowId": "YN_YB_READONLY_FAMILY_QUERY",
+        "flowVersion": 1,
+        "reviewStatus": "pending",
+        "deviceWalkthroughCompleted": false,
+        "automaticTapEnabled": false,
+        "bindingResult": "unknown",
+        "status": "step_available_pending_device_review",
+        "reason": null,
+        "pageId": "ELDER_BOTTOM",
+        "pageName": "长者专区下部，已滑过查询入口",
+        "evidenceIds": [
+          "USER_YB_ELDER_BOTTOM_0932"
+        ],
+        "nextStep": {
+          "type": "scroll_up",
+          "targetLabel": null,
+          "instruction": "请向上滑一点，回到“个人账户共济查询和解绑”附近。"
+        },
+        "expectedAfter": {
+          "title": "长者专区",
+          "confirmed": false,
+          "check": "用下一张图确认目标按钮，不按固定滑动次数操作。"
+        }
+      },
+      "deviceReview": "pending"
+    },
+    {
+      "observationId": "UNKNOWN_SCREEN",
+      "checks": [
+        {
+          "name": "page",
+          "pass": true
+        },
+        {
+          "name": "one_action",
+          "pass": true
+        },
+        {
+          "name": "read_only_and_no_result_guess",
+          "pass": true
+        }
+      ],
+      "actual": {
+        "flowId": "YN_YB_READONLY_FAMILY_QUERY",
+        "flowVersion": 1,
+        "reviewStatus": "pending",
+        "deviceWalkthroughCompleted": false,
+        "automaticTapEnabled": false,
+        "bindingResult": "unknown",
+        "status": "needs_screenshot_or_task",
+        "reason": "recognition_uncertain",
+        "pageId": null,
+        "evidenceIds": [],
+        "nextStep": {
+          "type": "request_screenshot_or_task",
+          "targetLabel": null,
+          "instruction": "这张图还不能确认位置。请补一张包含页面标题和按钮的脱敏截图，或重新选择要办的事。"
+        },
+        "expectedAfter": null
+      },
+      "deviceReview": "pending"
+    }
+  ]
+}

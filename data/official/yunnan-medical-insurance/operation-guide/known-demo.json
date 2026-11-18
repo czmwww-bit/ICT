@@ -1,0 +1,30 @@
+{
+  "executedAt": "2026-11-18T03:17:37.198Z",
+  "inputMode": "transcribed_screenshot_observation",
+  "imageRecognitionExecuted": false,
+  "result": {
+    "flowId": "YN_YB_READONLY_FAMILY_QUERY",
+    "flowVersion": 1,
+    "reviewStatus": "pending",
+    "deviceWalkthroughCompleted": false,
+    "automaticTapEnabled": false,
+    "bindingResult": "unknown",
+    "status": "step_available_pending_device_review",
+    "reason": null,
+    "pageId": "ELDER_QUERY_VISIBLE",
+    "pageName": "长者专区，共济查询入口可见",
+    "evidenceIds": [
+      "USER_YB_ELDER_MIDDLE_0932"
+    ],
+    "nextStep": {
+      "type": "tap",
+      "targetLabel": "个人账户共济查询和解绑",
+      "instruction": "请点“个人账户共济查询和解绑”，我们先看记录。"
+    },
+    "expectedAfter": {
+      "title": null,
+      "confirmed": false,
+      "check": "结果页未取得。点击后补一张脱敏截图；不假定出现哪些字段、不判定绑定成功、不继续点解绑。"
+    }
+  }
+}

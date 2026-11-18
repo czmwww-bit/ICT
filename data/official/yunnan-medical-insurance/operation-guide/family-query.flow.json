@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "YN_YB_READONLY_FAMILY_QUERY",
+  "version": 1,
+  "taskName": "查看家人是否已建立个人账户共济关系",
+  "reviewStatus": "pending",
+  "deviceWalkthroughCompleted": false,
+  "imageRecognitionImplemented": false,
+  "sourceNavigation": "../navigation.entries.json",
+  "evidenceNote": "仅来自已提供的5张聊天截图及用户说明；原图没有本地路径。页面片段不是5个不同页面，未确认的点击后画面不作为已实测结果。",
+  "states": [
+    {
+      "id": "HOME",
+      "pageTitle": "云南医保",
+      "requiredTexts": ["个人账户共济绑定", "关怀模式"],
+      "priority": 10,
+      "pageName": "云南医保普通首页",
+      "evidenceIds": ["USER_YB_HOME_0926"],
+      "action": {
+        "type": "tap",
+        "targetLabel": "关怀模式",
+        "instruction": "请点右侧的“关怀模式”。"
+      },
+      "expectedAfter": {
+        "title": "长者专区",
+        "confirmed": false,
+        "check": "下一张图核对标题；完整跳转链仍待实机确认。若出现中间菜单，先补图，不猜入口。"
+      }
+    },
+    {
+      "id": "ELDER_TOP",
+      "pageTitle": "长者专区",
+      "requiredTexts": ["个人参保信息查询", "参保缴费信息查询"],
+      "priority": 20,
+      "pageName": "长者专区上部",
+      "evidenceIds": ["USER_YB_ELDER_TOP_0932"],
+      "action": {
+        "type": "scroll_down",
+        "targetLabel": null,
+        "instruction": "请向下滑一点，找“个人账户共济查询和解绑”。"
+      },
+      "expectedAfter": {
+        "title": "长者专区",
+        "confirmed": false,
+        "check": "看见完整按钮文字后再提供下一步；不要把旁边的“个人账户共济绑定”当作查询。"
+      }
+    },
+    {
+      "id": "ELDER_QUERY_VISIBLE",
+      "pageTitle": "长者专区",
+      "requiredTexts": ["个人账户共济查询和解绑"],
+      "priority": 30,
+      "pageName": "长者专区，共济查询入口可见",
+      "evidenceIds": ["USER_YB_ELDER_MIDDLE_0932"],
+      "action": {
+        "type": "tap",
+        "targetLabel": "个人账户共济查询和解绑",
+        "instruction": "请点“个人账户共济查询和解绑”，我们先看记录。"
+      },
+      "expectedAfter": {
+        "title": null,
+        "confirmed": false,
+        "check": "结果页未取得。点击后补一张脱敏截图；不假定出现哪些字段、不判定绑定成功、不继续点解绑。"
+      }
+    },
+    {
+      "id": "ELDER_BOTTOM",
+      "pageTitle": "长者专区",
+      "requiredTexts": ["药品目录查询", "经办机构查询"],
+      "priority": 10,
+      "pageName": "长者专区下部，已滑过查询入口",
+      "evidenceIds": ["USER_YB_ELDER_BOTTOM_0932"],
+      "action": {
+        "type": "scroll_up",
+        "targetLabel": null,
+        "instruction": "请向上滑一点，回到“个人账户共济查询和解绑”附近。"
+      },
+      "expectedAfter": {
+        "title": "长者专区",
+        "confirmed": false,
+        "check": "用下一张图确认目标按钮，不按固定滑动次数操作。"
+      }
+    }
+  ],
+  "wrongPage": {
+    "pageTitle": "个人账户共济绑定",
+    "instruction": "这里是新增绑定页面。您现在只想查询，请先返回上一页。",
+    "action": "ask_user_to_go_back",
+    "confirmed": false
+  },
+  "fallback": {
+    "instruction": "这张图还不能确认位置。请补一张包含页面标题和按钮的脱敏截图，或重新选择要办的事。",
+    "action": "request_screenshot_or_task"
+  },
+  "guards": {
+    "readOnlyTask": true,
+    "submitEnabled": false,
+    "unbindEnabled": false,
+    "automaticTapEnabled": false,
+    "resultPageObserved": false
+  },
+  "pending": [
+    "在手机上走通普通首页到长者专区的实际跳转",
+    "取得共济查询结果页及空记录、报错画面",
+    "核对授权与被授权方向",
+    "体验原平台智能问答和语音",
+    "核对后填写审核人、日期和实测记录"
+  ]
+}

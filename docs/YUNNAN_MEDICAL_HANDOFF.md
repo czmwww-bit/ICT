@@ -1,5 +1,7 @@
 # 云南医保资料与操作入口交接
 
+2026-11-18新增[操作步骤包](../data/official/yunnan-medical-insurance/operation-guide/README.md)。`src/operation-guide.ts`的`nextOperation(flow, observation)`接收②已识别的标题/按钮文字和已选任务；按截图锚点给出一个下一步，不实现OCR、语义意图或实际点击。示例`npm.cmd run demo:operation -- --observation USER_YB_ELDER_MIDDLE_0932`。5张聊天图对应3个页面标题/多个滚动位置，不是5个已实测页面；结果页尚缺。6例18项素材检查通过，手机流程仍待亲测。
+
 入口：[资料包README](../data/official/yunnan-medical-insurance/README.md)、[优先核对](../data/official/yunnan-medical-insurance/REVIEW_OVERVIEW.md)。本轮收集并编排资料，全部待审；没有重做界面或替②实现业务判断。
 
 ①②优先看`navigation.entries.json`：普通首页→个人账户共济绑定；首页关怀模式→长者专区→个人账户共济查询和解绑。用户说“我想看看孩子有没有帮我绑好”是查询意图的人工标注例子，不是新绑/解绑请求。素材按当前页列一个动作；未见结果页就追问无敏感值的提示，不宣称已绑定成功。

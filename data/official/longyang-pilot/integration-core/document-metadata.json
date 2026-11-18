@@ -1,0 +1,93 @@
+[
+  {
+    "item": 3,
+    "documentId": "YN_GLT_2024_113",
+    "matterIds": [
+      "HIGH_AGE_ALLOWANCE"
+    ],
+    "identity": "云民发〔2024〕113号",
+    "classification": "candidate",
+    "sourceCarrierIds": [
+      "A3",
+      "A3-attachment-1"
+    ],
+    "id": "YN_GLT_2024_113",
+    "originalIssuers": [
+      "云南省民政厅",
+      "云南省公安厅",
+      "云南省财政厅",
+      "云南省人力资源和社会保障厅",
+      "云南省卫生健康委员会",
+      "国家金融监督管理总局云南监管局"
+    ],
+    "originalDocumentNumber": "云民发〔2024〕113号",
+    "signedAt": "2024-11-19",
+    "signedAtLocator": "PDF第7页落款",
+    "printedAt": "2024-11-20",
+    "printedAtLocator": "PDF第8页印发栏",
+    "originalPublicReleaseAt": null,
+    "publishedAtMapping": "导入文件publishedAt=null：原文件公开发布日期未知；不以落款/印发/个旧网页发布日期代替。",
+    "effectiveFrom": "2025-01-01",
+    "effectiveFromLocator": "PDF第6页八、其他事项",
+    "effectiveTo": null,
+    "webPublisher": "个旧市民政局",
+    "webPublishedAt": "2024-12-04",
+    "publicationGate": "原PDF转写及日期待人工审核",
+    "recordedPublishedAt": null,
+    "recordedEffectiveFrom": "2025-01-01",
+    "recordedEffectiveTo": null,
+    "dateReviewNote": "未知日级日期为null；落款/网页时间单独保留，不互相冒充。"
+  },
+  {
+    "item": 1,
+    "documentId": "LY_GLT_HISTORY_2021",
+    "matterIds": [
+      "HIGH_AGE_ALLOWANCE"
+    ],
+    "identity": null,
+    "classification": "historical_reference",
+    "sourceCarrierIds": [
+      "A1"
+    ],
+    "webPublisher": "隆阳区西邑乡人民政府",
+    "webPublishedAt": "2021-05-05",
+    "originalIssuers": null,
+    "signedAt": null,
+    "originalPublishedAt": "2021-05-05",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "humanReviewedBy": null,
+    "humanReviewedAt": null,
+    "publicationGate": "只导入草稿供维护/旧通知核验，不发布为当前条款",
+    "recordedPublishedAt": "2021-05-05",
+    "recordedEffectiveFrom": null,
+    "recordedEffectiveTo": null,
+    "dateReviewNote": "未知日级日期为null；落款/网页时间单独保留，不互相冒充。"
+  },
+  {
+    "item": 5,
+    "documentId": "LY_GLT_WADU_2025",
+    "matterIds": [
+      "HIGH_AGE_ALLOWANCE"
+    ],
+    "identity": null,
+    "classification": "conflicting_local_notice",
+    "sourceCarrierIds": [
+      "A5"
+    ],
+    "webPublisher": "隆阳区瓦渡乡人民政府",
+    "webPublishedAt": "2025-03-03",
+    "originalIssuers": null,
+    "signedAt": null,
+    "originalPublishedAt": "2025-03-03",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "humanReviewedBy": null,
+    "humanReviewedAt": null,
+    "publicationGate": "需人工逐条核准后单独发布",
+    "recordedPublishedAt": "2025-03-03",
+    "recordedEffectiveFrom": null,
+    "recordedEffectiveTo": null,
+    "dateReviewNote": "未知日级日期为null；落款/网页时间单独保留，不互相冒充。"
+  }
+]

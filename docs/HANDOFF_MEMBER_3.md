@@ -1,5 +1,7 @@
 # 成员③交接
 
+2026-11-18新增两个独立入口：[隆阳核心联调包](../data/official/longyang-pilot/integration-core/README.md)固定3文件/10条款、6道业务题和4道技术对照，运行`npm.cmd run test:longyang-core -- --isolated`；[医保只读查询步骤](../data/official/yunnan-medical-insurance/operation-guide/README.md)使用5张截图的转录观察及一次未知画面回退，运行`npm.cmd run test:operation`。检索60/60、步骤素材18/18通过；6道业务题41项未执行。图片OCR、手机全流程和政策审核仍待完成，不能用技术通过代替验收。
+
 云南医保的新资料与截图入口见[专门交接](YUNNAN_MEDICAL_HANDOFF.md)。`demo:medical -- --isolated`复用原查询/导入/发布模块，仅在空测试库技术演示；20文件/50条款仍待审。两条入口与口语问法素材不冒充②的业务判断，也不证明原小程序问答/语音已体验。
 
 2026-11-17接续核对见[回执](../data/official/longyang-pilot/review-followup-2026-11-17/README.md)：用户两段文字及部分事实反馈已归档，红河7份Word附件全部获取、附件7列7项核对候选。主13文件/90条款及审核字段不变，未导入/发布。已区分落款、省厅公开、转载及未知印发日；金额按1/2/8月分别保留。省厅原PDF仍404，政策解读不顶替原件；27/26条差异待核。检查器新增可选attachmentSelector发现正文外附件；Office线上仍按哈希，离线提取文本不代表审核。

@@ -1,0 +1,19 @@
+{
+  "version": "longyang-core-2026-11-18-v1-pending",
+  "sourceBatch": "../batch.draft.json",
+  "sourceBatchSha256": "403e2e72a8100178ba1b11489c508bda9809e7428d8fc0ed1c7ca442747e0391",
+  "files": {
+    "batch.draft.json": "627d3f78110fd3a2f68058f4f7fc6f93addfe9eb85989f3daef7994dcd917496",
+    "query.cases.json": "3060190722ab55ba34d9161afd63b61bb435a97a58a16fc5b491c224485950b6",
+    "guide.cases.json": "2d4db307ed9dc3023051b8d93f7839da7ba8e14c2769962287a309000114d9de",
+    "review-items.json": "311251a71390f7688af4d1794f7d7fe2dcd10671504013cbf79d3dfca7c43ec3",
+    "document-metadata.json": "15b36a24815898d06a21e8ed2420ee102955eb3d205442b38021e80d471aa8b8"
+  },
+  "documents": 3,
+  "clauses": 10,
+  "queryCases": 10,
+  "guideCases": 6,
+  "humanPolicyApproved": false,
+  "guideEndpointExecuted": false,
+  "scopeNote": "历史依据显式按编号读取；候选筛选不执行用户资格、语义相关性或政策优先级判断。原始文件位置相对于backend运行目录。"
+}

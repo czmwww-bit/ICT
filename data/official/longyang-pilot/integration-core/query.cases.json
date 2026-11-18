@@ -1,0 +1,447 @@
+{
+  "version": "longyang-core-2026-11-18-v1-pending",
+  "cases": [
+    {
+      "id": "LY_REAL_DEV_01",
+      "description": "【真实来源·开发联调·预期待核对】旧申请说明问当前流程",
+      "input": {
+        "text": "我看到2021年说不申请不发高龄津贴，现在83岁，户籍在隆阳，还要带材料去申请吗？",
+        "region": "530502",
+        "answers": {
+          "age": 83,
+          "householdRegion": "530502"
+        }
+      },
+      "query": {
+        "matterId": "HIGH_AGE_ALLOWANCE",
+        "regionCode": "530502",
+        "asOf": "2026-11-18"
+      },
+      "expectedCandidateReferences": [
+        "LY_GLT_WADU_2025_APPLICATION@1",
+        "YN_GLT_AUTO_PROCESS@1",
+        "YN_GLT_CARD_ACTIVATION@1",
+        "YN_GLT_ELIGIBILITY@1",
+        "YN_GLT_HOME_CARD@1",
+        "YN_GLT_HOUSEHOLD_MOVE@1",
+        "YN_GLT_HOUSEHOLD_SEPARATION@1",
+        "YN_GLT_MISSING_LIST@1",
+        "YN_GLT_UNREACHABLE@1"
+      ],
+      "expectedQueryStatus": "needs_review",
+      "supportingReferences": [
+        {
+          "clauseId": "LY_GLT_HISTORY_2021_APPLY",
+          "version": 1
+        },
+        {
+          "clauseId": "YN_GLT_AUTO_PROCESS",
+          "version": 1
+        },
+        {
+          "clauseId": "LY_GLT_WADU_2025_APPLICATION",
+          "version": 1
+        }
+      ],
+      "expectedGuide": {
+        "status": "needs_review",
+        "questionKey": null,
+        "nextStep": "说明2021是历史流程，列出免申与地方告知差异，请社区核实当前认证/补录安排。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "LY_GLT_HISTORY_2021_APPLY",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_GLT_AUTO_PROCESS",
+            "version": 1
+          },
+          {
+            "clauseId": "LY_GLT_WADU_2025_APPLICATION",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "LY_REAL_DEV_02",
+      "description": "【真实来源·开发联调·预期待核对】即将80岁尚未联系",
+      "input": {
+        "text": "我户籍在隆阳，明年第一季度满80岁，社区还没联系，要怎么核对？",
+        "region": "530502",
+        "answers": {
+          "householdRegion": "530502",
+          "turns80Quarter": "2027-Q1"
+        }
+      },
+      "query": {
+        "matterId": "HIGH_AGE_ALLOWANCE",
+        "regionCode": "530502",
+        "asOf": "2026-11-18"
+      },
+      "expectedCandidateReferences": [
+        "LY_GLT_WADU_2025_APPLICATION@1",
+        "YN_GLT_AUTO_PROCESS@1",
+        "YN_GLT_CARD_ACTIVATION@1",
+        "YN_GLT_ELIGIBILITY@1",
+        "YN_GLT_HOME_CARD@1",
+        "YN_GLT_HOUSEHOLD_MOVE@1",
+        "YN_GLT_HOUSEHOLD_SEPARATION@1",
+        "YN_GLT_MISSING_LIST@1",
+        "YN_GLT_UNREACHABLE@1"
+      ],
+      "expectedQueryStatus": "needs_review",
+      "supportingReferences": [
+        {
+          "clauseId": "YN_GLT_AUTO_PROCESS",
+          "version": 1
+        },
+        {
+          "clauseId": "YN_GLT_MISSING_LIST",
+          "version": 1
+        }
+      ],
+      "expectedGuide": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "联系户籍地村（社区）核查是否在推送名单，遗漏由工作人员核实补录；不承诺资格审批或2027未核实标准。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_GLT_AUTO_PROCESS",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_GLT_MISSING_LIST",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "LY_REAL_DEV_03",
+      "description": "【真实来源·开发联调·预期待核对】人户分离",
+      "input": {
+        "text": "我82岁，现在住隆阳，想问高龄津贴应找哪里。",
+        "region": "530502",
+        "answers": {
+          "age": 82,
+          "residenceRegion": "530502"
+        }
+      },
+      "query": {
+        "matterId": "HIGH_AGE_ALLOWANCE",
+        "regionCode": "530502",
+        "asOf": "2026-11-18"
+      },
+      "expectedCandidateReferences": [
+        "LY_GLT_WADU_2025_APPLICATION@1",
+        "YN_GLT_AUTO_PROCESS@1",
+        "YN_GLT_CARD_ACTIVATION@1",
+        "YN_GLT_ELIGIBILITY@1",
+        "YN_GLT_HOME_CARD@1",
+        "YN_GLT_HOUSEHOLD_MOVE@1",
+        "YN_GLT_HOUSEHOLD_SEPARATION@1",
+        "YN_GLT_MISSING_LIST@1",
+        "YN_GLT_UNREACHABLE@1"
+      ],
+      "expectedQueryStatus": "needs_review",
+      "supportingReferences": [
+        {
+          "clauseId": "YN_GLT_HOUSEHOLD_SEPARATION",
+          "version": 1
+        }
+      ],
+      "expectedGuide": {
+        "status": "need_info",
+        "questionKey": "householdRegion",
+        "nextStep": "先确认户籍所在区县，不能把居住地当作户籍办理地。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_GLT_HOUSEHOLD_SEPARATION",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "LY_REAL_DEV_04",
+      "description": "【真实来源·开发联调·预期待核对】跨县迁移日期不足",
+      "input": {
+        "text": "我85岁，户籍从施甸迁入隆阳，高龄津贴什么时候开始由这里发？",
+        "region": "530502",
+        "answers": {
+          "age": 85,
+          "fromRegion": "530521",
+          "toRegion": "530502"
+        }
+      },
+      "query": {
+        "matterId": "HIGH_AGE_ALLOWANCE",
+        "regionCode": "530502",
+        "asOf": "2026-11-18"
+      },
+      "expectedCandidateReferences": [
+        "LY_GLT_WADU_2025_APPLICATION@1",
+        "YN_GLT_AUTO_PROCESS@1",
+        "YN_GLT_CARD_ACTIVATION@1",
+        "YN_GLT_ELIGIBILITY@1",
+        "YN_GLT_HOME_CARD@1",
+        "YN_GLT_HOUSEHOLD_MOVE@1",
+        "YN_GLT_HOUSEHOLD_SEPARATION@1",
+        "YN_GLT_MISSING_LIST@1",
+        "YN_GLT_UNREACHABLE@1"
+      ],
+      "expectedQueryStatus": "needs_review",
+      "supportingReferences": [
+        {
+          "clauseId": "YN_GLT_HOUSEHOLD_MOVE",
+          "version": 1
+        }
+      ],
+      "expectedGuide": {
+        "status": "need_info",
+        "questionKey": "moveDate",
+        "nextStep": "询问迁出/迁入登记日期，提示两地民政对接比对，依原文次月起发停发规则核实。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_GLT_HOUSEHOLD_MOVE",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "LY_REAL_DEV_05",
+      "description": "【真实来源·开发联调·预期待核对】金融功能未开通",
+      "input": {
+        "text": "我84岁，隆阳户籍，已在高龄津贴名单，但社保卡金融功能没开通。",
+        "region": "530502",
+        "answers": {
+          "age": 84,
+          "householdRegion": "530502",
+          "inAllowanceList": true,
+          "cardFinancialActivated": false
+        }
+      },
+      "query": {
+        "matterId": "HIGH_AGE_ALLOWANCE",
+        "regionCode": "530502",
+        "asOf": "2026-11-18"
+      },
+      "expectedCandidateReferences": [
+        "LY_GLT_WADU_2025_APPLICATION@1",
+        "YN_GLT_AUTO_PROCESS@1",
+        "YN_GLT_CARD_ACTIVATION@1",
+        "YN_GLT_ELIGIBILITY@1",
+        "YN_GLT_HOME_CARD@1",
+        "YN_GLT_HOUSEHOLD_MOVE@1",
+        "YN_GLT_HOUSEHOLD_SEPARATION@1",
+        "YN_GLT_MISSING_LIST@1",
+        "YN_GLT_UNREACHABLE@1"
+      ],
+      "expectedQueryStatus": "needs_review",
+      "supportingReferences": [
+        {
+          "clauseId": "YN_GLT_CARD_ACTIVATION",
+          "version": 1
+        },
+        {
+          "clauseId": "YN_GLT_HOME_CARD",
+          "version": 1
+        }
+      ],
+      "expectedGuide": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "由经办人员引导联系社保卡服务部门/银行开通金融功能；行动不便可请民政协调上门。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_GLT_CARD_ACTIVATION",
+            "version": 1
+          },
+          {
+            "clauseId": "YN_GLT_HOME_CARD",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "LY_REAL_DEV_06",
+      "description": "【真实来源·开发联调·预期待核对】失联后跨年恢复",
+      "input": {
+        "text": "我已享受高龄津贴，去年失联暂停，今年11月完成核查认证，可以把去年全补吗？",
+        "region": "530502",
+        "answers": {
+          "allowancePaused": true,
+          "verifiedDate": "2026-11-02",
+          "pausedSince": "2025-08"
+        }
+      },
+      "query": {
+        "matterId": "HIGH_AGE_ALLOWANCE",
+        "regionCode": "530502",
+        "asOf": "2026-11-18"
+      },
+      "expectedCandidateReferences": [
+        "LY_GLT_WADU_2025_APPLICATION@1",
+        "YN_GLT_AUTO_PROCESS@1",
+        "YN_GLT_CARD_ACTIVATION@1",
+        "YN_GLT_ELIGIBILITY@1",
+        "YN_GLT_HOME_CARD@1",
+        "YN_GLT_HOUSEHOLD_MOVE@1",
+        "YN_GLT_HOUSEHOLD_SEPARATION@1",
+        "YN_GLT_MISSING_LIST@1",
+        "YN_GLT_UNREACHABLE@1"
+      ],
+      "expectedQueryStatus": "needs_review",
+      "supportingReferences": [
+        {
+          "clauseId": "YN_GLT_UNREACHABLE",
+          "version": 1
+        }
+      ],
+      "expectedGuide": {
+        "status": "ready",
+        "questionKey": null,
+        "nextStep": "原文跨年补发自完成认证当年的1月份起，向经办人员核对补发明细，不承诺全补往年。",
+        "materials": [],
+        "references": [
+          {
+            "clauseId": "YN_GLT_UNREACHABLE",
+            "version": 1
+          }
+        ],
+        "forbidden": [
+          "保证审批通过",
+          "所有补贴都免申请",
+          "消费券可以提现",
+          "当前隆阳百岁标准已确定为350元"
+        ]
+      },
+      "humanVerified": "pending"
+    },
+    {
+      "id": "CORE_NEIGHBOR",
+      "description": "资料过滤技术对照，非办理结论",
+      "input": null,
+      "query": {
+        "matterId": "HIGH_AGE_ALLOWANCE",
+        "regionCode": "530521",
+        "asOf": "2026-11-18"
+      },
+      "expectedCandidateReferences": [
+        "YN_GLT_AUTO_PROCESS@1",
+        "YN_GLT_CARD_ACTIVATION@1",
+        "YN_GLT_ELIGIBILITY@1",
+        "YN_GLT_HOME_CARD@1",
+        "YN_GLT_HOUSEHOLD_MOVE@1",
+        "YN_GLT_HOUSEHOLD_SEPARATION@1",
+        "YN_GLT_MISSING_LIST@1",
+        "YN_GLT_UNREACHABLE@1"
+      ],
+      "expectedQueryStatus": "matched",
+      "supportingReferences": [],
+      "expectedGuide": null,
+      "humanVerified": "pending"
+    },
+    {
+      "id": "CORE_UNKNOWN_REGION",
+      "description": "资料过滤技术对照，非办理结论",
+      "input": null,
+      "query": {
+        "matterId": "HIGH_AGE_ALLOWANCE",
+        "regionCode": "UNKNOWN_REGION",
+        "asOf": "2026-11-18"
+      },
+      "expectedCandidateReferences": [],
+      "expectedQueryStatus": "no_match",
+      "supportingReferences": [],
+      "expectedGuide": null,
+      "humanVerified": "pending"
+    },
+    {
+      "id": "CORE_BEFORE_EFFECT",
+      "description": "资料过滤技术对照，非办理结论",
+      "input": null,
+      "query": {
+        "matterId": "HIGH_AGE_ALLOWANCE",
+        "regionCode": "530502",
+        "asOf": "2024-12-31"
+      },
+      "expectedCandidateReferences": [
+        "LY_GLT_WADU_2025_APPLICATION@1"
+      ],
+      "expectedQueryStatus": "needs_review",
+      "supportingReferences": [],
+      "expectedGuide": null,
+      "humanVerified": "pending"
+    },
+    {
+      "id": "CORE_HISTORICAL_SCOPE",
+      "description": "资料过滤技术对照，非办理结论",
+      "input": null,
+      "query": {
+        "matterId": "HIGH_AGE_ALLOWANCE",
+        "regionCode": "LY_XIYI",
+        "asOf": "2026-11-18"
+      },
+      "expectedCandidateReferences": [
+        "LY_GLT_HISTORY_2021_APPLY@1",
+        "LY_GLT_WADU_2025_APPLICATION@1",
+        "YN_GLT_AUTO_PROCESS@1",
+        "YN_GLT_CARD_ACTIVATION@1",
+        "YN_GLT_ELIGIBILITY@1",
+        "YN_GLT_HOME_CARD@1",
+        "YN_GLT_HOUSEHOLD_MOVE@1",
+        "YN_GLT_HOUSEHOLD_SEPARATION@1",
+        "YN_GLT_MISSING_LIST@1",
+        "YN_GLT_UNREACHABLE@1"
+      ],
+      "expectedQueryStatus": "needs_review",
+      "supportingReferences": [],
+      "expectedGuide": null,
+      "humanVerified": "pending"
+    }
+  ]
+}
