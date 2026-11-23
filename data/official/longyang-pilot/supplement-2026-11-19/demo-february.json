@@ -1,0 +1,532 @@
+{
+  "executedAt": "2026-11-19T06:17:58.910Z",
+  "input": {
+    "matterId": "HIGH_AGE_ALLOWANCE",
+    "regionCode": "530502",
+    "recordMonth": "2026-02",
+    "ageBandCode": "100_PLUS",
+    "asOf": "2026-11-19"
+  },
+  "scope": "isolated_technical_preview",
+  "humanPolicyApproved": false,
+  "projectDatabaseUnchanged": true,
+  "testTablesCleaned": true,
+  "batchSha256": "f261f541430f55eb96f07aeb85e18170570949cb17fe0be1bbc7cf1358ce68cc",
+  "sourceFilesVerified": 11,
+  "sourceTextsVerified": 8,
+  "draftExcluded": true,
+  "imported": {
+    "added": 31,
+    "modified": 0,
+    "unchanged": 0,
+    "errors": 0,
+    "details": [
+      {
+        "kind": "document",
+        "id": "YN_GLT_2024_113",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "YN_ECON_SERVICE_2023_2",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "YN_ELDER_ONE_SERVICE_2026",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202601",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202602",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202608",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202609",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "LY_GLT_2026Q2_DISCLOSURE",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "LY_MZ_ORGANIZATION",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "BS_ECON_09_PUBLISHED_20261008",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_GLT_PROVINCIAL_RATES",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_GLT_AUTO_PROCESS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_GLT_MISSING_LIST",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ECON_SERVICE_2023_2_OBJECT",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ECON_SERVICE_2023_2_VALIDITY",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_ONE_SERVICE_2026_HIGH_FLOW",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_ONE_SERVICE_2026_ECON_FLOW",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202601_LY_100PLUS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202602_LY_100PLUS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202602_SD_100PLUS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202608_LY_100PLUS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202609_LY_100PLUS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_GLT_2026Q2_REPORTED_RATE",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_GLT_2026Q2_APPLICATION_NOTE",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_MZ_ELDERLY_CONTACT",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_MZ_ECON_CONTACT",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_ECON_09_LY_REPORTED_PAYMENT",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_CARD_STOP_NEW",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_CARD_OLD_VALID",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_CARD_ID_60PLUS",
+        "version": 1,
+        "action": "added"
+      }
+    ],
+    "messages": [],
+    "batchId": "92cb5e41-913d-46ef-9708-b8cd87c8f9d9"
+  },
+  "repeated": {
+    "added": 0,
+    "modified": 0,
+    "unchanged": 31,
+    "errors": 0,
+    "details": [
+      {
+        "kind": "document",
+        "id": "YN_GLT_2024_113",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "YN_ECON_SERVICE_2023_2",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "YN_ELDER_ONE_SERVICE_2026",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202601",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202602",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202608",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202609",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "LY_GLT_2026Q2_DISCLOSURE",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "LY_MZ_ORGANIZATION",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "BS_ECON_09_PUBLISHED_20261008",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_GLT_PROVINCIAL_RATES",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_GLT_AUTO_PROCESS",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_GLT_MISSING_LIST",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ECON_SERVICE_2023_2_OBJECT",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ECON_SERVICE_2023_2_VALIDITY",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_ONE_SERVICE_2026_HIGH_FLOW",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_ONE_SERVICE_2026_ECON_FLOW",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202601_LY_100PLUS",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202602_LY_100PLUS",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202602_SD_100PLUS",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202608_LY_100PLUS",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202609_LY_100PLUS",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_GLT_2026Q2_REPORTED_RATE",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_GLT_2026Q2_APPLICATION_NOTE",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_MZ_ELDERLY_CONTACT",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_MZ_ECON_CONTACT",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_ECON_09_LY_REPORTED_PAYMENT",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_CARD_STOP_NEW",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_CARD_OLD_VALID",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_CARD_ID_60PLUS",
+        "version": 1,
+        "action": "unchanged"
+      }
+    ],
+    "messages": []
+  },
+  "result": {
+    "requestedMonth": "2026-02",
+    "regionCode": "530502",
+    "ageBandCode": "100_PLUS",
+    "monthly": [
+      {
+        "clause": {
+          "id": "BS_GLT_202602_LY_100PLUS",
+          "quote": "保山市2026年2月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550\n施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000\n腾冲市 | 14801 | 1984 | 44 | 16829 | 50 | 1000 | 740050 | 99200 | 44000 | 883250\n龙陵县 | 6449 | 1357 | 18 | 7824 | 50 | 1000 | 322450 | 67850 | 18000 | 408300\n昌宁县 | 8689 | 1233 | 16 | 9938 | 50 | 1000 | 434450 | 61650 | 16000 | 512100\n合计 | 58984 | 8726 | 146 | 67856 |  |  | 2950450 | 436350 | 117400 | 3504200\n",
+          "actions": null,
+          "dataset": "official",
+          "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+          "version": 1,
+          "channels": null,
+          "contacts": null,
+          "location": null,
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "schedule": null,
+          "materials": null,
+          "relations": [],
+          "conditions": null,
+          "documentId": "BS_GLT_202602",
+          "matterName": "高龄津贴与长寿补助",
+          "population": null,
+          "reviewedAt": "2026-11-19",
+          "reviewedBy": "隔离技术标签",
+          "effectiveTo": null,
+          "regionCodes": [
+            "530502"
+          ],
+          "reviewStatus": "approved",
+          "effectiveFrom": null,
+          "paymentRecord": {
+            "kind": "monthly_statistics",
+            "toMonth": "2026-02",
+            "evidence": {
+              "text": "隆阳区，百岁档，350元/人·月",
+              "quote": "隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550",
+              "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json"
+            },
+            "fromMonth": "2026-02",
+            "ageBandCode": "100_PLUS",
+            "ageBandLabel": "100周岁以上（原表用语）",
+            "totalPaidYuan": 15400,
+            "periodEvidence": {
+              "text": "2026-02",
+              "quote": "保山市2026年2月高龄津贴发放情况统计表",
+              "locator": "网页标题"
+            },
+            "recipientCount": 44,
+            "amountYuanPerPersonMonth": 350
+          },
+          "documentVersion": 1,
+          "effectiveToEvidence": null,
+          "effectiveFromEvidence": null
+        },
+        "document": {
+          "id": "BS_GLT_202602",
+          "title": "保山市2026年2月高龄津贴发放情况统计表",
+          "dataset": "official",
+          "version": 1,
+          "checkedAt": "2026-11-19",
+          "checkedBy": "隔离金额记录技术预览，非政策审核",
+          "publisher": "保山市民政局",
+          "sourceUrl": "https://baoshan.gov.cn/info/6126/10352984.htm",
+          "reviewedAt": "2026-11-19",
+          "reviewedBy": "隔离技术标签",
+          "effectiveTo": null,
+          "publishedAt": "2026-03-08",
+          "regionCodes": [
+            "530500"
+          ],
+          "originalPath": "../data/official/longyang-pilot/supplement-2026-11-19/sources/BS-202602.html",
+          "originalText": "保山市2026年2月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550\n施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000\n腾冲市 | 14801 | 1984 | 44 | 16829 | 50 | 1000 | 740050 | 99200 | 44000 | 883250\n龙陵县 | 6449 | 1357 | 18 | 7824 | 50 | 1000 | 322450 | 67850 | 18000 | 408300\n昌宁县 | 8689 | 1233 | 16 | 9938 | 50 | 1000 | 434450 | 61650 | 16000 | 512100\n合计 | 58984 | 8726 | 146 | 67856 |  |  | 2950450 | 436350 | 117400 | 3504200\n",
+          "reviewStatus": "approved",
+          "effectiveFrom": null,
+          "effectiveToEvidence": null,
+          "effectiveFromEvidence": null
+        },
+        "clauseChecksum": "341fb8d3c419f1280bae96ac3f8cc332c967bb0443b85920eb8407e9fb979d82",
+        "documentChecksum": "87400134f3e7fcce31cc03665249857a46afa4cb9edbfca6da27b870e5cfcbd6",
+        "originalTextChecksum": "fa502a4bf30508fae73f2878e5ba24f834936df4987c4ed58bb0f8520876d0e0",
+        "source": {
+          "clauseId": "BS_GLT_202602_LY_100PLUS",
+          "clauseVersion": 1,
+          "documentId": "BS_GLT_202602",
+          "documentVersion": 1,
+          "title": "保山市2026年2月高龄津贴发放情况统计表",
+          "quote": "保山市2026年2月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550\n施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000\n腾冲市 | 14801 | 1984 | 44 | 16829 | 50 | 1000 | 740050 | 99200 | 44000 | 883250\n龙陵县 | 6449 | 1357 | 18 | 7824 | 50 | 1000 | 322450 | 67850 | 18000 | 408300\n昌宁县 | 8689 | 1233 | 16 | 9938 | 50 | 1000 | 434450 | 61650 | 16000 | 512100\n合计 | 58984 | 8726 | 146 | 67856 |  |  | 2950450 | 436350 | 117400 | 3504200\n",
+          "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+          "url": "https://baoshan.gov.cn/info/6126/10352984.htm"
+        },
+        "relations": [],
+        "timeStatus": "needs_review",
+        "unknownEnd": true,
+        "publication": {
+          "sequence_id": 20,
+          "kind": "clause",
+          "id": "BS_GLT_202602_LY_100PLUS",
+          "version": 1,
+          "decision": "approved",
+          "actor": "隔离技术标签",
+          "reason": "仅测试发布事件，不代表政策审核",
+          "reviewed_at": "2026-11-19T06:17:58.715Z"
+        },
+        "sourcePublication": {
+          "sequence_id": 5,
+          "kind": "document",
+          "id": "BS_GLT_202602",
+          "version": 1,
+          "decision": "approved",
+          "actor": "隔离技术标签",
+          "reason": "仅测试发布事件，不代表政策审核",
+          "reviewed_at": "2026-11-19T06:17:58.631Z"
+        }
+      }
+    ],
+    "periodContext": [],
+    "unresolvedPeriod": [],
+    "policyAdjustmentEffectiveDate": null,
+    "retroactiveDifferenceRule": null,
+    "warning": "只返回所问月份记录和明确的季度上下文，不外推全年标准，不判断个人资格、提标生效日或是否补发。缺少月报不回退到最近金额。"
+  }
+}

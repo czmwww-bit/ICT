@@ -1,0 +1,1817 @@
+{
+  "executedAt": "2026-11-19T06:17:57.128Z",
+  "codeHashes": {
+    "src/model.ts": "b0e6dafc6b49319eb544b2221073a218664f8703bd858977954b547cc036c7d5",
+    "src/query.ts": "d34fdcb781786ac4a2adedfdec0a7d1afb1cb5e54b72ca4bf77f27a16fdb6712",
+    "src/payment-records.ts": "b1d0a064ea6852b4fd699c4307e1024e969396bf11df3ee736d5392877c5e0b7",
+    "scripts/check-payment-supplement.ts": "0bc25609b0ea8f6e270353faaa06cf0c9d32ae20bebbe7e1668d762a90a635dd"
+  },
+  "precheckDatabaseUnchanged": true,
+  "scope": "isolated_technical_preview",
+  "humanPolicyApproved": false,
+  "projectDatabaseUnchanged": true,
+  "testTablesCleaned": true,
+  "batchSha256": "f261f541430f55eb96f07aeb85e18170570949cb17fe0be1bbc7cf1358ce68cc",
+  "sourceFilesVerified": 11,
+  "sourceTextsVerified": 8,
+  "draftExcluded": true,
+  "imported": {
+    "added": 31,
+    "modified": 0,
+    "unchanged": 0,
+    "errors": 0,
+    "details": [
+      {
+        "kind": "document",
+        "id": "YN_GLT_2024_113",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "YN_ECON_SERVICE_2023_2",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "YN_ELDER_ONE_SERVICE_2026",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202601",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202602",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202608",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202609",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "LY_GLT_2026Q2_DISCLOSURE",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "LY_MZ_ORGANIZATION",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "BS_ECON_09_PUBLISHED_20261008",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_GLT_PROVINCIAL_RATES",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_GLT_AUTO_PROCESS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_GLT_MISSING_LIST",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ECON_SERVICE_2023_2_OBJECT",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ECON_SERVICE_2023_2_VALIDITY",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_ONE_SERVICE_2026_HIGH_FLOW",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_ONE_SERVICE_2026_ECON_FLOW",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202601_LY_100PLUS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202602_LY_100PLUS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202602_SD_100PLUS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202608_LY_100PLUS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202609_LY_100PLUS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_GLT_2026Q2_REPORTED_RATE",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_GLT_2026Q2_APPLICATION_NOTE",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_MZ_ELDERLY_CONTACT",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_MZ_ECON_CONTACT",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_ECON_09_LY_REPORTED_PAYMENT",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_CARD_STOP_NEW",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_CARD_OLD_VALID",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_CARD_ID_60PLUS",
+        "version": 1,
+        "action": "added"
+      }
+    ],
+    "messages": [],
+    "batchId": "2118be6f-7b96-44a3-83e6-054851991f0d"
+  },
+  "repeated": {
+    "added": 0,
+    "modified": 0,
+    "unchanged": 31,
+    "errors": 0,
+    "details": [
+      {
+        "kind": "document",
+        "id": "YN_GLT_2024_113",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "YN_ECON_SERVICE_2023_2",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "YN_ELDER_ONE_SERVICE_2026",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202601",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202602",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202608",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202609",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "LY_GLT_2026Q2_DISCLOSURE",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "LY_MZ_ORGANIZATION",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "BS_ECON_09_PUBLISHED_20261008",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "document",
+        "id": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_GLT_PROVINCIAL_RATES",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_GLT_AUTO_PROCESS",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_GLT_MISSING_LIST",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ECON_SERVICE_2023_2_OBJECT",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ECON_SERVICE_2023_2_VALIDITY",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_ONE_SERVICE_2026_HIGH_FLOW",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_ONE_SERVICE_2026_ECON_FLOW",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202601_LY_100PLUS",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202602_LY_100PLUS",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202602_SD_100PLUS",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202608_LY_100PLUS",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202609_LY_100PLUS",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_GLT_2026Q2_REPORTED_RATE",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_GLT_2026Q2_APPLICATION_NOTE",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_MZ_ELDERLY_CONTACT",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_MZ_ECON_CONTACT",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_ECON_09_LY_REPORTED_PAYMENT",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_CARD_STOP_NEW",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_CARD_OLD_VALID",
+        "version": 1,
+        "action": "unchanged"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_CARD_ID_60PLUS",
+        "version": 1,
+        "action": "unchanged"
+      }
+    ],
+    "messages": []
+  },
+  "result": {
+    "observations": [
+      {
+        "input": {
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "530502",
+          "recordMonth": "2026-01",
+          "ageBandCode": "100_PLUS",
+          "asOf": "2026-11-19"
+        },
+        "result": {
+          "requestedMonth": "2026-01",
+          "regionCode": "530502",
+          "ageBandCode": "100_PLUS",
+          "monthly": [
+            {
+              "clause": {
+                "id": "BS_GLT_202601_LY_100PLUS",
+                "quote": "保山市2026年1月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21027 | 3006 | 43 | 24076 | 50 | 350 | 1051350 | 150300 | 15050 | 1216700\n施甸县 | 7928 | 1226 | 22 | 9176 | 50 | 1000 | 397100 | 61300 | 22000 | 480400\n腾冲市 | 14768 | 2016 | 43 | 16827 | 50 | 1000 | 738400 | 100800 | 43000 | 882200\n龙陵县 | 6425 | 1383 | 18 | 7826 | 50 | 1000 | 321250 | 69150 | 18000 | 408400\n昌宁县 | 8148 | 1776 | 18 | 9942 | 50 | 1000 | 407400 | 88800 | 18000 | 514200\n合计 | 58296 | 9407 | 144 | 67847 |  |  | 2915500 | 470350 | 116050 | 3501900\n",
+                "actions": null,
+                "dataset": "official",
+                "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+                "version": 1,
+                "channels": null,
+                "contacts": null,
+                "location": null,
+                "matterId": "HIGH_AGE_ALLOWANCE",
+                "schedule": null,
+                "materials": null,
+                "relations": [],
+                "conditions": null,
+                "documentId": "BS_GLT_202601",
+                "matterName": "高龄津贴与长寿补助",
+                "population": null,
+                "reviewedAt": "2026-11-19",
+                "reviewedBy": "隔离技术标签",
+                "effectiveTo": null,
+                "regionCodes": [
+                  "530502"
+                ],
+                "reviewStatus": "approved",
+                "effectiveFrom": null,
+                "paymentRecord": {
+                  "kind": "monthly_statistics",
+                  "toMonth": "2026-01",
+                  "evidence": {
+                    "text": "隆阳区，百岁档，350元/人·月",
+                    "quote": "隆阳区 | 21027 | 3006 | 43 | 24076 | 50 | 350 | 1051350 | 150300 | 15050 | 1216700",
+                    "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json"
+                  },
+                  "fromMonth": "2026-01",
+                  "ageBandCode": "100_PLUS",
+                  "ageBandLabel": "100周岁以上（原表用语）",
+                  "totalPaidYuan": 15050,
+                  "periodEvidence": {
+                    "text": "2026-01",
+                    "quote": "保山市2026年1月高龄津贴发放情况统计表",
+                    "locator": "网页标题"
+                  },
+                  "recipientCount": 43,
+                  "amountYuanPerPersonMonth": 350
+                },
+                "documentVersion": 1,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": null
+              },
+              "document": {
+                "id": "BS_GLT_202601",
+                "title": "保山市2026年1月高龄津贴发放情况统计表",
+                "dataset": "official",
+                "version": 1,
+                "checkedAt": "2026-11-19",
+                "checkedBy": "隔离金额记录技术预览，非政策审核",
+                "publisher": "保山市民政局",
+                "sourceUrl": "https://www.baoshan.gov.cn/info/6126/10335854.htm",
+                "reviewedAt": "2026-11-19",
+                "reviewedBy": "隔离技术标签",
+                "effectiveTo": null,
+                "publishedAt": "2026-02-08",
+                "regionCodes": [
+                  "530500"
+                ],
+                "originalPath": "../data/official/longyang-pilot/supplement-2026-11-19/sources/BS-202601.html",
+                "originalText": "保山市2026年1月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21027 | 3006 | 43 | 24076 | 50 | 350 | 1051350 | 150300 | 15050 | 1216700\n施甸县 | 7928 | 1226 | 22 | 9176 | 50 | 1000 | 397100 | 61300 | 22000 | 480400\n腾冲市 | 14768 | 2016 | 43 | 16827 | 50 | 1000 | 738400 | 100800 | 43000 | 882200\n龙陵县 | 6425 | 1383 | 18 | 7826 | 50 | 1000 | 321250 | 69150 | 18000 | 408400\n昌宁县 | 8148 | 1776 | 18 | 9942 | 50 | 1000 | 407400 | 88800 | 18000 | 514200\n合计 | 58296 | 9407 | 144 | 67847 |  |  | 2915500 | 470350 | 116050 | 3501900\n",
+                "reviewStatus": "approved",
+                "effectiveFrom": null,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": null
+              },
+              "clauseChecksum": "126c38e021fd5b0e2abc6d8d3216ed7e2c6107710634d9b1257509246b1faebe",
+              "documentChecksum": "159e853c6e0174f036a54eb0bbe11c8af87737eca53fe66fd0b128642e55cb8a",
+              "originalTextChecksum": "148d2d82da15ab0afb9bb22e63273a9fad63b713fe94421ddd22534a9ddc9643",
+              "source": {
+                "clauseId": "BS_GLT_202601_LY_100PLUS",
+                "clauseVersion": 1,
+                "documentId": "BS_GLT_202601",
+                "documentVersion": 1,
+                "title": "保山市2026年1月高龄津贴发放情况统计表",
+                "quote": "保山市2026年1月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21027 | 3006 | 43 | 24076 | 50 | 350 | 1051350 | 150300 | 15050 | 1216700\n施甸县 | 7928 | 1226 | 22 | 9176 | 50 | 1000 | 397100 | 61300 | 22000 | 480400\n腾冲市 | 14768 | 2016 | 43 | 16827 | 50 | 1000 | 738400 | 100800 | 43000 | 882200\n龙陵县 | 6425 | 1383 | 18 | 7826 | 50 | 1000 | 321250 | 69150 | 18000 | 408400\n昌宁县 | 8148 | 1776 | 18 | 9942 | 50 | 1000 | 407400 | 88800 | 18000 | 514200\n合计 | 58296 | 9407 | 144 | 67847 |  |  | 2915500 | 470350 | 116050 | 3501900\n",
+                "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+                "url": "https://www.baoshan.gov.cn/info/6126/10335854.htm"
+              },
+              "relations": [],
+              "timeStatus": "needs_review",
+              "unknownEnd": true,
+              "publication": {
+                "sequence_id": 19,
+                "kind": "clause",
+                "id": "BS_GLT_202601_LY_100PLUS",
+                "version": 1,
+                "decision": "approved",
+                "actor": "隔离技术标签",
+                "reason": "仅测试发布事件，不代表政策审核",
+                "reviewed_at": "2026-11-19T06:17:56.888Z"
+              },
+              "sourcePublication": {
+                "sequence_id": 4,
+                "kind": "document",
+                "id": "BS_GLT_202601",
+                "version": 1,
+                "decision": "approved",
+                "actor": "隔离技术标签",
+                "reason": "仅测试发布事件，不代表政策审核",
+                "reviewed_at": "2026-11-19T06:17:56.794Z"
+              }
+            }
+          ],
+          "periodContext": [],
+          "unresolvedPeriod": [],
+          "policyAdjustmentEffectiveDate": null,
+          "retroactiveDifferenceRule": null,
+          "warning": "只返回所问月份记录和明确的季度上下文，不外推全年标准，不判断个人资格、提标生效日或是否补发。缺少月报不回退到最近金额。"
+        }
+      },
+      {
+        "input": {
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "530502",
+          "recordMonth": "2026-02",
+          "ageBandCode": "100_PLUS",
+          "asOf": "2026-11-19"
+        },
+        "result": {
+          "requestedMonth": "2026-02",
+          "regionCode": "530502",
+          "ageBandCode": "100_PLUS",
+          "monthly": [
+            {
+              "clause": {
+                "id": "BS_GLT_202602_LY_100PLUS",
+                "quote": "保山市2026年2月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550\n施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000\n腾冲市 | 14801 | 1984 | 44 | 16829 | 50 | 1000 | 740050 | 99200 | 44000 | 883250\n龙陵县 | 6449 | 1357 | 18 | 7824 | 50 | 1000 | 322450 | 67850 | 18000 | 408300\n昌宁县 | 8689 | 1233 | 16 | 9938 | 50 | 1000 | 434450 | 61650 | 16000 | 512100\n合计 | 58984 | 8726 | 146 | 67856 |  |  | 2950450 | 436350 | 117400 | 3504200\n",
+                "actions": null,
+                "dataset": "official",
+                "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+                "version": 1,
+                "channels": null,
+                "contacts": null,
+                "location": null,
+                "matterId": "HIGH_AGE_ALLOWANCE",
+                "schedule": null,
+                "materials": null,
+                "relations": [],
+                "conditions": null,
+                "documentId": "BS_GLT_202602",
+                "matterName": "高龄津贴与长寿补助",
+                "population": null,
+                "reviewedAt": "2026-11-19",
+                "reviewedBy": "隔离技术标签",
+                "effectiveTo": null,
+                "regionCodes": [
+                  "530502"
+                ],
+                "reviewStatus": "approved",
+                "effectiveFrom": null,
+                "paymentRecord": {
+                  "kind": "monthly_statistics",
+                  "toMonth": "2026-02",
+                  "evidence": {
+                    "text": "隆阳区，百岁档，350元/人·月",
+                    "quote": "隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550",
+                    "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json"
+                  },
+                  "fromMonth": "2026-02",
+                  "ageBandCode": "100_PLUS",
+                  "ageBandLabel": "100周岁以上（原表用语）",
+                  "totalPaidYuan": 15400,
+                  "periodEvidence": {
+                    "text": "2026-02",
+                    "quote": "保山市2026年2月高龄津贴发放情况统计表",
+                    "locator": "网页标题"
+                  },
+                  "recipientCount": 44,
+                  "amountYuanPerPersonMonth": 350
+                },
+                "documentVersion": 1,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": null
+              },
+              "document": {
+                "id": "BS_GLT_202602",
+                "title": "保山市2026年2月高龄津贴发放情况统计表",
+                "dataset": "official",
+                "version": 1,
+                "checkedAt": "2026-11-19",
+                "checkedBy": "隔离金额记录技术预览，非政策审核",
+                "publisher": "保山市民政局",
+                "sourceUrl": "https://baoshan.gov.cn/info/6126/10352984.htm",
+                "reviewedAt": "2026-11-19",
+                "reviewedBy": "隔离技术标签",
+                "effectiveTo": null,
+                "publishedAt": "2026-03-08",
+                "regionCodes": [
+                  "530500"
+                ],
+                "originalPath": "../data/official/longyang-pilot/supplement-2026-11-19/sources/BS-202602.html",
+                "originalText": "保山市2026年2月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550\n施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000\n腾冲市 | 14801 | 1984 | 44 | 16829 | 50 | 1000 | 740050 | 99200 | 44000 | 883250\n龙陵县 | 6449 | 1357 | 18 | 7824 | 50 | 1000 | 322450 | 67850 | 18000 | 408300\n昌宁县 | 8689 | 1233 | 16 | 9938 | 50 | 1000 | 434450 | 61650 | 16000 | 512100\n合计 | 58984 | 8726 | 146 | 67856 |  |  | 2950450 | 436350 | 117400 | 3504200\n",
+                "reviewStatus": "approved",
+                "effectiveFrom": null,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": null
+              },
+              "clauseChecksum": "341fb8d3c419f1280bae96ac3f8cc332c967bb0443b85920eb8407e9fb979d82",
+              "documentChecksum": "87400134f3e7fcce31cc03665249857a46afa4cb9edbfca6da27b870e5cfcbd6",
+              "originalTextChecksum": "fa502a4bf30508fae73f2878e5ba24f834936df4987c4ed58bb0f8520876d0e0",
+              "source": {
+                "clauseId": "BS_GLT_202602_LY_100PLUS",
+                "clauseVersion": 1,
+                "documentId": "BS_GLT_202602",
+                "documentVersion": 1,
+                "title": "保山市2026年2月高龄津贴发放情况统计表",
+                "quote": "保山市2026年2月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550\n施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000\n腾冲市 | 14801 | 1984 | 44 | 16829 | 50 | 1000 | 740050 | 99200 | 44000 | 883250\n龙陵县 | 6449 | 1357 | 18 | 7824 | 50 | 1000 | 322450 | 67850 | 18000 | 408300\n昌宁县 | 8689 | 1233 | 16 | 9938 | 50 | 1000 | 434450 | 61650 | 16000 | 512100\n合计 | 58984 | 8726 | 146 | 67856 |  |  | 2950450 | 436350 | 117400 | 3504200\n",
+                "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+                "url": "https://baoshan.gov.cn/info/6126/10352984.htm"
+              },
+              "relations": [],
+              "timeStatus": "needs_review",
+              "unknownEnd": true,
+              "publication": {
+                "sequence_id": 20,
+                "kind": "clause",
+                "id": "BS_GLT_202602_LY_100PLUS",
+                "version": 1,
+                "decision": "approved",
+                "actor": "隔离技术标签",
+                "reason": "仅测试发布事件，不代表政策审核",
+                "reviewed_at": "2026-11-19T06:17:56.894Z"
+              },
+              "sourcePublication": {
+                "sequence_id": 5,
+                "kind": "document",
+                "id": "BS_GLT_202602",
+                "version": 1,
+                "decision": "approved",
+                "actor": "隔离技术标签",
+                "reason": "仅测试发布事件，不代表政策审核",
+                "reviewed_at": "2026-11-19T06:17:56.800Z"
+              }
+            }
+          ],
+          "periodContext": [],
+          "unresolvedPeriod": [],
+          "policyAdjustmentEffectiveDate": null,
+          "retroactiveDifferenceRule": null,
+          "warning": "只返回所问月份记录和明确的季度上下文，不外推全年标准，不判断个人资格、提标生效日或是否补发。缺少月报不回退到最近金额。"
+        }
+      },
+      {
+        "input": {
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "530502",
+          "recordMonth": "2026-08",
+          "ageBandCode": "100_PLUS",
+          "asOf": "2026-11-19"
+        },
+        "result": {
+          "requestedMonth": "2026-08",
+          "regionCode": "530502",
+          "ageBandCode": "100_PLUS",
+          "monthly": [
+            {
+              "clause": {
+                "id": "BS_GLT_202608_LY_100PLUS",
+                "quote": "保山市2026年8月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21167 | 3343 | 43 | 24553 | 50 | 1000 | 1057900 | 168100 | 43000 | 1269000\n施甸县 | 8177 | 1285 | 28 | 9490 | 50 | 1000 | 410650 | 64250 | 28000 | 502900\n腾冲市 | 15430 | 2026 | 49 | 17505 | 50 | 1000 | 771500 | 101300 | 49000 | 921800\n龙陵县 | 6799 | 1194 | 22 | 8015 | 50 | 1000 | 339950 | 59700 | 22000 | 421650\n昌宁县 | 8830 | 1187 | 18 | 10035 | 50 | 1000 | 441500 | 59350 | 18000 | 518850\n合计 | 60403 | 9035 | 160 | 69598 |  |  | 3021500 | 452700 | 160000 | 3634200\n",
+                "actions": null,
+                "dataset": "official",
+                "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+                "version": 1,
+                "channels": null,
+                "contacts": null,
+                "location": null,
+                "matterId": "HIGH_AGE_ALLOWANCE",
+                "schedule": null,
+                "materials": null,
+                "relations": [],
+                "conditions": null,
+                "documentId": "BS_GLT_202608",
+                "matterName": "高龄津贴与长寿补助",
+                "population": null,
+                "reviewedAt": "2026-11-19",
+                "reviewedBy": "隔离技术标签",
+                "effectiveTo": null,
+                "regionCodes": [
+                  "530502"
+                ],
+                "reviewStatus": "approved",
+                "effectiveFrom": null,
+                "paymentRecord": {
+                  "kind": "monthly_statistics",
+                  "toMonth": "2026-08",
+                  "evidence": {
+                    "text": "隆阳区，百岁档，1000元/人·月",
+                    "quote": "隆阳区 | 21167 | 3343 | 43 | 24553 | 50 | 1000 | 1057900 | 168100 | 43000 | 1269000",
+                    "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json"
+                  },
+                  "fromMonth": "2026-08",
+                  "ageBandCode": "100_PLUS",
+                  "ageBandLabel": "100周岁以上（原表用语）",
+                  "totalPaidYuan": 43000,
+                  "periodEvidence": {
+                    "text": "2026-08",
+                    "quote": "保山市2026年8月高龄津贴发放情况统计表",
+                    "locator": "网页标题"
+                  },
+                  "recipientCount": 43,
+                  "amountYuanPerPersonMonth": 1000
+                },
+                "documentVersion": 1,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": null
+              },
+              "document": {
+                "id": "BS_GLT_202608",
+                "title": "保山市2026年8月高龄津贴发放情况统计表",
+                "dataset": "official",
+                "version": 1,
+                "checkedAt": "2026-11-19",
+                "checkedBy": "隔离金额记录技术预览，非政策审核",
+                "publisher": "保山市民政局",
+                "sourceUrl": "https://www.baoshan.gov.cn/info/6126/10396644.htm",
+                "reviewedAt": "2026-11-19",
+                "reviewedBy": "隔离技术标签",
+                "effectiveTo": null,
+                "publishedAt": "2026-09-03",
+                "regionCodes": [
+                  "530500"
+                ],
+                "originalPath": "../data/official/longyang-pilot/supplement-2026-11-19/sources/BS-202608.html",
+                "originalText": "保山市2026年8月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21167 | 3343 | 43 | 24553 | 50 | 1000 | 1057900 | 168100 | 43000 | 1269000\n施甸县 | 8177 | 1285 | 28 | 9490 | 50 | 1000 | 410650 | 64250 | 28000 | 502900\n腾冲市 | 15430 | 2026 | 49 | 17505 | 50 | 1000 | 771500 | 101300 | 49000 | 921800\n龙陵县 | 6799 | 1194 | 22 | 8015 | 50 | 1000 | 339950 | 59700 | 22000 | 421650\n昌宁县 | 8830 | 1187 | 18 | 10035 | 50 | 1000 | 441500 | 59350 | 18000 | 518850\n合计 | 60403 | 9035 | 160 | 69598 |  |  | 3021500 | 452700 | 160000 | 3634200\n",
+                "reviewStatus": "approved",
+                "effectiveFrom": null,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": null
+              },
+              "clauseChecksum": "34710f764b86624f6c835f9df059ca12a964132892018222b7350ed8f37bdef4",
+              "documentChecksum": "ac9b3360bf869efba36e0fba8497de783d75d54a378db2980124514a0341f222",
+              "originalTextChecksum": "465a2c5dff6c99e4819a43e60cc2d528cd5ad3807786b6b6ff83c0024e974ba9",
+              "source": {
+                "clauseId": "BS_GLT_202608_LY_100PLUS",
+                "clauseVersion": 1,
+                "documentId": "BS_GLT_202608",
+                "documentVersion": 1,
+                "title": "保山市2026年8月高龄津贴发放情况统计表",
+                "quote": "保山市2026年8月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21167 | 3343 | 43 | 24553 | 50 | 1000 | 1057900 | 168100 | 43000 | 1269000\n施甸县 | 8177 | 1285 | 28 | 9490 | 50 | 1000 | 410650 | 64250 | 28000 | 502900\n腾冲市 | 15430 | 2026 | 49 | 17505 | 50 | 1000 | 771500 | 101300 | 49000 | 921800\n龙陵县 | 6799 | 1194 | 22 | 8015 | 50 | 1000 | 339950 | 59700 | 22000 | 421650\n昌宁县 | 8830 | 1187 | 18 | 10035 | 50 | 1000 | 441500 | 59350 | 18000 | 518850\n合计 | 60403 | 9035 | 160 | 69598 |  |  | 3021500 | 452700 | 160000 | 3634200\n",
+                "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+                "url": "https://www.baoshan.gov.cn/info/6126/10396644.htm"
+              },
+              "relations": [],
+              "timeStatus": "needs_review",
+              "unknownEnd": true,
+              "publication": {
+                "sequence_id": 22,
+                "kind": "clause",
+                "id": "BS_GLT_202608_LY_100PLUS",
+                "version": 1,
+                "decision": "approved",
+                "actor": "隔离技术标签",
+                "reason": "仅测试发布事件，不代表政策审核",
+                "reviewed_at": "2026-11-19T06:17:56.906Z"
+              },
+              "sourcePublication": {
+                "sequence_id": 6,
+                "kind": "document",
+                "id": "BS_GLT_202608",
+                "version": 1,
+                "decision": "approved",
+                "actor": "隔离技术标签",
+                "reason": "仅测试发布事件，不代表政策审核",
+                "reviewed_at": "2026-11-19T06:17:56.806Z"
+              }
+            }
+          ],
+          "periodContext": [],
+          "unresolvedPeriod": [],
+          "policyAdjustmentEffectiveDate": null,
+          "retroactiveDifferenceRule": null,
+          "warning": "只返回所问月份记录和明确的季度上下文，不外推全年标准，不判断个人资格、提标生效日或是否补发。缺少月报不回退到最近金额。"
+        }
+      },
+      {
+        "input": {
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "530502",
+          "recordMonth": "2026-09",
+          "ageBandCode": "100_PLUS",
+          "asOf": "2026-11-19"
+        },
+        "result": {
+          "requestedMonth": "2026-09",
+          "regionCode": "530502",
+          "ageBandCode": "100_PLUS",
+          "monthly": [
+            {
+              "clause": {
+                "id": "BS_GLT_202609_LY_100PLUS",
+                "quote": "保山市2026年9月高龄津贴发放情况统计表\n\n保山市2026年9月高龄津贴发放情况统计表\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21300 | 3347 | 43 | 24690 | 50 | 1000 | 1066050 | 168400 | 43000 | 1277450\n施甸县 | 8208 | 1293 | 28 | 9529 | 50 | 1000 | 410400 | 64650 | 28000 | 503050\n腾冲市 | 15509 | 2028 | 48 | 17585 | 50 | 1000 | 775550 | 101400 | 48000 | 924950 | 补发1人100元\n龙陵县 | 6909 | 1135 | 22 | 8066 | 50 | 1000 | 345550 | 56750 | 22000 | 424300\n昌宁县 | 8861 | 1178 | 15 | 10054 | 50 | 1000 | 443050 | 58900 | 15000 | 516950\n合计 | 60787 | 8981 | 156 | 69924 |  |  | 3040600 | 450100 | 156000 | 3646700\n",
+                "actions": null,
+                "dataset": "official",
+                "locator": "正文表1第5行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+                "version": 1,
+                "channels": null,
+                "contacts": null,
+                "location": null,
+                "matterId": "HIGH_AGE_ALLOWANCE",
+                "schedule": null,
+                "materials": null,
+                "relations": [],
+                "conditions": null,
+                "documentId": "BS_GLT_202609",
+                "matterName": "高龄津贴与长寿补助",
+                "population": null,
+                "reviewedAt": "2026-11-19",
+                "reviewedBy": "隔离技术标签",
+                "effectiveTo": null,
+                "regionCodes": [
+                  "530502"
+                ],
+                "reviewStatus": "approved",
+                "effectiveFrom": null,
+                "paymentRecord": {
+                  "kind": "monthly_statistics",
+                  "toMonth": "2026-09",
+                  "evidence": {
+                    "text": "隆阳区，百岁档，1000元/人·月",
+                    "quote": "隆阳区 | 21300 | 3347 | 43 | 24690 | 50 | 1000 | 1066050 | 168400 | 43000 | 1277450",
+                    "locator": "正文表1第5行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json"
+                  },
+                  "fromMonth": "2026-09",
+                  "ageBandCode": "100_PLUS",
+                  "ageBandLabel": "100周岁以上（原表用语）",
+                  "totalPaidYuan": 43000,
+                  "periodEvidence": {
+                    "text": "2026-09",
+                    "quote": "保山市2026年9月高龄津贴发放情况统计表",
+                    "locator": "网页标题"
+                  },
+                  "recipientCount": 43,
+                  "amountYuanPerPersonMonth": 1000
+                },
+                "documentVersion": 1,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": null
+              },
+              "document": {
+                "id": "BS_GLT_202609",
+                "title": "保山市2026年9月高龄津贴发放情况统计表",
+                "dataset": "official",
+                "version": 1,
+                "checkedAt": "2026-11-19",
+                "checkedBy": "隔离金额记录技术预览，非政策审核",
+                "publisher": "保山市民政局",
+                "sourceUrl": "https://www.baoshan.gov.cn/info/6126/10409514.htm",
+                "reviewedAt": "2026-11-19",
+                "reviewedBy": "隔离技术标签",
+                "effectiveTo": null,
+                "publishedAt": "2026-10-08",
+                "regionCodes": [
+                  "530500"
+                ],
+                "originalPath": "../data/official/longyang-pilot/supplement-2026-11-19/sources/BS-202609.html",
+                "originalText": "保山市2026年9月高龄津贴发放情况统计表\n\n保山市2026年9月高龄津贴发放情况统计表\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21300 | 3347 | 43 | 24690 | 50 | 1000 | 1066050 | 168400 | 43000 | 1277450\n施甸县 | 8208 | 1293 | 28 | 9529 | 50 | 1000 | 410400 | 64650 | 28000 | 503050\n腾冲市 | 15509 | 2028 | 48 | 17585 | 50 | 1000 | 775550 | 101400 | 48000 | 924950 | 补发1人100元\n龙陵县 | 6909 | 1135 | 22 | 8066 | 50 | 1000 | 345550 | 56750 | 22000 | 424300\n昌宁县 | 8861 | 1178 | 15 | 10054 | 50 | 1000 | 443050 | 58900 | 15000 | 516950\n合计 | 60787 | 8981 | 156 | 69924 |  |  | 3040600 | 450100 | 156000 | 3646700\n",
+                "reviewStatus": "approved",
+                "effectiveFrom": null,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": null
+              },
+              "clauseChecksum": "413b7f356e2b2e5753869ccafd1e8816d0df8dc305a7f64c9cf80d120d72cec7",
+              "documentChecksum": "eddddbcbdf1581eb36422363851cfad43b52e42e8a2b20757f6bf8fd765cc26f",
+              "originalTextChecksum": "384e34ddab6b9b0dccbebeb8b5cbccacdc8a0279f209d59950246b893c7a4d40",
+              "source": {
+                "clauseId": "BS_GLT_202609_LY_100PLUS",
+                "clauseVersion": 1,
+                "documentId": "BS_GLT_202609",
+                "documentVersion": 1,
+                "title": "保山市2026年9月高龄津贴发放情况统计表",
+                "quote": "保山市2026年9月高龄津贴发放情况统计表\n\n保山市2026年9月高龄津贴发放情况统计表\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21300 | 3347 | 43 | 24690 | 50 | 1000 | 1066050 | 168400 | 43000 | 1277450\n施甸县 | 8208 | 1293 | 28 | 9529 | 50 | 1000 | 410400 | 64650 | 28000 | 503050\n腾冲市 | 15509 | 2028 | 48 | 17585 | 50 | 1000 | 775550 | 101400 | 48000 | 924950 | 补发1人100元\n龙陵县 | 6909 | 1135 | 22 | 8066 | 50 | 1000 | 345550 | 56750 | 22000 | 424300\n昌宁县 | 8861 | 1178 | 15 | 10054 | 50 | 1000 | 443050 | 58900 | 15000 | 516950\n合计 | 60787 | 8981 | 156 | 69924 |  |  | 3040600 | 450100 | 156000 | 3646700\n",
+                "locator": "正文表1第5行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+                "url": "https://www.baoshan.gov.cn/info/6126/10409514.htm"
+              },
+              "relations": [],
+              "timeStatus": "needs_review",
+              "unknownEnd": true,
+              "publication": {
+                "sequence_id": 23,
+                "kind": "clause",
+                "id": "BS_GLT_202609_LY_100PLUS",
+                "version": 1,
+                "decision": "approved",
+                "actor": "隔离技术标签",
+                "reason": "仅测试发布事件，不代表政策审核",
+                "reviewed_at": "2026-11-19T06:17:56.912Z"
+              },
+              "sourcePublication": {
+                "sequence_id": 7,
+                "kind": "document",
+                "id": "BS_GLT_202609",
+                "version": 1,
+                "decision": "approved",
+                "actor": "隔离技术标签",
+                "reason": "仅测试发布事件，不代表政策审核",
+                "reviewed_at": "2026-11-19T06:17:56.813Z"
+              }
+            }
+          ],
+          "periodContext": [],
+          "unresolvedPeriod": [],
+          "policyAdjustmentEffectiveDate": null,
+          "retroactiveDifferenceRule": null,
+          "warning": "只返回所问月份记录和明确的季度上下文，不外推全年标准，不判断个人资格、提标生效日或是否补发。缺少月报不回退到最近金额。"
+        }
+      },
+      {
+        "input": {
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "530521",
+          "recordMonth": "2026-02",
+          "ageBandCode": "100_PLUS",
+          "asOf": "2026-11-19"
+        },
+        "result": {
+          "requestedMonth": "2026-02",
+          "regionCode": "530521",
+          "ageBandCode": "100_PLUS",
+          "monthly": [
+            {
+              "clause": {
+                "id": "BS_GLT_202602_SD_100PLUS",
+                "quote": "保山市2026年2月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550\n施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000\n腾冲市 | 14801 | 1984 | 44 | 16829 | 50 | 1000 | 740050 | 99200 | 44000 | 883250\n龙陵县 | 6449 | 1357 | 18 | 7824 | 50 | 1000 | 322450 | 67850 | 18000 | 408300\n昌宁县 | 8689 | 1233 | 16 | 9938 | 50 | 1000 | 434450 | 61650 | 16000 | 512100\n合计 | 58984 | 8726 | 146 | 67856 |  |  | 2950450 | 436350 | 117400 | 3504200\n",
+                "actions": null,
+                "dataset": "official",
+                "locator": "正文表1第4行“施甸县”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+                "version": 1,
+                "channels": null,
+                "contacts": null,
+                "location": null,
+                "matterId": "HIGH_AGE_ALLOWANCE",
+                "schedule": null,
+                "materials": null,
+                "relations": [],
+                "conditions": null,
+                "documentId": "BS_GLT_202602",
+                "matterName": "高龄津贴与长寿补助",
+                "population": null,
+                "reviewedAt": "2026-11-19",
+                "reviewedBy": "隔离技术标签",
+                "effectiveTo": null,
+                "regionCodes": [
+                  "530521"
+                ],
+                "reviewStatus": "approved",
+                "effectiveFrom": null,
+                "paymentRecord": {
+                  "kind": "monthly_statistics",
+                  "toMonth": "2026-02",
+                  "evidence": {
+                    "text": "施甸县，百岁档，1000元/人·月",
+                    "quote": "施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000",
+                    "locator": "正文表1第4行“施甸县”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json"
+                  },
+                  "fromMonth": "2026-02",
+                  "ageBandCode": "100_PLUS",
+                  "ageBandLabel": "100周岁以上（原表用语）",
+                  "totalPaidYuan": 24000,
+                  "periodEvidence": {
+                    "text": "2026-02",
+                    "quote": "保山市2026年2月高龄津贴发放情况统计表",
+                    "locator": "网页标题"
+                  },
+                  "recipientCount": 24,
+                  "amountYuanPerPersonMonth": 1000
+                },
+                "documentVersion": 1,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": null
+              },
+              "document": {
+                "id": "BS_GLT_202602",
+                "title": "保山市2026年2月高龄津贴发放情况统计表",
+                "dataset": "official",
+                "version": 1,
+                "checkedAt": "2026-11-19",
+                "checkedBy": "隔离金额记录技术预览，非政策审核",
+                "publisher": "保山市民政局",
+                "sourceUrl": "https://baoshan.gov.cn/info/6126/10352984.htm",
+                "reviewedAt": "2026-11-19",
+                "reviewedBy": "隔离技术标签",
+                "effectiveTo": null,
+                "publishedAt": "2026-03-08",
+                "regionCodes": [
+                  "530500"
+                ],
+                "originalPath": "../data/official/longyang-pilot/supplement-2026-11-19/sources/BS-202602.html",
+                "originalText": "保山市2026年2月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550\n施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000\n腾冲市 | 14801 | 1984 | 44 | 16829 | 50 | 1000 | 740050 | 99200 | 44000 | 883250\n龙陵县 | 6449 | 1357 | 18 | 7824 | 50 | 1000 | 322450 | 67850 | 18000 | 408300\n昌宁县 | 8689 | 1233 | 16 | 9938 | 50 | 1000 | 434450 | 61650 | 16000 | 512100\n合计 | 58984 | 8726 | 146 | 67856 |  |  | 2950450 | 436350 | 117400 | 3504200\n",
+                "reviewStatus": "approved",
+                "effectiveFrom": null,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": null
+              },
+              "clauseChecksum": "ee143eaa021317efac17d04005f4efb4806c9f1f8f2142682c41e3fcfa959e95",
+              "documentChecksum": "87400134f3e7fcce31cc03665249857a46afa4cb9edbfca6da27b870e5cfcbd6",
+              "originalTextChecksum": "fa502a4bf30508fae73f2878e5ba24f834936df4987c4ed58bb0f8520876d0e0",
+              "source": {
+                "clauseId": "BS_GLT_202602_SD_100PLUS",
+                "clauseVersion": 1,
+                "documentId": "BS_GLT_202602",
+                "documentVersion": 1,
+                "title": "保山市2026年2月高龄津贴发放情况统计表",
+                "quote": "保山市2026年2月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550\n施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000\n腾冲市 | 14801 | 1984 | 44 | 16829 | 50 | 1000 | 740050 | 99200 | 44000 | 883250\n龙陵县 | 6449 | 1357 | 18 | 7824 | 50 | 1000 | 322450 | 67850 | 18000 | 408300\n昌宁县 | 8689 | 1233 | 16 | 9938 | 50 | 1000 | 434450 | 61650 | 16000 | 512100\n合计 | 58984 | 8726 | 146 | 67856 |  |  | 2950450 | 436350 | 117400 | 3504200\n",
+                "locator": "正文表1第4行“施甸县”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+                "url": "https://baoshan.gov.cn/info/6126/10352984.htm"
+              },
+              "relations": [],
+              "timeStatus": "needs_review",
+              "unknownEnd": true,
+              "publication": {
+                "sequence_id": 21,
+                "kind": "clause",
+                "id": "BS_GLT_202602_SD_100PLUS",
+                "version": 1,
+                "decision": "approved",
+                "actor": "隔离技术标签",
+                "reason": "仅测试发布事件，不代表政策审核",
+                "reviewed_at": "2026-11-19T06:17:56.900Z"
+              },
+              "sourcePublication": {
+                "sequence_id": 5,
+                "kind": "document",
+                "id": "BS_GLT_202602",
+                "version": 1,
+                "decision": "approved",
+                "actor": "隔离技术标签",
+                "reason": "仅测试发布事件，不代表政策审核",
+                "reviewed_at": "2026-11-19T06:17:56.800Z"
+              }
+            }
+          ],
+          "periodContext": [],
+          "unresolvedPeriod": [],
+          "policyAdjustmentEffectiveDate": null,
+          "retroactiveDifferenceRule": null,
+          "warning": "只返回所问月份记录和明确的季度上下文，不外推全年标准，不判断个人资格、提标生效日或是否补发。缺少月报不回退到最近金额。"
+        }
+      },
+      {
+        "input": {
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "530502",
+          "recordMonth": "2026-03",
+          "ageBandCode": "100_PLUS",
+          "asOf": "2026-11-19"
+        },
+        "result": {
+          "requestedMonth": "2026-03",
+          "regionCode": "530502",
+          "ageBandCode": "100_PLUS",
+          "monthly": [],
+          "periodContext": [],
+          "unresolvedPeriod": [],
+          "policyAdjustmentEffectiveDate": null,
+          "retroactiveDifferenceRule": null,
+          "warning": "只返回所问月份记录和明确的季度上下文，不外推全年标准，不判断个人资格、提标生效日或是否补发。缺少月报不回退到最近金额。"
+        }
+      },
+      {
+        "input": {
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "530502",
+          "recordMonth": "2026-11",
+          "ageBandCode": "100_PLUS",
+          "asOf": "2026-11-19"
+        },
+        "result": {
+          "requestedMonth": "2026-11",
+          "regionCode": "530502",
+          "ageBandCode": "100_PLUS",
+          "monthly": [],
+          "periodContext": [],
+          "unresolvedPeriod": [],
+          "policyAdjustmentEffectiveDate": null,
+          "retroactiveDifferenceRule": null,
+          "warning": "只返回所问月份记录和明确的季度上下文，不外推全年标准，不判断个人资格、提标生效日或是否补发。缺少月报不回退到最近金额。"
+        }
+      },
+      {
+        "input": {
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "UNKNOWN_REGION",
+          "recordMonth": "2026-09",
+          "ageBandCode": "100_PLUS",
+          "asOf": "2026-11-19"
+        },
+        "result": {
+          "requestedMonth": "2026-09",
+          "regionCode": "UNKNOWN_REGION",
+          "ageBandCode": "100_PLUS",
+          "monthly": [],
+          "periodContext": [],
+          "unresolvedPeriod": [],
+          "policyAdjustmentEffectiveDate": null,
+          "retroactiveDifferenceRule": null,
+          "warning": "只返回所问月份记录和明确的季度上下文，不外推全年标准，不判断个人资格、提标生效日或是否补发。缺少月报不回退到最近金额。"
+        }
+      }
+    ],
+    "quarterlyContext": {
+      "requestedMonth": "2026-05",
+      "regionCode": "530502",
+      "ageBandCode": "100_PLUS",
+      "monthly": [],
+      "periodContext": [
+        {
+          "clause": {
+            "id": "LY_GLT_2026Q2_REPORTED_RATE",
+            "quote": "隆阳区2026年二季度高龄补贴、长寿补助发放明细\n\n季 度 | 月 份 | 人 数 | 发放金额（元） | 备 注\n第二季度 | 四 月 | 24180 | 1250550 | 隆阳区户籍年满80周岁老人经本人申请，按照村（社区）调查、乡镇审核、民政局审批程序，对符合条件的高龄老人发放高龄补贴和长寿补助，80-99周岁老人每月50元标准发放高龄补贴，100周岁以上老人每月1000元标准发放长寿补助。\n五 月 | 24252 | 1250900\n六 月 | 24363 | 1257100\n",
+            "actions": null,
+            "dataset": "official",
+            "locator": "正文表1，第二季度备注及四、五、六月行",
+            "version": 1,
+            "channels": null,
+            "contacts": null,
+            "location": null,
+            "matterId": "HIGH_AGE_ALLOWANCE",
+            "schedule": null,
+            "materials": null,
+            "relations": [],
+            "conditions": null,
+            "documentId": "LY_GLT_2026Q2_DISCLOSURE",
+            "matterName": "高龄津贴与长寿补助",
+            "population": null,
+            "reviewedAt": "2026-11-19",
+            "reviewedBy": "隔离技术标签",
+            "effectiveTo": null,
+            "regionCodes": [
+              "530502"
+            ],
+            "reviewStatus": "approved",
+            "effectiveFrom": null,
+            "paymentRecord": {
+              "kind": "quarterly_disclosure",
+              "toMonth": "2026-06",
+              "evidence": {
+                "text": "备注列1000元/月；不是提标文件或单月到账凭证",
+                "quote": "隆阳区户籍年满80周岁老人经本人申请，按照村（社区）调查、乡镇审核、民政局审批程序，对符合条件的高龄老人发放高龄补贴和长寿补助，80-99周岁老人每月50元标准发放高龄补贴，100周岁以上老人每月1000元标准发放长寿补助。",
+                "locator": "表1备注"
+              },
+              "fromMonth": "2026-04",
+              "ageBandCode": "100_PLUS",
+              "ageBandLabel": "100周岁以上（备注原文）",
+              "totalPaidYuan": null,
+              "periodEvidence": {
+                "text": "2026年第二季度（4—6月），季度公开备注",
+                "quote": "隆阳区2026年二季度高龄补贴、长寿补助发放明细",
+                "locator": "网页标题及表内月份"
+              },
+              "recipientCount": null,
+              "amountYuanPerPersonMonth": 1000
+            },
+            "documentVersion": 1,
+            "effectiveToEvidence": null,
+            "effectiveFromEvidence": null
+          },
+          "document": {
+            "id": "LY_GLT_2026Q2_DISCLOSURE",
+            "title": "隆阳区2026年二季度高龄补贴、长寿补助发放明细",
+            "dataset": "official",
+            "version": 1,
+            "checkedAt": "2026-11-19",
+            "checkedBy": "隔离金额记录技术预览，非政策审核",
+            "publisher": "隆阳区民政局",
+            "sourceUrl": "https://www.longyang.gov.cn/info/2861/14118239.htm",
+            "reviewedAt": "2026-11-19",
+            "reviewedBy": "隔离技术标签",
+            "effectiveTo": null,
+            "publishedAt": "2026-06-23",
+            "regionCodes": [
+              "530502"
+            ],
+            "originalPath": "../data/official/longyang-pilot/supplement-2026-11-19/sources/LY-2026Q2.html",
+            "originalText": "隆阳区2026年二季度高龄补贴、长寿补助发放明细\n\n季 度 | 月 份 | 人 数 | 发放金额（元） | 备 注\n第二季度 | 四 月 | 24180 | 1250550 | 隆阳区户籍年满80周岁老人经本人申请，按照村（社区）调查、乡镇审核、民政局审批程序，对符合条件的高龄老人发放高龄补贴和长寿补助，80-99周岁老人每月50元标准发放高龄补贴，100周岁以上老人每月1000元标准发放长寿补助。\n五 月 | 24252 | 1250900\n六 月 | 24363 | 1257100\n",
+            "reviewStatus": "approved",
+            "effectiveFrom": null,
+            "effectiveToEvidence": null,
+            "effectiveFromEvidence": null
+          },
+          "clauseChecksum": "d4afc9696802234bf07ccd09972c7767a15881d1a339a7117b7432960a0ce667",
+          "documentChecksum": "2bd4c58f1ee42bd29b54794fbbe4cd8c37110d6a0927877b2219695e751a29ad",
+          "originalTextChecksum": "2fc1195257ed01cb7bf198d81184e7b839991fe01ec22964417ed245d8ef00af",
+          "source": {
+            "clauseId": "LY_GLT_2026Q2_REPORTED_RATE",
+            "clauseVersion": 1,
+            "documentId": "LY_GLT_2026Q2_DISCLOSURE",
+            "documentVersion": 1,
+            "title": "隆阳区2026年二季度高龄补贴、长寿补助发放明细",
+            "quote": "隆阳区2026年二季度高龄补贴、长寿补助发放明细\n\n季 度 | 月 份 | 人 数 | 发放金额（元） | 备 注\n第二季度 | 四 月 | 24180 | 1250550 | 隆阳区户籍年满80周岁老人经本人申请，按照村（社区）调查、乡镇审核、民政局审批程序，对符合条件的高龄老人发放高龄补贴和长寿补助，80-99周岁老人每月50元标准发放高龄补贴，100周岁以上老人每月1000元标准发放长寿补助。\n五 月 | 24252 | 1250900\n六 月 | 24363 | 1257100\n",
+            "locator": "正文表1，第二季度备注及四、五、六月行",
+            "url": "https://www.longyang.gov.cn/info/2861/14118239.htm"
+          },
+          "relations": [],
+          "timeStatus": "needs_review",
+          "unknownEnd": true,
+          "publication": {
+            "sequence_id": 24,
+            "kind": "clause",
+            "id": "LY_GLT_2026Q2_REPORTED_RATE",
+            "version": 1,
+            "decision": "approved",
+            "actor": "隔离技术标签",
+            "reason": "仅测试发布事件，不代表政策审核",
+            "reviewed_at": "2026-11-19T06:17:56.918Z"
+          },
+          "sourcePublication": {
+            "sequence_id": 8,
+            "kind": "document",
+            "id": "LY_GLT_2026Q2_DISCLOSURE",
+            "version": 1,
+            "decision": "approved",
+            "actor": "隔离技术标签",
+            "reason": "仅测试发布事件，不代表政策审核",
+            "reviewed_at": "2026-11-19T06:17:56.819Z"
+          }
+        }
+      ],
+      "unresolvedPeriod": [],
+      "policyAdjustmentEffectiveDate": null,
+      "retroactiveDifferenceRule": null,
+      "warning": "只返回所问月份记录和明确的季度上下文，不外推全年标准，不判断个人资格、提标生效日或是否补发。缺少月报不回退到最近金额。"
+    },
+    "unresolvedPeriod": {
+      "requestedMonth": "2026-09",
+      "regionCode": "530502",
+      "ageBandCode": "UNSPECIFIED",
+      "monthly": [],
+      "periodContext": [],
+      "unresolvedPeriod": [
+        {
+          "clause": {
+            "id": "BS_ECON_09_LY_REPORTED_PAYMENT",
+            "quote": "保山市经济困难老年人服务补贴发放统计表（9月）\n\n保山市经济困难老年人服务补贴发放统计表（9月）\n县市区 | 发放人数（人） | 发放标准（元/人·月） | 发放资金（元）\n城市低保 | 农村低保 | 特困供养人员 | 合计 | 省级 | 市级 | 县级 | 合计\n隆阳区 | 261 | 2152 | 142 | 2555 | 50 | 42750 | 85000 |  | 127750\n施甸县 | 36 | 812 | 97 | 945 | 50 | 47250 |  |  | 47250\n腾冲市 | 55 | 1187 | 146 | 1388 | 50 | 69400 |  |  | 69400\n龙陵县 | 35 | 1206 | 81 | 1322 | 50 | 66100 |  |  | 66100\n昌宁县 | 8 | 1675 | 130 | 1813 | 50 |  |  | 90650 | 90650\n合计 | 395 | 7032 | 596 | 8023 |  | 225500 | 85000 | 90650 | 401150\n",
+            "actions": null,
+            "dataset": "official",
+            "locator": "正文表1第5行“隆阳区”及两层表头",
+            "version": 1,
+            "channels": null,
+            "contacts": null,
+            "location": null,
+            "matterId": "ECONOMIC_ELDERLY_SERVICE",
+            "schedule": null,
+            "materials": null,
+            "relations": [],
+            "conditions": null,
+            "documentId": "BS_ECON_09_PUBLISHED_20261008",
+            "matterName": "经济困难老年人服务补贴",
+            "population": null,
+            "reviewedAt": "2026-11-19",
+            "reviewedBy": "隔离技术标签",
+            "effectiveTo": null,
+            "regionCodes": [
+              "530502"
+            ],
+            "reviewStatus": "approved",
+            "effectiveFrom": null,
+            "paymentRecord": {
+              "kind": "monthly_statistics",
+              "toMonth": null,
+              "evidence": {
+                "text": "隆阳区2555人，50元/人·月，总资金127750元；资金来源列不当作个人金额",
+                "quote": "隆阳区 | 261 | 2152 | 142 | 2555 | 50 | 42750 | 85000 |  | 127750",
+                "locator": "表1第5行及表头"
+              },
+              "fromMonth": null,
+              "ageBandCode": "UNSPECIFIED",
+              "ageBandLabel": "原表未列年龄档",
+              "totalPaidYuan": 127750,
+              "periodEvidence": {
+                "text": "9月；统计年度未知",
+                "quote": "9月",
+                "locator": "网页标题"
+              },
+              "recipientCount": 2555,
+              "amountYuanPerPersonMonth": 50
+            },
+            "documentVersion": 1,
+            "effectiveToEvidence": null,
+            "effectiveFromEvidence": null
+          },
+          "document": {
+            "id": "BS_ECON_09_PUBLISHED_20261008",
+            "title": "保山市经济困难老年人服务补贴发放统计表（9月）",
+            "dataset": "official",
+            "version": 1,
+            "checkedAt": "2026-11-19",
+            "checkedBy": "隔离金额记录技术预览，非政策审核",
+            "publisher": "保山市民政局",
+            "sourceUrl": "https://www.baoshan.gov.cn/info/6126/10409524.htm",
+            "reviewedAt": "2026-11-19",
+            "reviewedBy": "隔离技术标签",
+            "effectiveTo": null,
+            "publishedAt": "2026-10-08",
+            "regionCodes": [
+              "530500"
+            ],
+            "originalPath": "../data/official/longyang-pilot/supplement-2026-11-19/sources/BS-ECON-202609.html",
+            "originalText": "保山市经济困难老年人服务补贴发放统计表（9月）\n\n保山市经济困难老年人服务补贴发放统计表（9月）\n县市区 | 发放人数（人） | 发放标准（元/人·月） | 发放资金（元）\n城市低保 | 农村低保 | 特困供养人员 | 合计 | 省级 | 市级 | 县级 | 合计\n隆阳区 | 261 | 2152 | 142 | 2555 | 50 | 42750 | 85000 |  | 127750\n施甸县 | 36 | 812 | 97 | 945 | 50 | 47250 |  |  | 47250\n腾冲市 | 55 | 1187 | 146 | 1388 | 50 | 69400 |  |  | 69400\n龙陵县 | 35 | 1206 | 81 | 1322 | 50 | 66100 |  |  | 66100\n昌宁县 | 8 | 1675 | 130 | 1813 | 50 |  |  | 90650 | 90650\n合计 | 395 | 7032 | 596 | 8023 |  | 225500 | 85000 | 90650 | 401150\n",
+            "reviewStatus": "approved",
+            "effectiveFrom": null,
+            "effectiveToEvidence": null,
+            "effectiveFromEvidence": null
+          },
+          "clauseChecksum": "8736da09c76d8bd39d276df42a4753032d671bfe6912e01aabb6f1cb1590b893",
+          "documentChecksum": "2204e39c5010bf9b08a678b249f5af0eff1997007c0a68cb297ddd4108d3cae6",
+          "originalTextChecksum": "b844c70f065123c1602241dc953a43f2f1f7ce6129cd537681629f02a27e873e",
+          "source": {
+            "clauseId": "BS_ECON_09_LY_REPORTED_PAYMENT",
+            "clauseVersion": 1,
+            "documentId": "BS_ECON_09_PUBLISHED_20261008",
+            "documentVersion": 1,
+            "title": "保山市经济困难老年人服务补贴发放统计表（9月）",
+            "quote": "保山市经济困难老年人服务补贴发放统计表（9月）\n\n保山市经济困难老年人服务补贴发放统计表（9月）\n县市区 | 发放人数（人） | 发放标准（元/人·月） | 发放资金（元）\n城市低保 | 农村低保 | 特困供养人员 | 合计 | 省级 | 市级 | 县级 | 合计\n隆阳区 | 261 | 2152 | 142 | 2555 | 50 | 42750 | 85000 |  | 127750\n施甸县 | 36 | 812 | 97 | 945 | 50 | 47250 |  |  | 47250\n腾冲市 | 55 | 1187 | 146 | 1388 | 50 | 69400 |  |  | 69400\n龙陵县 | 35 | 1206 | 81 | 1322 | 50 | 66100 |  |  | 66100\n昌宁县 | 8 | 1675 | 130 | 1813 | 50 |  |  | 90650 | 90650\n合计 | 395 | 7032 | 596 | 8023 |  | 225500 | 85000 | 90650 | 401150\n",
+            "locator": "正文表1第5行“隆阳区”及两层表头",
+            "url": "https://www.baoshan.gov.cn/info/6126/10409524.htm"
+          },
+          "relations": [],
+          "timeStatus": "needs_review",
+          "unknownEnd": true,
+          "publication": {
+            "sequence_id": 28,
+            "kind": "clause",
+            "id": "BS_ECON_09_LY_REPORTED_PAYMENT",
+            "version": 1,
+            "decision": "approved",
+            "actor": "隔离技术标签",
+            "reason": "仅测试发布事件，不代表政策审核",
+            "reviewed_at": "2026-11-19T06:17:56.943Z"
+          },
+          "sourcePublication": {
+            "sequence_id": 10,
+            "kind": "document",
+            "id": "BS_ECON_09_PUBLISHED_20261008",
+            "version": 1,
+            "decision": "approved",
+            "actor": "隔离技术标签",
+            "reason": "仅测试发布事件，不代表政策审核",
+            "reviewed_at": "2026-11-19T06:17:56.831Z"
+          }
+        }
+      ],
+      "policyAdjustmentEffectiveDate": null,
+      "retroactiveDifferenceRule": null,
+      "warning": "只返回所问月份记录和明确的季度上下文，不外推全年标准，不判断个人资格、提标生效日或是否补发。缺少月报不回退到最近金额。"
+    },
+    "flowEvidence": [
+      {
+        "clause": {
+          "id": "YN_GLT_AUTO_PROCESS",
+          "quote": "高龄津贴发放实行“免申即享”，按照“免于申报、动态核查、分类处置”方式进行办理。\n\n（一）免于申报。\n\n免去“申请”流程，依托惠民惠农财政资金“一卡通”管理平台向符合条件的老年人发放津贴。“管理平台”基于省民政厅按年度提供的即将年满80周岁老年人基础信息，于当年每季度首月在系统内将下一季度年满80周岁老年人基础信息推送到乡镇人民政府（街道办事处），由乡镇人民政府（街道办事处）组织村（社区）调查核实。基础信息准确无异的，由乡镇人民政府（街道办事处）工作人员在管理平台中作出“审核通过”意见，提交县级民政部门审核；基础信息有误、不符合发放条件的，由乡镇人民政府（街道办事处）工作人员在系统中作出“审核不通过”意见，并提交佐证材料。",
+          "actions": [
+            {
+              "text": "免去“申请”流程，依托惠民惠农财政资金“一卡通”管理平台向符合条件的老年人发放津贴。“管理平台”基于省民政厅按年度提供的即将年满80周岁老年人基础信息，于当年每季度首月在系统内将下一季度年满80周岁老年人基础信息推送到乡镇人民政府（街道办事处），由乡镇人民政府（街道办事处）组织村（社区）调查核实。基础信息准确无异的，由乡镇人民政府（街道办事处）工作人员在管理平台中作出“审核通过”意见，提交县级民政部门审核；基础信息有误、不符合发放条件的，由乡镇人民政府（街道办事处）工作人员在系统中作出“审核不通过”意见，并提交佐证材料。",
+              "quote": "免去“申请”流程，依托惠民惠农财政资金“一卡通”管理平台向符合条件的老年人发放津贴。“管理平台”基于省民政厅按年度提供的即将年满80周岁老年人基础信息，于当年每季度首月在系统内将下一季度年满80周岁老年人基础信息推送到乡镇人民政府（街道办事处），由乡镇人民政府（街道办事处）组织村（社区）调查核实。基础信息准确无异的，由乡镇人民政府（街道办事处）工作人员在管理平台中作出“审核通过”意见，提交县级民政部门审核；基础信息有误、不符合发放条件的，由乡镇人民政府（街道办事处）工作人员在系统中作出“审核不通过”意见，并提交佐证材料。",
+              "locator": "扫描PDF第2—3页，四、发放程序（一）免于申报第一段"
+            }
+          ],
+          "dataset": "official",
+          "locator": "扫描PDF第2—3页，四、发放程序（一）免于申报第一段",
+          "version": 1,
+          "channels": null,
+          "contacts": null,
+          "location": null,
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "schedule": {
+            "text": "当年每季度首月推送下一季度年满80周岁老年人基础信息。",
+            "quote": "免去“申请”流程，依托惠民惠农财政资金“一卡通”管理平台向符合条件的老年人发放津贴。“管理平台”基于省民政厅按年度提供的即将年满80周岁老年人基础信息，于当年每季度首月在系统内将下一季度年满80周岁老年人基础信息推送到乡镇人民政府（街道办事处），由乡镇人民政府（街道办事处）组织村（社区）调查核实。基础信息准确无异的，由乡镇人民政府（街道办事处）工作人员在管理平台中作出“审核通过”意见，提交县级民政部门审核；基础信息有误、不符合发放条件的，由乡镇人民政府（街道办事处）工作人员在系统中作出“审核不通过”意见，并提交佐证材料。",
+            "locator": "扫描PDF第2—3页，四、发放程序（一）免于申报第一段"
+          },
+          "materials": null,
+          "relations": [],
+          "conditions": null,
+          "documentId": "YN_GLT_2024_113",
+          "matterName": "高龄津贴",
+          "population": null,
+          "reviewedAt": "2026-11-19",
+          "reviewedBy": "隔离技术标签",
+          "effectiveTo": null,
+          "regionCodes": [
+            "530000"
+          ],
+          "reviewStatus": "approved",
+          "effectiveFrom": "2025-01-01",
+          "documentVersion": 1,
+          "effectiveToEvidence": null,
+          "effectiveFromEvidence": {
+            "text": "2025-01-01",
+            "quote": "本通知自2025年1月1日起施行。",
+            "locator": "扫描PDF第6页，八、其他事项首句"
+          }
+        },
+        "document": {
+          "id": "YN_GLT_2024_113",
+          "title": "关于开展高龄津贴“免申即享”工作的通知（云民发〔2024〕113号）",
+          "dataset": "official",
+          "version": 1,
+          "checkedAt": "2026-11-19",
+          "checkedBy": "隔离金额记录技术预览，非政策审核",
+          "publisher": "云南省民政厅、云南省公安厅、云南省财政厅、云南省人力资源和社会保障厅、云南省卫生健康委员会、国家金融监督管理总局云南监管局",
+          "sourceUrl": "https://www.hhgj.gov.cn/info/13101/546351.htm",
+          "reviewedAt": "2026-11-19",
+          "reviewedBy": "隔离技术标签",
+          "effectiveTo": null,
+          "publishedAt": null,
+          "regionCodes": [
+            "530000"
+          ],
+          "originalPath": "data/official/longyang-allowance/sources/yn-notice-2024-113.pdf",
+          "originalText": "云南省民政厅\n\n云南省公安厅\n\n云南省财政厅\n\n云南省人力资源和社会保障厅\n\n云南省卫生健康委员会\n\n国家金融监督管理总局云南监管局\n\n文件\n\n云民发〔2024〕113号\n\n关于开展高龄津贴“免申即享”工作的通知\n\n各州（市）民政局、公安局、财政局、人力资源社会保障局、卫生健康委，各金融监管分局：\n\n为进一步推动养老服务业务流程简化，建立健全高龄津贴“免申即享”工作机制，实行“政策找人、服务上门”，切实提高老年人的获得感、幸福感、安全感。现就有关事项通知如下：\n\n一、发放对象\n\n具有云南省户籍且年满80周岁及以上（含年满80周岁当月）的老年人。年龄以公安部门制发的二代有效居民身份证（或居民户口簿）出生日期为准。\n\n二、发放标准\n\n省级高龄津贴发放标准按照年龄段共分为两档，具体如下：\n\n（一）80-99周岁，每人每月50元；\n\n（二）100周岁及以上，每人每月300元。\n\n各州（市）、县（市、区）不得低于省级发放标准、不得少于省级年龄补助层次。\n\n三、发放形式\n\n高龄津贴实行按月发放。新增对象或适用发放标准调整的对象，从老年人符合条件的当月开始，根据适用发放标准按月计算。高龄津贴应通过云南省惠民惠农财政资金“一卡通”管理平台（以下简称“管理平台”）及时发放至高龄老年人社会保障卡。代发银行机构在发放资金时同步为发放对象或其亲属免费发送资金兑付短信（模板见附件）。\n\n四、发放程序\n\n高龄津贴发放实行“免申即享”，按照“免于申报、动态核查、分类处置”方式进行办理。\n\n（一）免于申报。\n\n免去“申请”流程，依托惠民惠农财政资金“一卡通”管理平台向符合条件的老年人发放津贴。“管理平台”基于省民政厅按年度提供的即将年满80周岁老年人基础信息，于当年每季度首月在系统内将下一季度年满80周岁老年人基础信息推送到乡镇人民政府（街道办事处），由乡镇人民政府（街道办事处）组织村（社区）调查核实。基础信息准确无异的，由乡镇人民政府（街道办事处）工作人员在管理平台中作出“审核通过”意见，提交县级民政部门审核；基础信息有误、不符合发放条件的，由乡镇人民政府（街道办事处）工作人员在系统中作出“审核不通过”意见，并提交佐证材料。\n\n调查核实过程中，发现不在核查范围但户籍地在辖区范围内且下一季度即将年满80周岁的老年人，村（社区）工作人员须将核查信息（含佐证材料）报乡镇人民政府（街道办事处），由乡镇人民政府（街道办事处）工作人员将核查确认信息（含佐证材料）手动录入管理平台，并提交老年人户籍所在地县级民政部门审核。\n\n（二）动态核查。\n\n实行“政策找人、服务上门”，乡镇人民政府（街道办事处）对已享受高龄津贴的老年人信息至少每3个月进行一次核查。核查期间，各地在依托惠民惠农财政资金“一卡通”管理平台预警信息的基础上，可通过电话了解、视频通话、上门走访、邻里访问等方式进行核实确认。\n\n（三）分类处置。\n\n1.暂时无法取得联系。对核查期间无法取得联系的老年人，由乡镇人民政府（街道办事处）工作人员在系统上选择“暂停发放”，待取得联系后进行补发；存在跨年的，自完成信息核查认证当年的1月份起补发。“暂停发放”期间，须按“动态核查”要求至少每3个月进行一次核查。\n\n2.户籍确认。对于人户分离的老年人，由户籍地所在乡镇人民政府（街道办事处）或村（社区）与老年人通过电话联系或其他方式确认其相关信息，户籍地根据与老年人确认的信息进行发放。对发现迁移户籍的老年人，迁入地县级民政部门须及时与迁出地县级民政部门对接，做好发放情况的信息比对，避免漏发或重发。户籍迁出县级行政区域的，从户籍迁出次月起停止发放补贴；户籍迁入新的县级行政区域，从户籍迁入次月起开始发放补贴。\n\n3.去世。发现老年人去世的，村（社区）工作人员将佐证材料报乡镇人民政府（街道办事处）后，由乡镇人民政府（街道办事处）工作人员在系统上选择“停止发放”并上传佐证材料，并在其死亡之日起3个月内办理完成停发手续。\n\n五、特殊事项管理\n\n（一）严格控制特殊备案和特殊补贴对象发放。补贴资金原则上应发放至本人社会保障卡，对确因存在无法办理身份证、死亡后仍有补助应发放、不能配合的失智或重度精神病患者等情形无法办理社会保障卡并激活社保卡金融账户的高龄老年人，高龄津贴资金可以在惠民惠农财政资金“一卡通”管理平台的“特殊补贴对象银行账户维护”模块中发放。同时，采取代为领取方式发放高龄津贴的也纳入“特殊补贴对象银行账户维护”模块管理，并在人员信息中予以标注，备案备查。应坚持本人自愿和补贴资金始终由享受补贴人员享受的原则，严格按照云南省财政厅等14部门《关于惠民惠农财政补贴资金特殊补贴对象补贴发放有关情况处理意见的通知》（云财农〔2022〕249号）相关规定执行。\n\n（二）积极协调社会保障卡办理及使用。对未办理社会保障卡或未开通社会保障卡金融功能的老年人，根据实际情况，引导、督促、帮助老年人到人力资源社会保障部门、银行申办并激活社会保障卡。对行动不便的高龄老年人，当地民政部门要积极协调人力资源社会保障部门、银行上门办理，有效提高高龄津贴享受人员持卡率，确保高龄津贴及时、高效发放到享受补助的高龄老年人本人社会保障卡账户。\n\n六、职责分工\n\n县级民政部门具体负责本行政区域内符合条件的老年人资格审定、高龄津贴发放和监督管理等工作。各乡镇人民政府（街道办事处）负责高龄津贴发放相关组织实施工作。村（社区）配合做好相关政策宣传和告知提醒等工作。公安部门配合民政部门定期开展高龄老人身份信息、户口注销、迁移等信息核查。人力资源社会保障部门负责协助民政部门定期提供下一年度即将年满80周岁老年人参加基本养老保险基础信息情况，并与民政部门定期开展高龄老人社会保障卡匹配和死亡信息交叉比对。卫生健康部门负责协助民政部门定期开展高龄老人死亡信息比对。\n\n七、工作要求\n\n（一）加强组织领导。各级民政、公安、财政、人力资源社会保障、卫生健康部门要充分认识高龄津贴“免申即享”工作的重要性，建立健全相关工作机制，确保高龄津贴制度落实到位。各乡镇人民政府（街道办事处）要切实履行职责，具体经办工作人员必须强化保密意识、严守保密规定，所有人员数据信息不得外泄。\n\n（二）加强资金保障。各级财政部门按规定做好高龄津贴资金保障。配合民政部门加强高龄津贴资金监管，杜绝出现挤占、挪用、截留和套取等违法行为。\n\n（三）加强社会监督。各州（市）民政部门应当督促辖区内各县（市、区）民政部门严格按照《民政部办公厅关于印发社会救助和养老服务领域基层政务公开标准指引的通知》（民办函〔2019〕52号）要求，定期向社会公布高龄津贴发放工作需公开的内容，接受社会监督。同时，建立健全投诉举报机制，对违法违规行为进行严肃查处，维护老年人的合法权益。\n\n（四）加强宣传引导。各级民政部门要通过当地政府门户网站、公共媒体、网络平台、公告栏等方式，广泛宣传高龄津贴“免申即享”政策，提高社会公众知晓度。\n\n八、其他事项\n\n本通知自2025年1月1日起施行。同时，《云南省民政厅 云南省财政厅关于认真做好80周岁以上老年人保健补助和百岁以上老年人长寿补助发放工作的通知》（云民办〔2009〕12号）和《云南省民政厅 云南省财政厅关于进一步规范高龄津贴发放管理工作的通知》（云民发〔2022〕71号）废止。\n\n附件：资金兑付短信模版\n\n云南省民政厅\n\n云南省公安厅\n\n云南省财政厅\n\n云南省人力资源和社会保障厅\n\n云南省卫生健康委员会\n\n国家金融监督管理总局云南监管局\n\n2024年11月19日\n\n（此件主动公开）\n\n附件\n\n资金兑付短信模版\n\n发放津贴短信模版：“您好！您的尾号XXXX的个人账户，于XX年XX月XX日收到XX县（市、区）民政局XX年XX月老年人高龄津贴XX元，发放周期为按月，这是党和政府的惠民惠农政策”。\n\n云南省民政厅办公室\n\n2024年11月20日印发\n",
+          "reviewStatus": "approved",
+          "effectiveFrom": "2025-01-01",
+          "effectiveToEvidence": null,
+          "effectiveFromEvidence": {
+            "text": "2025-01-01",
+            "quote": "本通知自2025年1月1日起施行。",
+            "locator": "扫描PDF第6页，八、其他事项首句"
+          }
+        },
+        "clauseChecksum": "0833456f7dc1e8bf49527832054360bf32a71c10fd8896262191984bccddf58d",
+        "documentChecksum": "9ec52601054fafd68391c86c224853bc102dee90592cebde5e0e9dfaf9fec57c",
+        "originalTextChecksum": "6348264dc3e757fff7443bf517c4c5a43580c566804f1febd4b081ccc5a8ff40",
+        "source": {
+          "clauseId": "YN_GLT_AUTO_PROCESS",
+          "clauseVersion": 1,
+          "documentId": "YN_GLT_2024_113",
+          "documentVersion": 1,
+          "title": "关于开展高龄津贴“免申即享”工作的通知（云民发〔2024〕113号）",
+          "quote": "高龄津贴发放实行“免申即享”，按照“免于申报、动态核查、分类处置”方式进行办理。\n\n（一）免于申报。\n\n免去“申请”流程，依托惠民惠农财政资金“一卡通”管理平台向符合条件的老年人发放津贴。“管理平台”基于省民政厅按年度提供的即将年满80周岁老年人基础信息，于当年每季度首月在系统内将下一季度年满80周岁老年人基础信息推送到乡镇人民政府（街道办事处），由乡镇人民政府（街道办事处）组织村（社区）调查核实。基础信息准确无异的，由乡镇人民政府（街道办事处）工作人员在管理平台中作出“审核通过”意见，提交县级民政部门审核；基础信息有误、不符合发放条件的，由乡镇人民政府（街道办事处）工作人员在系统中作出“审核不通过”意见，并提交佐证材料。",
+          "locator": "扫描PDF第2—3页，四、发放程序（一）免于申报第一段",
+          "url": "https://www.hhgj.gov.cn/info/13101/546351.htm"
+        },
+        "relations": [],
+        "timeStatus": "dates_recorded",
+        "unknownEnd": true,
+        "publication": {
+          "sequence_id": 13,
+          "kind": "clause",
+          "id": "YN_GLT_AUTO_PROCESS",
+          "version": 1,
+          "decision": "approved",
+          "actor": "隔离技术标签",
+          "reason": "仅测试发布事件，不代表政策审核",
+          "reviewed_at": "2026-11-19T06:17:56.851Z"
+        },
+        "sourcePublication": {
+          "sequence_id": 1,
+          "kind": "document",
+          "id": "YN_GLT_2024_113",
+          "version": 1,
+          "decision": "approved",
+          "actor": "隔离技术标签",
+          "reason": "仅测试发布事件，不代表政策审核",
+          "reviewed_at": "2026-11-19T06:17:56.778Z"
+        }
+      },
+      {
+        "clause": {
+          "id": "LY_GLT_2026Q2_APPLICATION_NOTE",
+          "quote": "隆阳区户籍年满80周岁老人经本人申请，按照村（社区）调查、乡镇审核、民政局审批程序，对符合条件的高龄老人发放高龄补贴和长寿补助，80-99周岁老人每月50元标准发放高龄补贴，100周岁以上老人每月1000元标准发放长寿补助。",
+          "actions": [
+            {
+              "text": "备注中的办理流程原文，待与免申即享文件共同核对",
+              "quote": "隆阳区户籍年满80周岁老人经本人申请，按照村（社区）调查、乡镇审核、民政局审批程序，对符合条件的高龄老人发放高龄补贴和长寿补助，80-99周岁老人每月50元标准发放高龄补贴，100周岁以上老人每月1000元标准发放长寿补助。",
+              "locator": "正文表1备注"
+            }
+          ],
+          "dataset": "official",
+          "locator": "正文表1备注",
+          "version": 1,
+          "channels": null,
+          "contacts": null,
+          "location": null,
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "schedule": null,
+          "materials": null,
+          "relations": [],
+          "conditions": null,
+          "documentId": "LY_GLT_2026Q2_DISCLOSURE",
+          "matterName": "高龄津贴与长寿补助",
+          "population": null,
+          "reviewedAt": "2026-11-19",
+          "reviewedBy": "隔离技术标签",
+          "effectiveTo": null,
+          "regionCodes": [
+            "530502"
+          ],
+          "reviewStatus": "approved",
+          "effectiveFrom": null,
+          "documentVersion": 1,
+          "effectiveToEvidence": null,
+          "effectiveFromEvidence": null
+        },
+        "document": {
+          "id": "LY_GLT_2026Q2_DISCLOSURE",
+          "title": "隆阳区2026年二季度高龄补贴、长寿补助发放明细",
+          "dataset": "official",
+          "version": 1,
+          "checkedAt": "2026-11-19",
+          "checkedBy": "隔离金额记录技术预览，非政策审核",
+          "publisher": "隆阳区民政局",
+          "sourceUrl": "https://www.longyang.gov.cn/info/2861/14118239.htm",
+          "reviewedAt": "2026-11-19",
+          "reviewedBy": "隔离技术标签",
+          "effectiveTo": null,
+          "publishedAt": "2026-06-23",
+          "regionCodes": [
+            "530502"
+          ],
+          "originalPath": "../data/official/longyang-pilot/supplement-2026-11-19/sources/LY-2026Q2.html",
+          "originalText": "隆阳区2026年二季度高龄补贴、长寿补助发放明细\n\n季 度 | 月 份 | 人 数 | 发放金额（元） | 备 注\n第二季度 | 四 月 | 24180 | 1250550 | 隆阳区户籍年满80周岁老人经本人申请，按照村（社区）调查、乡镇审核、民政局审批程序，对符合条件的高龄老人发放高龄补贴和长寿补助，80-99周岁老人每月50元标准发放高龄补贴，100周岁以上老人每月1000元标准发放长寿补助。\n五 月 | 24252 | 1250900\n六 月 | 24363 | 1257100\n",
+          "reviewStatus": "approved",
+          "effectiveFrom": null,
+          "effectiveToEvidence": null,
+          "effectiveFromEvidence": null
+        },
+        "clauseChecksum": "1e3cfd4fe17cd7f70f63493d2cc837d1df9c36aff4cdc696ff36672097ebc317",
+        "documentChecksum": "2bd4c58f1ee42bd29b54794fbbe4cd8c37110d6a0927877b2219695e751a29ad",
+        "originalTextChecksum": "2fc1195257ed01cb7bf198d81184e7b839991fe01ec22964417ed245d8ef00af",
+        "source": {
+          "clauseId": "LY_GLT_2026Q2_APPLICATION_NOTE",
+          "clauseVersion": 1,
+          "documentId": "LY_GLT_2026Q2_DISCLOSURE",
+          "documentVersion": 1,
+          "title": "隆阳区2026年二季度高龄补贴、长寿补助发放明细",
+          "quote": "隆阳区户籍年满80周岁老人经本人申请，按照村（社区）调查、乡镇审核、民政局审批程序，对符合条件的高龄老人发放高龄补贴和长寿补助，80-99周岁老人每月50元标准发放高龄补贴，100周岁以上老人每月1000元标准发放长寿补助。",
+          "locator": "正文表1备注",
+          "url": "https://www.longyang.gov.cn/info/2861/14118239.htm"
+        },
+        "relations": [],
+        "timeStatus": "needs_review",
+        "unknownEnd": true,
+        "publication": {
+          "sequence_id": 25,
+          "kind": "clause",
+          "id": "LY_GLT_2026Q2_APPLICATION_NOTE",
+          "version": 1,
+          "decision": "approved",
+          "actor": "隔离技术标签",
+          "reason": "仅测试发布事件，不代表政策审核",
+          "reviewed_at": "2026-11-19T06:17:56.924Z"
+        },
+        "sourcePublication": {
+          "sequence_id": 8,
+          "kind": "document",
+          "id": "LY_GLT_2026Q2_DISCLOSURE",
+          "version": 1,
+          "decision": "approved",
+          "actor": "隔离技术标签",
+          "reason": "仅测试发布事件，不代表政策审核",
+          "reviewed_at": "2026-11-19T06:17:56.819Z"
+        }
+      },
+      {
+        "clause": {
+          "id": "LY_MZ_ELDERLY_CONTACT",
+          "quote": "（五）老龄工作和养老服务股。承担隆阳区老龄工作委员会办公室的具体工作。组织协调落实积极应对人口老龄化的政策措施，指导协调老年人权益保障工作，组织开展人口老龄化国情宣传教育，贯彻老年人社会参与政策并组织实施，承担老年人口状况、老龄事业发展的统计调查工作。组织协调落实促进养老事业发展的政策措施，承担老年人福利工作，落实老年人福利补贴制度和养老服务体系建设规划、政策、标准，协调推进农村留守老年人关爱服务工作，指导养老服务机构、老年人福利机构、特困人员救助供养机构管理工作。\n\n电话： 0875- 2229150",
+          "actions": null,
+          "dataset": "official",
+          "locator": "内设机构（五）老龄工作和养老服务股及其电话",
+          "version": 1,
+          "channels": null,
+          "contacts": [
+            {
+              "text": "隆阳区民政局老龄工作和养老服务股：0875-2229150",
+              "quote": "（五）老龄工作和养老服务股。承担隆阳区老龄工作委员会办公室的具体工作。组织协调落实积极应对人口老龄化的政策措施，指导协调老年人权益保障工作，组织开展人口老龄化国情宣传教育，贯彻老年人社会参与政策并组织实施，承担老年人口状况、老龄事业发展的统计调查工作。组织协调落实促进养老事业发展的政策措施，承担老年人福利工作，落实老年人福利补贴制度和养老服务体系建设规划、政策、标准，协调推进农村留守老年人关爱服务工作，指导养老服务机构、老年人福利机构、特困人员救助供养机构管理工作。\n\n电话： 0875- 2229150",
+              "locator": "内设机构（五）及其电话"
+            }
+          ],
+          "location": null,
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "schedule": null,
+          "materials": null,
+          "relations": [],
+          "conditions": null,
+          "documentId": "LY_MZ_ORGANIZATION",
+          "matterName": "高龄津贴与长寿补助",
+          "population": null,
+          "reviewedAt": "2026-11-19",
+          "reviewedBy": "隔离技术标签",
+          "effectiveTo": null,
+          "regionCodes": [
+            "530502"
+          ],
+          "reviewStatus": "approved",
+          "effectiveFrom": null,
+          "documentVersion": 1,
+          "effectiveToEvidence": null,
+          "effectiveFromEvidence": null
+        },
+        "document": {
+          "id": "LY_MZ_ORGANIZATION",
+          "title": "组织机构-隆阳区人民政府门户网站",
+          "dataset": "official",
+          "version": 1,
+          "checkedAt": "2026-11-19",
+          "checkedBy": "隔离金额记录技术预览，非政策审核",
+          "publisher": "隆阳区民政局",
+          "sourceUrl": "https://longyang.gov.cn/xxgk/bm/lyqmzj/fdzdgknr/zzjg.htm",
+          "reviewedAt": "2026-11-19",
+          "reviewedBy": "隔离技术标签",
+          "effectiveTo": null,
+          "publishedAt": null,
+          "regionCodes": [
+            "530502"
+          ],
+          "originalPath": "../data/official/longyang-pilot/supplement-2026-11-19/sources/LY-MZ-CONTACT.html",
+          "originalText": "组织机构-隆阳区人民政府门户网站\n\n办公地址：云南省保山市隆阳区永昌文化园1号\n\n联系电话：0875-2229151\n\n办公时间：每周一至周五（法定节假日除外）8：00—11：30 ，14：30—17：30\n\n根据《中共保山市委办公室保山市人民政府办公室关于印发〈保山市隆阳区民政局职能配置、内设机构和人员编制规定〉的通知》（隆办发〔 2019〕70号）精神，我局职能职责如下：\n\n第一条 保山市隆阳区民政局是保山市隆阳区人民政府工作部门，为正科级。\n\n第二条 保山市隆阳区民政局贯彻执行党中央和省市区委关于民政工作的方针政策和决策部署，在履行职责过程中坚持和加强党对民政工作的集中统一领导，主要职责是：\n\n（一）拟订全区民政事业发展规划并组织实施和监督检查。\n\n（二）贯彻执行社会团体、基金会、社会服务机构等社会组织登记和监督管理办法，依法对社会组织进行登记管理和执法监督。负责区级新登记成立无业务主管单位的社会组织和区级与行政机关脱钩后的行业协会商会的党建工作。\n\n（三）贯彻执行全区社会救助政策、标准，统筹社会救助体系建设，负责城乡居民最低生活保障、特困人员救助供养、临时救助、 60年代精简退职职工生活补助、生活无着流浪乞讨人员救助、脱贫攻坚社会救助兜底保障工作。\n\n（四）贯彻执行行政区划、行政区域界线管理和地名管理政策、办法，负责报省人民政府、市人民政府审批的行政区划设立、撤销、命名、变更和政府驻地迁移审核申报工作，负责全区乡级行政区域界线的勘定、管理工作。负责全区地名管理工作，负责全区重要自然地理实体的命名、更名的审核申报工作，指导乡镇（街道）开展地名工作。\n\n（五）贯彻落实城乡基层群众自治建设和社区治理政策，建立健全城乡社区治理体系，加强治理能力建设，推动基层民主政治建设。\n\n（六）负责婚姻管理政策的执行，推进婚俗改革。\n\n（七）负责殡葬管理政策的执行，推进殡葬改革，规范殡葬服务行业管理。负责对公益性公墓、经营性公墓、丧葬行为进行监督管理。负责依法开展殡葬执法工作。\n\n（八）贯彻落实残疾人权益保护政策，统筹推进残疾人福利制度建设和康复辅助器具产业发展。\n\n（九）统筹推进、督促指导、监督管理养老服务工作，拟订老年人福利补贴制度和养老服务体系建设规划、政策、标准并组织实施。承担老年人福利和特殊困难老年人救助工作。\n\n（十）负责儿童福利、孤弃儿童保障、儿童收养、儿童救助保护政策、标准的执行，健全农村留守儿童关爱服务体系和困境儿童保障制度。\n\n（十一）贯彻落实促进慈善事业发展政策，指导社会捐助工作，负责福利彩票相关工作。\n\n（十二）负责加强社会工作专业人才管理机构和队伍建设，贯彻落实社会工作、志愿服务政策和标准，会同有关部门推进志愿者队伍建设。\n\n（十三）行政审批事项按照保山市隆阳区人民政府公布的权责清单办理。\n\n（十四）完成区委、区政府交办的其他任务。\n\n保山市隆阳区民政局内设6个机构：\n\n（一）办公室。负责机关日常运转工作。负责局机关及所属单位党群工作、干部人事工作。负责文电、会务、安全、档案、 信访、意识形态、机要、保密、信息、政务公开、督办、后勤保障、电子政务等工作。综合协调行政复议、行政应诉等工作。组织办理人大代表建议和政协提案。负责对外综合协调工作。梳理上报部门权责清单。拟订民政事业发展规划、民政基础设施建设标准、财务规章。监管民政事业资金的使用管理。负责福利彩票资金使用相关工作。承担民政项目、民政统计管理和机关及所属单位预决算、财务、资产管理等工作。\n\n电话：0875-2229151\n\n（二）社会组织管理和社会事务股。贯彻执行国家和省有关社会团体、基金会、社会服务机构等社会组织登记办法，负责权限内社会组织的监督管理工作。贯彻执行社会组织执法监督办法。负责权限内登记的社会组织年度检查、分类评估和执法监督。 受理有关投诉和举报，依法查处违法、违规行为和取缔非法社会组织。负责婚姻管理政策的执行，推进婚俗改革。负责婚姻登记管理工作。贯彻落实残疾人权益保护政策，统筹推进残疾人福利制度建设和康复辅助器具产业发展。指导残疾人社会福利、生活无着流浪乞讨人员救助管理服务机构相关工作，负责困难残疾人生活补贴和重度残疾人护理补贴发放工作。指导开展家庭暴力受害人临时庇护救助工作。负责殡葬管理政策的执行，推进殡葬改革，规范殡葬服务行业管理。负责公益性公墓、经营性公墓、丧葬行为的监督管理。指导殡葬服务机构相关工作。负责依法开展殡葬执法工作。深化“放管服”改革优化营商环境，统筹做好单位行政审批事项。\n\n电话：0875-2229157\n\n（三）社会救助股。贯彻执行全区城乡居民最低生活保障、 特困人员救助供养、临时救助等社会救助政策和标准，健全城乡社会救助体系，负责社会救助兜底保障工作。负责社会救助资金的分配、监管、社会化发放等工作。负责企业未参保职工补助及60年代精减退职职工生活补助工作。参与拟订全区医疗、住房、 教育、就业、司法救助等相关专项社会救助办法。负责全区城乡社会救助信息系统管理工作。\n\n电话：0875-2218379\n\n（四）区划地名股。执行中央、省委、市委对行政区划工作的决策部署，负责组织研究行政区划工作思路建议，承担行政区划设立、命名、变更和政府驻地迁移申报工作。负责全区乡级行政区域界线的联检和管理工作。负责全区与邻县之间的边界联检及界务管理工作。按照地名管理政策、标准，组织开展全区地名管理工作。协助做好基层治理、基层政权建设中涉及村民委员会、 居民委员会需以政府名义开展的工作。\n\n电话：0875-2229197\n\n（五）老龄工作和养老服务股。承担隆阳区老龄工作委员会办公室的具体工作。组织协调落实积极应对人口老龄化的政策措施，指导协调老年人权益保障工作，组织开展人口老龄化国情宣传教育，贯彻老年人社会参与政策并组织实施，承担老年人口状况、老龄事业发展的统计调查工作。组织协调落实促进养老事业发展的政策措施，承担老年人福利工作，落实老年人福利补贴制度和养老服务体系建设规划、政策、标准，协调推进农村留守老年人关爱服务工作，指导养老服务机构、老年人福利机构、特困人员救助供养机构管理工作。\n\n电话： 0875- 2229150\n\n（六）儿童福利和慈善事业促进股。贯彻执行儿童福利、孤弃儿童保障、儿童收养、儿童救助保护政策、标准。负责农村留守儿童关爱保护和困境儿童保障工作。负责收养登记管理工作。 负责区级慈善组织监督管理工作。贯彻落实促进慈善事业发展政策和慈善信托、慈善组织及其活动管理办法，指导慈善行业开展慈善活动。负责指导社会捐助工作。\n\n电话：0875- 2229164\n\n直属单位办公地址及联系电话\n\n（一）隆阳区救助管理站\n\n办公地址：隆阳区兰城街道湾子社区152号\n\n联系电话：0875-2217910\n\n（二）隆阳区殡仪馆\n\n办公地址：隆阳区永昌街道杏花社区黄纸房村孝感小区108号\n\n联系电话：0875- 2214179\n\n（三）隆阳区敬老院\n\n办公地址：隆阳区永昌街道红庙社区山脚村2号\n\n联系电话：0875- 2195565\n",
+          "reviewStatus": "approved",
+          "effectiveFrom": null,
+          "effectiveToEvidence": null,
+          "effectiveFromEvidence": null
+        },
+        "clauseChecksum": "e97ef70c1ebfcc2b53d11b2c86c4e7a33dfffba95037ce1395cfc69df3454656",
+        "documentChecksum": "80e6eef4dc6d27a347b2a0609fab4d2d15e7a36725b9ab6e42e4a570e8d4563c",
+        "originalTextChecksum": "7cadb0953bd150b542bf3f7edfeee03124a495498fa39f5c9f6f8cc121ce9344",
+        "source": {
+          "clauseId": "LY_MZ_ELDERLY_CONTACT",
+          "clauseVersion": 1,
+          "documentId": "LY_MZ_ORGANIZATION",
+          "documentVersion": 1,
+          "title": "组织机构-隆阳区人民政府门户网站",
+          "quote": "（五）老龄工作和养老服务股。承担隆阳区老龄工作委员会办公室的具体工作。组织协调落实积极应对人口老龄化的政策措施，指导协调老年人权益保障工作，组织开展人口老龄化国情宣传教育，贯彻老年人社会参与政策并组织实施，承担老年人口状况、老龄事业发展的统计调查工作。组织协调落实促进养老事业发展的政策措施，承担老年人福利工作，落实老年人福利补贴制度和养老服务体系建设规划、政策、标准，协调推进农村留守老年人关爱服务工作，指导养老服务机构、老年人福利机构、特困人员救助供养机构管理工作。\n\n电话： 0875- 2229150",
+          "locator": "内设机构（五）老龄工作和养老服务股及其电话",
+          "url": "https://longyang.gov.cn/xxgk/bm/lyqmzj/fdzdgknr/zzjg.htm"
+        },
+        "relations": [],
+        "timeStatus": "needs_review",
+        "unknownEnd": true,
+        "publication": {
+          "sequence_id": 26,
+          "kind": "clause",
+          "id": "LY_MZ_ELDERLY_CONTACT",
+          "version": 1,
+          "decision": "approved",
+          "actor": "隔离技术标签",
+          "reason": "仅测试发布事件，不代表政策审核",
+          "reviewed_at": "2026-11-19T06:17:56.930Z"
+        },
+        "sourcePublication": {
+          "sequence_id": 9,
+          "kind": "document",
+          "id": "LY_MZ_ORGANIZATION",
+          "version": 1,
+          "decision": "approved",
+          "actor": "隔离技术标签",
+          "reason": "仅测试发布事件，不代表政策审核",
+          "reviewed_at": "2026-11-19T06:17:56.825Z"
+        }
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "530502_2026-01",
+      "passed": true,
+      "expected": [
+        350
+      ],
+      "actual": [
+        350
+      ]
+    },
+    {
+      "name": "source_and_period_530502_2026-01",
+      "passed": true
+    },
+    {
+      "name": "530502_2026-02",
+      "passed": true,
+      "expected": [
+        350
+      ],
+      "actual": [
+        350
+      ]
+    },
+    {
+      "name": "source_and_period_530502_2026-02",
+      "passed": true
+    },
+    {
+      "name": "530502_2026-08",
+      "passed": true,
+      "expected": [
+        1000
+      ],
+      "actual": [
+        1000
+      ]
+    },
+    {
+      "name": "source_and_period_530502_2026-08",
+      "passed": true
+    },
+    {
+      "name": "530502_2026-09",
+      "passed": true,
+      "expected": [
+        1000
+      ],
+      "actual": [
+        1000
+      ]
+    },
+    {
+      "name": "source_and_period_530502_2026-09",
+      "passed": true
+    },
+    {
+      "name": "530521_2026-02",
+      "passed": true,
+      "expected": [
+        1000
+      ],
+      "actual": [
+        1000
+      ]
+    },
+    {
+      "name": "source_and_period_530521_2026-02",
+      "passed": true
+    },
+    {
+      "name": "530502_2026-03",
+      "passed": true,
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "source_and_period_530502_2026-03",
+      "passed": true
+    },
+    {
+      "name": "530502_2026-11",
+      "passed": true,
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "source_and_period_530502_2026-11",
+      "passed": true
+    },
+    {
+      "name": "UNKNOWN_REGION_2026-09",
+      "passed": true,
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "source_and_period_UNKNOWN_REGION_2026-09",
+      "passed": true
+    },
+    {
+      "name": "quarterly_is_context_not_monthly",
+      "passed": true
+    },
+    {
+      "name": "unknown_statistical_year_retained",
+      "passed": true
+    },
+    {
+      "name": "card_effective_2025-12-31",
+      "passed": true,
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "card_effective_2026-01-01",
+      "passed": true,
+      "expected": 3,
+      "actual": 3
+    },
+    {
+      "name": "conflicting_flow_evidence_and_official_contact",
+      "passed": true
+    }
+  ],
+  "summary": {
+    "passed": 21,
+    "total": 21,
+    "failed": 0
+  },
+  "businessGuideEvaluation": "not_executed",
+  "manualPolicyReview": "pending"
+}

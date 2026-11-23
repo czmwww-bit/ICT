@@ -1,0 +1,235 @@
+{
+  "id": "ece0b6d8-4016-4ccc-a936-058f8f3810fc",
+  "startedFor": [
+    "YB01",
+    "YB02",
+    "YB03",
+    "YB04",
+    "YB05",
+    "YB06",
+    "YB09",
+    "YB10",
+    "YB11",
+    "YB12",
+    "YB13",
+    "YB14",
+    "YB15",
+    "YB16",
+    "YB17",
+    "YB18",
+    "YB19",
+    "YB20"
+  ],
+  "completedAt": "2026-11-23T00:45:39.036Z",
+  "results": [
+    {
+      "sourceId": "YB01",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:28.755Z",
+      "fingerprint": "c1514485958fcc063e03acf3f25ebb5078642bc333c82325fb9aa4be5cefb260",
+      "rawHash": "c37485b50c7b1bbcd0e59bd18f93207caf7414709bb6ef57f0b95df0013cfea4",
+      "rawSnapshot": "blobs/c37485b50c7b1bbcd0e59bd18f93207caf7414709bb6ef57f0b95df0013cfea4.html",
+      "bodyHash": "f2f0731e6e0be8a2fa2b6804b36b73f49f84585bdda6b0796fdb1bf563ffc307"
+    },
+    {
+      "sourceId": "YB02",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:29.508Z",
+      "fingerprint": "8fbe3655ea08caad15fbf24d7fd3a8bb22f6035becb34156c6549dae7df763db",
+      "rawHash": "7cf77180e42694dfe7e3b2d85e0084cf2bc9f0fa8fc32ebfdbe970ca20ccc522",
+      "rawSnapshot": "blobs/7cf77180e42694dfe7e3b2d85e0084cf2bc9f0fa8fc32ebfdbe970ca20ccc522.html",
+      "bodyHash": "d9d0e46147c2d502d12ecd88c371223612e175109cdfd3b28772890d61d89f8e"
+    },
+    {
+      "sourceId": "YB03",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:29.706Z",
+      "fingerprint": "81cea1fa99049ff3a1bb9f9a63b52828a25a17251ce8374a8ee86946b0c599ef",
+      "rawHash": "ac8b88b4d6d277aa33367ccb172e3a104d3fccb2fc78ee2cf4d5bf7fe504899e",
+      "rawSnapshot": "blobs/ac8b88b4d6d277aa33367ccb172e3a104d3fccb2fc78ee2cf4d5bf7fe504899e.html",
+      "bodyHash": "0825b3d63b429346cde036470c9e7ee582991c6f5e87b47c6e40bfb05a2158a6"
+    },
+    {
+      "sourceId": "YB04",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:30.017Z",
+      "fingerprint": "27799402126011b6761c3eae40b9beb2b34a06441cea119f7420fbffdd562a06",
+      "rawHash": "8d563314f534070a8d4a86d3395ec06b7212e3ea24bd50a3a1c669eb0a6ee9e9",
+      "rawSnapshot": "blobs/8d563314f534070a8d4a86d3395ec06b7212e3ea24bd50a3a1c669eb0a6ee9e9.html",
+      "bodyHash": "56899c9bf77f7d4cc88a0a81ed026547db1706ad8eb35fab8d4ca775f373ab08"
+    },
+    {
+      "sourceId": "YB05",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:30.378Z",
+      "fingerprint": "5a6269728297c6502229b154942f4c11bf213bcf9fd8b180b7c8c2d83e37469f",
+      "rawHash": "e0bfb207bcc27102c0ab079041b7b7d2a919a0930f36c6f5482b4f20254a7d3a",
+      "rawSnapshot": "blobs/e0bfb207bcc27102c0ab079041b7b7d2a919a0930f36c6f5482b4f20254a7d3a.html",
+      "bodyHash": "47df5c58d6d68d7245dcb39f0e8feb63524982f53dcf4d51d1c3b124ab49622f"
+    },
+    {
+      "sourceId": "YB06",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:31.079Z",
+      "fingerprint": "9b8ceada8825a1a793ab170a3e706afed8e169338f41bf554be6c0999db8a3d4",
+      "rawHash": "8c267007277a7b9153665b903fdb953277d94c7f927d0183db4a65b6daee67dd",
+      "rawSnapshot": "blobs/8c267007277a7b9153665b903fdb953277d94c7f927d0183db4a65b6daee67dd.html",
+      "bodyHash": "8e35318c7411fafe3f4f10982638764b051414526a4e6633031c9763289a5f57"
+    },
+    {
+      "sourceId": "YB09",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:31.344Z",
+      "fingerprint": "c052cf361c27ee540a708b99fc4919a41583e2669d6493c680f97b775183c52f",
+      "rawHash": "5bc90ead3361126e9ecd23c6f4fb9e9cc6f6d1f1b495baa03c4ec0b4c67ccc20",
+      "rawSnapshot": "blobs/5bc90ead3361126e9ecd23c6f4fb9e9cc6f6d1f1b495baa03c4ec0b4c67ccc20.html",
+      "bodyHash": "495f211aaa8ef14f8f42bb429574b901e7a4721f88677a315657148a837db7a7"
+    },
+    {
+      "sourceId": "YB10",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:31.582Z",
+      "fingerprint": "9b30aa929a9e3dd474cf3e04ff19b7bf091c36ec4cc7a2144d6079719c3b14c6",
+      "rawHash": "b3cf3e85ba3f2b20178be131c367b1332200351877b346762693f7c55ab296ed",
+      "rawSnapshot": "blobs/b3cf3e85ba3f2b20178be131c367b1332200351877b346762693f7c55ab296ed.html",
+      "bodyHash": "d970bb068206cba112fe4736039f43f6c4ed4faa072824c282e14c9190911f33"
+    },
+    {
+      "sourceId": "YB11",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:32.000Z",
+      "fingerprint": "e23dd3a0ae7d02fff4ea8110c57ee9d94b8d4ded4b408aa3c4d8cb0b5ff44bf4",
+      "rawHash": "dc23cdc03bb8528438e35e001d0df5c2ad68ac8b8af34652d45d4218c7176e7d",
+      "rawSnapshot": "blobs/dc23cdc03bb8528438e35e001d0df5c2ad68ac8b8af34652d45d4218c7176e7d.html",
+      "bodyHash": "d7d6199c52f91271332cead3263fdfe1d1313171b5d5f3829d9daa597f7c9b7a"
+    },
+    {
+      "sourceId": "YB12",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:32.211Z",
+      "fingerprint": "4550c7328b81e7d0d1ef0dcf24450b8902109ecaee9850d5d2176aa7e7ef170b",
+      "rawHash": "a67283ba8fb94766989947b87a1120cd43baa059c2f99aaaa1f3be2d1ed4887e",
+      "rawSnapshot": "blobs/a67283ba8fb94766989947b87a1120cd43baa059c2f99aaaa1f3be2d1ed4887e.html",
+      "bodyHash": "77881f4485c156e55b92900278f01215cd6fccb430cd42afc4ccd40c5f06dd8b"
+    },
+    {
+      "sourceId": "YB13",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:32.735Z",
+      "fingerprint": "423fcca44dca2d80fcbbba586760cf2840ebfb8572a3dfd0faf38ee312d91c18",
+      "rawHash": "9975069fcedf68e97c968a326e2547ee4902b6f158eca456b5336c34f8f05368",
+      "rawSnapshot": "blobs/9975069fcedf68e97c968a326e2547ee4902b6f158eca456b5336c34f8f05368.html",
+      "bodyHash": "61e53b7d8cf075d5d5abedf3de67558a5f8f320149159bc5420e2f80e180b48a"
+    },
+    {
+      "sourceId": "YB14",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:33.108Z",
+      "fingerprint": "b2b7f40e5acba0de9e2e7487f75930692846bd2c49d72fb90e22abcbd592e33e",
+      "rawHash": "d6b1fd51d4f37e6fa9ef6346ff0cbcef317a1a4e3cfc0a03bf1188aa0c6219fb",
+      "rawSnapshot": "blobs/d6b1fd51d4f37e6fa9ef6346ff0cbcef317a1a4e3cfc0a03bf1188aa0c6219fb.html",
+      "bodyHash": "5f50bc25c0140039773def3286ffe8a12697ab7305527e018cff3539bfefa278"
+    },
+    {
+      "sourceId": "YB15",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:33.607Z",
+      "fingerprint": "07478a0c3748420232fae3ab2b460d8ff440bddf5efbb158945f883186bb1f7a",
+      "rawHash": "fc3fa5557dba3fd6cbf3352889c8015630685e9aaf833c0cf1979b586e202900",
+      "rawSnapshot": "blobs/fc3fa5557dba3fd6cbf3352889c8015630685e9aaf833c0cf1979b586e202900.html",
+      "bodyHash": "766091a2430ea8a4a6dfcdaf81454783e5cd164489df26f6317286640a4b1c18"
+    },
+    {
+      "sourceId": "YB16",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:33.854Z",
+      "fingerprint": "04f7f14e9ea8c43770f60c32227722e79ec6c0d7c1bd6e8e9984623a700be640",
+      "rawHash": "2c70e09064cd2b9e83f827fdff1b27e9ccd20a270881dfa00b152593c3cb6f54",
+      "rawSnapshot": "blobs/2c70e09064cd2b9e83f827fdff1b27e9ccd20a270881dfa00b152593c3cb6f54.html",
+      "bodyHash": "8f709308bee120a966def01e424d26320923d609cba76aeb7a6e7f1f2537ff07"
+    },
+    {
+      "sourceId": "YB17",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:34.065Z",
+      "fingerprint": "4ff7ffa1674b79dbd74ff67fc1333e89a67d32d5ab7b77816d29b40a2faece79",
+      "rawHash": "55ea8b1e456c3a1b86f0813bb5396e50511c0b325f5b7a6c555db75c2c0656fd",
+      "rawSnapshot": "blobs/55ea8b1e456c3a1b86f0813bb5396e50511c0b325f5b7a6c555db75c2c0656fd.html",
+      "bodyHash": "b630facfac3299d351190fd42016fb238ddeb4c5e6afaec90e67b8ba1a4ff271"
+    },
+    {
+      "sourceId": "YB18",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [
+        {
+          "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202611/P020261116523413927200.xlsx",
+          "hash": "fe2fdae40a826a0240e9cec5aa169d0cb9c5c94139cca4094b20ce278929495f",
+          "textStatus": "not_supported_hash_only"
+        },
+        {
+          "url": "https://ylbz.yn.gov.cn/zfxxgk/zcwj/qtwj/202611/P020261116523414245474.docx",
+          "hash": "21762b61f627fe50a969a4778c9ff8aad739246f46af92858a00b0b3cb32b3e6",
+          "textStatus": "not_supported_hash_only"
+        }
+      ],
+      "checkedAt": "2026-11-23T00:45:37.199Z",
+      "fingerprint": "09429b9cb4630a79bdbc996d5542897735972d133fe14404d13f2300779e5872",
+      "rawHash": "b7aeb75dcaa261597d411e0395340f583f9eeef5ec741d3d79388f900fe5e7d0",
+      "rawSnapshot": "blobs/b7aeb75dcaa261597d411e0395340f583f9eeef5ec741d3d79388f900fe5e7d0.html",
+      "bodyHash": "23c8d586a4ccc9d1777680e6442df2854fced6249a0afee1776d9205f31314d6"
+    },
+    {
+      "sourceId": "YB19",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:38.204Z",
+      "fingerprint": "00a635c6681f4d116fa800564996ebdf08a29f0c6a897c745514a58f687f0afa",
+      "rawHash": "be9da6c6c39e1be17773acad742485dd98b37890b18668b6c9427a94cef9fa9e",
+      "rawSnapshot": "blobs/be9da6c6c39e1be17773acad742485dd98b37890b18668b6c9427a94cef9fa9e.html",
+      "bodyHash": "9c7266ef3d33566cbc01a059cddf28ce79ee3465ee901b2deb5fafd903f4d563"
+    },
+    {
+      "sourceId": "YB20",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:38.602Z",
+      "fingerprint": "195c9fff41bfbe41415019f0f6c347f2516c28b17621c02bafe50a9ec687d4be",
+      "rawHash": "c856bef56b2f6b052d7b3af1d5d8b7d6a2c5bc6da027e975910440412c9e1689",
+      "rawSnapshot": "blobs/c856bef56b2f6b052d7b3af1d5d8b7d6a2c5bc6da027e975910440412c9e1689.html",
+      "bodyHash": "173e621a22998bfc6d8a9abfece113f70238e251f1e1d5b8b2b4a3a4f4da8002"
+    }
+  ]
+}

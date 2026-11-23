@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "actor": "成员③影响预览演示，非人工审核",
+  "reason": "复用官方月报，仅隔离技术发布",
+  "regions": [
+    {
+      "code": "CN",
+      "name": "中国",
+      "parentCode": null,
+      "dataset": "official"
+    },
+    {
+      "code": "530000",
+      "name": "云南省",
+      "parentCode": "CN",
+      "dataset": "official"
+    },
+    {
+      "code": "530500",
+      "name": "保山市",
+      "parentCode": "530000",
+      "dataset": "official"
+    },
+    {
+      "code": "530502",
+      "name": "隆阳区",
+      "parentCode": "530500",
+      "dataset": "official"
+    },
+    {
+      "code": "LY_LUJIANG",
+      "name": "隆阳区潞江镇",
+      "parentCode": "530502",
+      "dataset": "official"
+    },
+    {
+      "code": "LY_XIYI",
+      "name": "隆阳区西邑乡",
+      "parentCode": "530502",
+      "dataset": "official"
+    },
+    {
+      "code": "530521",
+      "name": "施甸县",
+      "parentCode": "530500",
+      "dataset": "official"
+    }
+  ],
+  "documents": [
+    {
+      "id": "BS_GLT_202609",
+      "version": 1,
+      "expectedVersion": 0,
+      "dataset": "official",
+      "reviewStatus": "draft",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "regionCodes": [
+        "530500"
+      ],
+      "title": "保山市2026年9月高龄津贴发放情况统计表",
+      "publisher": "保山市民政局",
+      "sourceUrl": "https://www.baoshan.gov.cn/info/6126/10409514.htm",
+      "publishedAt": "2026-10-08",
+      "originalText": "保山市2026年9月高龄津贴发放情况统计表\n\n保山市2026年9月高龄津贴发放情况统计表\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21300 | 3347 | 43 | 24690 | 50 | 1000 | 1066050 | 168400 | 43000 | 1277450\n施甸县 | 8208 | 1293 | 28 | 9529 | 50 | 1000 | 410400 | 64650 | 28000 | 503050\n腾冲市 | 15509 | 2028 | 48 | 17585 | 50 | 1000 | 775550 | 101400 | 48000 | 924950 | 补发1人100元\n龙陵县 | 6909 | 1135 | 22 | 8066 | 50 | 1000 | 345550 | 56750 | 22000 | 424300\n昌宁县 | 8861 | 1178 | 15 | 10054 | 50 | 1000 | 443050 | 58900 | 15000 | 516950\n合计 | 60787 | 8981 | 156 | 69924 |  |  | 3040600 | 450100 | 156000 | 3646700\n",
+      "originalPath": "../data/official/longyang-pilot/supplement-2026-11-19/sources/BS-202609.html",
+      "checkedAt": null,
+      "checkedBy": null,
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "effectiveFromEvidence": null,
+      "effectiveToEvidence": null
+    }
+  ],
+  "clauses": [
+    {
+      "id": "BS_GLT_202609_LY_100PLUS",
+      "version": 1,
+      "expectedVersion": 0,
+      "dataset": "official",
+      "reviewStatus": "draft",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "regionCodes": [
+        "530502"
+      ],
+      "documentId": "BS_GLT_202609",
+      "documentVersion": 1,
+      "matterId": "HIGH_AGE_ALLOWANCE",
+      "matterName": "高龄津贴与长寿补助",
+      "quote": "保山市2026年9月高龄津贴发放情况统计表\n\n保山市2026年9月高龄津贴发放情况统计表\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21300 | 3347 | 43 | 24690 | 50 | 1000 | 1066050 | 168400 | 43000 | 1277450\n施甸县 | 8208 | 1293 | 28 | 9529 | 50 | 1000 | 410400 | 64650 | 28000 | 503050\n腾冲市 | 15509 | 2028 | 48 | 17585 | 50 | 1000 | 775550 | 101400 | 48000 | 924950 | 补发1人100元\n龙陵县 | 6909 | 1135 | 22 | 8066 | 50 | 1000 | 345550 | 56750 | 22000 | 424300\n昌宁县 | 8861 | 1178 | 15 | 10054 | 50 | 1000 | 443050 | 58900 | 15000 | 516950\n合计 | 60787 | 8981 | 156 | 69924 |  |  | 3040600 | 450100 | 156000 | 3646700\n",
+      "locator": "正文表1第5行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+      "population": null,
+      "conditions": null,
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "effectiveFromEvidence": null,
+      "effectiveToEvidence": null,
+      "actions": null,
+      "materials": null,
+      "channels": null,
+      "contacts": null,
+      "schedule": null,
+      "location": null,
+      "paymentRecord": {
+        "kind": "monthly_statistics",
+        "fromMonth": "2026-09",
+        "toMonth": "2026-09",
+        "periodEvidence": {
+          "text": "2026-09",
+          "quote": "保山市2026年9月高龄津贴发放情况统计表",
+          "locator": "网页标题"
+        },
+        "ageBandCode": "100_PLUS",
+        "ageBandLabel": "100周岁以上（原表用语）",
+        "amountYuanPerPersonMonth": 1000,
+        "recipientCount": 43,
+        "totalPaidYuan": 43000,
+        "evidence": {
+          "text": "隆阳区，百岁档，1000元/人·月",
+          "quote": "隆阳区 | 21300 | 3347 | 43 | 24690 | 50 | 1000 | 1066050 | 168400 | 43000 | 1277450",
+          "locator": "正文表1第5行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json"
+        }
+      },
+      "relations": []
+    }
+  ]
+}

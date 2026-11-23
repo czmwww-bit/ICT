@@ -1,0 +1,215 @@
+{
+  "executedAt": "2026-11-19T06:17:56.405Z",
+  "commands": [
+    {
+      "command": "node --import tsx src/cli.ts validate --file ../data/official/longyang-pilot/supplement-2026-11-19/batch.draft.json",
+      "exitCode": 0,
+      "output": "{\n  \"file\": \"../data/official/longyang-pilot/supplement-2026-11-19/batch.draft.json\",\n  \"documents\": 11,\n  \"clauses\": 20,\n  \"errors\": 0,\n  \"messages\": []\n}\n",
+      "error": ""
+    },
+    {
+      "command": "node --import tsx src/cli.ts import --file ../data/official/longyang-pilot/supplement-2026-11-19/batch.draft.json --dry-run",
+      "exitCode": 0,
+      "output": "{\n  \"file\": \"../data/official/longyang-pilot/supplement-2026-11-19/batch.draft.json\",\n  \"added\": 31,\n  \"modified\": 0,\n  \"unchanged\": 0,\n  \"errors\": 0,\n  \"details\": [\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_GLT_2024_113\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_ECON_SERVICE_2023_2\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_ELDER_ONE_SERVICE_2026\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"BS_GLT_202601\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"BS_GLT_202602\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"BS_GLT_202608\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"BS_GLT_202609\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"LY_GLT_2026Q2_DISCLOSURE\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"LY_MZ_ORGANIZATION\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"BS_ECON_09_PUBLISHED_20261008\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"document\",\n      \"id\": \"YN_ELDER_ID_REPLACES_CARD_2025_5\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_GLT_PROVINCIAL_RATES\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_GLT_AUTO_PROCESS\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_GLT_MISSING_LIST\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_ECON_SERVICE_2023_2_OBJECT\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_ECON_SERVICE_2023_2_VALIDITY\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_ELDER_ONE_SERVICE_2026_HIGH_FLOW\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_ELDER_ONE_SERVICE_2026_ECON_FLOW\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"BS_GLT_202601_LY_100PLUS\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"BS_GLT_202602_LY_100PLUS\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"BS_GLT_202602_SD_100PLUS\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"BS_GLT_202608_LY_100PLUS\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"BS_GLT_202609_LY_100PLUS\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"LY_GLT_2026Q2_REPORTED_RATE\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"LY_GLT_2026Q2_APPLICATION_NOTE\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"LY_MZ_ELDERLY_CONTACT\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"LY_MZ_ECON_CONTACT\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"BS_ECON_09_LY_REPORTED_PAYMENT\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_ELDER_CARD_STOP_NEW\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_ELDER_CARD_OLD_VALID\",\n      \"version\": 1,\n      \"action\": \"added\"\n    },\n    {\n      \"kind\": \"clause\",\n      \"id\": \"YN_ELDER_CARD_ID_60PLUS\",\n      \"version\": 1,\n      \"action\": \"added\"\n    }\n  ],\n  \"messages\": []\n}\n",
+      "error": ""
+    }
+  ],
+  "plan": {
+    "added": 31,
+    "modified": 0,
+    "unchanged": 0,
+    "errors": 0,
+    "details": [
+      {
+        "kind": "document",
+        "id": "YN_GLT_2024_113",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "YN_ECON_SERVICE_2023_2",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "YN_ELDER_ONE_SERVICE_2026",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202601",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202602",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202608",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "BS_GLT_202609",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "LY_GLT_2026Q2_DISCLOSURE",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "LY_MZ_ORGANIZATION",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "BS_ECON_09_PUBLISHED_20261008",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "document",
+        "id": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_GLT_PROVINCIAL_RATES",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_GLT_AUTO_PROCESS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_GLT_MISSING_LIST",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ECON_SERVICE_2023_2_OBJECT",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ECON_SERVICE_2023_2_VALIDITY",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_ONE_SERVICE_2026_HIGH_FLOW",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_ONE_SERVICE_2026_ECON_FLOW",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202601_LY_100PLUS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202602_LY_100PLUS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202602_SD_100PLUS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202608_LY_100PLUS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202609_LY_100PLUS",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_GLT_2026Q2_REPORTED_RATE",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_GLT_2026Q2_APPLICATION_NOTE",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_MZ_ELDERLY_CONTACT",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "LY_MZ_ECON_CONTACT",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_ECON_09_LY_REPORTED_PAYMENT",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_CARD_STOP_NEW",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_CARD_OLD_VALID",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "YN_ELDER_CARD_ID_60PLUS",
+        "version": 1,
+        "action": "added"
+      }
+    ],
+    "messages": []
+  },
+  "databaseUnchanged": true,
+  "imported": false,
+  "published": false
+}

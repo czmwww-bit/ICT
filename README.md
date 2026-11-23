@@ -74,6 +74,8 @@
 
 ## 成员③模块入口（2026-11-16）
 
+政策审核前的[更新影响预览](docs/POLICY_IMPACT_PREVIEW.md)已提供：在backend运行`npm.cmd run demo:impact`，比较同一组查询在更新前和隔离模拟发布后的依据变化，报告位于`reports/policy-impact-longyang.md`。项目库不写入；2月演示基线、9月待更新资料与真实审核状态分开标注。
+
 2026-11-17新增方向：[云南医保老人常用业务资料包](data/official/yunnan-medical-insurance/README.md)，覆盖参保查询、缴费、个人账户共济和异地备案，补充两条普通首页/关怀模式入口、术语与只读查询示例。20文件/50条款均待审核，未向项目库导入或发布；成员①②分工不变，不另做大按钮界面。[医保交接](docs/YUNNAN_MEDICAL_HANDOFF.md)。
 
 资料模块位于 `backend/`，提供MySQL迁移、JSON校验/事务导入、独立审核发布、历史记录及后端内部查询函数。已整理隆阳真实来源草稿，仍待人工核对；项目库中目前仅有开发样例。最小Express服务提供健康检查及可选令牌保护的内部资料状态，`/api/ocr` 与 `/api/guide` 仍由成员②接入。

@@ -1,0 +1,15 @@
+{
+  "executedAt": "2026-11-19T06:58:13.607Z",
+  "checks": [
+    {
+      "name": "invalid_import_cli_exit_1_and_failed_report",
+      "passed": true
+    },
+    {
+      "name": "output_cannot_overwrite_input",
+      "passed": true
+    }
+  ],
+  "passed": 2,
+  "failed": 0
+}

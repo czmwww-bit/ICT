@@ -1,0 +1,104 @@
+{
+  "id": "2a0a04dc-810d-46f6-8a90-5e65cd51b37f",
+  "startedFor": [
+    "BS-202601",
+    "BS-202602",
+    "BS-202608",
+    "BS-202609",
+    "LY-2026Q2",
+    "LY-MZ-CONTACT",
+    "BS-ECON-202609",
+    "HH-ELDER-CARD-REPRINT"
+  ],
+  "completedAt": "2026-11-23T00:45:27.746Z",
+  "results": [
+    {
+      "sourceId": "BS-202601",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:23.757Z",
+      "fingerprint": "ac4f29dc8dea0075b7419346684e56689c0bdd19515c84142fa179276f282765",
+      "rawHash": "9fb0ef76cc2df5be42833efefba7f1f1d5077b589dc9a87189bd7955a44b16f6",
+      "rawSnapshot": "blobs/9fb0ef76cc2df5be42833efefba7f1f1d5077b589dc9a87189bd7955a44b16f6.html",
+      "bodyHash": "a1de3c74273f259077f161568b8cfe16c9bc8c13dcafd250ceb0195cda566aa1"
+    },
+    {
+      "sourceId": "BS-202602",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:26.119Z",
+      "fingerprint": "ff159a2dbefc11d4a7e463cdf4ff2b88ae10a5bff04a9d37f830d8e84bdab070",
+      "rawHash": "30ad91d2a83dbd2d54a5659728b584510ca89c6d41520a72ff3c7fbad19f49ff",
+      "rawSnapshot": "blobs/30ad91d2a83dbd2d54a5659728b584510ca89c6d41520a72ff3c7fbad19f49ff.html",
+      "bodyHash": "ae204c50e66541d0f63669eb6663c598e336370a57c431c36a1d414c86439f85"
+    },
+    {
+      "sourceId": "BS-202608",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:26.595Z",
+      "fingerprint": "3337b62f2365913327dcf9473728cd2903b6eadf3155138d0d468ee3e3e674f9",
+      "rawHash": "d9ab0676ba29dab8fb3705adf953a8b60f62627323e8b3cdddb783a5838db3a1",
+      "rawSnapshot": "blobs/d9ab0676ba29dab8fb3705adf953a8b60f62627323e8b3cdddb783a5838db3a1.html",
+      "bodyHash": "299d9bcf625d291c438c2b44629b44829281da86df67f05fc80821e7a828525b"
+    },
+    {
+      "sourceId": "BS-202609",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:26.801Z",
+      "fingerprint": "8b5e648e68166d604a1b80ff64183c8140a1095b7553a31685652777e63787a3",
+      "rawHash": "3c57a7850ea1cc3fe98c2a7614a188c0fb919bb3378ddf1e32b9002baced93db",
+      "rawSnapshot": "blobs/3c57a7850ea1cc3fe98c2a7614a188c0fb919bb3378ddf1e32b9002baced93db.html",
+      "bodyHash": "0f164edbde05733a9d71fb4c3c217d157746147b7eafdffaaf4b0399bc061b96"
+    },
+    {
+      "sourceId": "LY-2026Q2",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:26.911Z",
+      "fingerprint": "e1d96b4222039dbee23b2a65cee81db626d32d825f3b85e96a471d3b91f2daff",
+      "rawHash": "daf67ab6305e3b6181473d9783fc0646f30f93b18980156b37e545792b6ea769",
+      "rawSnapshot": "blobs/daf67ab6305e3b6181473d9783fc0646f30f93b18980156b37e545792b6ea769.html",
+      "bodyHash": "3163ef72131e1939841b4a02cda3b6f0fc445982aabde1454e91106224199243"
+    },
+    {
+      "sourceId": "LY-MZ-CONTACT",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:27.096Z",
+      "fingerprint": "2ee39702b58dfa1bc6292e63efe615465a50d4bc36141fa558f6976f284a03bc",
+      "rawHash": "29eba95f7743069be51c70880c9ed40e545ce02b7bfe146b6c658f8fe265ef52",
+      "rawSnapshot": "blobs/29eba95f7743069be51c70880c9ed40e545ce02b7bfe146b6c658f8fe265ef52.html",
+      "bodyHash": "b86b867ac7344b5406ad0f5bc55258a594ecfd99fdde9c66e23315ae72fdfa98"
+    },
+    {
+      "sourceId": "BS-ECON-202609",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:27.320Z",
+      "fingerprint": "667e8992abba82c85399ad599b78916a2a76f867655365b07fa79fd141e1ebf7",
+      "rawHash": "efdd5c4da9654be0dec1719be3fa464e84f062a11228f0557457b49e47ac3ddb",
+      "rawSnapshot": "blobs/efdd5c4da9654be0dec1719be3fa464e84f062a11228f0557457b49e47ac3ddb.html",
+      "bodyHash": "7917a2dcb61c2e3b5fb57d043a231e7b3ef0302f37dbafa7a723ef6a90ca6e42"
+    },
+    {
+      "sourceId": "HH-ELDER-CARD-REPRINT",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:27.484Z",
+      "fingerprint": "36538d3d67e5f2f0d1c753a89d0a63db5b5ec922771590a8209426df943ff420",
+      "rawHash": "e748ebe031735b5b6a3727a75d58c6c25e4bf29da3f524ac60b46ce960727ee8",
+      "rawSnapshot": "blobs/e748ebe031735b5b6a3727a75d58c6c25e4bf29da3f524ac60b46ce960727ee8.html",
+      "bodyHash": "daa6863bccbb3d4ffad87632fb693c3d917c21849cd98a22155b046229eea1f7"
+    }
+  ]
+}

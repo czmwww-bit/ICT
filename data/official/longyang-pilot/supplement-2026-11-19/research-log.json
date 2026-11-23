@@ -1,0 +1,29 @@
+{
+  "searchedOn": "2026-11-19",
+  "scope": "有限关键词检索及已列来源下载；不是全网/全省文件有效性审计",
+  "queries": [
+    "site.ynmz.yn.gov.cn \"经济困难老年人服务补贴实施办法\" \"2026\" \"印发\"",
+    "site.ynmz.yn.gov.cn \"经济困难老年人服务补贴实施办法\" \"征求意见\"",
+    "site.longyang.gov.cn \"长寿补助\" \"1000\" \"提标\"",
+    "site.baoshan.gov.cn \"隆阳\" \"长寿补助\" \"提标\""
+  ],
+  "findings": [
+    {
+      "topic": "地方提标",
+      "result": "取得按月统计及二季度备注，尚未取得直接规定隆阳提标生效日期与补差规则的正式调整文件",
+      "status": "needs_review"
+    },
+    {
+      "topic": "经济困难办法接续",
+      "result": "取得既有2026年4月8日一件事通知与公开统计；本次仍未取得9月征求意见后的正式修订文本，不断言不存在、不推断取消或自动续期",
+      "status": "needs_review"
+    },
+    {
+      "topic": "优待凭证",
+      "originalUrl": "https://ynmz.yn.gov.cn/cms/qitazhengcewenjian/11904.html",
+      "originalLiveStatus": "HTTP 404",
+      "officialReprint": "https://www.hh.gov.cn/info/30361/1236862.htm",
+      "result": "转载全文明确2026-01-01施行、新办换发补办停止、原证可继续使用，仍待人工审核；无旧文条款实体时不制造关系指向"
+    }
+  ]
+}

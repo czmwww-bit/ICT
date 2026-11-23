@@ -1,0 +1,83 @@
+{
+  "version": "longyang-monthly-impact-v1-pending",
+  "cases": [
+    {
+      "id": "FEB",
+      "description": "2月记录在加入9月后仍为350",
+      "queryType": "payment",
+      "matterId": "HIGH_AGE_ALLOWANCE",
+      "regionCode": "530502",
+      "asOf": "2026-11-19",
+      "ageBandCode": "100_PLUS",
+      "recordMonth": "2026-02",
+      "expectedBefore": [
+        "BS_GLT_202602_LY_100PLUS@1"
+      ],
+      "expectedAfter": [
+        "BS_GLT_202602_LY_100PLUS@1"
+      ]
+    },
+    {
+      "id": "SEP",
+      "description": "9月新增1000的月度来源",
+      "queryType": "payment",
+      "matterId": "HIGH_AGE_ALLOWANCE",
+      "regionCode": "530502",
+      "asOf": "2026-11-19",
+      "ageBandCode": "100_PLUS",
+      "recordMonth": "2026-09",
+      "expectedBefore": [],
+      "expectedAfter": [
+        "BS_GLT_202609_LY_100PLUS@1"
+      ]
+    },
+    {
+      "id": "MISSING_MONTH",
+      "description": "奶奶100岁，350还是1000？需确认年月",
+      "queryType": "payment",
+      "matterId": "HIGH_AGE_ALLOWANCE",
+      "regionCode": "530502",
+      "asOf": "2026-11-19",
+      "ageBandCode": "100_PLUS",
+      "recordMonth": null,
+      "expectedBefore": [],
+      "expectedAfter": []
+    },
+    {
+      "id": "OTHER_COUNTY",
+      "description": "非隆阳：施甸2月命中不变",
+      "queryType": "payment",
+      "matterId": "HIGH_AGE_ALLOWANCE",
+      "regionCode": "530521",
+      "asOf": "2026-11-19",
+      "ageBandCode": "100_PLUS",
+      "recordMonth": "2026-02",
+      "expectedBefore": [],
+      "expectedAfter": []
+    },
+    {
+      "id": "OTHER_MATTER",
+      "description": "无关事项命中不变",
+      "queryType": "payment",
+      "matterId": "ECONOMIC_ELDERLY_SERVICE",
+      "regionCode": "530502",
+      "asOf": "2026-11-19",
+      "ageBandCode": "100_PLUS",
+      "recordMonth": "2026-09",
+      "expectedBefore": [],
+      "expectedAfter": []
+    },
+    {
+      "id": "MARCH_NO_INFERENCE",
+      "description": "未覆盖3月，不从9月倒推",
+      "queryType": "payment",
+      "matterId": "HIGH_AGE_ALLOWANCE",
+      "regionCode": "530502",
+      "asOf": "2026-11-19",
+      "ageBandCode": "100_PLUS",
+      "recordMonth": "2026-03",
+      "expectedBefore": [],
+      "expectedAfter": []
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+{
+  "executedAt": "2026-11-19T06:52:29.254Z",
+  "mode": "current_project_snapshot",
+  "scope": "仅本次列出的查询用例，不是全库影响范围或政策语义审计",
+  "humanPolicyApproved": false,
+  "currentSnapshotSha256": "526313028c4db8f2fc1b38b339471fa43b58ecabf7d6ae041ab0d07acf285900",
+  "currentSnapshotVersions": 7,
+  "currentOfficialApprovedClauses": 0,
+  "sourceDatabaseUnchanged": true,
+  "sourceDigestBefore": {
+    "evidence_publications": {
+      "rows": 7,
+      "sha256": "9d2a30542c0e01bd142d2e47521689637205c25c1ac4e8143d7bc42a931fc49d"
+    },
+    "evidence_versions": {
+      "rows": 7,
+      "sha256": "a46202a41260e58dea44ac65ca9fb8ea46a7b63d879b4f237853c2e9cd4b1494"
+    },
+    "evidence_heads": {
+      "rows": 6,
+      "sha256": "a8aeb2878f1520c557c51a7aa6d5efb3126f66df549756a071fe5333b2e5a524"
+    },
+    "evidence_batches": {
+      "rows": 2,
+      "sha256": "b1b6ef7de31c33d7f3a851509ff4d44a5f8669576d9cfb2960e55ce8a02f0871"
+    },
+    "evidence_regions": {
+      "rows": 4,
+      "sha256": "b446f4f7687c34b590b64f7bcd7cf728a3b432529fac96a3535b34c731b45ad4"
+    },
+    "evidence_import_lock": {
+      "rows": 1,
+      "sha256": "037c9214eef74cc3887f3a4f085b4e17d76280dafd273b0ee160c09c4ba1cfd4"
+    },
+    "evidence_migrations": {
+      "rows": 2,
+      "sha256": "f7dde8b07c3176a9043e2a6620356f03616c006ee13190948b2ffebaceecd463"
+    }
+  },
+  "sourceDigestAfter": {
+    "evidence_publications": {
+      "rows": 7,
+      "sha256": "9d2a30542c0e01bd142d2e47521689637205c25c1ac4e8143d7bc42a931fc49d"
+    },
+    "evidence_versions": {
+      "rows": 7,
+      "sha256": "a46202a41260e58dea44ac65ca9fb8ea46a7b63d879b4f237853c2e9cd4b1494"
+    },
+    "evidence_heads": {
+      "rows": 6,
+      "sha256": "a8aeb2878f1520c557c51a7aa6d5efb3126f66df549756a071fe5333b2e5a524"
+    },
+    "evidence_batches": {
+      "rows": 2,
+      "sha256": "b1b6ef7de31c33d7f3a851509ff4d44a5f8669576d9cfb2960e55ce8a02f0871"
+    },
+    "evidence_regions": {
+      "rows": 4,
+      "sha256": "b446f4f7687c34b590b64f7bcd7cf728a3b432529fac96a3535b34c731b45ad4"
+    },
+    "evidence_import_lock": {
+      "rows": 1,
+      "sha256": "037c9214eef74cc3887f3a4f085b4e17d76280dafd273b0ee160c09c4ba1cfd4"
+    },
+    "evidence_migrations": {
+      "rows": 2,
+      "sha256": "f7dde8b07c3176a9043e2a6620356f03616c006ee13190948b2ffebaceecd463"
+    }
+  },
+  "testTablesCleaned": true,
+  "suiteVersion": "longyang-monthly-impact-current-v1",
+  "assumptions": [
+    {
+      "stage": "更新批次",
+      "documentId": "BS_GLT_202609",
+      "fields": [
+        "checkedAt",
+        "checkedBy"
+      ]
+    }
+  ],
+  "ok": true,
+  "results": [
+    {
+      "id": "FEB",
+      "description": "2月记录在加入9月后仍为350",
+      "before": {
+        "executed": true,
+        "status": "no_match",
+        "missing": [],
+        "parameters": {
+          "queryType": "payment",
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "530502",
+          "asOf": "2026-11-19",
+          "recordMonth": "2026-02",
+          "ageBandCode": "100_PLUS"
+        },
+        "hits": []
+      },
+      "after": {
+        "executed": true,
+        "status": "no_match",
+        "missing": [],
+        "parameters": {
+          "queryType": "payment",
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "530502",
+          "asOf": "2026-11-19",
+          "recordMonth": "2026-02",
+          "ageBandCode": "100_PLUS"
+        },
+        "hits": []
+      },
+      "diff": {
+        "changed": false,
+        "added": [],
+        "removed": [],
+        "versionChanged": [],
+        "fieldsChanged": [],
+        "statusChanged": false
+      },
+      "causes": [],
+      "reasons": [
+        "相同参数下命中编号、版本和证据字段不变"
+      ],
+      "pending": [
+        "本用例未命中不证明其他资料或地区没有政策"
+      ],
+      "expectations": [
+        {
+          "stage": "before",
+          "expected": null,
+          "actual": [],
+          "status": "not_provided"
+        },
+        {
+          "stage": "after",
+          "expected": null,
+          "actual": [],
+          "status": "not_provided"
+        }
+      ]
+    },
+    {
+      "id": "SEP",
+      "description": "9月新增1000的月度来源",
+      "before": {
+        "executed": true,
+        "status": "no_match",
+        "missing": [],
+        "parameters": {
+          "queryType": "payment",
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "530502",
+          "asOf": "2026-11-19",
+          "recordMonth": "2026-09",
+          "ageBandCode": "100_PLUS"
+        },
+        "hits": []
+      },
+      "after": {
+        "executed": true,
+        "status": "matched",
+        "missing": [],
+        "parameters": {
+          "queryType": "payment",
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "530502",
+          "asOf": "2026-11-19",
+          "recordMonth": "2026-09",
+          "ageBandCode": "100_PLUS"
+        },
+        "hits": [
+          {
+            "id": "BS_GLT_202609_LY_100PLUS",
+            "version": 1,
+            "category": "monthly",
+            "clause": {
+              "id": "BS_GLT_202609_LY_100PLUS",
+              "quote": "保山市2026年9月高龄津贴发放情况统计表\n\n保山市2026年9月高龄津贴发放情况统计表\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21300 | 3347 | 43 | 24690 | 50 | 1000 | 1066050 | 168400 | 43000 | 1277450\n施甸县 | 8208 | 1293 | 28 | 9529 | 50 | 1000 | 410400 | 64650 | 28000 | 503050\n腾冲市 | 15509 | 2028 | 48 | 17585 | 50 | 1000 | 775550 | 101400 | 48000 | 924950 | 补发1人100元\n龙陵县 | 6909 | 1135 | 22 | 8066 | 50 | 1000 | 345550 | 56750 | 22000 | 424300\n昌宁县 | 8861 | 1178 | 15 | 10054 | 50 | 1000 | 443050 | 58900 | 15000 | 516950\n合计 | 60787 | 8981 | 156 | 69924 |  |  | 3040600 | 450100 | 156000 | 3646700\n",
+              "actions": null,
+              "dataset": "official",
+              "locator": "正文表1第5行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+              "version": 1,
+              "channels": null,
+              "contacts": null,
+              "location": null,
+              "matterId": "HIGH_AGE_ALLOWANCE",
+              "schedule": null,
+              "materials": null,
+              "relations": [],
+              "conditions": null,
+              "documentId": "BS_GLT_202609",
+              "matterName": "高龄津贴与长寿补助",
+              "population": null,
+              "effectiveTo": null,
+              "regionCodes": [
+                "530502"
+              ],
+              "reviewStatus": "approved",
+              "effectiveFrom": null,
+              "paymentRecord": {
+                "kind": "monthly_statistics",
+                "toMonth": "2026-09",
+                "evidence": {
+                  "text": "隆阳区，百岁档，1000元/人·月",
+                  "quote": "隆阳区 | 21300 | 3347 | 43 | 24690 | 50 | 1000 | 1066050 | 168400 | 43000 | 1277450",
+                  "locator": "正文表1第5行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json"
+                },
+                "fromMonth": "2026-09",
+                "ageBandCode": "100_PLUS",
+                "ageBandLabel": "100周岁以上（原表用语）",
+                "totalPaidYuan": 43000,
+                "periodEvidence": {
+                  "text": "2026-09",
+                  "quote": "保山市2026年9月高龄津贴发放情况统计表",
+                  "locator": "网页标题"
+                },
+                "recipientCount": 43,
+                "amountYuanPerPersonMonth": 1000
+              },
+              "documentVersion": 1,
+              "effectiveToEvidence": null,
+              "effectiveFromEvidence": null
+            },
+            "source": {
+              "clauseId": "BS_GLT_202609_LY_100PLUS",
+              "clauseVersion": 1,
+              "documentId": "BS_GLT_202609",
+              "documentVersion": 1,
+              "title": "保山市2026年9月高龄津贴发放情况统计表",
+              "quote": "保山市2026年9月高龄津贴发放情况统计表\n\n保山市2026年9月高龄津贴发放情况统计表\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21300 | 3347 | 43 | 24690 | 50 | 1000 | 1066050 | 168400 | 43000 | 1277450\n施甸县 | 8208 | 1293 | 28 | 9529 | 50 | 1000 | 410400 | 64650 | 28000 | 503050\n腾冲市 | 15509 | 2028 | 48 | 17585 | 50 | 1000 | 775550 | 101400 | 48000 | 924950 | 补发1人100元\n龙陵县 | 6909 | 1135 | 22 | 8066 | 50 | 1000 | 345550 | 56750 | 22000 | 424300\n昌宁县 | 8861 | 1178 | 15 | 10054 | 50 | 1000 | 443050 | 58900 | 15000 | 516950\n合计 | 60787 | 8981 | 156 | 69924 |  |  | 3040600 | 450100 | 156000 | 3646700\n",
+              "locator": "正文表1第5行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+              "url": "https://www.baoshan.gov.cn/info/6126/10409514.htm"
+            },
+            "document": {
+              "id": "BS_GLT_202609",
+              "version": 1,
+              "title": "保山市2026年9月高龄津贴发放情况统计表",
+              "publisher": "保山市民政局",
+              "url": "https://www.baoshan.gov.cn/info/6126/10409514.htm",
+              "publishedAt": "2026-10-08"
+            },
+            "clauseChecksum": "413b7f356e2b2e5753869ccafd1e8816d0df8dc305a7f64c9cf80d120d72cec7",
+            "documentChecksum": "5a4a013110a51ae7666c73d05dde8130e9bb5b9d8805e292509e45045d42c089",
+            "timeStatus": "needs_review",
+            "unknownEnd": true
+          }
+        ]
+      },
+      "diff": {
+        "changed": true,
+        "added": [
+          "BS_GLT_202609_LY_100PLUS"
+        ],
+        "removed": [],
+        "versionChanged": [],
+        "fieldsChanged": [],
+        "statusChanged": true
+      },
+      "causes": [
+        {
+          "clauseId": "BS_GLT_202609_LY_100PLUS",
+          "trigger": {
+            "kind": "clause",
+            "id": "BS_GLT_202609_LY_100PLUS",
+            "version": 1,
+            "documentId": "BS_GLT_202609",
+            "documentVersion": 1
+          },
+          "fields": [
+            "record"
+          ],
+          "before": null,
+          "after": {
+            "id": "BS_GLT_202609_LY_100PLUS",
+            "version": 1,
+            "category": "monthly",
+            "clause": {
+              "id": "BS_GLT_202609_LY_100PLUS",
+              "quote": "保山市2026年9月高龄津贴发放情况统计表\n\n保山市2026年9月高龄津贴发放情况统计表\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21300 | 3347 | 43 | 24690 | 50 | 1000 | 1066050 | 168400 | 43000 | 1277450\n施甸县 | 8208 | 1293 | 28 | 9529 | 50 | 1000 | 410400 | 64650 | 28000 | 503050\n腾冲市 | 15509 | 2028 | 48 | 17585 | 50 | 1000 | 775550 | 101400 | 48000 | 924950 | 补发1人100元\n龙陵县 | 6909 | 1135 | 22 | 8066 | 50 | 1000 | 345550 | 56750 | 22000 | 424300\n昌宁县 | 8861 | 1178 | 15 | 10054 | 50 | 1000 | 443050 | 58900 | 15000 | 516950\n合计 | 60787 | 8981 | 156 | 69924 |  |  | 3040600 | 450100 | 156000 | 3646700\n",
+              "actions": null,
+              "dataset": "official",
+              "locator": "正文表1第5行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+              "version": 1,
+              "channels": null,
+              "contacts": null,
+              "location": null,
+              "matterId": "HIGH_AGE_ALLOWANCE",
+              "schedule": null,
+              "materials": null,
+              "relations": [],
+              "conditions": null,
+              "documentId": "BS_GLT_202609",
+              "matterName": "高龄津贴与长寿补助",
+              "population": null,
+              "effectiveTo": null,
+              "regionCodes": [
+                "530502"
+              ],
+              "reviewStatus": "approved",
+              "effectiveFrom": null,
+              "paymentRecord": {
+                "kind": "monthly_statistics",
+                "toMonth": "2026-09",
+                "evidence": {
+                  "text": "隆阳区，百岁档，1000元/人·月",
+                  "quote": "隆阳区 | 21300 | 3347 | 43 | 24690 | 50 | 1000 | 1066050 | 168400 | 43000 | 1277450",
+                  "locator": "正文表1第5行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json"
+                },
+                "fromMonth": "2026-09",
+                "ageBandCode": "100_PLUS",
+                "ageBandLabel": "100周岁以上（原表用语）",
+                "totalPaidYuan": 43000,
+                "periodEvidence": {
+                  "text": "2026-09",
+                  "quote": "保山市2026年9月高龄津贴发放情况统计表",
+                  "locator": "网页标题"
+                },
+                "recipientCount": 43,
+                "amountYuanPerPersonMonth": 1000
+              },
+              "documentVersion": 1,
+              "effectiveToEvidence": null,
+              "effectiveFromEvidence": null
+            },
+            "source": {
+              "clauseId": "BS_GLT_202609_LY_100PLUS",
+              "clauseVersion": 1,
+              "documentId": "BS_GLT_202609",
+              "documentVersion": 1,
+              "title": "保山市2026年9月高龄津贴发放情况统计表",
+              "quote": "保山市2026年9月高龄津贴发放情况统计表\n\n保山市2026年9月高龄津贴发放情况统计表\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21300 | 3347 | 43 | 24690 | 50 | 1000 | 1066050 | 168400 | 43000 | 1277450\n施甸县 | 8208 | 1293 | 28 | 9529 | 50 | 1000 | 410400 | 64650 | 28000 | 503050\n腾冲市 | 15509 | 2028 | 48 | 17585 | 50 | 1000 | 775550 | 101400 | 48000 | 924950 | 补发1人100元\n龙陵县 | 6909 | 1135 | 22 | 8066 | 50 | 1000 | 345550 | 56750 | 22000 | 424300\n昌宁县 | 8861 | 1178 | 15 | 10054 | 50 | 1000 | 443050 | 58900 | 15000 | 516950\n合计 | 60787 | 8981 | 156 | 69924 |  |  | 3040600 | 450100 | 156000 | 3646700\n",
+              "locator": "正文表1第5行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+              "url": "https://www.baoshan.gov.cn/info/6126/10409514.htm"
+            },
+            "document": {
+              "id": "BS_GLT_202609",
+              "version": 1,
+              "title": "保山市2026年9月高龄津贴发放情况统计表",
+              "publisher": "保山市民政局",
+              "url": "https://www.baoshan.gov.cn/info/6126/10409514.htm",
+              "publishedAt": "2026-10-08"
+            },
+            "clauseChecksum": "413b7f356e2b2e5753869ccafd1e8816d0df8dc305a7f64c9cf80d120d72cec7",
+            "documentChecksum": "5a4a013110a51ae7666c73d05dde8130e9bb5b9d8805e292509e45045d42c089",
+            "timeStatus": "needs_review",
+            "unknownEnd": true
+          },
+          "updatedButOutsideQuery": null
+        }
+      ],
+      "reasons": [
+        "新增命中BS_GLT_202609_LY_100PLUS，由本批次关联资料模拟发布产生"
+      ],
+      "pending": [
+        "发放记录不等于提标文件；提标生效日期、差额补发规则待核实"
+      ],
+      "expectations": [
+        {
+          "stage": "before",
+          "expected": null,
+          "actual": [],
+          "status": "not_provided"
+        },
+        {
+          "stage": "after",
+          "expected": null,
+          "actual": [
+            "BS_GLT_202609_LY_100PLUS@1"
+          ],
+          "status": "not_provided"
+        }
+      ]
+    },
+    {
+      "id": "MISSING_MONTH",
+      "description": "奶奶100岁，350还是1000？需确认年月",
+      "before": {
+        "executed": false,
+        "status": "needs_parameter",
+        "missing": [
+          "recordMonth"
+        ],
+        "parameters": {
+          "queryType": "payment",
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "530502",
+          "asOf": "2026-11-19",
+          "recordMonth": null,
+          "ageBandCode": "100_PLUS"
+        },
+        "hits": []
+      },
+      "after": {
+        "executed": false,
+        "status": "needs_parameter",
+        "missing": [
+          "recordMonth"
+        ],
+        "parameters": {
+          "queryType": "payment",
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "530502",
+          "asOf": "2026-11-19",
+          "recordMonth": null,
+          "ageBandCode": "100_PLUS"
+        },
+        "hits": []
+      },
+      "diff": {
+        "changed": false,
+        "added": [],
+        "removed": [],
+        "versionChanged": [],
+        "fieldsChanged": [],
+        "statusChanged": false
+      },
+      "causes": [],
+      "reasons": [
+        "需确认查询参数，两边均未执行资料查询"
+      ],
+      "pending": [
+        "需要确认查询年份和月份"
+      ],
+      "expectations": [
+        {
+          "stage": "before",
+          "expected": null,
+          "actual": [],
+          "status": "not_provided"
+        },
+        {
+          "stage": "after",
+          "expected": null,
+          "actual": [],
+          "status": "not_provided"
+        }
+      ]
+    },
+    {
+      "id": "OTHER_COUNTY",
+      "description": "非隆阳：施甸2月命中不变",
+      "before": {
+        "executed": true,
+        "status": "no_match",
+        "missing": [],
+        "parameters": {
+          "queryType": "payment",
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "530521",
+          "asOf": "2026-11-19",
+          "recordMonth": "2026-02",
+          "ageBandCode": "100_PLUS"
+        },
+        "hits": []
+      },
+      "after": {
+        "executed": true,
+        "status": "no_match",
+        "missing": [],
+        "parameters": {
+          "queryType": "payment",
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "530521",
+          "asOf": "2026-11-19",
+          "recordMonth": "2026-02",
+          "ageBandCode": "100_PLUS"
+        },
+        "hits": []
+      },
+      "diff": {
+        "changed": false,
+        "added": [],
+        "removed": [],
+        "versionChanged": [],
+        "fieldsChanged": [],
+        "statusChanged": false
+      },
+      "causes": [],
+      "reasons": [
+        "相同参数下命中编号、版本和证据字段不变"
+      ],
+      "pending": [
+        "本用例未命中不证明其他资料或地区没有政策"
+      ],
+      "expectations": [
+        {
+          "stage": "before",
+          "expected": null,
+          "actual": [],
+          "status": "not_provided"
+        },
+        {
+          "stage": "after",
+          "expected": null,
+          "actual": [],
+          "status": "not_provided"
+        }
+      ]
+    },
+    {
+      "id": "OTHER_MATTER",
+      "description": "无关事项命中不变",
+      "before": {
+        "executed": true,
+        "status": "no_match",
+        "missing": [],
+        "parameters": {
+          "queryType": "payment",
+          "matterId": "ECONOMIC_ELDERLY_SERVICE",
+          "regionCode": "530502",
+          "asOf": "2026-11-19",
+          "recordMonth": "2026-09",
+          "ageBandCode": "100_PLUS"
+        },
+        "hits": []
+      },
+      "after": {
+        "executed": true,
+        "status": "no_match",
+        "missing": [],
+        "parameters": {
+          "queryType": "payment",
+          "matterId": "ECONOMIC_ELDERLY_SERVICE",
+          "regionCode": "530502",
+          "asOf": "2026-11-19",
+          "recordMonth": "2026-09",
+          "ageBandCode": "100_PLUS"
+        },
+        "hits": []
+      },
+      "diff": {
+        "changed": false,
+        "added": [],
+        "removed": [],
+        "versionChanged": [],
+        "fieldsChanged": [],
+        "statusChanged": false
+      },
+      "causes": [],
+      "reasons": [
+        "相同参数下命中编号、版本和证据字段不变"
+      ],
+      "pending": [
+        "本用例未命中不证明其他资料或地区没有政策"
+      ],
+      "expectations": [
+        {
+          "stage": "before",
+          "expected": null,
+          "actual": [],
+          "status": "not_provided"
+        },
+        {
+          "stage": "after",
+          "expected": null,
+          "actual": [],
+          "status": "not_provided"
+        }
+      ]
+    },
+    {
+      "id": "MARCH_NO_INFERENCE",
+      "description": "未覆盖3月，不从9月倒推",
+      "before": {
+        "executed": true,
+        "status": "no_match",
+        "missing": [],
+        "parameters": {
+          "queryType": "payment",
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "530502",
+          "asOf": "2026-11-19",
+          "recordMonth": "2026-03",
+          "ageBandCode": "100_PLUS"
+        },
+        "hits": []
+      },
+      "after": {
+        "executed": true,
+        "status": "no_match",
+        "missing": [],
+        "parameters": {
+          "queryType": "payment",
+          "matterId": "HIGH_AGE_ALLOWANCE",
+          "regionCode": "530502",
+          "asOf": "2026-11-19",
+          "recordMonth": "2026-03",
+          "ageBandCode": "100_PLUS"
+        },
+        "hits": []
+      },
+      "diff": {
+        "changed": false,
+        "added": [],
+        "removed": [],
+        "versionChanged": [],
+        "fieldsChanged": [],
+        "statusChanged": false
+      },
+      "causes": [],
+      "reasons": [
+        "相同参数下命中编号、版本和证据字段不变"
+      ],
+      "pending": [
+        "本用例未命中不证明其他资料或地区没有政策"
+      ],
+      "expectations": [
+        {
+          "stage": "before",
+          "expected": null,
+          "actual": [],
+          "status": "not_provided"
+        },
+        {
+          "stage": "after",
+          "expected": null,
+          "actual": [],
+          "status": "not_provided"
+        }
+      ]
+    }
+  ],
+  "plan": {
+    "added": 2,
+    "modified": 0,
+    "unchanged": 0,
+    "errors": 0,
+    "details": [
+      {
+        "kind": "document",
+        "id": "BS_GLT_202609",
+        "version": 1,
+        "action": "added"
+      },
+      {
+        "kind": "clause",
+        "id": "BS_GLT_202609_LY_100PLUS",
+        "version": 1,
+        "action": "added"
+      }
+    ],
+    "messages": [],
+    "batchId": "52a8362a-1fb2-4a01-b88c-010288332990"
+  },
+  "baseline": {
+    "versionCount": 7,
+    "eventCount": 7
+  },
+  "previewBaselineSha256": "526313028c4db8f2fc1b38b339471fa43b58ecabf7d6ae041ab0d07acf285900",
+  "baselineReplayVerified": true,
+  "summary": {
+    "cases": 6,
+    "changed": 1,
+    "unchanged": 4,
+    "executedQueryPairs": 5,
+    "needsParameters": 1,
+    "expectationFailures": 0
+  },
+  "inputs": [
+    {
+      "file": "D:\\ICT\\data\\impact\\longyang-monthly\\update.draft.json",
+      "sha256": "f3a7d4b4ab37db50753c9504b3bceb583642a6302b58db6d9b96a762aa882be8"
+    },
+    {
+      "file": "D:\\ICT\\data\\impact\\longyang-monthly\\queries.current.json",
+      "sha256": "21c129456c8d2c3b824924a655ba6e0eeeba14b6f33149e7d155a48ccb018f36"
+    }
+  ]
+}

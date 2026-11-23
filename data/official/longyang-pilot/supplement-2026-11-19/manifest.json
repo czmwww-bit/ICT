@@ -1,0 +1,13 @@
+{
+  "sourceMainBatchSha256": "403e2e72a8100178ba1b11489c508bda9809e7428d8fc0ed1c7ca442747e0391",
+  "documents": 11,
+  "clauses": 20,
+  "reusedDocuments": 3,
+  "reusedClauses": 7,
+  "newDocuments": 8,
+  "newClauses": 13,
+  "reviewStatus": "pending",
+  "importedToProject": false,
+  "published": false,
+  "batchSha256": "f261f541430f55eb96f07aeb85e18170570949cb17fe0be1bbc7cf1358ce68cc"
+}

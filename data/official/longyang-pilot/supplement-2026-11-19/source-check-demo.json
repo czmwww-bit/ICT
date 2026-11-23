@@ -1,0 +1,20 @@
+{
+  "id": "4109c366-3231-467a-8142-cf40941d1a96",
+  "startedFor": [
+    "BS-202609"
+  ],
+  "completedAt": "2026-11-19T06:22:22.980Z",
+  "results": [
+    {
+      "sourceId": "BS-202609",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-19T06:22:22.653Z",
+      "fingerprint": "8b5e648e68166d604a1b80ff64183c8140a1095b7553a31685652777e63787a3",
+      "rawHash": "3c57a7850ea1cc3fe98c2a7614a188c0fb919bb3378ddf1e32b9002baced93db",
+      "rawSnapshot": "blobs/3c57a7850ea1cc3fe98c2a7614a188c0fb919bb3378ddf1e32b9002baced93db.html",
+      "bodyHash": "0f164edbde05733a9d71fb4c3c217d157746147b7eafdffaaf4b0399bc061b96"
+    }
+  ]
+}

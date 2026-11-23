@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "BS-202601",
+      "documentId": "BS_GLT_202601",
+      "url": "https://www.baoshan.gov.cn/info/6126/10335854.htm",
+      "format": "html",
+      "selector": "#vsb_content",
+      "baseline": {
+        "file": "sources/BS-202601.html"
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "BS-202602",
+      "documentId": "BS_GLT_202602",
+      "url": "https://baoshan.gov.cn/info/6126/10352984.htm",
+      "format": "html",
+      "selector": "#vsb_content",
+      "baseline": {
+        "file": "sources/BS-202602.html"
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "BS-202608",
+      "documentId": "BS_GLT_202608",
+      "url": "https://www.baoshan.gov.cn/info/6126/10396644.htm",
+      "format": "html",
+      "selector": "#vsb_content",
+      "baseline": {
+        "file": "sources/BS-202608.html"
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "BS-202609",
+      "documentId": "BS_GLT_202609",
+      "url": "https://www.baoshan.gov.cn/info/6126/10409514.htm",
+      "format": "html",
+      "selector": "#vsb_content",
+      "baseline": {
+        "file": "sources/BS-202609.html"
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "LY-2026Q2",
+      "documentId": "LY_GLT_2026Q2_DISCLOSURE",
+      "url": "https://www.longyang.gov.cn/info/2861/14118239.htm",
+      "format": "html",
+      "selector": ".m-4.content",
+      "baseline": {
+        "file": "sources/LY-2026Q2.html"
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "LY-MZ-CONTACT",
+      "documentId": "LY_MZ_ORGANIZATION",
+      "url": "https://longyang.gov.cn/xxgk/bm/lyqmzj/fdzdgknr/zzjg.htm",
+      "format": "html",
+      "selector": "#vsb_content_4",
+      "baseline": {
+        "file": "sources/LY-MZ-CONTACT.html"
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "BS-ECON-202609",
+      "documentId": "BS_ECON_09_PUBLISHED_20261008",
+      "url": "https://www.baoshan.gov.cn/info/6126/10409524.htm",
+      "format": "html",
+      "selector": "#vsb_content",
+      "baseline": {
+        "file": "sources/BS-ECON-202609.html"
+      },
+      "declaredEffectiveFrom": null
+    },
+    {
+      "id": "HH-ELDER-CARD-REPRINT",
+      "documentId": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+      "url": "https://www.hh.gov.cn/info/30361/1236862.htm",
+      "format": "html",
+      "selector": "[id^=\"vsb_content_\"]",
+      "baseline": {
+        "file": "sources/HH-ELDER-CARD-REPRINT.html"
+      },
+      "declaredEffectiveFrom": "2026-01-01"
+    }
+  ]
+}

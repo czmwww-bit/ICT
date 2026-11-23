@@ -28,6 +28,34 @@ export const regionSchema = z
   })
   .strict();
 const evidence = z.object({ text: rawText, quote: rawText, locator: text }).strict();
+// 统计记录的所属月份独立于政策生效日期；旧记录未提供此字段时保持原有JSON和校验值。
+export const recordMonth = z.string().regex(/^\d{4}-(0[1-9]|1[0-2])$/, '必须为 YYYY-MM 月份');
+const paymentRecordSchema = z
+  .object({
+    kind: z.enum(['monthly_statistics', 'quarterly_disclosure']),
+    fromMonth: recordMonth.nullable(),
+    toMonth: recordMonth.nullable(),
+    periodEvidence: evidence,
+    ageBandCode: id,
+    ageBandLabel: text,
+    amountYuanPerPersonMonth: z.number().nonnegative().nullable(),
+    recipientCount: z.number().int().nonnegative().nullable(),
+    totalPaidYuan: z.number().nonnegative().nullable(),
+    evidence,
+  })
+  .strict()
+  .superRefine((r, ctx) => {
+    if ((r.fromMonth === null) !== (r.toMonth === null))
+      ctx.addIssue({
+        code: 'custom',
+        path: ['toMonth'],
+        message: '统计起止月份须同时已知或同时未知',
+      });
+    if (r.fromMonth && r.toMonth && r.fromMonth > r.toMonth)
+      ctx.addIssue({ code: 'custom', path: ['toMonth'], message: '统计结束月早于开始月' });
+    if (r.kind === 'monthly_statistics' && r.fromMonth !== r.toMonth)
+      ctx.addIssue({ code: 'custom', path: ['toMonth'], message: '月报必须只对应一个月' });
+  });
 const base = {
   id,
   version: z.number().int().positive(),
@@ -79,6 +107,7 @@ export const clauseSchema = z
     contacts: z.array(evidence).nullable(),
     schedule: evidence.nullable(),
     location: evidence.nullable(),
+    paymentRecord: paymentRecordSchema.optional(),
     relations: z.array(
       z
         .object({
@@ -257,6 +286,15 @@ export function validateLinks(
       'channels',
       'contacts',
     ] as const;
+    if (c.paymentRecord) {
+      for (const field of ['evidence', 'periodEvidence'] as const)
+        if (!c.quote.includes(c.paymentRecord[field].quote))
+          errors.push(`${key}.paymentRecord.${field}.quote: 不在条款引用内`);
+      if (c.effectiveFrom !== null || c.effectiveTo !== null)
+        errors.push(
+          `${key}.paymentRecord: 发放记录不可填作政策生效/失效日期；请另建有正式依据的政策条款`,
+        );
+    }
     for (const field of fields) {
       const value = c[field];
       const items = Array.isArray(value) ? value : value ? [value] : [];

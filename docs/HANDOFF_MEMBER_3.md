@@ -1,5 +1,11 @@
 # 成员③交接
 
+2026-11-23的[官方来源检查](../reports/source-update-2026-11-23/README.md)覆盖42个入口：39无变化、2个404，红河转载页首次取得7份附件，正文及网页日期未变，不能据此认定政策修订。附件原件与两个补充候选均已归档待核对，未导入或发布；医保2026版事项清单的解读明确2027年1月1日开始执行，需与现有资料共同核对。
+
+新增[政策更新影响预览](POLICY_IMPACT_PREVIEW.md)：`npm.cmd run demo:impact`生成`reports/policy-impact-longyang.md/json`。通用入口`data:impact -- --file 批次 --cases 用例 --out 报告前缀`读取当前项目快照，真实导入/发布只在空_test库执行；演示额外基线明确标记，不冒充正式发布。支持稳定编号增减、版本及证据字段变化、缺参数单列和项目库7表前后摘要验证。
+
+2026-11-19新增[隆阳金额/流程/优待凭证补充](../data/official/longyang-pilot/supplement-2026-11-19/README.md)：新增8文件13条款，复用后为11文件20条款，全部待审。按月读发放事实用`src/payment-records.ts`（需一并同步model.ts可选字段），不把统计月写成生效日、不默认取最新金额。`demo:payment -- --isolated --month 2026-02 --region 530502`可演示350记录，9月示例为1000。34测试、21隔离检查通过；15题85项业务检查未执行。旧90条款、旧联调包和正式库未改。
+
 2026-11-18新增两个独立入口：[隆阳核心联调包](../data/official/longyang-pilot/integration-core/README.md)固定3文件/10条款、6道业务题和4道技术对照，运行`npm.cmd run test:longyang-core -- --isolated`；[医保只读查询步骤](../data/official/yunnan-medical-insurance/operation-guide/README.md)使用5张截图的转录观察及一次未知画面回退，运行`npm.cmd run test:operation`。检索60/60、步骤素材18/18通过；6道业务题41项未执行。图片OCR、手机全流程和政策审核仍待完成，不能用技术通过代替验收。
 
 云南医保的新资料与截图入口见[专门交接](YUNNAN_MEDICAL_HANDOFF.md)。`demo:medical -- --isolated`复用原查询/导入/发布模块，仅在空测试库技术演示；20文件/50条款仍待审。两条入口与口语问法素材不冒充②的业务判断，也不证明原小程序问答/语音已体验。

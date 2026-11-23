@@ -72,6 +72,8 @@
 | evidence_publications | 独立审核/撤回事件、操作者、原因、时间，外键关联准确快照版本 |
 | evidence_import_lock | 一行事务锁，串行化导入及发布，避免新增竞争与发布读取不一致 |
 
+2026-11-19：条款新增可选`paymentRecord`，仅用于官方发放统计/季度公开，不用于政策金额推断。`kind`区分monthly_statistics/quarterly_disclosure；`fromMonth/toMonth`为YYYY-MM或同时null（年份未知）；`periodEvidence`保留期间原文；`ageBandCode/ageBandLabel`区分标准化档位和原表用语；`amountYuanPerPersonMonth/recipientCount/totalPaidYuan`允许未知null，`evidence`保存数值的表头/行依据。嵌套依据必须在条款原文内，统计条款的政策effectiveFrom/effectiveTo必须null，正式生效另建政策条款。旧条款未出现此字段时不补默认值，哈希不变，继续用原JSON版本表，无SQL迁移。查询入口和年月/季度口径见[金额补充交接](../data/official/longyang-pilot/supplement-2026-11-19/README.md)。
+
 原文内容放 JSON 是为支持少量、人工维护的嵌套条款；编号、版本、审核记录仍有数据库主键和外键。跨 JSON 的文件/区域/关系一致性由同一事务内的校验器确保。维护只能走脚本；运行账号只授 SELECT。当前查询在一致性快照中读小型试点资料，再按编码筛选；资料量扩大时可增加事项/区域索引表，无需让②改变业务逻辑。
 
 新导入永远待审核。`publish` 追加 approved 事件并明确选择该版本为当前发布版本；导入后续草稿不影响当前发布版本。撤回当前版本追加 rejected 事件，查询不静默回退；确需回退须再次明确发布旧版本、增加 `--allow-rollback` 并写明原因，避免陈旧审核覆盖较新发布。草稿、撤回版不会出现在正式查询中。发布源文件必须先于发布引用它的条款。

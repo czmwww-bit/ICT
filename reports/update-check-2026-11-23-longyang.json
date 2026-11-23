@@ -1,0 +1,241 @@
+{
+  "id": "05027900-7482-402e-95d0-d0ac34fb4225",
+  "startedFor": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "B6-web",
+    "B7",
+    "B8-province",
+    "B8-reprint",
+    "C9",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C11-honghe",
+    "B6-pdf"
+  ],
+  "completedAt": "2026-11-23T00:45:22.561Z",
+  "results": [
+    {
+      "sourceId": "A1",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:16.462Z",
+      "fingerprint": "8f8c327e06641c494e4316edfedfff6b5727fea16c06630a3f8542ac72ec388c",
+      "rawHash": "8e84f3685ac39941f7414b09470a3d23f61ddb735e34cf6f9445a698ca3abd92",
+      "rawSnapshot": "blobs/8e84f3685ac39941f7414b09470a3d23f61ddb735e34cf6f9445a698ca3abd92.html",
+      "bodyHash": "4f864482111d70d40412d6c62dd618475eb80d42b7de8adbc435883315ee236e"
+    },
+    {
+      "sourceId": "A2",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:16.745Z",
+      "fingerprint": "5aff57e97cd504278d93dbb282c7a77e08983a95babffacb95c94bbbe35eb240",
+      "rawHash": "7b197020fa7fec76cc6243f43eb831dee5067b3f54329d7f2c2af7d67d9e31db",
+      "rawSnapshot": "blobs/7b197020fa7fec76cc6243f43eb831dee5067b3f54329d7f2c2af7d67d9e31db.html",
+      "bodyHash": "5f844eae5f5218fefb7cd7791afe4810ab60cad3ae70348e81f9b461918ed57d"
+    },
+    {
+      "sourceId": "A3",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [
+        {
+          "url": "https://www.hhgj.gov.cn/virtual_attach_file.vsb?afc=0oRNaDn7U4nz9sUP8V7oRNPo7CaLzfYfo7CsMmrVM4N4oll0gihFp2hmCIa0MYh2UYyYokyYLzGaUlCsM8QVMzvDnRvPUz6VLl78Mz78nRTFLR-Zo7lZMzQFM4vPnlCJv2nto40TApuNJweT0-RTOQ5X/bmX0wztxH5wxgz19W4TACsjTguTmpuNJ/019WsTxE5N0Q4jtwzX9WKjjElJv2nto4xjqjMYp5XtgDTJQty0LzLPLR70MzUDL4lPgtA8pU4cc",
+          "hash": "1009162b5b7eb69affac7a818dd16a4581a247413bdf8cc81a9715f00e3f3c97",
+          "textStatus": "no_text_layer"
+        }
+      ],
+      "checkedAt": "2026-11-23T00:45:16.887Z",
+      "fingerprint": "5f08680767f41f004d78431e2d1e777fff0bcdb085682e1201fa619aa7024656",
+      "rawHash": "47f99fa5b5f8fec0ffb3d0ae0a25df5406a1c50c233d5e2bdb0eedebc10dd825",
+      "rawSnapshot": "blobs/47f99fa5b5f8fec0ffb3d0ae0a25df5406a1c50c233d5e2bdb0eedebc10dd825.html",
+      "bodyHash": "02fc2a840411c615a220337aa09d711b52c9f9b9dd01db543477941aac4547b4"
+    },
+    {
+      "sourceId": "A4",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:19.221Z",
+      "fingerprint": "b7cbb5bc1760d8239f65e587565668b5ea74884b75aa9abd3247b7ac861282ff",
+      "rawHash": "161f1cf25eb1627d7e83d4d6a754d9390e160da1b86a58df2b653bc79b6602c6",
+      "rawSnapshot": "blobs/161f1cf25eb1627d7e83d4d6a754d9390e160da1b86a58df2b653bc79b6602c6.html",
+      "bodyHash": "991edbe1294436a4574988a2d0050bf7e4a97284ab752cdbfc95b489c68bf6d4"
+    },
+    {
+      "sourceId": "A5",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:19.274Z",
+      "fingerprint": "30fe6d1e6518e19075a101d05d2b8035565c99ea7dfd6fe03c7ad4c464d9b007",
+      "rawHash": "0335d1a7935cde5958acaf0a694937857dc213c9855851dac628966861ca17cf",
+      "rawSnapshot": "blobs/0335d1a7935cde5958acaf0a694937857dc213c9855851dac628966861ca17cf.html",
+      "bodyHash": "2f4f5d000a9e70841b435dbb6ea5dec28ad309bc8b51094f86b676182771da7c"
+    },
+    {
+      "sourceId": "B6-web",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:19.324Z",
+      "fingerprint": "8abf2fc9e34ae2a8ed3dd1d3517dcf7639ebacc83b69f89e1737487021482011",
+      "rawHash": "ca716463d5b57f15faf49b666e096a96c8849e335fd0b7cb3a11dc3e1de3bbb3",
+      "rawSnapshot": "blobs/ca716463d5b57f15faf49b666e096a96c8849e335fd0b7cb3a11dc3e1de3bbb3.html",
+      "bodyHash": "752361643bb67a3ef521a23065253cb8b78d92187cb93a1b19984dd3aff31cff"
+    },
+    {
+      "sourceId": "B7",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:19.591Z",
+      "fingerprint": "250d821287aa6de960d8b4358e790480ece6cea5b72129af6a52188e2a3e2dc1",
+      "rawHash": "05a00c853057170ca271b461e242bad3be0599c5891ae5789a3e8cbd94f25f4f",
+      "rawSnapshot": "blobs/05a00c853057170ca271b461e242bad3be0599c5891ae5789a3e8cbd94f25f4f.html",
+      "bodyHash": "d865f6d8c8eed72e7075b24dadf740a3e3ac5b886a4a77419fe74e740ed3e33d"
+    },
+    {
+      "sourceId": "B8-province",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:19.652Z",
+      "fingerprint": "b80ca782628d8ca7ebf7397a128338b0a12e32d0433c1ef11729dcdbc6f3458b",
+      "rawHash": "d01b0953419d9157a60a46244d74e2cf2ca7501e21e95b2ce92dafd4ce1e1558",
+      "rawSnapshot": "blobs/d01b0953419d9157a60a46244d74e2cf2ca7501e21e95b2ce92dafd4ce1e1558.html",
+      "bodyHash": "9800c5aa54ba5528aab7a599c49e871cb6ff585cc55c73f5e1496333e73297f9"
+    },
+    {
+      "sourceId": "B8-reprint",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:19.945Z",
+      "fingerprint": "9c8eb3bb5e5ad625034fee6faac15c3dd8c4534691f4475fbcc4e7d716e7b7d8",
+      "rawHash": "91c48ea795973558d78f170ba2c77ae4f5d2f95984a2823abc3f25be8dbf3bea",
+      "rawSnapshot": "blobs/91c48ea795973558d78f170ba2c77ae4f5d2f95984a2823abc3f25be8dbf3bea.html",
+      "bodyHash": "9800c5aa54ba5528aab7a599c49e871cb6ff585cc55c73f5e1496333e73297f9"
+    },
+    {
+      "sourceId": "C9",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:20.198Z",
+      "fingerprint": "68ad7af9e75ce552fa40872f9b1c3d9efa4d9e166403920686fdddd9db544b34",
+      "rawHash": "a592299489bfa0a3ada7d9799ebf95ebf1e0b256b7a90855e9809377b22c59ac",
+      "rawSnapshot": "blobs/a592299489bfa0a3ada7d9799ebf95ebf1e0b256b7a90855e9809377b22c59ac.html",
+      "bodyHash": "a773de33e4f44911f470b5c520586190acea2ceec889a9d6a0b2f6f7af4855a7"
+    },
+    {
+      "sourceId": "C10",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:20.439Z",
+      "fingerprint": "336511ab1a04536e34f35a9f8b75928f6a95df7a58e6a9974c1f9531a2a35f2f",
+      "rawHash": "58d68f21d24d764b13d289c6d98085a0e9230d3c7e09b5324893117c61745733",
+      "rawSnapshot": "blobs/58d68f21d24d764b13d289c6d98085a0e9230d3c7e09b5324893117c61745733.html",
+      "bodyHash": "33ca5ec6359dad6e2ceca0b19bb9ca79627dcaf4676c196beb31fcf7efc8e057"
+    },
+    {
+      "sourceId": "C11",
+      "status": "fetch_failed",
+      "checkedAt": "2026-11-23T00:45:20.962Z",
+      "error": "HTTP 404",
+      "httpStatus": 404
+    },
+    {
+      "sourceId": "C12",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [],
+      "checkedAt": "2026-11-23T00:45:21.104Z",
+      "fingerprint": "e0bc1d893e08144e95024a6fae8344c2791ba36579363562c8417f277b148a56",
+      "rawHash": "e9c4ce33e2680f2dce1610e61b7cbeea73bf6773b568fb3fea07979a9bf9c79d",
+      "rawSnapshot": "blobs/e9c4ce33e2680f2dce1610e61b7cbeea73bf6773b568fb3fea07979a9bf9c79d.html",
+      "bodyHash": "49c5d81ef15d53d6c733e255202105f9c7747ec1855d47ed0bc9e79c86f306ac"
+    },
+    {
+      "sourceId": "C13",
+      "status": "unchanged",
+      "contentStatus": "unchanged",
+      "attachmentText": [
+        {
+          "url": "https://www.longyang.gov.cn/virtual_attach_file.vsb?afc=zMzvlZnz6fLlUYUrmN4nl-iL4liUNVIRMNrVnl7anRnRMl-0gihFp2hmCIa0n1yaM1y4USysM7MfLNliMmnRL8nkUlC4UzQ2MzU4UzM2MRrFnz6fn7LaUNnFL8UbU4lJv2nto4OeoDPb5s6TC1hXptQ0g4L8oRl0LzUPLz74LzNJqd5nx",
+          "hash": "a513fa35c4d3ae0bc8f3d032c94c8ee49912bee312c95d116bbe2d90672ab8d6",
+          "textStatus": "extracted"
+        }
+      ],
+      "checkedAt": "2026-11-23T00:45:21.252Z",
+      "fingerprint": "8384301b29a380455b2e5e2696c711530bddf83dc75f18b64a7400c2e78b0a48",
+      "rawHash": "bd96e5bbe95ac382f6003ddabe1af0973c4be859bc5131ba5bb3423f9adaaea7",
+      "rawSnapshot": "blobs/bd96e5bbe95ac382f6003ddabe1af0973c4be859bc5131ba5bb3423f9adaaea7.html",
+      "bodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "C11-honghe",
+      "status": "changed",
+      "contentStatus": "changed",
+      "attachmentText": [
+        {
+          "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3U4vBDL4NaU8MkMGlVko7l4LlCaU4NfbL8U8LRrkL87bozC0gihFp2hmCIa0LSyDn1yPM1yiU8lZMzNanzrkUNUDnzf2oz9PMzUiLzTfL8QFM4vYMN-iLNnFoR-aLkbNpDLeo47Jbg/nbCD5bbYfbCIeE-kfbXYMbC/AEH2TEgS8Eq2bbbJJbK1VbCDrgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+          "hash": "a0a04fa968d7bf69dd2d88f4669872bfd4fdf5856c90fa590066ec44d95eadba",
+          "textStatus": "not_supported_hash_only"
+        },
+        {
+          "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nzCBbU8C8LzU4oGRU4U46koz-8MNVfkL8CPnNC8M8-DnRL0gihFp2hmCIa0nky4MYh2USyPM874M7nRnNr2LzCYMzQ7LmGDLmAVM7CaLlQFLz7iUNn2MRrFL8laLkbNpDLeo4-JE-kfbpt8bg/EEH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+          "hash": "47162bc2ce2c3fb762b40140755d2e82c28e37891357cb6752400c36ef4894ea",
+          "textStatus": "not_supported_hash_only"
+        },
+        {
+          "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nmLBZL8CYnmC4UGzffL4-an7UbUmCf8MmM7U87PL8lPL8U0gihFp2hmCIa0MYy8nkhVLSyaL4CZM8lsL4f7U49YMRvDnzGYnl7bnN-ZLNMFU474UmU8M7nFMR-aLkbNpDLeo4LJE-kfbpt8bg/EE-ohbC/pEH37bgYabXYEbXE7EH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+          "hash": "6529b7da6c8d88854dc9c4f77caba5d5aea791fc7a7db8950232eb8de2c82100",
+          "textStatus": "not_supported_hash_only"
+        },
+        {
+          "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3olMB7oRTfMm7ZUGm9DUmNaUmMkLzLfbnR7bnmUYLmv8UNC0gihFp2hmCIa0M1yDMYyiUSybnNlanm-DoRNYU4fVMzW2U4lYUNrRozUYL4fFLlLsM8-so7nFMR9aLkbNpDLeo4UJbCIeE-kfbXYMbC/AbXYEbXE7EH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+          "hash": "17466bdd4445e055de7179e530ce6f47dfd8cf2c3bc703a8f870bd430d47b719",
+          "textStatus": "not_supported_hash_only"
+        },
+        {
+          "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nNLBPnmM2L4GaLGl-ZnzT7MmCsozCfPMRW7U49ZU8UYoR-0gihFp2hmCIa0nShkoSh7UYyaUmffUmW2nRCioRW2LzG8Lzl4nRGPM4n7M4TFnRQRL49DLRnFo7laLkbNpDLeo4lJbXYMbC/AbXYEbXE7bbS4bw/TEH2wgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+          "hash": "6f32b2e24e4399de9784fa476cfba599cbd71be722e4a39184ca545619847640",
+          "textStatus": "not_supported_hash_only"
+        },
+        {
+          "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3M4VBRMmV7Lzr2MG77ZolMkLlCaMNUf4oz-4nlnRM4rRU4C0gihFp2hmCIa0okhRLShfM1hRnlCZMz9Pnm-ZMmVVU4nknmMVM87DMz6kMRVFnmrkn7WfMz6FMz-aLkbNpDLeo4CJbXYMbC/AbXYEbXE7bqSdb/2-Eq2bbbJJbK1VbCDrgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+          "hash": "15e4c95d37d3b0a593901c25a88e1dd14b7e5b105fa19b904f0854133da14649",
+          "textStatus": "not_supported_hash_only"
+        },
+        {
+          "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3UlWBkLlM2L4GsnGlliMmCYUNCsL8CfDnzVkLmV2MmGbL8l0gihFp2hmCIa0LYyDLYhRMShfL8C8LzUbMRW7MR6fnlLiLRMfnRNPL8-DM8VFnR-bUNLaLmAFLzffLRGJQ2hmo4OsgJSEN_IMT3_v9_IUN_SZK_IEXJSeX_SZ1JINO_1R0_1G9_IbxoSEJJIuN_ql0JIVJ31G9_qvm_IHw_qD1o18J_1AX_18xotAJ__pKJIJjJqI0__eAJI-tSbNpDLeoDAw_jWx_tC0qIbtpYy4LRLDLSyPLmU4Lm7YgtA8pUkcc",
+          "hash": "1fe7de0a0e52b9100b91372eaf711920ad443512c19a73747dd6e877ebeb58db",
+          "textStatus": "not_supported_hash_only"
+        }
+      ],
+      "checkedAt": "2026-11-23T00:45:21.727Z",
+      "fingerprint": "afa3ad06d5634eccbb8f62ffd25308d64985ad6263bd6b2d5af534ab6b4f5257",
+      "taskId": "f20a694610f62da6f31e030463e95c16f7968645a4bc6d714fbcc6505e460e78",
+      "rawHash": "142640d8e1dce8f153bcaefbde63970362ea69f76a8dab1321b5578fe5d31d83",
+      "rawSnapshot": "blobs/142640d8e1dce8f153bcaefbde63970362ea69f76a8dab1321b5578fe5d31d83.html",
+      "bodyHash": "af3d81139dccbf0cc6589cd8c7178b881ae7ddf8bb0b41decdd102d6d9552be7"
+    },
+    {
+      "sourceId": "B6-pdf",
+      "status": "fetch_failed",
+      "checkedAt": "2026-11-23T00:45:22.325Z",
+      "error": "HTTP 404",
+      "httpStatus": 404
+    }
+  ]
+}

@@ -1,0 +1,1338 @@
+{
+  "executedAt": "2026-11-19T06:57:18.520Z",
+  "checks": [
+    {
+      "name": "same_parameters_and_expected_hits",
+      "passed": true
+    },
+    {
+      "name": "stable_id_version_change",
+      "passed": true
+    },
+    {
+      "name": "neighbor_isolation",
+      "passed": true
+    },
+    {
+      "name": "effective_day_before_excluded",
+      "passed": true
+    },
+    {
+      "name": "effective_day_included",
+      "passed": true
+    },
+    {
+      "name": "current_snapshot_exactly_replayed",
+      "passed": true
+    },
+    {
+      "name": "missing_month_not_counted_as_query_or_pass",
+      "passed": true
+    },
+    {
+      "name": "successful_test_tables_cleaned",
+      "passed": true
+    },
+    {
+      "name": "source_digest_unchanged_success",
+      "passed": true
+    },
+    {
+      "name": "invalid_batch_reports_failure",
+      "passed": true
+    },
+    {
+      "name": "invalid_batch_test_tables_cleaned",
+      "passed": true
+    },
+    {
+      "name": "refuse_source_as_isolation_database",
+      "passed": true
+    },
+    {
+      "name": "source_digest_unchanged_after_failures",
+      "passed": true
+    }
+  ],
+  "passed": 13,
+  "failed": 0,
+  "versionFixture": "仅修改定位的技术校对版本，原政策金额未改",
+  "sourceDatabaseUnchanged": true,
+  "preview": {
+    "executedAt": "2026-11-19T06:57:18.133Z",
+    "mode": "demo_augmented_project_snapshot",
+    "scope": "仅本次列出的查询用例，不是全库影响范围或政策语义审计",
+    "humanPolicyApproved": false,
+    "currentSnapshotSha256": "526313028c4db8f2fc1b38b339471fa43b58ecabf7d6ae041ab0d07acf285900",
+    "currentSnapshotVersions": 7,
+    "currentOfficialApprovedClauses": 0,
+    "sourceDatabaseUnchanged": true,
+    "sourceDigestBefore": {
+      "evidence_publications": {
+        "rows": 7,
+        "sha256": "9d2a30542c0e01bd142d2e47521689637205c25c1ac4e8143d7bc42a931fc49d"
+      },
+      "evidence_versions": {
+        "rows": 7,
+        "sha256": "a46202a41260e58dea44ac65ca9fb8ea46a7b63d879b4f237853c2e9cd4b1494"
+      },
+      "evidence_heads": {
+        "rows": 6,
+        "sha256": "a8aeb2878f1520c557c51a7aa6d5efb3126f66df549756a071fe5333b2e5a524"
+      },
+      "evidence_batches": {
+        "rows": 2,
+        "sha256": "b1b6ef7de31c33d7f3a851509ff4d44a5f8669576d9cfb2960e55ce8a02f0871"
+      },
+      "evidence_regions": {
+        "rows": 4,
+        "sha256": "b446f4f7687c34b590b64f7bcd7cf728a3b432529fac96a3535b34c731b45ad4"
+      },
+      "evidence_import_lock": {
+        "rows": 1,
+        "sha256": "037c9214eef74cc3887f3a4f085b4e17d76280dafd273b0ee160c09c4ba1cfd4"
+      },
+      "evidence_migrations": {
+        "rows": 2,
+        "sha256": "f7dde8b07c3176a9043e2a6620356f03616c006ee13190948b2ffebaceecd463"
+      }
+    },
+    "sourceDigestAfter": {
+      "evidence_publications": {
+        "rows": 7,
+        "sha256": "9d2a30542c0e01bd142d2e47521689637205c25c1ac4e8143d7bc42a931fc49d"
+      },
+      "evidence_versions": {
+        "rows": 7,
+        "sha256": "a46202a41260e58dea44ac65ca9fb8ea46a7b63d879b4f237853c2e9cd4b1494"
+      },
+      "evidence_heads": {
+        "rows": 6,
+        "sha256": "a8aeb2878f1520c557c51a7aa6d5efb3126f66df549756a071fe5333b2e5a524"
+      },
+      "evidence_batches": {
+        "rows": 2,
+        "sha256": "b1b6ef7de31c33d7f3a851509ff4d44a5f8669576d9cfb2960e55ce8a02f0871"
+      },
+      "evidence_regions": {
+        "rows": 4,
+        "sha256": "b446f4f7687c34b590b64f7bcd7cf728a3b432529fac96a3535b34c731b45ad4"
+      },
+      "evidence_import_lock": {
+        "rows": 1,
+        "sha256": "037c9214eef74cc3887f3a4f085b4e17d76280dafd273b0ee160c09c4ba1cfd4"
+      },
+      "evidence_migrations": {
+        "rows": 2,
+        "sha256": "f7dde8b07c3176a9043e2a6620356f03616c006ee13190948b2ffebaceecd463"
+      }
+    },
+    "testTablesCleaned": true,
+    "suiteVersion": "impact-technical-regression-v1",
+    "assumptions": [
+      {
+        "stage": "演示基线",
+        "documentId": "BS_GLT_202602",
+        "fields": [
+          "checkedAt",
+          "checkedBy"
+        ]
+      },
+      {
+        "stage": "更新批次",
+        "documentId": "BS_GLT_202609",
+        "fields": [
+          "checkedAt",
+          "checkedBy"
+        ]
+      },
+      {
+        "stage": "更新批次",
+        "documentId": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+        "fields": [
+          "checkedAt",
+          "checkedBy"
+        ]
+      }
+    ],
+    "ok": true,
+    "results": [
+      {
+        "id": "version",
+        "description": "",
+        "before": {
+          "executed": true,
+          "status": "matched",
+          "missing": [],
+          "parameters": {
+            "queryType": "payment",
+            "matterId": "HIGH_AGE_ALLOWANCE",
+            "regionCode": "530502",
+            "asOf": "2026-11-19",
+            "recordMonth": "2026-02",
+            "ageBandCode": "100_PLUS"
+          },
+          "hits": [
+            {
+              "id": "BS_GLT_202602_LY_100PLUS",
+              "version": 1,
+              "category": "monthly",
+              "clause": {
+                "id": "BS_GLT_202602_LY_100PLUS",
+                "quote": "保山市2026年2月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550\n施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000\n腾冲市 | 14801 | 1984 | 44 | 16829 | 50 | 1000 | 740050 | 99200 | 44000 | 883250\n龙陵县 | 6449 | 1357 | 18 | 7824 | 50 | 1000 | 322450 | 67850 | 18000 | 408300\n昌宁县 | 8689 | 1233 | 16 | 9938 | 50 | 1000 | 434450 | 61650 | 16000 | 512100\n合计 | 58984 | 8726 | 146 | 67856 |  |  | 2950450 | 436350 | 117400 | 3504200\n",
+                "actions": null,
+                "dataset": "official",
+                "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+                "version": 1,
+                "channels": null,
+                "contacts": null,
+                "location": null,
+                "matterId": "HIGH_AGE_ALLOWANCE",
+                "schedule": null,
+                "materials": null,
+                "relations": [],
+                "conditions": null,
+                "documentId": "BS_GLT_202602",
+                "matterName": "高龄津贴与长寿补助",
+                "population": null,
+                "effectiveTo": null,
+                "regionCodes": [
+                  "530502"
+                ],
+                "reviewStatus": "approved",
+                "effectiveFrom": null,
+                "paymentRecord": {
+                  "kind": "monthly_statistics",
+                  "toMonth": "2026-02",
+                  "evidence": {
+                    "text": "隆阳区，百岁档，350元/人·月",
+                    "quote": "隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550",
+                    "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json"
+                  },
+                  "fromMonth": "2026-02",
+                  "ageBandCode": "100_PLUS",
+                  "ageBandLabel": "100周岁以上（原表用语）",
+                  "totalPaidYuan": 15400,
+                  "periodEvidence": {
+                    "text": "2026-02",
+                    "quote": "保山市2026年2月高龄津贴发放情况统计表",
+                    "locator": "网页标题"
+                  },
+                  "recipientCount": 44,
+                  "amountYuanPerPersonMonth": 350
+                },
+                "documentVersion": 1,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": null
+              },
+              "source": {
+                "clauseId": "BS_GLT_202602_LY_100PLUS",
+                "clauseVersion": 1,
+                "documentId": "BS_GLT_202602",
+                "documentVersion": 1,
+                "title": "保山市2026年2月高龄津贴发放情况统计表",
+                "quote": "保山市2026年2月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550\n施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000\n腾冲市 | 14801 | 1984 | 44 | 16829 | 50 | 1000 | 740050 | 99200 | 44000 | 883250\n龙陵县 | 6449 | 1357 | 18 | 7824 | 50 | 1000 | 322450 | 67850 | 18000 | 408300\n昌宁县 | 8689 | 1233 | 16 | 9938 | 50 | 1000 | 434450 | 61650 | 16000 | 512100\n合计 | 58984 | 8726 | 146 | 67856 |  |  | 2950450 | 436350 | 117400 | 3504200\n",
+                "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+                "url": "https://baoshan.gov.cn/info/6126/10352984.htm"
+              },
+              "document": {
+                "id": "BS_GLT_202602",
+                "version": 1,
+                "title": "保山市2026年2月高龄津贴发放情况统计表",
+                "publisher": "保山市民政局",
+                "url": "https://baoshan.gov.cn/info/6126/10352984.htm",
+                "publishedAt": "2026-03-08"
+              },
+              "clauseChecksum": "341fb8d3c419f1280bae96ac3f8cc332c967bb0443b85920eb8407e9fb979d82",
+              "documentChecksum": "34567accc877e9b9549f36ff54a1c761e3c9bea07b03f2d6165b3d2b12c2bf58",
+              "timeStatus": "needs_review",
+              "unknownEnd": true
+            }
+          ]
+        },
+        "after": {
+          "executed": true,
+          "status": "matched",
+          "missing": [],
+          "parameters": {
+            "queryType": "payment",
+            "matterId": "HIGH_AGE_ALLOWANCE",
+            "regionCode": "530502",
+            "asOf": "2026-11-19",
+            "recordMonth": "2026-02",
+            "ageBandCode": "100_PLUS"
+          },
+          "hits": [
+            {
+              "id": "BS_GLT_202602_LY_100PLUS",
+              "version": 2,
+              "category": "monthly",
+              "clause": {
+                "id": "BS_GLT_202602_LY_100PLUS",
+                "quote": "保山市2026年2月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550\n施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000\n腾冲市 | 14801 | 1984 | 44 | 16829 | 50 | 1000 | 740050 | 99200 | 44000 | 883250\n龙陵县 | 6449 | 1357 | 18 | 7824 | 50 | 1000 | 322450 | 67850 | 18000 | 408300\n昌宁县 | 8689 | 1233 | 16 | 9938 | 50 | 1000 | 434450 | 61650 | 16000 | 512100\n合计 | 58984 | 8726 | 146 | 67856 |  |  | 2950450 | 436350 | 117400 | 3504200\n",
+                "actions": null,
+                "dataset": "official",
+                "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json（仅隔离技术定位校对，不代表政策变更）",
+                "version": 2,
+                "channels": null,
+                "contacts": null,
+                "location": null,
+                "matterId": "HIGH_AGE_ALLOWANCE",
+                "schedule": null,
+                "materials": null,
+                "relations": [],
+                "conditions": null,
+                "documentId": "BS_GLT_202602",
+                "matterName": "高龄津贴与长寿补助",
+                "population": null,
+                "effectiveTo": null,
+                "regionCodes": [
+                  "530502"
+                ],
+                "reviewStatus": "approved",
+                "effectiveFrom": null,
+                "paymentRecord": {
+                  "kind": "monthly_statistics",
+                  "toMonth": "2026-02",
+                  "evidence": {
+                    "text": "隆阳区，百岁档，350元/人·月",
+                    "quote": "隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550",
+                    "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json"
+                  },
+                  "fromMonth": "2026-02",
+                  "ageBandCode": "100_PLUS",
+                  "ageBandLabel": "100周岁以上（原表用语）",
+                  "totalPaidYuan": 15400,
+                  "periodEvidence": {
+                    "text": "2026-02",
+                    "quote": "保山市2026年2月高龄津贴发放情况统计表",
+                    "locator": "网页标题"
+                  },
+                  "recipientCount": 44,
+                  "amountYuanPerPersonMonth": 350
+                },
+                "documentVersion": 1,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": null
+              },
+              "source": {
+                "clauseId": "BS_GLT_202602_LY_100PLUS",
+                "clauseVersion": 2,
+                "documentId": "BS_GLT_202602",
+                "documentVersion": 1,
+                "title": "保山市2026年2月高龄津贴发放情况统计表",
+                "quote": "保山市2026年2月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550\n施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000\n腾冲市 | 14801 | 1984 | 44 | 16829 | 50 | 1000 | 740050 | 99200 | 44000 | 883250\n龙陵县 | 6449 | 1357 | 18 | 7824 | 50 | 1000 | 322450 | 67850 | 18000 | 408300\n昌宁县 | 8689 | 1233 | 16 | 9938 | 50 | 1000 | 434450 | 61650 | 16000 | 512100\n合计 | 58984 | 8726 | 146 | 67856 |  |  | 2950450 | 436350 | 117400 | 3504200\n",
+                "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json（仅隔离技术定位校对，不代表政策变更）",
+                "url": "https://baoshan.gov.cn/info/6126/10352984.htm"
+              },
+              "document": {
+                "id": "BS_GLT_202602",
+                "version": 1,
+                "title": "保山市2026年2月高龄津贴发放情况统计表",
+                "publisher": "保山市民政局",
+                "url": "https://baoshan.gov.cn/info/6126/10352984.htm",
+                "publishedAt": "2026-03-08"
+              },
+              "clauseChecksum": "8cb3a0b8117a3b2145c9b5298202d6966db4b13941aba571d69a0bf38de8f233",
+              "documentChecksum": "34567accc877e9b9549f36ff54a1c761e3c9bea07b03f2d6165b3d2b12c2bf58",
+              "timeStatus": "needs_review",
+              "unknownEnd": true
+            }
+          ]
+        },
+        "diff": {
+          "changed": true,
+          "added": [],
+          "removed": [],
+          "versionChanged": [
+            {
+              "id": "BS_GLT_202602_LY_100PLUS",
+              "before": 1,
+              "after": 2
+            }
+          ],
+          "fieldsChanged": [
+            {
+              "id": "BS_GLT_202602_LY_100PLUS",
+              "fields": [
+                "clause.locator",
+                "clause.version",
+                "clauseChecksum",
+                "source.clauseVersion",
+                "source.locator",
+                "version"
+              ]
+            }
+          ],
+          "statusChanged": false
+        },
+        "causes": [
+          {
+            "clauseId": "BS_GLT_202602_LY_100PLUS",
+            "trigger": {
+              "kind": "clause",
+              "id": "BS_GLT_202602_LY_100PLUS",
+              "version": 2,
+              "documentId": "BS_GLT_202602",
+              "documentVersion": 1
+            },
+            "fields": [
+              "clause.locator",
+              "clause.version",
+              "clauseChecksum",
+              "source.clauseVersion",
+              "source.locator",
+              "version"
+            ],
+            "before": {
+              "id": "BS_GLT_202602_LY_100PLUS",
+              "version": 1,
+              "category": "monthly",
+              "clause": {
+                "id": "BS_GLT_202602_LY_100PLUS",
+                "quote": "保山市2026年2月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550\n施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000\n腾冲市 | 14801 | 1984 | 44 | 16829 | 50 | 1000 | 740050 | 99200 | 44000 | 883250\n龙陵县 | 6449 | 1357 | 18 | 7824 | 50 | 1000 | 322450 | 67850 | 18000 | 408300\n昌宁县 | 8689 | 1233 | 16 | 9938 | 50 | 1000 | 434450 | 61650 | 16000 | 512100\n合计 | 58984 | 8726 | 146 | 67856 |  |  | 2950450 | 436350 | 117400 | 3504200\n",
+                "actions": null,
+                "dataset": "official",
+                "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+                "version": 1,
+                "channels": null,
+                "contacts": null,
+                "location": null,
+                "matterId": "HIGH_AGE_ALLOWANCE",
+                "schedule": null,
+                "materials": null,
+                "relations": [],
+                "conditions": null,
+                "documentId": "BS_GLT_202602",
+                "matterName": "高龄津贴与长寿补助",
+                "population": null,
+                "effectiveTo": null,
+                "regionCodes": [
+                  "530502"
+                ],
+                "reviewStatus": "approved",
+                "effectiveFrom": null,
+                "paymentRecord": {
+                  "kind": "monthly_statistics",
+                  "toMonth": "2026-02",
+                  "evidence": {
+                    "text": "隆阳区，百岁档，350元/人·月",
+                    "quote": "隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550",
+                    "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json"
+                  },
+                  "fromMonth": "2026-02",
+                  "ageBandCode": "100_PLUS",
+                  "ageBandLabel": "100周岁以上（原表用语）",
+                  "totalPaidYuan": 15400,
+                  "periodEvidence": {
+                    "text": "2026-02",
+                    "quote": "保山市2026年2月高龄津贴发放情况统计表",
+                    "locator": "网页标题"
+                  },
+                  "recipientCount": 44,
+                  "amountYuanPerPersonMonth": 350
+                },
+                "documentVersion": 1,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": null
+              },
+              "source": {
+                "clauseId": "BS_GLT_202602_LY_100PLUS",
+                "clauseVersion": 1,
+                "documentId": "BS_GLT_202602",
+                "documentVersion": 1,
+                "title": "保山市2026年2月高龄津贴发放情况统计表",
+                "quote": "保山市2026年2月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550\n施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000\n腾冲市 | 14801 | 1984 | 44 | 16829 | 50 | 1000 | 740050 | 99200 | 44000 | 883250\n龙陵县 | 6449 | 1357 | 18 | 7824 | 50 | 1000 | 322450 | 67850 | 18000 | 408300\n昌宁县 | 8689 | 1233 | 16 | 9938 | 50 | 1000 | 434450 | 61650 | 16000 | 512100\n合计 | 58984 | 8726 | 146 | 67856 |  |  | 2950450 | 436350 | 117400 | 3504200\n",
+                "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json",
+                "url": "https://baoshan.gov.cn/info/6126/10352984.htm"
+              },
+              "document": {
+                "id": "BS_GLT_202602",
+                "version": 1,
+                "title": "保山市2026年2月高龄津贴发放情况统计表",
+                "publisher": "保山市民政局",
+                "url": "https://baoshan.gov.cn/info/6126/10352984.htm",
+                "publishedAt": "2026-03-08"
+              },
+              "clauseChecksum": "341fb8d3c419f1280bae96ac3f8cc332c967bb0443b85920eb8407e9fb979d82",
+              "documentChecksum": "34567accc877e9b9549f36ff54a1c761e3c9bea07b03f2d6165b3d2b12c2bf58",
+              "timeStatus": "needs_review",
+              "unknownEnd": true
+            },
+            "after": {
+              "id": "BS_GLT_202602_LY_100PLUS",
+              "version": 2,
+              "category": "monthly",
+              "clause": {
+                "id": "BS_GLT_202602_LY_100PLUS",
+                "quote": "保山市2026年2月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550\n施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000\n腾冲市 | 14801 | 1984 | 44 | 16829 | 50 | 1000 | 740050 | 99200 | 44000 | 883250\n龙陵县 | 6449 | 1357 | 18 | 7824 | 50 | 1000 | 322450 | 67850 | 18000 | 408300\n昌宁县 | 8689 | 1233 | 16 | 9938 | 50 | 1000 | 434450 | 61650 | 16000 | 512100\n合计 | 58984 | 8726 | 146 | 67856 |  |  | 2950450 | 436350 | 117400 | 3504200\n",
+                "actions": null,
+                "dataset": "official",
+                "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json（仅隔离技术定位校对，不代表政策变更）",
+                "version": 2,
+                "channels": null,
+                "contacts": null,
+                "location": null,
+                "matterId": "HIGH_AGE_ALLOWANCE",
+                "schedule": null,
+                "materials": null,
+                "relations": [],
+                "conditions": null,
+                "documentId": "BS_GLT_202602",
+                "matterName": "高龄津贴与长寿补助",
+                "population": null,
+                "effectiveTo": null,
+                "regionCodes": [
+                  "530502"
+                ],
+                "reviewStatus": "approved",
+                "effectiveFrom": null,
+                "paymentRecord": {
+                  "kind": "monthly_statistics",
+                  "toMonth": "2026-02",
+                  "evidence": {
+                    "text": "隆阳区，百岁档，350元/人·月",
+                    "quote": "隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550",
+                    "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json"
+                  },
+                  "fromMonth": "2026-02",
+                  "ageBandCode": "100_PLUS",
+                  "ageBandLabel": "100周岁以上（原表用语）",
+                  "totalPaidYuan": 15400,
+                  "periodEvidence": {
+                    "text": "2026-02",
+                    "quote": "保山市2026年2月高龄津贴发放情况统计表",
+                    "locator": "网页标题"
+                  },
+                  "recipientCount": 44,
+                  "amountYuanPerPersonMonth": 350
+                },
+                "documentVersion": 1,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": null
+              },
+              "source": {
+                "clauseId": "BS_GLT_202602_LY_100PLUS",
+                "clauseVersion": 2,
+                "documentId": "BS_GLT_202602",
+                "documentVersion": 1,
+                "title": "保山市2026年2月高龄津贴发放情况统计表",
+                "quote": "保山市2026年2月高龄津贴发放情况统计表\n\n县（市、区） | 发放人数（人） | 发放标准（元/月） | 发放资金（元）\n80～89周岁 | 90～99周岁 | 100周岁以上 | 合计 | 80～99周岁 | 100周岁以上 | 80～89周岁 | 90～99周岁 | 100周岁以上 | 合计\n隆阳区 | 21119 | 2922 | 44 | 24085 | 50 | 350 | 1057000 | 146150 | 15400 | 1218550\n施甸县 | 7926 | 1230 | 24 | 9180 | 50 | 1000 | 396500 | 61500 | 24000 | 482000\n腾冲市 | 14801 | 1984 | 44 | 16829 | 50 | 1000 | 740050 | 99200 | 44000 | 883250\n龙陵县 | 6449 | 1357 | 18 | 7824 | 50 | 1000 | 322450 | 67850 | 18000 | 408300\n昌宁县 | 8689 | 1233 | 16 | 9938 | 50 | 1000 | 434450 | 61650 | 16000 | 512100\n合计 | 58984 | 8726 | 146 | 67856 |  |  | 2950450 | 436350 | 117400 | 3504200\n",
+                "locator": "正文表1第3行“隆阳区”，结合表头“发放标准（元/月）/100周岁以上”；完整行和合并单元格见acquisition.json（仅隔离技术定位校对，不代表政策变更）",
+                "url": "https://baoshan.gov.cn/info/6126/10352984.htm"
+              },
+              "document": {
+                "id": "BS_GLT_202602",
+                "version": 1,
+                "title": "保山市2026年2月高龄津贴发放情况统计表",
+                "publisher": "保山市民政局",
+                "url": "https://baoshan.gov.cn/info/6126/10352984.htm",
+                "publishedAt": "2026-03-08"
+              },
+              "clauseChecksum": "8cb3a0b8117a3b2145c9b5298202d6966db4b13941aba571d69a0bf38de8f233",
+              "documentChecksum": "34567accc877e9b9549f36ff54a1c761e3c9bea07b03f2d6165b3d2b12c2bf58",
+              "timeStatus": "needs_review",
+              "unknownEnd": true
+            },
+            "updatedButOutsideQuery": null
+          }
+        ],
+        "reasons": [
+          "BS_GLT_202602_LY_100PLUS版本1→2"
+        ],
+        "pending": [
+          "发放记录不等于提标文件；提标生效日期、差额补发规则待核实"
+        ],
+        "expectations": [
+          {
+            "stage": "before",
+            "expected": [
+              "BS_GLT_202602_LY_100PLUS@1"
+            ],
+            "actual": [
+              "BS_GLT_202602_LY_100PLUS@1"
+            ],
+            "status": "pass"
+          },
+          {
+            "stage": "after",
+            "expected": [
+              "BS_GLT_202602_LY_100PLUS@2"
+            ],
+            "actual": [
+              "BS_GLT_202602_LY_100PLUS@2"
+            ],
+            "status": "pass"
+          }
+        ]
+      },
+      {
+        "id": "neighbor",
+        "description": "",
+        "before": {
+          "executed": true,
+          "status": "no_match",
+          "missing": [],
+          "parameters": {
+            "queryType": "payment",
+            "matterId": "HIGH_AGE_ALLOWANCE",
+            "regionCode": "530521",
+            "asOf": "2026-11-19",
+            "recordMonth": "2026-02",
+            "ageBandCode": "100_PLUS"
+          },
+          "hits": []
+        },
+        "after": {
+          "executed": true,
+          "status": "no_match",
+          "missing": [],
+          "parameters": {
+            "queryType": "payment",
+            "matterId": "HIGH_AGE_ALLOWANCE",
+            "regionCode": "530521",
+            "asOf": "2026-11-19",
+            "recordMonth": "2026-02",
+            "ageBandCode": "100_PLUS"
+          },
+          "hits": []
+        },
+        "diff": {
+          "changed": false,
+          "added": [],
+          "removed": [],
+          "versionChanged": [],
+          "fieldsChanged": [],
+          "statusChanged": false
+        },
+        "causes": [],
+        "reasons": [
+          "相同参数下命中编号、版本和证据字段不变"
+        ],
+        "pending": [
+          "本用例未命中不证明其他资料或地区没有政策"
+        ],
+        "expectations": [
+          {
+            "stage": "before",
+            "expected": [],
+            "actual": [],
+            "status": "pass"
+          },
+          {
+            "stage": "after",
+            "expected": [],
+            "actual": [],
+            "status": "pass"
+          }
+        ]
+      },
+      {
+        "id": "before_date",
+        "description": "",
+        "before": {
+          "executed": true,
+          "status": "no_match",
+          "missing": [],
+          "parameters": {
+            "queryType": "candidates",
+            "matterId": "ELDERLY_PREFERENTIAL_CREDENTIAL",
+            "regionCode": "530502",
+            "asOf": "2025-12-31"
+          },
+          "hits": []
+        },
+        "after": {
+          "executed": true,
+          "status": "no_match",
+          "missing": [],
+          "parameters": {
+            "queryType": "candidates",
+            "matterId": "ELDERLY_PREFERENTIAL_CREDENTIAL",
+            "regionCode": "530502",
+            "asOf": "2025-12-31"
+          },
+          "hits": []
+        },
+        "diff": {
+          "changed": false,
+          "added": [],
+          "removed": [],
+          "versionChanged": [],
+          "fieldsChanged": [],
+          "statusChanged": false
+        },
+        "causes": [],
+        "reasons": [
+          "相同参数下命中编号、版本和证据字段不变"
+        ],
+        "pending": [
+          "本用例未命中不证明其他资料或地区没有政策"
+        ],
+        "expectations": [
+          {
+            "stage": "before",
+            "expected": [],
+            "actual": [],
+            "status": "pass"
+          },
+          {
+            "stage": "after",
+            "expected": [],
+            "actual": [],
+            "status": "pass"
+          }
+        ]
+      },
+      {
+        "id": "on_date",
+        "description": "",
+        "before": {
+          "executed": true,
+          "status": "no_match",
+          "missing": [],
+          "parameters": {
+            "queryType": "candidates",
+            "matterId": "ELDERLY_PREFERENTIAL_CREDENTIAL",
+            "regionCode": "530502",
+            "asOf": "2026-01-01"
+          },
+          "hits": []
+        },
+        "after": {
+          "executed": true,
+          "status": "matched",
+          "missing": [],
+          "parameters": {
+            "queryType": "candidates",
+            "matterId": "ELDERLY_PREFERENTIAL_CREDENTIAL",
+            "regionCode": "530502",
+            "asOf": "2026-01-01"
+          },
+          "hits": [
+            {
+              "id": "YN_ELDER_CARD_ID_60PLUS",
+              "version": 1,
+              "category": "candidate",
+              "clause": {
+                "id": "YN_ELDER_CARD_ID_60PLUS",
+                "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                "actions": [
+                  {
+                    "text": "年满60周岁可凭有效居民身份证核验",
+                    "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                    "locator": "引言"
+                  }
+                ],
+                "dataset": "official",
+                "locator": "通知引言完整段落",
+                "version": 1,
+                "channels": null,
+                "contacts": null,
+                "location": null,
+                "matterId": "ELDERLY_PREFERENTIAL_CREDENTIAL",
+                "schedule": null,
+                "materials": null,
+                "relations": [],
+                "conditions": null,
+                "documentId": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "matterName": "老年优待凭证",
+                "population": {
+                  "text": "全省年满60周岁及以上，凭本人有效居民身份证",
+                  "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                  "locator": "引言"
+                },
+                "effectiveTo": null,
+                "regionCodes": [
+                  "530000"
+                ],
+                "reviewStatus": "approved",
+                "effectiveFrom": "2026-01-01",
+                "documentVersion": 1,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": {
+                  "text": "2026-01-01",
+                  "quote": "本通知自2026年1月1日起施行。",
+                  "locator": "四、其他事项"
+                }
+              },
+              "source": {
+                "clauseId": "YN_ELDER_CARD_ID_60PLUS",
+                "clauseVersion": 1,
+                "documentId": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "documentVersion": 1,
+                "title": "云南省老龄工作委员会办公室关于做好以居民身份证替代老年优待证的通知",
+                "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                "locator": "通知引言完整段落",
+                "url": "https://www.hh.gov.cn/info/30361/1236862.htm"
+              },
+              "document": {
+                "id": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "version": 1,
+                "title": "云南省老龄工作委员会办公室关于做好以居民身份证替代老年优待证的通知",
+                "publisher": "云南省老龄工作委员会办公室",
+                "url": "https://www.hh.gov.cn/info/30361/1236862.htm",
+                "publishedAt": "2026-01-22"
+              },
+              "clauseChecksum": "888fcca2c97e1354a9064cd00a2e794cb6037ef2166c080a9a2b0ebef7026cae",
+              "documentChecksum": "dc2994f55edb262f65c1902c6fb39fdcf396e40c08e41ac0c4240ea5c6621bc6",
+              "timeStatus": "dates_recorded",
+              "unknownEnd": true
+            },
+            {
+              "id": "YN_ELDER_CARD_OLD_VALID",
+              "version": 1,
+              "category": "candidate",
+              "clause": {
+                "id": "YN_ELDER_CARD_OLD_VALID",
+                "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                "actions": [
+                  {
+                    "text": "原已办理的证可继续使用",
+                    "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                    "locator": "引言"
+                  }
+                ],
+                "dataset": "official",
+                "locator": "通知引言完整段落",
+                "version": 1,
+                "channels": null,
+                "contacts": null,
+                "location": null,
+                "matterId": "ELDERLY_PREFERENTIAL_CREDENTIAL",
+                "schedule": null,
+                "materials": null,
+                "relations": [],
+                "conditions": null,
+                "documentId": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "matterName": "老年优待凭证",
+                "population": null,
+                "effectiveTo": null,
+                "regionCodes": [
+                  "530000"
+                ],
+                "reviewStatus": "approved",
+                "effectiveFrom": "2026-01-01",
+                "documentVersion": 1,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": {
+                  "text": "2026-01-01",
+                  "quote": "本通知自2026年1月1日起施行。",
+                  "locator": "四、其他事项"
+                }
+              },
+              "source": {
+                "clauseId": "YN_ELDER_CARD_OLD_VALID",
+                "clauseVersion": 1,
+                "documentId": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "documentVersion": 1,
+                "title": "云南省老龄工作委员会办公室关于做好以居民身份证替代老年优待证的通知",
+                "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                "locator": "通知引言完整段落",
+                "url": "https://www.hh.gov.cn/info/30361/1236862.htm"
+              },
+              "document": {
+                "id": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "version": 1,
+                "title": "云南省老龄工作委员会办公室关于做好以居民身份证替代老年优待证的通知",
+                "publisher": "云南省老龄工作委员会办公室",
+                "url": "https://www.hh.gov.cn/info/30361/1236862.htm",
+                "publishedAt": "2026-01-22"
+              },
+              "clauseChecksum": "52693c6a825b7448d4842824140f34fee8b459fc13aa18ba5fca796a5d70ddbd",
+              "documentChecksum": "dc2994f55edb262f65c1902c6fb39fdcf396e40c08e41ac0c4240ea5c6621bc6",
+              "timeStatus": "dates_recorded",
+              "unknownEnd": true
+            },
+            {
+              "id": "YN_ELDER_CARD_STOP_NEW",
+              "version": 1,
+              "category": "candidate",
+              "clause": {
+                "id": "YN_ELDER_CARD_STOP_NEW",
+                "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                "actions": [
+                  {
+                    "text": "不再新办、换发和补办",
+                    "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                    "locator": "引言"
+                  }
+                ],
+                "dataset": "official",
+                "locator": "通知引言完整段落",
+                "version": 1,
+                "channels": null,
+                "contacts": null,
+                "location": null,
+                "matterId": "ELDERLY_PREFERENTIAL_CREDENTIAL",
+                "schedule": null,
+                "materials": null,
+                "relations": [],
+                "conditions": null,
+                "documentId": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "matterName": "老年优待凭证",
+                "population": null,
+                "effectiveTo": null,
+                "regionCodes": [
+                  "530000"
+                ],
+                "reviewStatus": "approved",
+                "effectiveFrom": "2026-01-01",
+                "documentVersion": 1,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": {
+                  "text": "2026-01-01",
+                  "quote": "本通知自2026年1月1日起施行。",
+                  "locator": "四、其他事项"
+                }
+              },
+              "source": {
+                "clauseId": "YN_ELDER_CARD_STOP_NEW",
+                "clauseVersion": 1,
+                "documentId": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "documentVersion": 1,
+                "title": "云南省老龄工作委员会办公室关于做好以居民身份证替代老年优待证的通知",
+                "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                "locator": "通知引言完整段落",
+                "url": "https://www.hh.gov.cn/info/30361/1236862.htm"
+              },
+              "document": {
+                "id": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "version": 1,
+                "title": "云南省老龄工作委员会办公室关于做好以居民身份证替代老年优待证的通知",
+                "publisher": "云南省老龄工作委员会办公室",
+                "url": "https://www.hh.gov.cn/info/30361/1236862.htm",
+                "publishedAt": "2026-01-22"
+              },
+              "clauseChecksum": "5a53add965baedb47abea0314695ec0854585fd6c3fbf891f3a55ae4c8d32508",
+              "documentChecksum": "dc2994f55edb262f65c1902c6fb39fdcf396e40c08e41ac0c4240ea5c6621bc6",
+              "timeStatus": "dates_recorded",
+              "unknownEnd": true
+            }
+          ]
+        },
+        "diff": {
+          "changed": true,
+          "added": [
+            "YN_ELDER_CARD_ID_60PLUS",
+            "YN_ELDER_CARD_OLD_VALID",
+            "YN_ELDER_CARD_STOP_NEW"
+          ],
+          "removed": [],
+          "versionChanged": [],
+          "fieldsChanged": [],
+          "statusChanged": true
+        },
+        "causes": [
+          {
+            "clauseId": "YN_ELDER_CARD_ID_60PLUS",
+            "trigger": {
+              "kind": "clause",
+              "id": "YN_ELDER_CARD_ID_60PLUS",
+              "version": 1,
+              "documentId": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+              "documentVersion": 1
+            },
+            "fields": [
+              "record"
+            ],
+            "before": null,
+            "after": {
+              "id": "YN_ELDER_CARD_ID_60PLUS",
+              "version": 1,
+              "category": "candidate",
+              "clause": {
+                "id": "YN_ELDER_CARD_ID_60PLUS",
+                "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                "actions": [
+                  {
+                    "text": "年满60周岁可凭有效居民身份证核验",
+                    "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                    "locator": "引言"
+                  }
+                ],
+                "dataset": "official",
+                "locator": "通知引言完整段落",
+                "version": 1,
+                "channels": null,
+                "contacts": null,
+                "location": null,
+                "matterId": "ELDERLY_PREFERENTIAL_CREDENTIAL",
+                "schedule": null,
+                "materials": null,
+                "relations": [],
+                "conditions": null,
+                "documentId": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "matterName": "老年优待凭证",
+                "population": {
+                  "text": "全省年满60周岁及以上，凭本人有效居民身份证",
+                  "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                  "locator": "引言"
+                },
+                "effectiveTo": null,
+                "regionCodes": [
+                  "530000"
+                ],
+                "reviewStatus": "approved",
+                "effectiveFrom": "2026-01-01",
+                "documentVersion": 1,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": {
+                  "text": "2026-01-01",
+                  "quote": "本通知自2026年1月1日起施行。",
+                  "locator": "四、其他事项"
+                }
+              },
+              "source": {
+                "clauseId": "YN_ELDER_CARD_ID_60PLUS",
+                "clauseVersion": 1,
+                "documentId": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "documentVersion": 1,
+                "title": "云南省老龄工作委员会办公室关于做好以居民身份证替代老年优待证的通知",
+                "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                "locator": "通知引言完整段落",
+                "url": "https://www.hh.gov.cn/info/30361/1236862.htm"
+              },
+              "document": {
+                "id": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "version": 1,
+                "title": "云南省老龄工作委员会办公室关于做好以居民身份证替代老年优待证的通知",
+                "publisher": "云南省老龄工作委员会办公室",
+                "url": "https://www.hh.gov.cn/info/30361/1236862.htm",
+                "publishedAt": "2026-01-22"
+              },
+              "clauseChecksum": "888fcca2c97e1354a9064cd00a2e794cb6037ef2166c080a9a2b0ebef7026cae",
+              "documentChecksum": "dc2994f55edb262f65c1902c6fb39fdcf396e40c08e41ac0c4240ea5c6621bc6",
+              "timeStatus": "dates_recorded",
+              "unknownEnd": true
+            },
+            "updatedButOutsideQuery": null
+          },
+          {
+            "clauseId": "YN_ELDER_CARD_OLD_VALID",
+            "trigger": {
+              "kind": "clause",
+              "id": "YN_ELDER_CARD_OLD_VALID",
+              "version": 1,
+              "documentId": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+              "documentVersion": 1
+            },
+            "fields": [
+              "record"
+            ],
+            "before": null,
+            "after": {
+              "id": "YN_ELDER_CARD_OLD_VALID",
+              "version": 1,
+              "category": "candidate",
+              "clause": {
+                "id": "YN_ELDER_CARD_OLD_VALID",
+                "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                "actions": [
+                  {
+                    "text": "原已办理的证可继续使用",
+                    "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                    "locator": "引言"
+                  }
+                ],
+                "dataset": "official",
+                "locator": "通知引言完整段落",
+                "version": 1,
+                "channels": null,
+                "contacts": null,
+                "location": null,
+                "matterId": "ELDERLY_PREFERENTIAL_CREDENTIAL",
+                "schedule": null,
+                "materials": null,
+                "relations": [],
+                "conditions": null,
+                "documentId": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "matterName": "老年优待凭证",
+                "population": null,
+                "effectiveTo": null,
+                "regionCodes": [
+                  "530000"
+                ],
+                "reviewStatus": "approved",
+                "effectiveFrom": "2026-01-01",
+                "documentVersion": 1,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": {
+                  "text": "2026-01-01",
+                  "quote": "本通知自2026年1月1日起施行。",
+                  "locator": "四、其他事项"
+                }
+              },
+              "source": {
+                "clauseId": "YN_ELDER_CARD_OLD_VALID",
+                "clauseVersion": 1,
+                "documentId": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "documentVersion": 1,
+                "title": "云南省老龄工作委员会办公室关于做好以居民身份证替代老年优待证的通知",
+                "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                "locator": "通知引言完整段落",
+                "url": "https://www.hh.gov.cn/info/30361/1236862.htm"
+              },
+              "document": {
+                "id": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "version": 1,
+                "title": "云南省老龄工作委员会办公室关于做好以居民身份证替代老年优待证的通知",
+                "publisher": "云南省老龄工作委员会办公室",
+                "url": "https://www.hh.gov.cn/info/30361/1236862.htm",
+                "publishedAt": "2026-01-22"
+              },
+              "clauseChecksum": "52693c6a825b7448d4842824140f34fee8b459fc13aa18ba5fca796a5d70ddbd",
+              "documentChecksum": "dc2994f55edb262f65c1902c6fb39fdcf396e40c08e41ac0c4240ea5c6621bc6",
+              "timeStatus": "dates_recorded",
+              "unknownEnd": true
+            },
+            "updatedButOutsideQuery": null
+          },
+          {
+            "clauseId": "YN_ELDER_CARD_STOP_NEW",
+            "trigger": {
+              "kind": "clause",
+              "id": "YN_ELDER_CARD_STOP_NEW",
+              "version": 1,
+              "documentId": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+              "documentVersion": 1
+            },
+            "fields": [
+              "record"
+            ],
+            "before": null,
+            "after": {
+              "id": "YN_ELDER_CARD_STOP_NEW",
+              "version": 1,
+              "category": "candidate",
+              "clause": {
+                "id": "YN_ELDER_CARD_STOP_NEW",
+                "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                "actions": [
+                  {
+                    "text": "不再新办、换发和补办",
+                    "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                    "locator": "引言"
+                  }
+                ],
+                "dataset": "official",
+                "locator": "通知引言完整段落",
+                "version": 1,
+                "channels": null,
+                "contacts": null,
+                "location": null,
+                "matterId": "ELDERLY_PREFERENTIAL_CREDENTIAL",
+                "schedule": null,
+                "materials": null,
+                "relations": [],
+                "conditions": null,
+                "documentId": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "matterName": "老年优待凭证",
+                "population": null,
+                "effectiveTo": null,
+                "regionCodes": [
+                  "530000"
+                ],
+                "reviewStatus": "approved",
+                "effectiveFrom": "2026-01-01",
+                "documentVersion": 1,
+                "effectiveToEvidence": null,
+                "effectiveFromEvidence": {
+                  "text": "2026-01-01",
+                  "quote": "本通知自2026年1月1日起施行。",
+                  "locator": "四、其他事项"
+                }
+              },
+              "source": {
+                "clauseId": "YN_ELDER_CARD_STOP_NEW",
+                "clauseVersion": 1,
+                "documentId": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "documentVersion": 1,
+                "title": "云南省老龄工作委员会办公室关于做好以居民身份证替代老年优待证的通知",
+                "quote": "为深入贯彻落实党中央、国务院关于深化“放管服”改革的决策部署，切实减轻老年人办证负担，推动老年优待政策便捷高效、最大程度地惠及老年群体，省老龄办在充分调研、广泛听取社会各界意见的基础上，决定自2026年1月1日起，统一以居民身份证作为身份核验依据，全省各级政务服务部门不再设立老年优待证办理窗口，不再受理《老年优待证》的新办、换发和补办等业务。原已办理的《老年优待证》可继续使用。全省年满60周岁及以上的老年人均可凭本人有效居民身份证享受《中华人民共和国老年人权益保障法》《云南省老年人权益保障条例》以及各级政府和相关单位提供的老年优待政策。现就做好有关工作通知如下：",
+                "locator": "通知引言完整段落",
+                "url": "https://www.hh.gov.cn/info/30361/1236862.htm"
+              },
+              "document": {
+                "id": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+                "version": 1,
+                "title": "云南省老龄工作委员会办公室关于做好以居民身份证替代老年优待证的通知",
+                "publisher": "云南省老龄工作委员会办公室",
+                "url": "https://www.hh.gov.cn/info/30361/1236862.htm",
+                "publishedAt": "2026-01-22"
+              },
+              "clauseChecksum": "5a53add965baedb47abea0314695ec0854585fd6c3fbf891f3a55ae4c8d32508",
+              "documentChecksum": "dc2994f55edb262f65c1902c6fb39fdcf396e40c08e41ac0c4240ea5c6621bc6",
+              "timeStatus": "dates_recorded",
+              "unknownEnd": true
+            },
+            "updatedButOutsideQuery": null
+          }
+        ],
+        "reasons": [
+          "新增命中YN_ELDER_CARD_ID_60PLUS，由本批次关联资料模拟发布产生",
+          "新增命中YN_ELDER_CARD_OLD_VALID，由本批次关联资料模拟发布产生",
+          "新增命中YN_ELDER_CARD_STOP_NEW，由本批次关联资料模拟发布产生"
+        ],
+        "pending": [
+          "YN_ELDER_CARD_ID_60PLUS终止日期未知，不推断永久有效",
+          "YN_ELDER_CARD_OLD_VALID终止日期未知，不推断永久有效",
+          "YN_ELDER_CARD_STOP_NEW终止日期未知，不推断永久有效"
+        ],
+        "expectations": [
+          {
+            "stage": "before",
+            "expected": [],
+            "actual": [],
+            "status": "pass"
+          },
+          {
+            "stage": "after",
+            "expected": [
+              "YN_ELDER_CARD_STOP_NEW@1",
+              "YN_ELDER_CARD_OLD_VALID@1",
+              "YN_ELDER_CARD_ID_60PLUS@1"
+            ],
+            "actual": [
+              "YN_ELDER_CARD_ID_60PLUS@1",
+              "YN_ELDER_CARD_OLD_VALID@1",
+              "YN_ELDER_CARD_STOP_NEW@1"
+            ],
+            "status": "pass"
+          }
+        ]
+      },
+      {
+        "id": "missing_month",
+        "description": "",
+        "before": {
+          "executed": false,
+          "status": "needs_parameter",
+          "missing": [
+            "recordMonth"
+          ],
+          "parameters": {
+            "queryType": "payment",
+            "matterId": "HIGH_AGE_ALLOWANCE",
+            "regionCode": "530502",
+            "asOf": "2026-11-19",
+            "recordMonth": null,
+            "ageBandCode": "100_PLUS"
+          },
+          "hits": []
+        },
+        "after": {
+          "executed": false,
+          "status": "needs_parameter",
+          "missing": [
+            "recordMonth"
+          ],
+          "parameters": {
+            "queryType": "payment",
+            "matterId": "HIGH_AGE_ALLOWANCE",
+            "regionCode": "530502",
+            "asOf": "2026-11-19",
+            "recordMonth": null,
+            "ageBandCode": "100_PLUS"
+          },
+          "hits": []
+        },
+        "diff": {
+          "changed": false,
+          "added": [],
+          "removed": [],
+          "versionChanged": [],
+          "fieldsChanged": [],
+          "statusChanged": false
+        },
+        "causes": [],
+        "reasons": [
+          "需确认查询参数，两边均未执行资料查询"
+        ],
+        "pending": [
+          "需要确认查询年份和月份"
+        ],
+        "expectations": [
+          {
+            "stage": "before",
+            "expected": [],
+            "actual": [],
+            "status": "not_executed"
+          },
+          {
+            "stage": "after",
+            "expected": [],
+            "actual": [],
+            "status": "not_executed"
+          }
+        ]
+      }
+    ],
+    "plan": {
+      "added": 6,
+      "modified": 1,
+      "unchanged": 0,
+      "errors": 0,
+      "details": [
+        {
+          "kind": "document",
+          "id": "BS_GLT_202609",
+          "version": 1,
+          "action": "added"
+        },
+        {
+          "kind": "document",
+          "id": "YN_ELDER_ID_REPLACES_CARD_2025_5",
+          "version": 1,
+          "action": "added"
+        },
+        {
+          "kind": "clause",
+          "id": "BS_GLT_202609_LY_100PLUS",
+          "version": 1,
+          "action": "added"
+        },
+        {
+          "kind": "clause",
+          "id": "BS_GLT_202602_LY_100PLUS",
+          "version": 2,
+          "action": "modified"
+        },
+        {
+          "kind": "clause",
+          "id": "YN_ELDER_CARD_STOP_NEW",
+          "version": 1,
+          "action": "added"
+        },
+        {
+          "kind": "clause",
+          "id": "YN_ELDER_CARD_OLD_VALID",
+          "version": 1,
+          "action": "added"
+        },
+        {
+          "kind": "clause",
+          "id": "YN_ELDER_CARD_ID_60PLUS",
+          "version": 1,
+          "action": "added"
+        }
+      ],
+      "messages": [],
+      "batchId": "1038e922-f4b9-4a98-9bb1-2637c867e96d"
+    },
+    "baseline": {
+      "versionCount": 9,
+      "eventCount": 9
+    },
+    "previewBaselineSha256": "746dfc96275badb438f3c922b622a8a7ce94039a3ac4850e3eb03bb366f8e80c",
+    "baselineReplayVerified": true,
+    "summary": {
+      "cases": 5,
+      "changed": 2,
+      "unchanged": 2,
+      "executedQueryPairs": 4,
+      "needsParameters": 1,
+      "expectationFailures": 0
+    }
+  }
+}

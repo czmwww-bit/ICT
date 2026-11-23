@@ -1,0 +1,28 @@
+{
+  "sourceBatch": "../data/official/longyang-pilot/supplement-2026-11-19/batch.draft.json",
+  "sourceBatchSha256": "f261f541430f55eb96f07aeb85e18170570949cb17fe0be1bbc7cf1358ce68cc",
+  "files": {
+    "baseline.demo.json": "5788c80b6490a06145cf8701ee38d6d89617f31dd01c4ef10b65f3f6b0f43ce7",
+    "update.draft.json": "f3a7d4b4ab37db50753c9504b3bceb583642a6302b58db6d9b96a762aa882be8",
+    "queries.json": "de53a4bd8342c055cf76d3ebb42b93f1aeba6e46d8acec8bce8c741f0c639597",
+    "queries.current.json": "21c129456c8d2c3b824924a655ba6e0eeeba14b6f33149e7d155a48ccb018f36"
+  },
+  "baseline": "仅在隔离环境假定审核发布2月官方记录，不是真实项目库已发布状态",
+  "sources": [
+    {
+      "documentId": "BS_GLT_202602",
+      "url": "https://baoshan.gov.cn/info/6126/10352984.htm",
+      "period": "2026-02",
+      "type": "monthly_statistics"
+    },
+    {
+      "documentId": "BS_GLT_202609",
+      "url": "https://www.baoshan.gov.cn/info/6126/10409514.htm",
+      "period": "2026-09",
+      "type": "monthly_statistics"
+    }
+  ],
+  "policyAdjustmentEffectiveDate": null,
+  "retroactiveDifferenceRule": null,
+  "humanPolicyApproved": false
+}

@@ -1,0 +1,167 @@
+{
+  "checkedOn": "2026-11-23",
+  "timeZone": "Asia/Shanghai",
+  "generatedAt": "2026-11-23T00:47:18.359Z",
+  "git": {
+    "branch": "role3/longyang-evidence-v0.1.0",
+    "head": "89e825e01e99a0026e6d8e5316f71faa8d0348a4",
+    "remoteAhead": 0,
+    "localAhead": 0
+  },
+  "groups": [
+    {
+      "name": "longyang",
+      "report": "reports/update-check-2026-11-23-longyang.json",
+      "checked": 16,
+      "completedAt": "2026-11-23T00:45:22.561Z",
+      "counts": {
+        "unchanged": 13,
+        "fetch_failed": 2,
+        "changed": 1
+      }
+    },
+    {
+      "name": "payment",
+      "report": "reports/update-check-2026-11-23-payment.json",
+      "checked": 8,
+      "completedAt": "2026-11-23T00:45:27.746Z",
+      "counts": {
+        "unchanged": 8
+      }
+    },
+    {
+      "name": "medical",
+      "report": "reports/update-check-2026-11-23-medical.json",
+      "checked": 18,
+      "completedAt": "2026-11-23T00:45:39.036Z",
+      "counts": {
+        "unchanged": 18
+      }
+    }
+  ],
+  "sourceChecks": 42,
+  "observation": {
+    "sourceId": "C11-honghe",
+    "taskId": "f20a694610f62da6f31e030463e95c16f7968645a4bc6d714fbcc6505e460e78",
+    "changes": [
+      "attachment_first_observed_baseline_unavailable"
+    ],
+    "bodyUnchanged": true,
+    "pageDateUnchanged": true,
+    "pagePublishedAt": "2026-02-28 09:12",
+    "reviewStatus": "pending_review",
+    "conclusion": "首次取得7份附件；未发现该页正文或发布日期变化，不能认定政策修订。"
+  },
+  "attachments": [
+    {
+      "name": "1.云南省养老服务补贴项目清单.doc",
+      "file": "attachments/C11-01.doc",
+      "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3U4vBDL4NaU8MkMGlVko7l4LlCaU4NfbL8U8LRrkL87bozC0gihFp2hmCIa0LSyDn1yPM1yiU8lZMzNanzrkUNUDnzf2oz9PMzUiLzTfL8QFM4vYMN-iLNnFoR-aLkbNpDLeo47Jbg/nbCD5bbYfbCIeE-kfbXYMbC/AEH2TEgS8Eq2bbbJJbK1VbCDrgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "sha256": "a0a04fa968d7bf69dd2d88f4669872bfd4fdf5856c90fa590066ec44d95eadba",
+      "bytes": 33280,
+      "format": "office-ole",
+      "textStatus": "not_supported_hash_only",
+      "reviewStatus": "pending",
+      "note": "仅取得原件并核验文件签名和哈希，尚未提取或核对附件正文；首次取得不代表官网本次新增。"
+    },
+    {
+      "name": "2.老年人诚信承诺书.doc",
+      "file": "attachments/C11-02.doc",
+      "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nzCBbU8C8LzU4oGRU4U46koz-8MNVfkL8CPnNC8M8-DnRL0gihFp2hmCIa0nky4MYh2USyPM874M7nRnNr2LzCYMzQ7LmGDLmAVM7CaLlQFLz7iUNn2MRrFL8laLkbNpDLeo4-JE-kfbpt8bg/EEH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "sha256": "47162bc2ce2c3fb762b40140755d2e82c28e37891357cb6752400c36ef4894ea",
+      "bytes": 15872,
+      "format": "office-ole",
+      "textStatus": "not_supported_hash_only",
+      "reviewStatus": "pending",
+      "note": "仅取得原件并核验文件签名和哈希，尚未提取或核对附件正文；首次取得不代表官网本次新增。"
+    },
+    {
+      "name": "3.老年人能力评估机构诚信承诺书.doc",
+      "file": "attachments/C11-03.doc",
+      "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nmLBZL8CYnmC4UGzffL4-an7UbUmCf8MmM7U87PL8lPL8U0gihFp2hmCIa0MYy8nkhVLSyaL4CZM8lsL4f7U49YMRvDnzGYnl7bnN-ZLNMFU474UmU8M7nFMR-aLkbNpDLeo4LJE-kfbpt8bg/EE-ohbC/pEH37bgYabXYEbXE7EH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "sha256": "6529b7da6c8d88854dc9c4f77caba5d5aea791fc7a7db8950232eb8de2c82100",
+      "bytes": 16896,
+      "format": "office-ole",
+      "textStatus": "not_supported_hash_only",
+      "reviewStatus": "pending",
+      "note": "仅取得原件并核验文件签名和哈希，尚未提取或核对附件正文；首次取得不代表官网本次新增。"
+    },
+    {
+      "name": "4.养老服务机构诚信承诺书.doc",
+      "file": "attachments/C11-04.doc",
+      "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3olMB7oRTfMm7ZUGm9DUmNaUmMkLzLfbnR7bnmUYLmv8UNC0gihFp2hmCIa0M1yDMYyiUSybnNlanm-DoRNYU4fVMzW2U4lYUNrRozUYL4fFLlLsM8-so7nFMR9aLkbNpDLeo4UJbCIeE-kfbXYMbC/AbXYEbXE7EH3qbg3AbwtBEH3Ebgttgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "sha256": "17466bdd4445e055de7179e530ce6f47dfd8cf2c3bc703a8f870bd430d47b719",
+      "bytes": 18432,
+      "format": "office-ole",
+      "textStatus": "not_supported_hash_only",
+      "reviewStatus": "pending",
+      "note": "仅取得原件并核验文件签名和哈希，尚未提取或核对附件正文；首次取得不代表官网本次新增。"
+    },
+    {
+      "name": "5.服务机构申报表.doc",
+      "file": "attachments/C11-05.doc",
+      "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3nNLBPnmM2L4GaLGl-ZnzT7MmCsozCfPMRW7U49ZU8UYoR-0gihFp2hmCIa0nShkoSh7UYyaUmffUmW2nRCioRW2LzG8Lzl4nRGPM4n7M4TFnRQRL49DLRnFo7laLkbNpDLeo4lJbXYMbC/AbXYEbXE7bbS4bw/TEH2wgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "sha256": "6f32b2e24e4399de9784fa476cfba599cbd71be722e4a39184ca545619847640",
+      "bytes": 36352,
+      "format": "office-ole",
+      "textStatus": "not_supported_hash_only",
+      "reviewStatus": "pending",
+      "note": "仅取得原件并核验文件签名和哈希，尚未提取或核对附件正文；首次取得不代表官网本次新增。"
+    },
+    {
+      "name": "6.服务机构备案项目清单.doc",
+      "file": "attachments/C11-06.doc",
+      "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3M4VBRMmV7Lzr2MG77ZolMkLlCaMNUf4oz-4nlnRM4rRU4C0gihFp2hmCIa0okhRLShfM1hRnlCZMz9Pnm-ZMmVVU4nknmMVM87DMz6kMRVFnmrkn7WfMz6FMz-aLkbNpDLeo4CJbXYMbC/AbXYEbXE7bqSdb/2-Eq2bbbJJbK1VbCDrgtn0C4Oeq2AEvtiEQ1hXptQ0g4LaL4CPg47YMRLYLz-Jqdknx",
+      "sha256": "15e4c95d37d3b0a593901c25a88e1dd14b7e5b105fa19b904f0854133da14649",
+      "bytes": 20992,
+      "format": "office-ole",
+      "textStatus": "not_supported_hash_only",
+      "reviewStatus": "pending",
+      "note": "仅取得原件并核验文件签名和哈希，尚未提取或核对附件正文；首次取得不代表官网本次新增。"
+    },
+    {
+      "name": "7.云南省向中度以上失能老年人发放养老服务消费补贴项目实施细则.doc",
+      "file": "attachments/C11-07.doc",
+      "url": "https://www.hh.gov.cn/virtual_attach_file.vsb?afc=3UlWBkLlM2L4GsnGlliMmCYUNCsL8CfDnzVkLmV2MmGbL8l0gihFp2hmCIa0LYyDLYhRMShfL8C8LzUbMRW7MR6fnlLiLRMfnRNPL8-DM8VFnR-bUNLaLmAFLzffLRGJQ2hmo4OsgJSEN_IMT3_v9_IUN_SZK_IEXJSeX_SZ1JINO_1R0_1G9_IbxoSEJJIuN_ql0JIVJ31G9_qvm_IHw_qD1o18J_1AX_18xotAJ__pKJIJjJqI0__eAJI-tSbNpDLeoDAw_jWx_tC0qIbtpYy4LRLDLSyPLmU4Lm7YgtA8pUkcc",
+      "sha256": "1fe7de0a0e52b9100b91372eaf711920ad443512c19a73747dd6e877ebeb58db",
+      "bytes": 68096,
+      "format": "office-ole",
+      "textStatus": "not_supported_hash_only",
+      "reviewStatus": "pending",
+      "note": "仅取得原件并核验文件签名和哈希，尚未提取或核对附件正文；首次取得不代表官网本次新增。"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "BS-NPC-REPLY",
+      "url": "https://www.baoshan.gov.cn/info/6110/10377344.htm",
+      "fetchedAt": "2026-11-23T00:47:17.927Z",
+      "status": "retrieved_pending_review",
+      "title": "关于保山市五届人大七次会议第JY050005070025号建议的答复-保山市人民政府门户网站",
+      "sha256": "7ea967a432633f1c6eb934b741dd88d5ced442ad1ec2a67ce04dca73861f36d7",
+      "bodySha256": "23d584431be66180a14e72c1df1a7ba2f0a4b111b4f760dc1b9e938fc1d2e088",
+      "textCharacters": 4909,
+      "rawFile": "BS-NPC-REPLY.html",
+      "textFile": "BS-NPC-REPLY.txt",
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "YB-CATALOG-EXPLANATION",
+      "url": "https://ylbz.yn.gov.cn/zfxxgk/fdzdgknr/zcjd/202611/t20261116_4384477.html",
+      "fetchedAt": "2026-11-23T00:47:18.046Z",
+      "status": "retrieved_pending_review",
+      "title": "《云南省医疗保障经办政务服务事项清单（2026年版）》修订情况解读\n        云南省医疗保障局",
+      "sha256": "aaba8f0bc2ba02fa880d218b175bc34d67bff312eef3449eae38f1ebb8fcb17b",
+      "bodySha256": "68309eb07c067693eec9f82754aed17c722f3337554d8bb922bd8c12c6eab19d",
+      "textCharacters": 2822,
+      "rawFile": "YB-CATALOG-EXPLANATION.html",
+      "textFile": "YB-CATALOG-EXPLANATION.txt",
+      "reviewStatus": "pending"
+    }
+  ],
+  "limits": [
+    "仅检查登记页面与本轮列出的候选来源，不证明没有其他新发布文件。",
+    "未取得可确认的隆阳百岁补助提标文件、生效日及补发依据；经济困难补贴接续正式办法仍待核实。",
+    "未调用数据库导入、审核发布、Git提交或推送；正式政策批次不变。"
+  ]
+}

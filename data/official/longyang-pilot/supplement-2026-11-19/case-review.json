@@ -1,0 +1,152 @@
+[
+  {
+    "id": "LY_AMOUNT_01",
+    "status": "pending",
+    "rule": "用于未来审核资料联调；当前无/api/guide业务执行，不以关键词通过代替政策语义审核。",
+    "monthAndDistrictCorrect": null,
+    "recordVersusPolicyCorrect": null,
+    "adviceSupported": null,
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  {
+    "id": "LY_AMOUNT_02",
+    "status": "pending",
+    "rule": "用于未来审核资料联调；当前无/api/guide业务执行，不以关键词通过代替政策语义审核。",
+    "monthAndDistrictCorrect": null,
+    "recordVersusPolicyCorrect": null,
+    "adviceSupported": null,
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  {
+    "id": "LY_AMOUNT_03",
+    "status": "pending",
+    "rule": "用于未来审核资料联调；当前无/api/guide业务执行，不以关键词通过代替政策语义审核。",
+    "monthAndDistrictCorrect": null,
+    "recordVersusPolicyCorrect": null,
+    "adviceSupported": null,
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  {
+    "id": "LY_AMOUNT_04",
+    "status": "pending",
+    "rule": "用于未来审核资料联调；当前无/api/guide业务执行，不以关键词通过代替政策语义审核。",
+    "monthAndDistrictCorrect": null,
+    "recordVersusPolicyCorrect": null,
+    "adviceSupported": null,
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  {
+    "id": "LY_AMOUNT_05",
+    "status": "pending",
+    "rule": "用于未来审核资料联调；当前无/api/guide业务执行，不以关键词通过代替政策语义审核。",
+    "monthAndDistrictCorrect": null,
+    "recordVersusPolicyCorrect": null,
+    "adviceSupported": null,
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  {
+    "id": "LY_AMOUNT_06",
+    "status": "pending",
+    "rule": "用于未来审核资料联调；当前无/api/guide业务执行，不以关键词通过代替政策语义审核。",
+    "monthAndDistrictCorrect": null,
+    "recordVersusPolicyCorrect": null,
+    "adviceSupported": null,
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  {
+    "id": "LY_AMOUNT_07",
+    "status": "pending",
+    "rule": "用于未来审核资料联调；当前无/api/guide业务执行，不以关键词通过代替政策语义审核。",
+    "monthAndDistrictCorrect": null,
+    "recordVersusPolicyCorrect": null,
+    "adviceSupported": null,
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  {
+    "id": "LY_AMOUNT_08",
+    "status": "pending",
+    "rule": "用于未来审核资料联调；当前无/api/guide业务执行，不以关键词通过代替政策语义审核。",
+    "monthAndDistrictCorrect": null,
+    "recordVersusPolicyCorrect": null,
+    "adviceSupported": null,
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  {
+    "id": "LY_AMOUNT_09",
+    "status": "pending",
+    "rule": "用于未来审核资料联调；当前无/api/guide业务执行，不以关键词通过代替政策语义审核。",
+    "monthAndDistrictCorrect": null,
+    "recordVersusPolicyCorrect": null,
+    "adviceSupported": null,
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  {
+    "id": "LY_FLOW_01",
+    "status": "pending",
+    "rule": "用于未来审核资料联调；当前无/api/guide业务执行，不以关键词通过代替政策语义审核。",
+    "monthAndDistrictCorrect": null,
+    "recordVersusPolicyCorrect": null,
+    "adviceSupported": null,
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  {
+    "id": "LY_ECON_01",
+    "status": "pending",
+    "rule": "用于未来审核资料联调；当前无/api/guide业务执行，不以关键词通过代替政策语义审核。",
+    "monthAndDistrictCorrect": null,
+    "recordVersusPolicyCorrect": null,
+    "adviceSupported": null,
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  {
+    "id": "YN_CARD_01",
+    "status": "pending",
+    "rule": "用于未来审核资料联调；当前无/api/guide业务执行，不以关键词通过代替政策语义审核。",
+    "monthAndDistrictCorrect": null,
+    "recordVersusPolicyCorrect": null,
+    "adviceSupported": null,
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  {
+    "id": "YN_CARD_02",
+    "status": "pending",
+    "rule": "用于未来审核资料联调；当前无/api/guide业务执行，不以关键词通过代替政策语义审核。",
+    "monthAndDistrictCorrect": null,
+    "recordVersusPolicyCorrect": null,
+    "adviceSupported": null,
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  {
+    "id": "YN_CARD_03",
+    "status": "pending",
+    "rule": "用于未来审核资料联调；当前无/api/guide业务执行，不以关键词通过代替政策语义审核。",
+    "monthAndDistrictCorrect": null,
+    "recordVersusPolicyCorrect": null,
+    "adviceSupported": null,
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  {
+    "id": "YN_CARD_04",
+    "status": "pending",
+    "rule": "用于未来审核资料联调；当前无/api/guide业务执行，不以关键词通过代替政策语义审核。",
+    "monthAndDistrictCorrect": null,
+    "recordVersusPolicyCorrect": null,
+    "adviceSupported": null,
+    "reviewer": null,
+    "reviewedAt": null
+  }
+]
